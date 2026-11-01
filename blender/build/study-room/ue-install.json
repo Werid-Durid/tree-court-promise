@@ -1,0 +1,9 @@
+{
+  "status": "installed",
+  "map": "/Game/TreeCourt/L_StudyRoom",
+  "environment_meshes": 14,
+  "materials": 16,
+  "study_animation": "/Game/TreeCourt/StudyRoom/TC_Anaxa_StudyWrite.TC_Anaxa_StudyWrite",
+  "study_animation_duration": 24.0,
+  "note": "相机循环可在 UE 编辑器用 Sequencer 制作；网页动态壁纸已提供 60 秒无缝循环镜头。"
+}

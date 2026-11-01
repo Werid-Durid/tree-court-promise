@@ -4,6 +4,16 @@
 
 ![首页](docs/screenshot-home.png)
 
+## 界面
+
+**课程表** —— 七门课程，每门标着当前能修习的章节数：
+
+![课程表](docs/screenshot-curriculum.png)
+
+**我的资料** —— 自己上传 PDF / TXT / Markdown，进编译队列：
+
+![我的资料](docs/screenshot-library.png)
+
 ## 这是什么
 
 一个跑在浏览器里的本地学习应用。打开之后是「神悟树庭」——左侧是课程表、同行之人、智库、我的资料，中间是当天的修习入口，右上是你的搭档。
