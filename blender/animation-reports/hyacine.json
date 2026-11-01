@@ -1,0 +1,18 @@
+{
+  "id": "hyacine",
+  "status": "animated",
+  "clip": "TC_Hyacine_Assist",
+  "duration": 24,
+  "rest_height": 1.4489716632378986,
+  "rest_floor": -0.00022688937315251678,
+  "target_height": 1.57,
+  "triangles": 39687,
+  "max_arm_target_error_m": 2.640492490927778e-07,
+  "bones": 563,
+  "animations": [
+    "TC_Hyacine_Assist",
+    "TC_Hyacine_Assist_Controls"
+  ],
+  "glb": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\animated\\hyacine.glb",
+  "fbx": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\animated\\hyacine.fbx"
+}

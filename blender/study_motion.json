@@ -1,0 +1,8 @@
+{
+  "duration": 24,
+  "fps": 24,
+  "seat_height": 0.48,
+  "characters": {
+    "anaxa": {"height": 1.80, "clip": "TC_Anaxa_StudyWrite", "position": [0, 0, 0.9], "yaw": 3.141592653589793, "role": "study"}
+  }
+}

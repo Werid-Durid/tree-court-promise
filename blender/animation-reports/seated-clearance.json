@@ -1,0 +1,16 @@
+[
+  {
+    "id": "castor",
+    "corrected_vertex_visits": 2173,
+    "max_step_m": 0.10384041304402909,
+    "iterations": 2,
+    "backup": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\animation-backups\\seated-clearance-v2\\castor.blend"
+  },
+  {
+    "id": "phainon",
+    "corrected_vertex_visits": 663,
+    "max_step_m": 0.10397335353904695,
+    "iterations": 2,
+    "backup": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\animation-backups\\seated-clearance-v2\\phainon.blend"
+  }
+]

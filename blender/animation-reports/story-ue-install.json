@@ -1,0 +1,9 @@
+{
+  "status": "installed",
+  "environment_meshes": 11,
+  "colliders": 25,
+  "pawn": "/Game/TreeCourt/BP_TreeCourtPlayer.BP_TreeCourtPlayer_C",
+  "game_mode": "/Game/TreeCourt/BP_TreeCourtGameMode.BP_TreeCourtGameMode_C",
+  "eye_height_cm": 165,
+  "movement": "WASD + mouse; constrained horizontal plane"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "课堂微表演参数；由 MMD 参考提炼表现方向，数值为本项目原创调校。",
+  "anaxa": {"blink_period": 6.4, "blink_duration": 0.15, "mouth_limit": 0.34, "warm_smile": 0.045, "head_yaw": 0.24, "sad_face": 0.55, "tears": 0.28, "sad_mouth": 0.42},
+  "hyacine": {"blink_period": 4.9, "blink_duration": 0.18, "mouth_limit": 0.40, "warm_smile": 0.12, "head_yaw": 0.28, "sad_face": 0.62, "tears": 0.34, "sad_mouth": 0.48},
+  "castor": {"blink_period": 7.2, "blink_duration": 0.20, "mouth_limit": 0.28, "warm_smile": 0.045, "head_yaw": 0.20, "sad_face": 0.48, "tears": 0.24, "sad_mouth": 0.38},
+  "phainon": {"blink_period": 5.3, "blink_duration": 0.15, "mouth_limit": 0.47, "warm_smile": 0.14, "head_yaw": 0.34, "sad_face": 0.92, "tears": 0.80, "sad_mouth": 0.68}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "phainon",
+  "status": "animated",
+  "clip": "TC_Phainon_Seated",
+  "duration": 24,
+  "rest_height": 1.913656567572616,
+  "rest_floor": -0.0019036283483728766,
+  "target_height": 1.84,
+  "triangles": 37488,
+  "max_arm_target_error_m": 3.6010283153040923e-07,
+  "bones": 495,
+  "animations": [
+    "TC_Phainon_Seated",
+    "TC_Phainon_Seated_Controls"
+  ],
+  "glb": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\animated\\phainon.glb",
+  "fbx": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\animated\\phainon.fbx"
+}

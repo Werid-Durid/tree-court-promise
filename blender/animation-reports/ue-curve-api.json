@@ -1,0 +1,9 @@
+{
+  "has_animation_library": true,
+  "has_anim_data_controller": true,
+  "has_movie_scene": true,
+  "anim_class": "AnimSequence",
+  "anim_attrs": [],
+  "asset_tools": true,
+  "level_sequence_class": true
+}

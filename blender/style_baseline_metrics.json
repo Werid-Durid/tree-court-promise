@@ -1,0 +1,24 @@
+{
+  "region": "objects (diff mask)",
+  "mask_pixels": 318930,
+  "before_pbr": {
+    "pixels": 318930,
+    "mean_lum": 0.6763,
+    "mean_grad": 0.00309,
+    "edge_density": 0.0043,
+    "unique_levels": 20,
+    "hist_entropy": 0.4799,
+    "top3_bin_share": 0.6809,
+    "flat_fraction": 0.9819
+  },
+  "after_npr": {
+    "pixels": 318930,
+    "mean_lum": 0.6773,
+    "mean_grad": 0.00462,
+    "edge_density": 0.0182,
+    "unique_levels": 45,
+    "hist_entropy": 0.186,
+    "top3_bin_share": 0.9778,
+    "flat_fraction": 0.9668
+  }
+}

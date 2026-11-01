@@ -1,0 +1,55 @@
+{
+  "status": "installed",
+  "characters": [
+    {
+      "id": "anaxa",
+      "animation": "/Game/TreeCourt/Animations/anaxa/TC_Anaxa_TeachPace.TC_Anaxa_TeachPace",
+      "duration": 24.0,
+      "skeleton": "/Game/TreeCourt/Characters/anaxa/anaxa_Skeleton.anaxa_Skeleton",
+      "role": "teacher",
+      "actor": "/Game/TreeCourt/L_Classroom.L_Classroom:PersistentLevel.SkeletalMeshActor_0"
+    },
+    {
+      "id": "hyacine",
+      "animation": "/Game/TreeCourt/Animations/hyacine/TC_Hyacine_Assist.TC_Hyacine_Assist",
+      "duration": 24.0,
+      "skeleton": "/Game/TreeCourt/Characters/hyacine/hyacine_Skeleton.hyacine_Skeleton",
+      "role": "assistant",
+      "actor": "/Game/TreeCourt/L_Classroom.L_Classroom:PersistentLevel.SkeletalMeshActor_1"
+    },
+    {
+      "id": "castor",
+      "animation": "/Game/TreeCourt/Animations/castor/TC_Castorice_Seated.TC_Castorice_Seated",
+      "duration": 24.0,
+      "skeleton": "/Game/TreeCourt/Characters/castor/castor_Skeleton.castor_Skeleton",
+      "role": "student",
+      "actor": "/Game/TreeCourt/L_Classroom.L_Classroom:PersistentLevel.SkeletalMeshActor_2"
+    },
+    {
+      "id": "phainon",
+      "animation": "/Game/TreeCourt/Animations/phainon/TC_Phainon_Seated.TC_Phainon_Seated",
+      "duration": 24.0,
+      "skeleton": "/Game/TreeCourt/Characters/phainon/phainon_Skeleton.phainon_Skeleton",
+      "role": "student",
+      "actor": "/Game/TreeCourt/L_Classroom.L_Classroom:PersistentLevel.SkeletalMeshActor_3"
+    }
+  ],
+  "chairs": [
+    {
+      "character": "castor",
+      "seat_height_cm": 48,
+      "position": [
+        -218,
+        100
+      ]
+    },
+    {
+      "character": "phainon",
+      "seat_height_cm": 48,
+      "position": [
+        -498,
+        -260
+      ]
+    }
+  ]
+}

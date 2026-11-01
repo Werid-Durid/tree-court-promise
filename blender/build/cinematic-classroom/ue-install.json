@@ -1,0 +1,7 @@
+{
+  "status": "installed",
+  "map": "/Game/TreeCourt/L_StoryClassroom",
+  "meshes": 20,
+  "colliders": 255,
+  "materials": 23
+}

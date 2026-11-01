@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "seq": "/Game/TreeCourt/Sequences/TC_Anaxa_Expression.TC_Anaxa_Expression",
+  "binding": "<Struct 'MovieSceneBindingProxy' (0x000001FEA4A67420) {binding_id: {}, sequence: \"/Script/LevelSequence.LevelSequence'/Game/TreeCourt/Sequences/TC_Anaxa_Expression.TC_Anaxa_Expression'\"}>",
+  "morph_track_class": "None",
+  "saved": true
+}

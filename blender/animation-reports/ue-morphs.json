@@ -1,0 +1,73 @@
+{
+  "status": "ok",
+  "rows": [
+    {
+      "label": "TC_anaxa",
+      "morphs": 80,
+      "sample": [
+        "怒り",
+        "怒り右",
+        "真面目",
+        "手前",
+        "困る",
+        "手前2",
+        "やっかい",
+        "上",
+        "下",
+        "悲しい"
+      ],
+      "anim": "<Object '/Game/TreeCourt/WalkingV3/Teacher/TC_Anaxa_TeachPace.TC_Anaxa_TeachPace' (0x000002199495CB00) Class 'AnimSequence'>"
+    },
+    {
+      "label": "TC_hyacine",
+      "morphs": 81,
+      "sample": [
+        "怒り",
+        "怒り右",
+        "真面目",
+        "困る",
+        "手前",
+        "やっかい",
+        "手前2",
+        "下",
+        "上",
+        "悲しい"
+      ],
+      "anim": "<Object '/Game/TreeCourt/Animations/hyacine/TC_Hyacine_Assist.TC_Hyacine_Assist' (0x000002199495BD00) Class 'AnimSequence'>"
+    },
+    {
+      "label": "TC_castor",
+      "morphs": 80,
+      "sample": [
+        "怒り",
+        "怒り右",
+        "真面目",
+        "手前2",
+        "困る",
+        "手前",
+        "やっかい",
+        "悲しい",
+        "上",
+        "下"
+      ],
+      "anim": "<Object '/Game/TreeCourt/Animations/castor/TC_Castorice_Seated.TC_Castorice_Seated' (0x000002199495B600) Class 'AnimSequence'>"
+    },
+    {
+      "label": "TC_phainon",
+      "morphs": 81,
+      "sample": [
+        "怒り",
+        "怒り右",
+        "真面目",
+        "悲しい",
+        "手前",
+        "困る",
+        "手前_001",
+        "やっかい",
+        "下",
+        "上"
+      ],
+      "anim": "<Object '/Game/TreeCourt/Animations/phainon/TC_Phainon_Seated.TC_Phainon_Seated' (0x000002199495C400) Class 'AnimSequence'>"
+    }
+  ]
+}

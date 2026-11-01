@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "description": "以用户提供立绘校准的卡通角色材质；不是官方游戏着色器。保留原图集，不添加写实毛孔。",
+  "classes": {
+    "face": {"shadow": [0.91, 0.79, 0.79], "light": [1.0, 0.99, 0.97], "low": -0.35, "high": 0.45, "roughness": 0.72, "emission": 0.30, "rim": 0.008},
+    "skin": {"shadow": [0.86, 0.74, 0.74], "light": [1.0, 0.98, 0.96], "low": -0.25, "high": 0.50, "roughness": 0.70, "emission": 0.23, "rim": 0.012},
+    "eye": {"shadow": [0.95, 0.93, 0.94], "light": [1.0, 1.0, 1.0], "low": -0.40, "high": 0.30, "roughness": 0.30, "emission": 0.40, "rim": 0.0},
+    "hair": {"shadow": [0.70, 0.68, 0.78], "light": [1.0, 0.98, 1.0], "low": 0.05, "high": 0.38, "roughness": 0.58, "emission": 0.12, "rim": 0.012},
+    "cloth": {"shadow": [0.67, 0.65, 0.72], "light": [1.0, 0.98, 0.97], "low": 0.02, "high": 0.30, "roughness": 0.83, "emission": 0.08, "rim": 0.004},
+    "metal": {"shadow": [0.65, 0.62, 0.63], "light": [1.04, 1.02, 0.99], "low": 0.00, "high": 0.28, "roughness": 0.38, "emission": 0.06, "rim": 0.018}
+  },
+  "characters": {
+    "anaxa": {"skin_tint": [1.0, 0.985, 0.972], "expression": {"真面目": 0.08, "ｷﾘｯ": 0.10, "口角上げ": 0.05}},
+    "hyacine": {"skin_tint": [1.0, 0.978, 0.965], "expression": {"慈愛": 0.10, "喜び": 0.08, "口角上げ": 0.14}},
+    "castor": {"skin_tint": [0.995, 0.985, 1.0], "expression": {"慈愛": 0.07, "口角上げ": 0.04}},
+    "phainon": {"skin_tint": [1.0, 0.978, 0.958], "expression": {"喜び": 0.10, "口角上げ": 0.15}}
+  }
+}
