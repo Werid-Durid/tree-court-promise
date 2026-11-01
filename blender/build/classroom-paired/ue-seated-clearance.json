@@ -1,0 +1,17 @@
+{
+  "status": "installed",
+  "characters": [
+    {
+      "id": "castor",
+      "mesh": "/Game/TreeCourt/PairedSeating/castor/castor_Seated.castor_Seated",
+      "materials": 36,
+      "skeleton": "/Game/TreeCourt/Characters/castor/castor_Skeleton.castor_Skeleton"
+    },
+    {
+      "id": "phainon",
+      "mesh": "/Game/TreeCourt/PairedSeating/phainon/phainon_Seated.phainon_Seated",
+      "materials": 37,
+      "skeleton": "/Game/TreeCourt/Characters/phainon/phainon_Skeleton.phainon_Skeleton"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "castor",
+  "status": "animated",
+  "clip": "TC_castor_Walk",
+  "duration": 24,
+  "rest_height": 1.7445006504422054,
+  "rest_floor": -0.000717772520147264,
+  "target_height": 1.72,
+  "triangles": 52293,
+  "max_arm_target_error_m": 5.256224877970597e-07,
+  "bones": 565,
+  "animations": [
+    "TC_castor_Walk",
+    "TC_castor_Walk_Controls"
+  ],
+  "glb": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\walking\\castor.glb",
+  "fbx": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\walking\\castor.fbx"
+}

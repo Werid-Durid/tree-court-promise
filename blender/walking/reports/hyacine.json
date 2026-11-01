@@ -1,0 +1,18 @@
+{
+  "id": "hyacine",
+  "status": "animated",
+  "clip": "TC_hyacine_Walk",
+  "duration": 24,
+  "rest_height": 1.4489716632378986,
+  "rest_floor": -0.00022688937315251678,
+  "target_height": 1.57,
+  "triangles": 39687,
+  "max_arm_target_error_m": 4.3167680404576594e-07,
+  "bones": 563,
+  "animations": [
+    "TC_hyacine_Walk",
+    "TC_hyacine_Walk_Controls"
+  ],
+  "glb": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\walking\\hyacine.glb",
+  "fbx": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\walking\\hyacine.fbx"
+}

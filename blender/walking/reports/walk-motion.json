@@ -1,0 +1,11 @@
+{
+  "id": "anaxa",
+  "segment": "t=6..9s (frames 145..217)",
+  "center_vertical_range": 0.0224,
+  "center_lateral_range": 0.0349,
+  "pelvis_deg_max": 2.58,
+  "spine1_deg_max": 2.39,
+  "head_deg_max": 0.0,
+  "pelvis_spine1_corr": -0.991,
+  "note": "pelvis_spine1_corr 接近 -1 表示脊柱与骨盆反向（教程的脊柱骨要领）"
+}

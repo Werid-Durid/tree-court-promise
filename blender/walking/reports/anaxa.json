@@ -1,0 +1,18 @@
+{
+  "id": "anaxa",
+  "status": "animated",
+  "clip": "TC_anaxa_Walk",
+  "duration": 24,
+  "rest_height": 1.7431494736811146,
+  "rest_floor": 0.0014386629918590188,
+  "target_height": 1.8,
+  "triangles": 42466,
+  "max_arm_target_error_m": 5.466950774207173e-07,
+  "bones": 511,
+  "animations": [
+    "TC_anaxa_Walk",
+    "TC_anaxa_Walk_Controls"
+  ],
+  "glb": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\walking\\anaxa.glb",
+  "fbx": "D:\\开发项目\\树庭学习室\\tree_court\\blender\\walking\\anaxa.fbx"
+}

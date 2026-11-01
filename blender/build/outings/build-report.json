@@ -1,0 +1,22 @@
+[
+  {
+    "scene": "grove",
+    "colliders": 20,
+    "glb_bytes": 122072
+  },
+  {
+    "scene": "courtyard",
+    "colliders": 12,
+    "glb_bytes": 180584
+  },
+  {
+    "scene": "terrace",
+    "colliders": 6,
+    "glb_bytes": 226312
+  },
+  {
+    "scene": "wheat",
+    "colliders": 4,
+    "glb_bytes": 1125372
+  }
+]

@@ -28,6 +28,7 @@ blender/*
 !blender/scripts/
 !blender/build/
 !blender/study/
+!blender/walking/
 !blender/*.json
 !blender/*.md
 blender/animated/*
@@ -35,13 +36,19 @@ blender/animated/*
 blender/study/*
 !blender/study/*.glb
 !blender/study/reports/
+blender/walking/*
+!blender/walking/*.glb
+!blender/walking/reports/
 blender/build/*
 !blender/build/cinematic-classroom/
 !blender/build/study-room/
+!blender/build/outings/
 blender/build/cinematic-classroom/*
 !blender/build/cinematic-classroom/**
 blender/build/study-room/*
 !blender/build/study-room/**
+blender/build/outings/*
+!blender/build/outings/**
 ue5/
 assets/exams/
 assets/characters/

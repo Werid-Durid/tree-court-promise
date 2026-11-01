@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "chairs": [
+    {
+      "row": 1,
+      "pair": 0,
+      "side": 0,
+      "connected_parts": 13
+    },
+    {
+      "row": 1,
+      "pair": 0,
+      "side": 1,
+      "connected_parts": 13
+    },
+    {
+      "row": 1,
+      "pair": 1,
+      "side": 0,
+      "connected_parts": 13
+    },
+    {
+      "row": 1,
+      "pair": 1,
+      "side": 1,
+      "connected_parts": 13
+    },
+    {
+      "row": 1,
+      "pair": 2,
+      "side": 0,
+      "connected_parts": 13
+    },
+    {
+      "row": 1,
+      "pair": 2,
+      "side": 1,
+      "connected_parts": 13
+    },
+    {
+      "row": 2,
+      "pair": 0,
+      "side": 0,
+      "connected_parts": 13
+    },
+    {
+      "row": 2,
+      "pair": 0,
+      "side": 1,
+      "connected_parts": 13
+    },
+    {
+      "row": 2,
+      "pair": 1,
+      "side": 0,
+      "connected_parts": 13
+    },
+    {
+      "row": 2,
+      "pair": 1,
+      "side": 1,
+      "connected_parts": 13
+    },
+    {
+      "row": 2,
+      "pair": 2,
+      "side": 0,
+      "connected_parts": 13
+    },
+    {
+      "row": 2,
+      "pair": 2,
+      "side": 1,
+      "connected_parts": 13
+    }
+  ],
+  "paired_desks": 6,
+  "seats": 12,
+  "colliders": 240,
+  "pair_aisle_width_m": 1.68,
+  "spawn_clear": true
+}

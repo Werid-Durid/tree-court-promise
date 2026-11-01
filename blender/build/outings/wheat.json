@@ -1,0 +1,25 @@
+{
+  "scene": "wheat",
+  "environment": "elysia",
+  "media_revision": 4,
+  "source_author": "小二今天吃啥啊",
+  "player_start": [
+    0,
+    1.65,
+    3.2
+  ],
+  "character_position": [
+    0,
+    0,
+    0
+  ],
+  "eye_height": 1.65,
+  "bounds": [
+    -2.6,
+    2.6,
+    -1.8,
+    3.8
+  ],
+  "colliders": [],
+  "ground_height": 0
+}

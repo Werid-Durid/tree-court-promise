@@ -1,0 +1,51 @@
+{
+  "duration": 24,
+  "fps": 24,
+  "seat_height": 0.48,
+  "characters": {
+    "anaxa": {
+      "height": 1.8,
+      "clip": "TC_Anaxa_TeachPace",
+      "position": [
+        -2.8,
+        0.18,
+        -4.95
+      ],
+      "yaw": 0,
+      "role": "teacher"
+    },
+    "hyacine": {
+      "height": 1.57,
+      "clip": "TC_Hyacine_Assist",
+      "position": [
+        2.5,
+        0.18,
+        -4.9
+      ],
+      "yaw": -0.12,
+      "role": "assistant"
+    },
+    "castor": {
+      "height": 1.72,
+      "clip": "TC_Castorice_Seated",
+      "position": [
+        -0.38,
+        0,
+        0.62
+      ],
+      "yaw": 3.141592653589793,
+      "role": "student"
+    },
+    "phainon": {
+      "height": 1.84,
+      "clip": "TC_Phainon_Seated",
+      "position": [
+        0.38,
+        0,
+        0.62
+      ],
+      "yaw": 3.141592653589793,
+      "role": "student"
+    }
+  }
+}

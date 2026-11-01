@@ -1,0 +1,25 @@
+{
+  "status": "installed",
+  "animations": [
+    {
+      "id": "anaxa",
+      "asset": "/Game/TreeCourt/WalkingV3/anaxa/TC_anaxa_Walk.TC_anaxa_Walk",
+      "duration": 24.0
+    },
+    {
+      "id": "hyacine",
+      "asset": "/Game/TreeCourt/WalkingV3/hyacine/TC_hyacine_Walk.TC_hyacine_Walk",
+      "duration": 24.0
+    },
+    {
+      "id": "castor",
+      "asset": "/Game/TreeCourt/WalkingV3/castor/TC_castor_Walk.TC_castor_Walk",
+      "duration": 24.0
+    },
+    {
+      "id": "phainon",
+      "asset": "/Game/TreeCourt/WalkingV3/phainon/TC_phainon_Walk.TC_phainon_Walk",
+      "duration": 24.0
+    }
+  ]
+}
