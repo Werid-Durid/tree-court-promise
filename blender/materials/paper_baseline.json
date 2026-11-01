@@ -1,0 +1,25 @@
+{
+  "version": "paper-baseline-v2",
+  "source": "Paper Anime Render Helper 2.5.0 + 项目确认参数（style_baseline.md）",
+  "color_look": "AGX_HIGH",
+  "outline_m": 0.002,
+  "thresholds": [0.45, 0.65],
+  "colors": [[0.62, 0.62, 0.65], [0.83, 0.81, 0.82], [1.0, 1.0, 1.0]],
+  "toon_softness": 0.08,
+  "toon_strength": 0.35,
+  "toon_light_influence": 0.8,
+  "toon_min_brightness": 0.12,
+  "highlight_mix": 0.6,
+  "highlight_roughness": 0.15,
+  "rim_ior": 1.45,
+  "rim_threshold": 0.70,
+  "rim_color": [0.08, 0.075, 0.066],
+  "rim_classes": ["cloth"],
+  "shadow_tint": {
+    "anaxa": [0.60, 0.62, 0.64],
+    "castor": [0.64, 0.60, 0.66],
+    "hyacine": [0.66, 0.62, 0.64],
+    "phainon": [0.60, 0.63, 0.68]
+  },
+  "cloth_name_pattern": "^(衣|披肩|袖|左袖|右袖|裙|裤|手套|下摆|内衬下摆|脖带|帽结|结花边|腿带|靴|鞋)"
+}

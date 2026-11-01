@@ -62,7 +62,7 @@ export async function mountScene(container,{onStatus=()=>{},onInteract=()=>{},on
   dust.pts.geometry.attributes.position.needsUpdate=true;
   // 以当前动画为底，有限角度地转头回应玩家；不会让脖颈追随镜头无限扭转。
   const head=heads.get(speaker),root=loaded.get(speaker);
-  if(head&&root&&!player.walking&&!quiet&&!walkPreview){root.updateMatrixWorld(true);const local=root.worldToLocal(player.position.clone()),headLocal=root.worldToLocal(head.getWorldPosition(new THREE.Vector3()));const d=local.sub(headLocal);const angle=THREE.MathUtils.clamp(Math.atan2(d.x,d.z),-performanceProfile[speaker].head_yaw,performanceProfile[speaker].head_yaw);head.quaternion.multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,1,0),angle*.7));}
+  if(head&&root&&!player.walking&&!quiet&&!walkPreview){root.updateMatrixWorld(true);const local=root.worldToLocal(player.position.clone()),headLocal=root.worldToLocal(head.getWorldPosition(new THREE.Vector3()));const d=local.sub(headLocal);const angle=THREE.MathUtils.clamp(Math.atan2(d.x,d.z),-performanceProfile[speaker].head_yaw,performanceProfile[speaker].head_yaw);if(!head.userData.baseQuat)head.userData.baseQuat=head.quaternion.clone();head.quaternion.copy(head.userData.baseQuat).multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,1,0),angle*.7));}
   dof.enabled=!player.walking&&!quiet&&!walkPreview;dof.uniforms.focus.value=camera.position.distanceTo(faceTarget(speaker));composer.render(dt);
  }animate();
  const api={setMotionTime(seconds){for(const m of mixers.values())m.setTime(seconds);},pauseMotion(value){motionPaused=value;},update({word,line,character='anaxa'}){writeBoard(word,line);focus(character);},focus,

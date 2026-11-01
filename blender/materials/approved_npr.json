@@ -1,0 +1,11 @@
+{
+  "version": "zhuxia-gold-v1",
+  "thresholds": [0.52, 0.76],
+  "colors": [[0.46, 0.36, 0.34], [0.78, 0.68, 0.64], [1.0, 0.97, 0.93]],
+  "rim_ior": 1.45,
+  "rim_threshold": 0.55,
+  "rim_color": [1.0, 0.62, 0.22],
+  "classes": ["face", "skin", "cloth"],
+  "rim_classes": ["face", "skin", "hair", "cloth"],
+  "cloth_name_pattern": "^(衣|披肩|袖|左袖|右袖|裙|裤|手套|下摆|内衬下摆|脖带|帽结|结花边|腿带|靴|鞋)"
+}
