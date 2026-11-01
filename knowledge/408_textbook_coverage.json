@@ -1,0 +1,4209 @@
+{
+  "version": 1,
+  "basis": "按用户提供的2027版教材章首「考纲内容」及正文分节组织。2027官方大纲全文尚未独立逐项核验，不将本地教材目录冒称官方年度全文。",
+  "official_full_text_verified": false,
+  "network_read": false,
+  "books": [
+    {
+      "id": "wangdao2027-co",
+      "module_id": "co",
+      "title": "2027 王道《计算机组成原理》",
+      "file": "408教材/27王道《计算机组成原理》高清带书签.pdf",
+      "sha256": "768ae1b0f79314eab4f1710f5e563a4cc479551a7641cb31aace81af1517fd2f",
+      "pages": 351,
+      "outline_pages": [
+        14,
+        33,
+        91,
+        165,
+        213,
+        295,
+        313
+      ],
+      "method": "正文文本分节定位，章首考纲映射，选定原页图像核对；讲解重新编写，不直接发布OCR数学公式。原书未改动。",
+      "official_full_text_verified": false
+    },
+    {
+      "id": "wangdao2027-os",
+      "module_id": "os",
+      "title": "2027 王道《操作系统》",
+      "file": "408教材/27王道《操作系统》高清带书签.pdf",
+      "sha256": "1f67869c95a9ab5da63fc6edc0ff68cffadd1e3f13d2a78c0b8f31ab5fd031c1",
+      "pages": 384,
+      "outline_pages": [
+        14,
+        50,
+        194,
+        271,
+        327
+      ],
+      "method": "正文文本分节定位，章首考纲映射，选定原页图像核对；讲解重新编写，不直接发布OCR数学公式。原书未改动。",
+      "official_full_text_verified": false
+    },
+    {
+      "id": "wangdao2027-ds",
+      "module_id": "ds",
+      "title": "2027 王道《数据结构》",
+      "file": "408教材/27王道《数据结构》高清带书签.pdf",
+      "sha256": "72432ad25d304774cad979c2a83fb7a2536f377afa5f38cddec4a2d8152addcf",
+      "pages": 415,
+      "outline_pages": [
+        14,
+        26,
+        77,
+        124,
+        140,
+        212,
+        285,
+        353
+      ],
+      "method": "正文文本分节定位，章首考纲映射，选定原页图像核对；讲解重新编写，不直接发布OCR数学公式。原书未改动。",
+      "official_full_text_verified": false
+    }
+  ],
+  "lesson_count": 160,
+  "mapped_syllabus_items": 280,
+  "items": [
+    {
+      "id": "co-001",
+      "module_id": "co",
+      "topic": "计算机系统基本组成",
+      "point_id": "cs408-co-overview-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          15,
+          20
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-002",
+      "module_id": "co",
+      "topic": "存储程序方式",
+      "point_id": "cs408-co-overview-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          15,
+          20
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-003",
+      "module_id": "co",
+      "topic": "计算机系统层次",
+      "point_id": "cs408-co-overview-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          15,
+          20
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-004",
+      "module_id": "co",
+      "topic": "计算机硬件基本组成",
+      "point_id": "cs408-co-overview-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          16,
+          20
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-005",
+      "module_id": "co",
+      "topic": "程序与指令执行过程",
+      "point_id": "cs408-co-overview-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          16,
+          20
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-006",
+      "module_id": "co",
+      "topic": "软件与硬件的关系",
+      "point_id": "cs408-co-overview-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          17,
+          20
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-007",
+      "module_id": "co",
+      "topic": "高级语言与机器语言转换",
+      "point_id": "cs408-co-overview-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          17,
+          20
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-008",
+      "module_id": "co",
+      "topic": "编译器、汇编器与链接器",
+      "point_id": "cs408-co-overview-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          17,
+          20
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-009",
+      "module_id": "co",
+      "topic": "吞吐量与响应时间",
+      "point_id": "cs408-co-overview-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          24,
+          26
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-010",
+      "module_id": "co",
+      "topic": "CPU时钟周期与主频",
+      "point_id": "cs408-co-overview-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          24,
+          26
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-011",
+      "module_id": "co",
+      "topic": "CPI与CPU执行时间",
+      "point_id": "cs408-co-overview-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          24,
+          26
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-012",
+      "module_id": "co",
+      "topic": "MIPS",
+      "point_id": "cs408-co-overview-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          24,
+          26
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-013",
+      "module_id": "co",
+      "topic": "MFLOPS至ZFLOPS性能单位",
+      "point_id": "cs408-co-overview-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          24,
+          26
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-014",
+      "module_id": "co",
+      "topic": "进位计数制及相互转换",
+      "point_id": "cs408-co-representation-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          33,
+          35
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-015",
+      "module_id": "co",
+      "topic": "定点数编码",
+      "point_id": "cs408-co-representation-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          35,
+          38
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-016",
+      "module_id": "co",
+      "topic": "无符号整数表示",
+      "point_id": "cs408-co-representation-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          35,
+          38
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-017",
+      "module_id": "co",
+      "topic": "有符号整数表示",
+      "point_id": "cs408-co-representation-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          35,
+          38
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-018",
+      "module_id": "co",
+      "topic": "IEEE754标准",
+      "point_id": "cs408-co-representation-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          68,
+          70
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-019",
+      "module_id": "co",
+      "topic": "数据对齐",
+      "point_id": "cs408-co-representation-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          73,
+          75
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-020",
+      "module_id": "co",
+      "topic": "大端小端存放",
+      "point_id": "cs408-co-representation-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          73,
+          75
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-021",
+      "module_id": "co",
+      "topic": "加法器",
+      "point_id": "cs408-co-arithmetic-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          45,
+          48
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-022",
+      "module_id": "co",
+      "topic": "补码加减运算器",
+      "point_id": "cs408-co-arithmetic-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          48,
+          52
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-023",
+      "module_id": "co",
+      "topic": "标志位生成",
+      "point_id": "cs408-co-arithmetic-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          48,
+          52
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-024",
+      "module_id": "co",
+      "topic": "整数加减运算",
+      "point_id": "cs408-co-arithmetic-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          48,
+          52
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-025",
+      "module_id": "co",
+      "topic": "乘法基本原理",
+      "point_id": "cs408-co-arithmetic-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          52,
+          56
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-026",
+      "module_id": "co",
+      "topic": "乘法电路基本结构",
+      "point_id": "cs408-co-arithmetic-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          52,
+          56
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-027",
+      "module_id": "co",
+      "topic": "除法基本原理",
+      "point_id": "cs408-co-arithmetic-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          54,
+          57
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-028",
+      "module_id": "co",
+      "topic": "除法电路基本结构",
+      "point_id": "cs408-co-arithmetic-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          54,
+          57
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-029",
+      "module_id": "co",
+      "topic": "浮点数加减运算",
+      "point_id": "cs408-co-arithmetic-07",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          70,
+          73
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-030",
+      "module_id": "co",
+      "topic": "算术逻辑单元ALU",
+      "point_id": "cs408-co-arithmetic-08",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          45,
+          48
+        ],
+        [
+          49,
+          52
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-031",
+      "module_id": "co",
+      "topic": "存储器分类",
+      "point_id": "cs408-co-memory-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          91,
+          95
+        ],
+        [
+          124,
+          126
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-032",
+      "module_id": "co",
+      "topic": "层次化存储器基本结构",
+      "point_id": "cs408-co-memory-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          91,
+          95
+        ],
+        [
+          124,
+          126
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-033",
+      "module_id": "co",
+      "topic": "SRAM",
+      "point_id": "cs408-co-memory-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          97,
+          102
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-034",
+      "module_id": "co",
+      "topic": "DRAM",
+      "point_id": "cs408-co-memory-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          97,
+          102
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-035",
+      "module_id": "co",
+      "topic": "Flash",
+      "point_id": "cs408-co-memory-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          97,
+          102
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-036",
+      "module_id": "co",
+      "topic": "DRAM芯片与内存条",
+      "point_id": "cs408-co-memory-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          97,
+          102
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-037",
+      "module_id": "co",
+      "topic": "主存与CPU连接",
+      "point_id": "cs408-co-memory-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          112,
+          114
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-038",
+      "module_id": "co",
+      "topic": "多模块存储器",
+      "point_id": "cs408-co-memory-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          100,
+          102
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-039",
+      "module_id": "co",
+      "topic": "Cache映射方式",
+      "point_id": "cs408-co-memory-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          127,
+          130
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-040",
+      "module_id": "co",
+      "topic": "Cache替换算法",
+      "point_id": "cs408-co-memory-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          130,
+          132
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-041",
+      "module_id": "co",
+      "topic": "Cache写策略",
+      "point_id": "cs408-co-memory-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          130,
+          132
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-042",
+      "module_id": "co",
+      "topic": "Cache基本原理",
+      "point_id": "cs408-co-memory-07",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          124,
+          127
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-043",
+      "module_id": "co",
+      "topic": "虚拟存储器基本概念",
+      "point_id": "cs408-co-memory-08",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          146,
+          151
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-044",
+      "module_id": "co",
+      "topic": "页式虚存原理",
+      "point_id": "cs408-co-memory-08",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          146,
+          151
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-045",
+      "module_id": "co",
+      "topic": "页表与地址转换",
+      "point_id": "cs408-co-memory-08",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          146,
+          151
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-046",
+      "module_id": "co",
+      "topic": "TLB",
+      "point_id": "cs408-co-memory-08",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          146,
+          151
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-047",
+      "module_id": "co",
+      "topic": "段式虚存",
+      "point_id": "cs408-co-memory-08",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          146,
+          151
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-048",
+      "module_id": "co",
+      "topic": "段页式虚存",
+      "point_id": "cs408-co-memory-08",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          146,
+          151
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-049",
+      "module_id": "co",
+      "topic": "磁盘存储器",
+      "point_id": "cs408-co-memory-09",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          117,
+          120
+        ],
+        [
+          146,
+          151
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-050",
+      "module_id": "co",
+      "topic": "固态硬盘SSD",
+      "point_id": "cs408-co-memory-09",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          117,
+          120
+        ],
+        [
+          146,
+          151
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-051",
+      "module_id": "co",
+      "topic": "指令格式基本概念",
+      "point_id": "cs408-co-isa-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          165,
+          168
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-052",
+      "module_id": "co",
+      "topic": "指令格式",
+      "point_id": "cs408-co-isa-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          165,
+          168
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-053",
+      "module_id": "co",
+      "topic": "寻址方式",
+      "point_id": "cs408-co-isa-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          173,
+          177
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-054",
+      "module_id": "co",
+      "topic": "CISC与RISC基本概念",
+      "point_id": "cs408-co-isa-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          165,
+          166
+        ],
+        [
+          208,
+          210
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-055",
+      "module_id": "co",
+      "topic": "选择结构机器级表示",
+      "point_id": "cs408-co-isa-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          189,
+          197
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-056",
+      "module_id": "co",
+      "topic": "循环结构机器级表示",
+      "point_id": "cs408-co-isa-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          189,
+          197
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-057",
+      "module_id": "co",
+      "topic": "过程函数调用机器级表示",
+      "point_id": "cs408-co-isa-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          197,
+          199
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-058",
+      "module_id": "co",
+      "topic": "CPU功能与基本结构",
+      "point_id": "cs408-co-cpu-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          213,
+          215
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-059",
+      "module_id": "co",
+      "topic": "指令执行过程",
+      "point_id": "cs408-co-cpu-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          220,
+          223
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-060",
+      "module_id": "co",
+      "topic": "数据通路功能与基本结构",
+      "point_id": "cs408-co-cpu-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          225,
+          232
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-061",
+      "module_id": "co",
+      "topic": "控制器功能与工作原理（硬布线）",
+      "point_id": "cs408-co-cpu-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          247,
+          249
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-062",
+      "module_id": "co",
+      "topic": "控制器工作原理（微程序）",
+      "point_id": "cs408-co-cpu-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          248,
+          254
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-063",
+      "module_id": "co",
+      "topic": "异常与中断概念",
+      "point_id": "cs408-co-cpu-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          262,
+          264
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-064",
+      "module_id": "co",
+      "topic": "异常与中断分类",
+      "point_id": "cs408-co-cpu-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          262,
+          264
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-065",
+      "module_id": "co",
+      "topic": "异常中断检测与响应",
+      "point_id": "cs408-co-cpu-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          262,
+          264
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-066",
+      "module_id": "co",
+      "topic": "流水线基本概念",
+      "point_id": "cs408-co-pipeline-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          267,
+          271
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-067",
+      "module_id": "co",
+      "topic": "流水线基本实现",
+      "point_id": "cs408-co-pipeline-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          267,
+          271
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-068",
+      "module_id": "co",
+      "topic": "结构冒险",
+      "point_id": "cs408-co-pipeline-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          271,
+          274
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-069",
+      "module_id": "co",
+      "topic": "数据冒险",
+      "point_id": "cs408-co-pipeline-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          271,
+          274
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-070",
+      "module_id": "co",
+      "topic": "控制冒险",
+      "point_id": "cs408-co-pipeline-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          271,
+          274
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-071",
+      "module_id": "co",
+      "topic": "超标量",
+      "point_id": "cs408-co-pipeline-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          274,
+          275
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-072",
+      "module_id": "co",
+      "topic": "动态流水线",
+      "point_id": "cs408-co-pipeline-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          274,
+          275
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-073",
+      "module_id": "co",
+      "topic": "SISD",
+      "point_id": "cs408-co-pipeline-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          288,
+          291
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-074",
+      "module_id": "co",
+      "topic": "SIMD",
+      "point_id": "cs408-co-pipeline-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          288,
+          291
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-075",
+      "module_id": "co",
+      "topic": "MIMD",
+      "point_id": "cs408-co-pipeline-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          288,
+          291
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-076",
+      "module_id": "co",
+      "topic": "向量处理器",
+      "point_id": "cs408-co-pipeline-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          288,
+          291
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-077",
+      "module_id": "co",
+      "topic": "硬件多线程",
+      "point_id": "cs408-co-pipeline-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          288,
+          291
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-078",
+      "module_id": "co",
+      "topic": "多核处理器",
+      "point_id": "cs408-co-pipeline-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          288,
+          291
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-079",
+      "module_id": "co",
+      "topic": "共享内存多处理器SMP",
+      "point_id": "cs408-co-pipeline-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          288,
+          291
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-080",
+      "module_id": "co",
+      "topic": "总线基本概念",
+      "point_id": "cs408-co-io-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          295,
+          299
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-081",
+      "module_id": "co",
+      "topic": "总线组成及性能指标",
+      "point_id": "cs408-co-io-01",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          295,
+          299
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-082",
+      "module_id": "co",
+      "topic": "总线事务",
+      "point_id": "cs408-co-io-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          304,
+          307
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-083",
+      "module_id": "co",
+      "topic": "总线定时",
+      "point_id": "cs408-co-io-02",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          304,
+          307
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-084",
+      "module_id": "co",
+      "topic": "I/O接口功能与结构",
+      "point_id": "cs408-co-io-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          315,
+          317
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-085",
+      "module_id": "co",
+      "topic": "I/O端口及编址",
+      "point_id": "cs408-co-io-03",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          315,
+          317
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-086",
+      "module_id": "co",
+      "topic": "程序查询方式",
+      "point_id": "cs408-co-io-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          321,
+          327
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-087",
+      "module_id": "co",
+      "topic": "中断基本概念",
+      "point_id": "cs408-co-io-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          321,
+          327
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-088",
+      "module_id": "co",
+      "topic": "中断响应过程",
+      "point_id": "cs408-co-io-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          321,
+          327
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-089",
+      "module_id": "co",
+      "topic": "中断处理过程",
+      "point_id": "cs408-co-io-04",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          321,
+          327
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-090",
+      "module_id": "co",
+      "topic": "多重中断",
+      "point_id": "cs408-co-io-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          322,
+          327
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-091",
+      "module_id": "co",
+      "topic": "中断屏蔽",
+      "point_id": "cs408-co-io-05",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          322,
+          327
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-092",
+      "module_id": "co",
+      "topic": "DMA控制器组成",
+      "point_id": "cs408-co-io-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          327,
+          331
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "co-093",
+      "module_id": "co",
+      "topic": "DMA传送过程",
+      "point_id": "cs408-co-io-06",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          327,
+          331
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-094",
+      "module_id": "os",
+      "topic": "操作系统基本概念",
+      "point_id": "cs408-os-overview-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          14,
+          23
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-095",
+      "module_id": "os",
+      "topic": "操作系统发展历程",
+      "point_id": "cs408-os-overview-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          14,
+          23
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-096",
+      "module_id": "os",
+      "topic": "内核模式与用户模式",
+      "point_id": "cs408-os-overview-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          28,
+          31
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-097",
+      "module_id": "os",
+      "topic": "中断异常处理",
+      "point_id": "cs408-os-overview-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          29,
+          32
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-098",
+      "module_id": "os",
+      "topic": "系统调用",
+      "point_id": "cs408-os-overview-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          29,
+          32
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-099",
+      "module_id": "os",
+      "topic": "分层结构",
+      "point_id": "cs408-os-overview-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          39,
+          44
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-100",
+      "module_id": "os",
+      "topic": "模块化结构",
+      "point_id": "cs408-os-overview-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          39,
+          44
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-101",
+      "module_id": "os",
+      "topic": "宏内核",
+      "point_id": "cs408-os-overview-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          39,
+          44
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-102",
+      "module_id": "os",
+      "topic": "微内核",
+      "point_id": "cs408-os-overview-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          39,
+          44
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-103",
+      "module_id": "os",
+      "topic": "外核",
+      "point_id": "cs408-os-overview-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          39,
+          44
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-104",
+      "module_id": "os",
+      "topic": "虚拟机",
+      "point_id": "cs408-os-overview-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          39,
+          44
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-105",
+      "module_id": "os",
+      "topic": "操作系统引导",
+      "point_id": "cs408-os-overview-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          42,
+          43
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-106",
+      "module_id": "os",
+      "topic": "程序运行时内存映像",
+      "point_id": "cs408-os-process-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          51,
+          54
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-107",
+      "module_id": "os",
+      "topic": "地址空间",
+      "point_id": "cs408-os-process-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          51,
+          54
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-108",
+      "module_id": "os",
+      "topic": "进程基本概念",
+      "point_id": "cs408-os-process-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          51,
+          54
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-109",
+      "module_id": "os",
+      "topic": "进程组织",
+      "point_id": "cs408-os-process-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          51,
+          54
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-110",
+      "module_id": "os",
+      "topic": "进程线程状态与转换",
+      "point_id": "cs408-os-process-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          54,
+          56
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-111",
+      "module_id": "os",
+      "topic": "进程线程控制",
+      "point_id": "cs408-os-process-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          55,
+          56
+        ],
+        [
+          84,
+          85
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-112",
+      "module_id": "os",
+      "topic": "上下文及切换机制",
+      "point_id": "cs408-os-process-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          55,
+          56
+        ],
+        [
+          84,
+          85
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-113",
+      "module_id": "os",
+      "topic": "线程基本概念",
+      "point_id": "cs408-os-process-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          58,
+          64
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-114",
+      "module_id": "os",
+      "topic": "内核支持线程",
+      "point_id": "cs408-os-process-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          58,
+          64
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-115",
+      "module_id": "os",
+      "topic": "线程库支持线程",
+      "point_id": "cs408-os-process-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          58,
+          64
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-116",
+      "module_id": "os",
+      "topic": "共享内存通信",
+      "point_id": "cs408-os-process-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          56,
+          58
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-117",
+      "module_id": "os",
+      "topic": "消息传递",
+      "point_id": "cs408-os-process-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          56,
+          58
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-118",
+      "module_id": "os",
+      "topic": "管道",
+      "point_id": "cs408-os-process-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          56,
+          58
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-119",
+      "module_id": "os",
+      "topic": "信号",
+      "point_id": "cs408-os-process-07",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          56,
+          58
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-120",
+      "module_id": "os",
+      "topic": "调度基本概念",
+      "point_id": "cs408-os-scheduling-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          80,
+          84
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-121",
+      "module_id": "os",
+      "topic": "调度器",
+      "point_id": "cs408-os-scheduling-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          80,
+          84
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-122",
+      "module_id": "os",
+      "topic": "调度时机",
+      "point_id": "cs408-os-scheduling-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          80,
+          84
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-123",
+      "module_id": "os",
+      "topic": "抢占非抢占",
+      "point_id": "cs408-os-scheduling-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          80,
+          84
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-124",
+      "module_id": "os",
+      "topic": "闲逛进程",
+      "point_id": "cs408-os-scheduling-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          80,
+          84
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-125",
+      "module_id": "os",
+      "topic": "内核与用户线程调度",
+      "point_id": "cs408-os-scheduling-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          80,
+          84
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-126",
+      "module_id": "os",
+      "topic": "调度目标",
+      "point_id": "cs408-os-scheduling-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          84,
+          85
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-127",
+      "module_id": "os",
+      "topic": "CPU调度算法（FCFS、SJF、SRTF、HRRN）",
+      "point_id": "cs408-os-scheduling-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          85,
+          89
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-128",
+      "module_id": "os",
+      "topic": "CPU调度算法（轮转、优先级、多级反馈）",
+      "point_id": "cs408-os-scheduling-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          88,
+          91
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-129",
+      "module_id": "os",
+      "topic": "多处理机调度",
+      "point_id": "cs408-os-scheduling-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          91,
+          92
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-130",
+      "module_id": "os",
+      "topic": "同步与互斥基本概念",
+      "point_id": "cs408-os-synchronization-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          114,
+          115
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-131",
+      "module_id": "os",
+      "topic": "软件互斥方法",
+      "point_id": "cs408-os-synchronization-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          115,
+          119
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-132",
+      "module_id": "os",
+      "topic": "硬件互斥方法",
+      "point_id": "cs408-os-synchronization-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          115,
+          119
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-133",
+      "module_id": "os",
+      "topic": "锁",
+      "point_id": "cs408-os-synchronization-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          115,
+          119
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-134",
+      "module_id": "os",
+      "topic": "信号量",
+      "point_id": "cs408-os-synchronization-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          119,
+          122
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-135",
+      "module_id": "os",
+      "topic": "生产者消费者",
+      "point_id": "cs408-os-synchronization-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          122,
+          124
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-136",
+      "module_id": "os",
+      "topic": "读者写者",
+      "point_id": "cs408-os-synchronization-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          124,
+          126
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-137",
+      "module_id": "os",
+      "topic": "哲学家进餐",
+      "point_id": "cs408-os-synchronization-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          126,
+          128
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-138",
+      "module_id": "os",
+      "topic": "条件变量",
+      "point_id": "cs408-os-synchronization-07",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          128,
+          130
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-139",
+      "module_id": "os",
+      "topic": "死锁基本概念",
+      "point_id": "cs408-os-deadlocks-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          167,
+          169
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-140",
+      "module_id": "os",
+      "topic": "死锁预防",
+      "point_id": "cs408-os-deadlocks-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          169,
+          174
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-141",
+      "module_id": "os",
+      "topic": "死锁避免",
+      "point_id": "cs408-os-deadlocks-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          169,
+          174
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-142",
+      "module_id": "os",
+      "topic": "死锁检测",
+      "point_id": "cs408-os-deadlocks-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          174,
+          175
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-143",
+      "module_id": "os",
+      "topic": "死锁解除",
+      "point_id": "cs408-os-deadlocks-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          174,
+          175
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-144",
+      "module_id": "os",
+      "topic": "程序链接与装入",
+      "point_id": "cs408-os-memory-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          194,
+          198
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-145",
+      "module_id": "os",
+      "topic": "逻辑地址空间",
+      "point_id": "cs408-os-memory-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          194,
+          198
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-146",
+      "module_id": "os",
+      "topic": "物理地址空间",
+      "point_id": "cs408-os-memory-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          194,
+          198
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-147",
+      "module_id": "os",
+      "topic": "地址变换",
+      "point_id": "cs408-os-memory-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          194,
+          198
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-148",
+      "module_id": "os",
+      "topic": "内存分配与回收",
+      "point_id": "cs408-os-memory-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          198,
+          201
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-149",
+      "module_id": "os",
+      "topic": "连续分配管理",
+      "point_id": "cs408-os-memory-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          198,
+          201
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-150",
+      "module_id": "os",
+      "topic": "页式管理",
+      "point_id": "cs408-os-memory-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          201,
+          205
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-151",
+      "module_id": "os",
+      "topic": "段式管理",
+      "point_id": "cs408-os-memory-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          205,
+          209
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-152",
+      "module_id": "os",
+      "topic": "段页式管理",
+      "point_id": "cs408-os-memory-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          205,
+          209
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-153",
+      "module_id": "os",
+      "topic": "内存共享",
+      "point_id": "cs408-os-memory-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          194,
+          198
+        ],
+        [
+          201,
+          209
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-154",
+      "module_id": "os",
+      "topic": "内存保护",
+      "point_id": "cs408-os-memory-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          194,
+          198
+        ],
+        [
+          201,
+          209
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-155",
+      "module_id": "os",
+      "topic": "虚拟内存基本概念",
+      "point_id": "cs408-os-virtual-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          231,
+          234
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-156",
+      "module_id": "os",
+      "topic": "请求页式管理",
+      "point_id": "cs408-os-virtual-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          231,
+          234
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-157",
+      "module_id": "os",
+      "topic": "页置换算法",
+      "point_id": "cs408-os-virtual-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          236,
+          239
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-158",
+      "module_id": "os",
+      "topic": "页框分配",
+      "point_id": "cs408-os-virtual-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          234,
+          240
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-159",
+      "module_id": "os",
+      "topic": "虚拟存储器性能因素及改进",
+      "point_id": "cs408-os-virtual-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          242,
+          243
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-160",
+      "module_id": "os",
+      "topic": "页框回收",
+      "point_id": "cs408-os-virtual-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          240,
+          242
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-161",
+      "module_id": "os",
+      "topic": "内存映射文件",
+      "point_id": "cs408-os-virtual-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          240,
+          242
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-162",
+      "module_id": "os",
+      "topic": "文件基本概念",
+      "point_id": "cs408-os-files-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-163",
+      "module_id": "os",
+      "topic": "建立",
+      "point_id": "cs408-os-files-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-164",
+      "module_id": "os",
+      "topic": "删除",
+      "point_id": "cs408-os-files-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-165",
+      "module_id": "os",
+      "topic": "打开",
+      "point_id": "cs408-os-files-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-166",
+      "module_id": "os",
+      "topic": "关闭",
+      "point_id": "cs408-os-files-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-167",
+      "module_id": "os",
+      "topic": "读",
+      "point_id": "cs408-os-files-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-168",
+      "module_id": "os",
+      "topic": "写",
+      "point_id": "cs408-os-files-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-169",
+      "module_id": "os",
+      "topic": "文件逻辑结构",
+      "point_id": "cs408-os-files-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-170",
+      "module_id": "os",
+      "topic": "文件物理结构",
+      "point_id": "cs408-os-files-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          282,
+          287
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-171",
+      "module_id": "os",
+      "topic": "目录基本概念",
+      "point_id": "cs408-os-files-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          282
+        ],
+        [
+          289,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-172",
+      "module_id": "os",
+      "topic": "树形目录",
+      "point_id": "cs408-os-files-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          282
+        ],
+        [
+          289,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-173",
+      "module_id": "os",
+      "topic": "目录操作",
+      "point_id": "cs408-os-files-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          282
+        ],
+        [
+          289,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-174",
+      "module_id": "os",
+      "topic": "硬链接",
+      "point_id": "cs408-os-files-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          282
+        ],
+        [
+          289,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-175",
+      "module_id": "os",
+      "topic": "软链接",
+      "point_id": "cs408-os-files-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          282
+        ],
+        [
+          289,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-176",
+      "module_id": "os",
+      "topic": "文件元数据",
+      "point_id": "cs408-os-files-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          278
+        ],
+        [
+          287,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-177",
+      "module_id": "os",
+      "topic": "索引节点inode",
+      "point_id": "cs408-os-files-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          278
+        ],
+        [
+          287,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-178",
+      "module_id": "os",
+      "topic": "外存空闲空间管理",
+      "point_id": "cs408-os-files-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          317,
+          320
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-179",
+      "module_id": "os",
+      "topic": "文件保护",
+      "point_id": "cs408-os-files-07",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          290,
+          292
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-180",
+      "module_id": "os",
+      "topic": "外存文件系统布局",
+      "point_id": "cs408-os-files-08",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          316,
+          322
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-181",
+      "module_id": "os",
+      "topic": "内存文件系统结构",
+      "point_id": "cs408-os-files-08",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          316,
+          322
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-182",
+      "module_id": "os",
+      "topic": "虚拟文件系统",
+      "point_id": "cs408-os-files-08",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          316,
+          322
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-183",
+      "module_id": "os",
+      "topic": "文件系统挂载",
+      "point_id": "cs408-os-files-08",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          316,
+          322
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-184",
+      "module_id": "os",
+      "topic": "设备概念",
+      "point_id": "cs408-os-io-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-185",
+      "module_id": "os",
+      "topic": "设备分类",
+      "point_id": "cs408-os-io-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-186",
+      "module_id": "os",
+      "topic": "I/O接口",
+      "point_id": "cs408-os-io-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-187",
+      "module_id": "os",
+      "topic": "I/O软件层次",
+      "point_id": "cs408-os-io-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-188",
+      "module_id": "os",
+      "topic": "字符设备接口",
+      "point_id": "cs408-os-io-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-189",
+      "module_id": "os",
+      "topic": "块设备接口",
+      "point_id": "cs408-os-io-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-190",
+      "module_id": "os",
+      "topic": "网络设备接口",
+      "point_id": "cs408-os-io-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-191",
+      "module_id": "os",
+      "topic": "阻塞非阻塞I/O",
+      "point_id": "cs408-os-io-01",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-192",
+      "module_id": "os",
+      "topic": "轮询方式",
+      "point_id": "cs408-os-io-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          330,
+          332
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-193",
+      "module_id": "os",
+      "topic": "中断方式",
+      "point_id": "cs408-os-io-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          330,
+          332
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-194",
+      "module_id": "os",
+      "topic": "DMA方式",
+      "point_id": "cs408-os-io-02",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          330,
+          332
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-195",
+      "module_id": "os",
+      "topic": "缓冲区管理",
+      "point_id": "cs408-os-io-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          343,
+          347
+        ],
+        [
+          349,
+          350
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-196",
+      "module_id": "os",
+      "topic": "假脱机SPOOLing",
+      "point_id": "cs408-os-io-03",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          343,
+          347
+        ],
+        [
+          349,
+          350
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-197",
+      "module_id": "os",
+      "topic": "设备分配回收",
+      "point_id": "cs408-os-io-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          347,
+          352
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-198",
+      "module_id": "os",
+      "topic": "设备驱动程序接口",
+      "point_id": "cs408-os-io-04",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          347,
+          352
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-199",
+      "module_id": "os",
+      "topic": "磁盘结构",
+      "point_id": "cs408-os-io-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          363,
+          369
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-200",
+      "module_id": "os",
+      "topic": "磁盘调度算法",
+      "point_id": "cs408-os-io-05",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          363,
+          369
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-201",
+      "module_id": "os",
+      "topic": "磁盘格式化",
+      "point_id": "cs408-os-io-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          364,
+          365
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-202",
+      "module_id": "os",
+      "topic": "磁盘分区",
+      "point_id": "cs408-os-io-06",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          364,
+          365
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-203",
+      "module_id": "os",
+      "topic": "固态硬盘读写特性",
+      "point_id": "cs408-os-io-07",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          369,
+          370
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "os-204",
+      "module_id": "os",
+      "topic": "磨损均衡",
+      "point_id": "cs408-os-io-07",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          369,
+          370
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-205",
+      "module_id": "ds",
+      "topic": "数据结构基本概念",
+      "point_id": "cs408-ds-basics-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          14,
+          16
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-206",
+      "module_id": "ds",
+      "topic": "算法基本概念",
+      "point_id": "cs408-ds-basics-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          17,
+          19
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-207",
+      "module_id": "ds",
+      "topic": "时间复杂度",
+      "point_id": "cs408-ds-basics-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          18,
+          19
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-208",
+      "module_id": "ds",
+      "topic": "空间复杂度",
+      "point_id": "cs408-ds-basics-04",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          18,
+          19
+        ],
+        [
+          107,
+          108
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-209",
+      "module_id": "ds",
+      "topic": "线性表基本概念",
+      "point_id": "cs408-ds-linear-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          26,
+          31
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-210",
+      "module_id": "ds",
+      "topic": "顺序存储",
+      "point_id": "cs408-ds-linear-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          26,
+          31
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-211",
+      "module_id": "ds",
+      "topic": "链式存储（单链表）",
+      "point_id": "cs408-ds-linear-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          43,
+          49
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-212",
+      "module_id": "ds",
+      "topic": "链式存储（双链与循环）",
+      "point_id": "cs408-ds-linear-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          49,
+          51
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-213",
+      "module_id": "ds",
+      "topic": "链式存储（静态链表）",
+      "point_id": "cs408-ds-linear-05",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          51,
+          52
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-214",
+      "module_id": "ds",
+      "topic": "线性表应用",
+      "point_id": "cs408-ds-linear-06",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          29,
+          31
+        ],
+        [
+          44,
+          49
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-215",
+      "module_id": "ds",
+      "topic": "栈基本概念",
+      "point_id": "cs408-ds-stack-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          77,
+          81
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-216",
+      "module_id": "ds",
+      "topic": "栈顺序存储",
+      "point_id": "cs408-ds-stack-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          77,
+          81
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-217",
+      "module_id": "ds",
+      "topic": "栈链式存储",
+      "point_id": "cs408-ds-stack-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          77,
+          81
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-218",
+      "module_id": "ds",
+      "topic": "队列基本概念",
+      "point_id": "cs408-ds-stack-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          90,
+          93
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-219",
+      "module_id": "ds",
+      "topic": "队列顺序存储",
+      "point_id": "cs408-ds-stack-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          90,
+          93
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-220",
+      "module_id": "ds",
+      "topic": "队列链式存储",
+      "point_id": "cs408-ds-stack-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          93,
+          97
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-221",
+      "module_id": "ds",
+      "topic": "双端队列",
+      "point_id": "cs408-ds-stack-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          93,
+          97
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-222",
+      "module_id": "ds",
+      "topic": "队列应用",
+      "point_id": "cs408-ds-stack-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          93,
+          97
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-223",
+      "module_id": "ds",
+      "topic": "栈应用",
+      "point_id": "cs408-ds-stack-04",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          105,
+          108
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-224",
+      "module_id": "ds",
+      "topic": "多维数组存储",
+      "point_id": "cs408-ds-stack-05",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          115,
+          118
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-225",
+      "module_id": "ds",
+      "topic": "特殊矩阵压缩存储",
+      "point_id": "cs408-ds-stack-05",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          115,
+          118
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-226",
+      "module_id": "ds",
+      "topic": "数组应用",
+      "point_id": "cs408-ds-stack-05",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          115,
+          118
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-227",
+      "module_id": "ds",
+      "topic": "字符串朴素模式匹配",
+      "point_id": "cs408-ds-strings-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          127,
+          128
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-228",
+      "module_id": "ds",
+      "topic": "字符串KMP模式匹配",
+      "point_id": "cs408-ds-strings-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          128,
+          134
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-229",
+      "module_id": "ds",
+      "topic": "树基本概念",
+      "point_id": "cs408-ds-trees-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          140,
+          143
+        ],
+        [
+          185,
+          190
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-230",
+      "module_id": "ds",
+      "topic": "树性质",
+      "point_id": "cs408-ds-trees-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          140,
+          143
+        ],
+        [
+          185,
+          190
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-231",
+      "module_id": "ds",
+      "topic": "森林",
+      "point_id": "cs408-ds-trees-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          140,
+          143
+        ],
+        [
+          185,
+          190
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-232",
+      "module_id": "ds",
+      "topic": "树存储结构",
+      "point_id": "cs408-ds-trees-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          140,
+          143
+        ],
+        [
+          185,
+          190
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-233",
+      "module_id": "ds",
+      "topic": "树森林与二叉树转换",
+      "point_id": "cs408-ds-trees-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          140,
+          143
+        ],
+        [
+          185,
+          190
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-234",
+      "module_id": "ds",
+      "topic": "树森林遍历",
+      "point_id": "cs408-ds-trees-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          140,
+          143
+        ],
+        [
+          185,
+          190
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-235",
+      "module_id": "ds",
+      "topic": "二叉树定义",
+      "point_id": "cs408-ds-trees-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          145,
+          148
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-236",
+      "module_id": "ds",
+      "topic": "二叉树主要特征",
+      "point_id": "cs408-ds-trees-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          145,
+          148
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-237",
+      "module_id": "ds",
+      "topic": "二叉树顺序存储",
+      "point_id": "cs408-ds-trees-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          147,
+          149
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-238",
+      "module_id": "ds",
+      "topic": "二叉树链式存储",
+      "point_id": "cs408-ds-trees-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          147,
+          149
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-239",
+      "module_id": "ds",
+      "topic": "二叉树遍历",
+      "point_id": "cs408-ds-trees-04",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          157,
+          160
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-240",
+      "module_id": "ds",
+      "topic": "线索二叉树基本概念与构造",
+      "point_id": "cs408-ds-trees-05",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          158,
+          163
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-241",
+      "module_id": "ds",
+      "topic": "哈夫曼树",
+      "point_id": "cs408-ds-trees-06",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          198,
+          201
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-242",
+      "module_id": "ds",
+      "topic": "哈夫曼编码",
+      "point_id": "cs408-ds-trees-06",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          198,
+          201
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-243",
+      "module_id": "ds",
+      "topic": "并查集及应用",
+      "point_id": "cs408-ds-trees-07",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          201,
+          203
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-244",
+      "module_id": "ds",
+      "topic": "堆及应用",
+      "point_id": "cs408-ds-trees-08",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          373,
+          376
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-245",
+      "module_id": "ds",
+      "topic": "图基本概念",
+      "point_id": "cs408-ds-graphs-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          212,
+          215
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-246",
+      "module_id": "ds",
+      "topic": "邻接矩阵",
+      "point_id": "cs408-ds-graphs-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          220,
+          223
+        ],
+        [
+          225,
+          226
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-247",
+      "module_id": "ds",
+      "topic": "邻接表",
+      "point_id": "cs408-ds-graphs-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          220,
+          223
+        ],
+        [
+          225,
+          226
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-248",
+      "module_id": "ds",
+      "topic": "图基本操作",
+      "point_id": "cs408-ds-graphs-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          220,
+          223
+        ],
+        [
+          225,
+          226
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-249",
+      "module_id": "ds",
+      "topic": "邻接多重表",
+      "point_id": "cs408-ds-graphs-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          223,
+          225
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-250",
+      "module_id": "ds",
+      "topic": "十字链表",
+      "point_id": "cs408-ds-graphs-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          223,
+          225
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-251",
+      "module_id": "ds",
+      "topic": "广度优先搜索",
+      "point_id": "cs408-ds-graphs-04",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          233,
+          236
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-252",
+      "module_id": "ds",
+      "topic": "深度优先搜索",
+      "point_id": "cs408-ds-graphs-05",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          236,
+          238
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-253",
+      "module_id": "ds",
+      "topic": "最小代价生成树",
+      "point_id": "cs408-ds-graphs-06",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          245,
+          247
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-254",
+      "module_id": "ds",
+      "topic": "单源最短路径",
+      "point_id": "cs408-ds-graphs-07",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          247,
+          250
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-255",
+      "module_id": "ds",
+      "topic": "全源最短路径",
+      "point_id": "cs408-ds-graphs-08",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          250,
+          252
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-256",
+      "module_id": "ds",
+      "topic": "拓扑排序",
+      "point_id": "cs408-ds-graphs-09",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          252,
+          254
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-257",
+      "module_id": "ds",
+      "topic": "关键路径",
+      "point_id": "cs408-ds-graphs-10",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          254,
+          257
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-258",
+      "module_id": "ds",
+      "topic": "顺序查找",
+      "point_id": "cs408-ds-search-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          285,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-259",
+      "module_id": "ds",
+      "topic": "分块查找",
+      "point_id": "cs408-ds-search-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          285,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-260",
+      "module_id": "ds",
+      "topic": "折半查找",
+      "point_id": "cs408-ds-search-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          285,
+          290
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-261",
+      "module_id": "ds",
+      "topic": "查找基本概念",
+      "point_id": "cs408-ds-search-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          285,
+          289
+        ],
+        [
+          342,
+          343
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-262",
+      "module_id": "ds",
+      "topic": "查找算法分析与应用",
+      "point_id": "cs408-ds-search-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          285,
+          289
+        ],
+        [
+          342,
+          343
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-263",
+      "module_id": "ds",
+      "topic": "二叉搜索树",
+      "point_id": "cs408-ds-search-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          299,
+          303
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-264",
+      "module_id": "ds",
+      "topic": "平衡二叉树",
+      "point_id": "cs408-ds-search-04",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          303,
+          307
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-265",
+      "module_id": "ds",
+      "topic": "红黑树",
+      "point_id": "cs408-ds-search-05",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          307,
+          313
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-266",
+      "module_id": "ds",
+      "topic": "B树基本操作",
+      "point_id": "cs408-ds-search-06",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          326,
+          331
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-267",
+      "module_id": "ds",
+      "topic": "B+树基本概念",
+      "point_id": "cs408-ds-search-06",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          326,
+          331
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-268",
+      "module_id": "ds",
+      "topic": "散列表",
+      "point_id": "cs408-ds-search-07",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          339,
+          343
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-269",
+      "module_id": "ds",
+      "topic": "排序基本概念",
+      "point_id": "cs408-ds-sort-01",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          353,
+          354
+        ],
+        [
+          395,
+          396
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-270",
+      "module_id": "ds",
+      "topic": "直接插入排序",
+      "point_id": "cs408-ds-sort-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          355,
+          357
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-271",
+      "module_id": "ds",
+      "topic": "折半插入排序",
+      "point_id": "cs408-ds-sort-02",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          355,
+          357
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-272",
+      "module_id": "ds",
+      "topic": "希尔排序",
+      "point_id": "cs408-ds-sort-03",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          357,
+          358
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-273",
+      "module_id": "ds",
+      "topic": "冒泡排序",
+      "point_id": "cs408-ds-sort-04",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          362,
+          363
+        ],
+        [
+          373,
+          374
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-274",
+      "module_id": "ds",
+      "topic": "简单选择排序",
+      "point_id": "cs408-ds-sort-04",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          362,
+          363
+        ],
+        [
+          373,
+          374
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-275",
+      "module_id": "ds",
+      "topic": "快速排序",
+      "point_id": "cs408-ds-sort-05",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          363,
+          366
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-276",
+      "module_id": "ds",
+      "topic": "堆排序",
+      "point_id": "cs408-ds-sort-06",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          373,
+          376
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-277",
+      "module_id": "ds",
+      "topic": "二路归并排序",
+      "point_id": "cs408-ds-sort-07",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          385,
+          387
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-278",
+      "module_id": "ds",
+      "topic": "基数排序",
+      "point_id": "cs408-ds-sort-08",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          387,
+          389
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-279",
+      "module_id": "ds",
+      "topic": "外部排序",
+      "point_id": "cs408-ds-sort-09",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          402,
+          407
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    },
+    {
+      "id": "ds-280",
+      "module_id": "ds",
+      "topic": "排序算法分析与应用",
+      "point_id": "cs408-ds-sort-10",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          395,
+          397
+        ]
+      ],
+      "status": "mapped_with_textbook_explanation"
+    }
+  ],
+  "unmapped_items": [],
+  "audit_note": "细项由本地教材章首考纲人工拆分并映射；自动检查每条有课时、讲解、原书页段。该检查不等价于独立官方年度逐字比对。",
+  "supplementary_lessons": [
+    "cs408-co-representation-03",
+    "cs408-co-representation-04",
+    "cs408-co-representation-07",
+    "cs408-co-arithmetic-01",
+    "cs408-co-arithmetic-04",
+    "cs408-co-isa-03",
+    "cs408-co-pipeline-03",
+    "cs408-os-memory-04",
+    "cs408-os-virtual-03",
+    "cs408-os-files-03",
+    "cs408-ds-linear-04",
+    "cs408-ds-stack-06",
+    "cs408-ds-strings-01"
+  ]
+}

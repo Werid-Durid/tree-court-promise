@@ -1,0 +1,1 @@
+body{margin:0;background:#e4eadd;color:#243c32;font:16px system-ui}header{padding:18px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}button,a{padding:9px 16px;border:1px solid #7f9c89;border-radius:8px;background:#faf7ec;color:inherit}#stage{height:75vh;position:relative}canvas{width:100%;height:100%;display:block}p{margin:10px 20px}

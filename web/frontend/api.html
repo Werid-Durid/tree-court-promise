@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>树庭学习 API</title><link rel="stylesheet" href="/static/styles.css"></head><body><main><a href="/">← 返回树庭</a><p class="eyebrow">LOCAL API · VERSION 0.1</p><h1>树庭学习 API</h1><p>无需联网加载文档资源。完整结构见 <a href="/openapi.json">OpenAPI JSON ↗</a>。</p><p>用户接口需要请求头 <code>Authorization: Bearer &lt;UUID 档案标识&gt;</code>。标识由网站首次启动时创建，保存在浏览器档案中。</p><div class="note-card"><p><code>GET /api/health</code> 服务与舞台状态</p><p><code>GET /api/catalog</code> 课程、角色与策略配置</p><p><code>GET /api/user</code> 当前档案事件与汇总状态</p><p><code>POST /api/events</code> 批量追加学习事件，事件 ID 去重</p><p><code>GET /api/stats</code> 时长、待巩固词和自习统计</p><p><code>GET /api/recommendations</code> 基线推荐占位</p><p><code>POST /api/materials</code> multipart 文件上传，字段名 file</p><p><code>GET /api/materials</code> 当前档案资料队列</p><p><code>GET /api/materials/{id}/text</code> 当前档案提取文本</p><p><code>POST /api/stage/events</code> 舞台占位回执，executed 始终为 false</p></div><h2>追加学习事件示例</h2><pre class="text-preview">{
+  "events": [{
+    "event_id": "a766d4a6-31f2-4c46-aaf5-4bc3dba2dc07",
+    "at": "2026-10-19T10:00:00+08:00",
+    "type": "attempt",
+    "payload": {
+      "point_id": "cet4-01-01",
+      "clue_id": "clue-0",
+      "response_ms": 6000,
+      "study_ms": 6000
+    }
+  }]
+}</pre><p>后台重新计算好感和完成度，不接受直接提交分数。返回 accepted、rejected、events 和 state。拒绝事件不影响同批其他有效事件。</p></main></body></html>

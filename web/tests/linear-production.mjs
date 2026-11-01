@@ -1,0 +1,10 @@
+// 正式站点只读检查入口、目录、智库和首课语音；不提交学习事件。
+import {createRequire} from 'node:module';import {join,resolve} from 'node:path';import {writeFile} from 'node:fs/promises';import {createHash} from 'node:crypto';import assert from 'node:assert/strict';
+const require=createRequire(join(process.env.USERPROFILE,'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json')),{chromium}=require('playwright');const browser=await chromium.launch({channel:'msedge',headless:true}),page=await browser.newPage({viewport:{width:1440,height:1000}}),base='http://127.0.0.1:8765',out=resolve('web/.runtime/linear-browser');
+try{
+ await page.route('**/api/**',r=>r.request().method()==='GET'?r.continue():r.fulfill({status:503,json:{detail:'正式站点只读验收'}}));const {catalog}=await(await page.request.get(base+'/api/catalog')).json();assert.equal(catalog.points.filter(p=>p.subject==='linear').length,30);await page.goto(base+'/#home');await page.locator('[data-subject="linear"]').click();assert.equal(await page.locator('.course-card').count(),6);await page.screenshot({path:join(out,'production-menu.png')});await page.locator('#modal-close').click();
+ await page.goto(base+'/#library');await page.locator('#hub-subject').selectOption('linear');assert.equal(await page.locator('.hub-book').count(),6);
+ const p=catalog.points.find(p=>p.id==='linear-det2'),lines=p.course.stages.map(s=>[s.speaker,s.dialogue]).concat(Object.entries(p.course.dialogue).filter(([id])=>id!=='anaxa'));const voices=[];
+ for(const [character,text]of lines){const hash=createHash('sha256').update(text).digest('hex'),r=await(await page.request.get(`${base}/api/voice/resolve?character=${character}&text_sha256=${hash}`)).json();assert.equal(r.ready,true);assert.equal(r.clip.character,character);assert.equal((await page.request.get(base+r.clip.url)).status(),200);voices.push({character,clip:r.clip.id});}
+ await writeFile(join(out,'production.json'),JSON.stringify({passed:true,chapters:6,lessons:30,first_lesson_voices:voices,read_only:true},null,2));console.log(JSON.stringify({passed:true,chapters:6,lessons:30,voices:voices.length}));
+}finally{await browser.close();}

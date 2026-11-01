@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "affection": {
+    "test_points_per_chapter": 10,
+    "test_cap": 60,
+    "practice_per_point_per_day": 3,
+    "practice_min_response_ms": 1500,
+    "attempts_per_point": 5,
+    "practice_cap": 20,
+    "minutes_per_point": 15,
+    "time_cap": 20,
+    "daily_credited_seconds": 21600
+  },
+  "affection_max": 100,
+  "academic_thresholds": [
+    30,
+    60,
+    85
+  ],
+  "romance_threshold": 85,
+  "romance_requires_chapter": true,
+  "review_intervals_days": [
+    1,
+    3,
+    7,
+    14
+  ],
+  "high_error_rate": 0.5,
+  "stable_min_attempts": 3,
+  "stable_accuracy": 0.85,
+  "default_daily_points": 12,
+  "max_upload_bytes": 10485760
+}

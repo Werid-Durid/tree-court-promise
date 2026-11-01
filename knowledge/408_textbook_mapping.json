@@ -1,0 +1,2975 @@
+{
+  "version": 1,
+  "books": [
+    {
+      "id": "wangdao2027-co",
+      "module_id": "co",
+      "title": "2027 王道《计算机组成原理》",
+      "file": "408教材/27王道《计算机组成原理》高清带书签.pdf",
+      "sha256": "768ae1b0f79314eab4f1710f5e563a4cc479551a7641cb31aace81af1517fd2f",
+      "pages": 351,
+      "outline_pages": [
+        14,
+        33,
+        91,
+        165,
+        213,
+        295,
+        313
+      ],
+      "method": "正文文本分节定位，章首考纲映射，选定原页图像核对；讲解重新编写，不直接发布OCR数学公式。原书未改动。",
+      "official_full_text_verified": false
+    },
+    {
+      "id": "wangdao2027-os",
+      "module_id": "os",
+      "title": "2027 王道《操作系统》",
+      "file": "408教材/27王道《操作系统》高清带书签.pdf",
+      "sha256": "1f67869c95a9ab5da63fc6edc0ff68cffadd1e3f13d2a78c0b8f31ab5fd031c1",
+      "pages": 384,
+      "outline_pages": [
+        14,
+        50,
+        194,
+        271,
+        327
+      ],
+      "method": "正文文本分节定位，章首考纲映射，选定原页图像核对；讲解重新编写，不直接发布OCR数学公式。原书未改动。",
+      "official_full_text_verified": false
+    },
+    {
+      "id": "wangdao2027-ds",
+      "module_id": "ds",
+      "title": "2027 王道《数据结构》",
+      "file": "408教材/27王道《数据结构》高清带书签.pdf",
+      "sha256": "72432ad25d304774cad979c2a83fb7a2536f377afa5f38cddec4a2d8152addcf",
+      "pages": 415,
+      "outline_pages": [
+        14,
+        26,
+        77,
+        124,
+        140,
+        212,
+        285,
+        353
+      ],
+      "method": "正文文本分节定位，章首考纲映射，选定原页图像核对；讲解重新编写，不直接发布OCR数学公式。原书未改动。",
+      "official_full_text_verified": false
+    }
+  ],
+  "lessons": [
+    {
+      "point_id": "cs408-co-overview-01",
+      "module_id": "co",
+      "concept": "存储程序与系统层次",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          15,
+          20
+        ]
+      ],
+      "sections": "1.2.1–1.2.6",
+      "syllabus_items": [
+        "计算机系统基本组成",
+        "存储程序方式",
+        "计算机系统层次"
+      ],
+      "source_text_sha256": "c3a5d2625ba30ef18abb182e941ec84302fe71871375fd03090ab0c70f934236"
+    },
+    {
+      "point_id": "cs408-co-overview-02",
+      "module_id": "co",
+      "concept": "硬件组成与指令执行",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          16,
+          20
+        ]
+      ],
+      "sections": "1.2.2、1.2.6",
+      "syllabus_items": [
+        "计算机硬件基本组成",
+        "程序与指令执行过程"
+      ],
+      "source_text_sha256": "7f9dc6186a42531f7d61731c3a16cd9d00dba163cc182d9432fbc5d339bb0c13"
+    },
+    {
+      "point_id": "cs408-co-overview-03",
+      "module_id": "co",
+      "concept": "软件、机器级接口与语言转换",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          17,
+          20
+        ]
+      ],
+      "sections": "1.2.3–1.2.6",
+      "syllabus_items": [
+        "软件与硬件的关系",
+        "高级语言与机器语言转换",
+        "编译器、汇编器与链接器"
+      ],
+      "source_text_sha256": "4a0f93bb3ebe60b416f32da67bb9a973daf3d7d60f17dfd170b488ed8a4eec05"
+    },
+    {
+      "point_id": "cs408-co-overview-04",
+      "module_id": "co",
+      "concept": "时钟、CPI 与 CPU 时间",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          24,
+          26
+        ]
+      ],
+      "sections": "1.3.1",
+      "syllabus_items": [
+        "吞吐量与响应时间",
+        "CPU时钟周期与主频",
+        "CPI与CPU执行时间"
+      ],
+      "source_text_sha256": "d617e5b3e9c7076cc021c5812ca9636c5289736bfd9ecf86020be2422d8a9e07"
+    },
+    {
+      "point_id": "cs408-co-overview-05",
+      "module_id": "co",
+      "concept": "性能比较与加速比",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          24,
+          26
+        ]
+      ],
+      "sections": "1.3.1",
+      "syllabus_items": [
+        "MIPS",
+        "MFLOPS至ZFLOPS性能单位"
+      ],
+      "source_text_sha256": "d617e5b3e9c7076cc021c5812ca9636c5289736bfd9ecf86020be2422d8a9e07"
+    },
+    {
+      "point_id": "cs408-co-representation-01",
+      "module_id": "co",
+      "concept": "进位计数制与转换",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          33,
+          35
+        ]
+      ],
+      "sections": "2.1.1",
+      "syllabus_items": [
+        "进位计数制及相互转换"
+      ],
+      "source_text_sha256": "cd587773943d6125a74cb212381f756d6c0b3cfe7e0498491e433186bfe2fc5c"
+    },
+    {
+      "point_id": "cs408-co-representation-02",
+      "module_id": "co",
+      "concept": "定点原码、反码与补码",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          35,
+          38
+        ]
+      ],
+      "sections": "2.1.2–2.1.3",
+      "syllabus_items": [
+        "定点数编码",
+        "无符号整数表示",
+        "有符号整数表示"
+      ],
+      "source_text_sha256": "ed18daca25096c44c05387202f9f784db8b153d0c36cc3765a8634f19fd36977"
+    },
+    {
+      "point_id": "cs408-co-representation-03",
+      "module_id": "co",
+      "concept": "符号扩展、零扩展与截断",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          38,
+          40
+        ]
+      ],
+      "sections": "2.1.4",
+      "syllabus_items": [],
+      "source_text_sha256": "f8de742073c317cf640c8d48b4463149b01b56cdbd1f75542c0f5369d355c237"
+    },
+    {
+      "point_id": "cs408-co-representation-04",
+      "module_id": "co",
+      "concept": "移码与阶码",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          35,
+          38
+        ],
+        [
+          67,
+          70
+        ]
+      ],
+      "sections": "2.1.2、2.3.1",
+      "syllabus_items": [],
+      "source_text_sha256": "1c39fead46e1bdc69cb5a37e88d0e2906677a35bb07359d1fcd425cf726a3330"
+    },
+    {
+      "point_id": "cs408-co-representation-05",
+      "module_id": "co",
+      "concept": "IEEE 754 与特殊值",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          68,
+          70
+        ]
+      ],
+      "sections": "2.3.1",
+      "syllabus_items": [
+        "IEEE754标准"
+      ],
+      "source_text_sha256": "3ef247bc7c8935f7b5a3de6c35888adf429a11bd5fdfd357195d0b003bd11a0b"
+    },
+    {
+      "point_id": "cs408-co-representation-06",
+      "module_id": "co",
+      "concept": "大小端与数据对齐",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          73,
+          75
+        ]
+      ],
+      "sections": "2.3.4",
+      "syllabus_items": [
+        "数据对齐",
+        "大端小端存放"
+      ],
+      "source_text_sha256": "cbd90101fc22f9ef541f630340ff50bad22663cd90b1c6b04baaf9b6274b4e35"
+    },
+    {
+      "point_id": "cs408-co-representation-07",
+      "module_id": "co",
+      "concept": "C 类型转换与数据解释",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          38,
+          40
+        ],
+        [
+          72,
+          75
+        ]
+      ],
+      "sections": "2.1.4、2.3.3",
+      "syllabus_items": [],
+      "source_text_sha256": "3cccfe6c58f25665bcc594e97101f16021ec1eeee47dcf3a242c845e37c7ced9"
+    },
+    {
+      "point_id": "cs408-co-arithmetic-01",
+      "module_id": "co",
+      "concept": "逻辑运算与门电路",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          45,
+          47
+        ]
+      ],
+      "sections": "2.2.1",
+      "syllabus_items": [],
+      "source_text_sha256": "7a11c0fa845d397c0355644d8411214fdd722ad148f2fbe734910d74d6f5207d"
+    },
+    {
+      "point_id": "cs408-co-arithmetic-02",
+      "module_id": "co",
+      "concept": "半加器、全加器与进位链",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          45,
+          48
+        ]
+      ],
+      "sections": "2.2.1",
+      "syllabus_items": [
+        "加法器"
+      ],
+      "source_text_sha256": "492b3e5ecd5b89b1f68e55470e7c9571238a95efc17a44dd31827a8ffce53ab3"
+    },
+    {
+      "point_id": "cs408-co-arithmetic-03",
+      "module_id": "co",
+      "concept": "补码加减与溢出",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          48,
+          52
+        ]
+      ],
+      "sections": "2.2.3",
+      "syllabus_items": [
+        "补码加减运算器",
+        "标志位生成",
+        "整数加减运算"
+      ],
+      "source_text_sha256": "36085a2f3092bd68d8304f20299b2edf77e1c66154bcc1ed752ea5e315459803"
+    },
+    {
+      "point_id": "cs408-co-arithmetic-04",
+      "module_id": "co",
+      "concept": "算术移位与逻辑移位",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          48,
+          49
+        ]
+      ],
+      "sections": "2.2.2",
+      "syllabus_items": [],
+      "source_text_sha256": "9fa8bdc0b64915625e16022fb77630a8f7beb77f2ebfff0027dda6cd16a75c99"
+    },
+    {
+      "point_id": "cs408-co-arithmetic-05",
+      "module_id": "co",
+      "concept": "乘法、Booth 与扩展积",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          52,
+          56
+        ]
+      ],
+      "sections": "2.2.4",
+      "syllabus_items": [
+        "乘法基本原理",
+        "乘法电路基本结构"
+      ],
+      "source_text_sha256": "bd8d854ffd4c897c9f4b17bae0f49955a382f8c32730e1a375739cb96d70d22f"
+    },
+    {
+      "point_id": "cs408-co-arithmetic-06",
+      "module_id": "co",
+      "concept": "除法与商余数",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          54,
+          57
+        ]
+      ],
+      "sections": "2.2.4",
+      "syllabus_items": [
+        "除法基本原理",
+        "除法电路基本结构"
+      ],
+      "source_text_sha256": "380599a83b6e04af8a4020f320bbbb271d2426d8b02c8d407f8878a2cff1caf0"
+    },
+    {
+      "point_id": "cs408-co-arithmetic-07",
+      "module_id": "co",
+      "concept": "浮点加减与精度损失",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          70,
+          73
+        ]
+      ],
+      "sections": "2.3.2–2.3.3",
+      "syllabus_items": [
+        "浮点数加减运算"
+      ],
+      "source_text_sha256": "b17fd4577bb6ec04e5fa5e08643d14ae15ffea20b88e4c3c91543ca4ada89acc"
+    },
+    {
+      "point_id": "cs408-co-arithmetic-08",
+      "module_id": "co",
+      "concept": "ALU、标志位与运算器",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          45,
+          48
+        ],
+        [
+          49,
+          52
+        ]
+      ],
+      "sections": "2.2.1、2.2.3",
+      "syllabus_items": [
+        "算术逻辑单元ALU"
+      ],
+      "source_text_sha256": "5e4dd65a737fd10855d2b3999c86bccf8e4a4ce7300c5aaf357f3b5982fae2bd"
+    },
+    {
+      "point_id": "cs408-co-memory-01",
+      "module_id": "co",
+      "concept": "存储层次与局部性",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          91,
+          95
+        ],
+        [
+          124,
+          126
+        ]
+      ],
+      "sections": "3.1.1–3.1.4、3.5.1",
+      "syllabus_items": [
+        "存储器分类",
+        "层次化存储器基本结构"
+      ],
+      "source_text_sha256": "0cea1b6609ab6e9372ab6a6aaf9597b3d50d24de23da9e617e0cfcd3dbc7c9fe"
+    },
+    {
+      "point_id": "cs408-co-memory-02",
+      "module_id": "co",
+      "concept": "SRAM、DRAM 与 ROM",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          97,
+          102
+        ]
+      ],
+      "sections": "3.2.1–3.2.3",
+      "syllabus_items": [
+        "SRAM",
+        "DRAM",
+        "Flash",
+        "DRAM芯片与内存条"
+      ],
+      "source_text_sha256": "2cb69a29f6d38f60a7b0be32535270241e1022b1a199f7ac1677b3ad141e5efb"
+    },
+    {
+      "point_id": "cs408-co-memory-03",
+      "module_id": "co",
+      "concept": "主存编址、芯片与容量扩展",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          112,
+          114
+        ]
+      ],
+      "sections": "3.3.1–3.3.2",
+      "syllabus_items": [
+        "主存与CPU连接"
+      ],
+      "source_text_sha256": "456db57c993c1bd5ea98d210b6e5c6bfd969115ea03e5a8d7f8a4c6339ec0ca5"
+    },
+    {
+      "point_id": "cs408-co-memory-04",
+      "module_id": "co",
+      "concept": "多模块与交叉编址",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          100,
+          102
+        ]
+      ],
+      "sections": "3.2.3",
+      "syllabus_items": [
+        "多模块存储器"
+      ],
+      "source_text_sha256": "851b73911ce2a4a2594ca2ff128727182864ebdcf9a60ec77dba989d8332ef8f"
+    },
+    {
+      "point_id": "cs408-co-memory-05",
+      "module_id": "co",
+      "concept": "Cache 映射与地址分解",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          127,
+          130
+        ]
+      ],
+      "sections": "3.5.3",
+      "syllabus_items": [
+        "Cache映射方式"
+      ],
+      "source_text_sha256": "31ee49c17bff965b0869c539f152e4636d41e241d3eba3ef789b74e4b3446dec"
+    },
+    {
+      "point_id": "cs408-co-memory-06",
+      "module_id": "co",
+      "concept": "Cache 替换与写策略",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          130,
+          132
+        ]
+      ],
+      "sections": "3.5.4–3.5.6",
+      "syllabus_items": [
+        "Cache替换算法",
+        "Cache写策略"
+      ],
+      "source_text_sha256": "4bbff457e36f8a25ffb20dd22616f09c5b3c3a155a230033a66ad44dc8428606"
+    },
+    {
+      "point_id": "cs408-co-memory-07",
+      "module_id": "co",
+      "concept": "命中率与平均访存时间",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          124,
+          127
+        ]
+      ],
+      "sections": "3.5.1–3.5.2",
+      "syllabus_items": [
+        "Cache基本原理"
+      ],
+      "source_text_sha256": "b46fc4a5197c1137a2f02b2cb0680088c2c578c08cc70247b636398435819cca"
+    },
+    {
+      "point_id": "cs408-co-memory-08",
+      "module_id": "co",
+      "concept": "页表、TLB 与虚拟地址",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          146,
+          151
+        ]
+      ],
+      "sections": "3.6.1–3.6.5",
+      "syllabus_items": [
+        "虚拟存储器基本概念",
+        "页式虚存原理",
+        "页表与地址转换",
+        "TLB",
+        "段式虚存",
+        "段页式虚存"
+      ],
+      "source_text_sha256": "ee8bf7b9d8df0fa2d980acc6532757a3ce2d8a3aef0d58b23fe647f1a67cd2c4"
+    },
+    {
+      "point_id": "cs408-co-memory-09",
+      "module_id": "co",
+      "concept": "Cache、主存与虚存综合",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          117,
+          120
+        ],
+        [
+          146,
+          151
+        ]
+      ],
+      "sections": "3.4.1–3.4.2、3.6.5",
+      "syllabus_items": [
+        "磁盘存储器",
+        "固态硬盘SSD"
+      ],
+      "source_text_sha256": "9faa5c0ae543657cb8fa6442d65d75eba7f908bfb01ef6598d01ec726bc191a9"
+    },
+    {
+      "point_id": "cs408-co-isa-01",
+      "module_id": "co",
+      "concept": "指令格式与扩展操作码",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          165,
+          168
+        ]
+      ],
+      "sections": "4.1.1–4.1.5",
+      "syllabus_items": [
+        "指令格式基本概念",
+        "指令格式"
+      ],
+      "source_text_sha256": "2e53acf92164c91f9665f38f7efa0d39fcb91655c9cf22bd15beb9fabc329caa"
+    },
+    {
+      "point_id": "cs408-co-isa-02",
+      "module_id": "co",
+      "concept": "寻址方式与有效地址",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          173,
+          177
+        ]
+      ],
+      "sections": "4.2.1–4.2.2",
+      "syllabus_items": [
+        "寻址方式"
+      ],
+      "source_text_sha256": "273c2e673a4dba714384f70567b4a5d65690d018b3daec91d86857471c06f5d3"
+    },
+    {
+      "point_id": "cs408-co-isa-03",
+      "module_id": "co",
+      "concept": "相对寻址与分支位移",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          174,
+          177
+        ],
+        [
+          194,
+          197
+        ]
+      ],
+      "sections": "4.2.2、4.3.2–4.3.3",
+      "syllabus_items": [],
+      "source_text_sha256": "4c629c60944ee9864b4e7f7d8e7871a8f6724b5ba423983d941a0fe2deaf7274"
+    },
+    {
+      "point_id": "cs408-co-isa-04",
+      "module_id": "co",
+      "concept": "RISC、CISC 与 ISA",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          165,
+          166
+        ],
+        [
+          208,
+          210
+        ]
+      ],
+      "sections": "4.1.1、4.4.1–4.4.3",
+      "syllabus_items": [
+        "CISC与RISC基本概念"
+      ],
+      "source_text_sha256": "413fcc56e7159deb34268270c78556c901d18d50969ffcad1ff8931afd2e86e4"
+    },
+    {
+      "point_id": "cs408-co-isa-05",
+      "module_id": "co",
+      "concept": "C 表达式、数组与控制流",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          189,
+          197
+        ]
+      ],
+      "sections": "4.3.1–4.3.3",
+      "syllabus_items": [
+        "选择结构机器级表示",
+        "循环结构机器级表示"
+      ],
+      "source_text_sha256": "50d9da3c65d15877ff6b5e48b35837541b7c990915133dab929c44959c255c6f"
+    },
+    {
+      "point_id": "cs408-co-isa-06",
+      "module_id": "co",
+      "concept": "过程调用与栈帧",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          197,
+          199
+        ]
+      ],
+      "sections": "4.3.4",
+      "syllabus_items": [
+        "过程函数调用机器级表示"
+      ],
+      "source_text_sha256": "de3348d60a3af244c34810fdac6efb743f877712f95e999c6368a602b6f7d608"
+    },
+    {
+      "point_id": "cs408-co-cpu-01",
+      "module_id": "co",
+      "concept": "CPU 寄存器与数据通路",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          213,
+          215
+        ]
+      ],
+      "sections": "5.1.1–5.1.3",
+      "syllabus_items": [
+        "CPU功能与基本结构"
+      ],
+      "source_text_sha256": "5894990f29ad007b110be6eabba89e10180fdf16bfe1283d68234d47c322d4a3"
+    },
+    {
+      "point_id": "cs408-co-cpu-02",
+      "module_id": "co",
+      "concept": "取指与指令周期",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          220,
+          223
+        ]
+      ],
+      "sections": "5.2.1–5.2.4",
+      "syllabus_items": [
+        "指令执行过程"
+      ],
+      "source_text_sha256": "e22c627d546856c9a18e053fd39d561e7f4f50be73bb240368c50fd680fe1d77"
+    },
+    {
+      "point_id": "cs408-co-cpu-03",
+      "module_id": "co",
+      "concept": "单总线与多总线数据通路",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          225,
+          232
+        ]
+      ],
+      "sections": "5.3.1–5.3.4",
+      "syllabus_items": [
+        "数据通路功能与基本结构"
+      ],
+      "source_text_sha256": "98c6b7cda126534728ea78ddda601db33a05a0398c7d6e0321a31e9a855c9f0d"
+    },
+    {
+      "point_id": "cs408-co-cpu-04",
+      "module_id": "co",
+      "concept": "硬布线控制器",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          247,
+          249
+        ]
+      ],
+      "sections": "5.4.1–5.4.2",
+      "syllabus_items": [
+        "控制器功能与工作原理（硬布线）"
+      ],
+      "source_text_sha256": "a5caf9126b697b003a5a8886a05e7f62a9141b9e5a0397754bee2d5b0443eae0"
+    },
+    {
+      "point_id": "cs408-co-cpu-05",
+      "module_id": "co",
+      "concept": "微程序控制器",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          248,
+          254
+        ]
+      ],
+      "sections": "5.4.3",
+      "syllabus_items": [
+        "控制器工作原理（微程序）"
+      ],
+      "source_text_sha256": "f4f6602f519554b107bb9231ded82d9287aab962aeea279e2355af6cf9d6636b"
+    },
+    {
+      "point_id": "cs408-co-cpu-06",
+      "module_id": "co",
+      "concept": "异常、中断与返回",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          262,
+          264
+        ]
+      ],
+      "sections": "5.5.1–5.5.3",
+      "syllabus_items": [
+        "异常与中断概念",
+        "异常与中断分类",
+        "异常中断检测与响应"
+      ],
+      "source_text_sha256": "ef1ecb4a46426aad6b7f2731693f1145d40cb11a9e3f9bb43499bd2a738c1c56"
+    },
+    {
+      "point_id": "cs408-co-pipeline-01",
+      "module_id": "co",
+      "concept": "流水线时空图与吞吐量",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          267,
+          271
+        ]
+      ],
+      "sections": "5.6.1–5.6.3",
+      "syllabus_items": [
+        "流水线基本概念",
+        "流水线基本实现"
+      ],
+      "source_text_sha256": "d7d4e21a26d69fa68df9079f05975c445317b5532f0dc847900464ef9fa63ed2"
+    },
+    {
+      "point_id": "cs408-co-pipeline-02",
+      "module_id": "co",
+      "concept": "结构、数据与控制冒险",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          271,
+          274
+        ]
+      ],
+      "sections": "5.6.4",
+      "syllabus_items": [
+        "结构冒险",
+        "数据冒险",
+        "控制冒险"
+      ],
+      "source_text_sha256": "44602bc7605871737cf7a9c48cc042653d643bee95df5a7d434997ccb5c18612"
+    },
+    {
+      "point_id": "cs408-co-pipeline-03",
+      "module_id": "co",
+      "concept": "数据转发与 load-use",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          271,
+          274
+        ]
+      ],
+      "sections": "5.6.4",
+      "syllabus_items": [],
+      "source_text_sha256": "44602bc7605871737cf7a9c48cc042653d643bee95df5a7d434997ccb5c18612"
+    },
+    {
+      "point_id": "cs408-co-pipeline-04",
+      "module_id": "co",
+      "concept": "多发射、超标量与超流水",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          274,
+          275
+        ]
+      ],
+      "sections": "5.6.5",
+      "syllabus_items": [
+        "超标量",
+        "动态流水线"
+      ],
+      "source_text_sha256": "449a51f259f49f472262d8cabe6390ffd2f6fd0ea270d5c6e15b7c65a3757980"
+    },
+    {
+      "point_id": "cs408-co-pipeline-05",
+      "module_id": "co",
+      "concept": "多处理器、SIMD 与硬件多线程",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          288,
+          291
+        ]
+      ],
+      "sections": "5.7.1–5.7.4",
+      "syllabus_items": [
+        "SISD",
+        "SIMD",
+        "MIMD",
+        "向量处理器",
+        "硬件多线程",
+        "多核处理器",
+        "共享内存多处理器SMP"
+      ],
+      "source_text_sha256": "63d6e687c031548ed0ee52ba17bd759176f9dd107ccb486edd3cc7ffc3a9a103"
+    },
+    {
+      "point_id": "cs408-co-io-01",
+      "module_id": "co",
+      "concept": "总线组成与带宽",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          295,
+          299
+        ]
+      ],
+      "sections": "6.1.1–6.1.4",
+      "syllabus_items": [
+        "总线基本概念",
+        "总线组成及性能指标"
+      ],
+      "source_text_sha256": "db494ef1e1bc2a3045e3a3a2a11e7a352d24e34f969d6b509720e4ef1c72499b"
+    },
+    {
+      "point_id": "cs408-co-io-02",
+      "module_id": "co",
+      "concept": "总线仲裁与定时",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          304,
+          307
+        ]
+      ],
+      "sections": "6.2.1–6.2.2",
+      "syllabus_items": [
+        "总线事务",
+        "总线定时"
+      ],
+      "source_text_sha256": "24925fc7fe5463df70a3842cec3084fcb9e96a757a2895a834250c3dc47d00ba"
+    },
+    {
+      "point_id": "cs408-co-io-03",
+      "module_id": "co",
+      "concept": "I/O 接口与地址编排",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          315,
+          317
+        ]
+      ],
+      "sections": "7.2.1–7.2.4",
+      "syllabus_items": [
+        "I/O接口功能与结构",
+        "I/O端口及编址"
+      ],
+      "source_text_sha256": "716f06f305d3e157a2d57713fb286f48b0519c8d19b0dadd87bf9cfdef08707c"
+    },
+    {
+      "point_id": "cs408-co-io-04",
+      "module_id": "co",
+      "concept": "程序查询与中断 I/O",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          321,
+          327
+        ]
+      ],
+      "sections": "7.3.1–7.3.2",
+      "syllabus_items": [
+        "程序查询方式",
+        "中断基本概念",
+        "中断响应过程",
+        "中断处理过程"
+      ],
+      "source_text_sha256": "7495a83cea526e2b4a95a2164d5138e923847f9f0297c348fce45fae37ae0ff8"
+    },
+    {
+      "point_id": "cs408-co-io-05",
+      "module_id": "co",
+      "concept": "中断优先级与屏蔽",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          322,
+          327
+        ]
+      ],
+      "sections": "7.3.2",
+      "syllabus_items": [
+        "多重中断",
+        "中断屏蔽"
+      ],
+      "source_text_sha256": "3a0c51a05dc161731f1b71bbc6de0930671fa117211abe6204a148f6a73509db"
+    },
+    {
+      "point_id": "cs408-co-io-06",
+      "module_id": "co",
+      "concept": "DMA 与总线占用",
+      "book_id": "wangdao2027-co",
+      "pages": [
+        [
+          327,
+          331
+        ]
+      ],
+      "sections": "7.3.3",
+      "syllabus_items": [
+        "DMA控制器组成",
+        "DMA传送过程"
+      ],
+      "source_text_sha256": "36cd62e5b2d871d23cea6993b071b177c76e97dfc7d52b50e90b7e5e067e5146"
+    },
+    {
+      "point_id": "cs408-os-overview-01",
+      "module_id": "os",
+      "concept": "目标、特征与系统分类",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          14,
+          23
+        ]
+      ],
+      "sections": "1.1、1.2",
+      "syllabus_items": [
+        "操作系统基本概念",
+        "操作系统发展历程"
+      ],
+      "source_text_sha256": "3556a11105a2fc30feef7eb8a84536197eadf1a8c0e2e2c02ac71eba14cdd071"
+    },
+    {
+      "point_id": "cs408-os-overview-02",
+      "module_id": "os",
+      "concept": "用户态、内核态与特权指令",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          28,
+          31
+        ]
+      ],
+      "sections": "1.3.1–1.3.4",
+      "syllabus_items": [
+        "内核模式与用户模式"
+      ],
+      "source_text_sha256": "4a0df130f6588b8ec08782302646fbff9e4dea406c4f7068fb3cc1722581ec86"
+    },
+    {
+      "point_id": "cs408-os-overview-03",
+      "module_id": "os",
+      "concept": "中断、异常与系统调用",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          29,
+          32
+        ]
+      ],
+      "sections": "1.3.3–1.3.4",
+      "syllabus_items": [
+        "中断异常处理",
+        "系统调用"
+      ],
+      "source_text_sha256": "8b224daa985eb0a9c663099d01d76e1efb65675f366fd854841619517c7b30c7"
+    },
+    {
+      "point_id": "cs408-os-overview-04",
+      "module_id": "os",
+      "concept": "内核组织与虚拟机",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          39,
+          44
+        ]
+      ],
+      "sections": "1.4、1.6",
+      "syllabus_items": [
+        "分层结构",
+        "模块化结构",
+        "宏内核",
+        "微内核",
+        "外核",
+        "虚拟机"
+      ],
+      "source_text_sha256": "a0481d23324056cec5e6cd74466533524a71ae81af0ca9adca73993de0b0f637"
+    },
+    {
+      "point_id": "cs408-os-overview-05",
+      "module_id": "os",
+      "concept": "引导过程与操作系统装入",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          42,
+          43
+        ]
+      ],
+      "sections": "1.5",
+      "syllabus_items": [
+        "操作系统引导"
+      ],
+      "source_text_sha256": "98e08bceb49a7bdbb443fddbb697649c5609a91a43fc70f4562570ab7833f9a1"
+    },
+    {
+      "point_id": "cs408-os-process-01",
+      "module_id": "os",
+      "concept": "程序、进程与 PCB",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          51,
+          54
+        ]
+      ],
+      "sections": "2.1.1–2.1.3",
+      "syllabus_items": [
+        "程序运行时内存映像",
+        "地址空间",
+        "进程基本概念",
+        "进程组织"
+      ],
+      "source_text_sha256": "900fed1d2ad2e3901fe6892d4007e789d41922492da5e0213770596b6d997d5c"
+    },
+    {
+      "point_id": "cs408-os-process-02",
+      "module_id": "os",
+      "concept": "进程状态与转换",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          54,
+          56
+        ]
+      ],
+      "sections": "2.1.4–2.1.5",
+      "syllabus_items": [
+        "进程线程状态与转换"
+      ],
+      "source_text_sha256": "443e574dc94a7c10880b03fcb116b7c57c14af80c6561b244cbffa412428a478"
+    },
+    {
+      "point_id": "cs408-os-process-03",
+      "module_id": "os",
+      "concept": "创建、终止与上下文切换",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          55,
+          56
+        ],
+        [
+          84,
+          85
+        ]
+      ],
+      "sections": "2.1.5、2.2.4",
+      "syllabus_items": [
+        "进程线程控制",
+        "上下文及切换机制"
+      ],
+      "source_text_sha256": "716db7ef5a50b4c96c9be7479880a7251ba713e9b55b8cc521ce4ffc8951fe3a"
+    },
+    {
+      "point_id": "cs408-os-process-04",
+      "module_id": "os",
+      "concept": "线程与资源共享",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          58,
+          64
+        ]
+      ],
+      "sections": "2.1.7",
+      "syllabus_items": [
+        "线程基本概念"
+      ],
+      "source_text_sha256": "7df15bc25724896ff1421118124ab5bcfce3ed351acec2da56e09d4f81b9571f"
+    },
+    {
+      "point_id": "cs408-os-process-05",
+      "module_id": "os",
+      "concept": "用户级与内核级线程",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          58,
+          64
+        ]
+      ],
+      "sections": "2.1.7",
+      "syllabus_items": [
+        "内核支持线程",
+        "线程库支持线程"
+      ],
+      "source_text_sha256": "7df15bc25724896ff1421118124ab5bcfce3ed351acec2da56e09d4f81b9571f"
+    },
+    {
+      "point_id": "cs408-os-process-06",
+      "module_id": "os",
+      "concept": "共享内存、消息与管道",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          56,
+          58
+        ]
+      ],
+      "sections": "2.1.6",
+      "syllabus_items": [
+        "共享内存通信",
+        "消息传递",
+        "管道"
+      ],
+      "source_text_sha256": "02b9d1aa471fad8e1e6c5914eb53d62e209a6ddfd5d5ab7c45f0377ef2ee89d7"
+    },
+    {
+      "point_id": "cs408-os-process-07",
+      "module_id": "os",
+      "concept": "信号与异步通知",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          56,
+          58
+        ]
+      ],
+      "sections": "2.1.6",
+      "syllabus_items": [
+        "信号"
+      ],
+      "source_text_sha256": "02b9d1aa471fad8e1e6c5914eb53d62e209a6ddfd5d5ab7c45f0377ef2ee89d7"
+    },
+    {
+      "point_id": "cs408-os-scheduling-01",
+      "module_id": "os",
+      "concept": "调度层次、抢占与时机",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          80,
+          84
+        ]
+      ],
+      "sections": "2.2.1–2.2.2",
+      "syllabus_items": [
+        "调度基本概念",
+        "调度器",
+        "调度时机",
+        "抢占非抢占",
+        "闲逛进程",
+        "内核与用户线程调度"
+      ],
+      "source_text_sha256": "39513aacd67de148b8859248c2335b5c1eb2be67140943836c4394add445f230"
+    },
+    {
+      "point_id": "cs408-os-scheduling-02",
+      "module_id": "os",
+      "concept": "周转、等待与响应时间",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          84,
+          85
+        ]
+      ],
+      "sections": "2.2.3",
+      "syllabus_items": [
+        "调度目标"
+      ],
+      "source_text_sha256": "27894e5b4ee3748e7fea97d5e4e53da39d84d1ec16e33d79d81423f147c93774"
+    },
+    {
+      "point_id": "cs408-os-scheduling-03",
+      "module_id": "os",
+      "concept": "FCFS、SJF、SRTF 与 HRRN",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          85,
+          89
+        ]
+      ],
+      "sections": "2.2.5",
+      "syllabus_items": [
+        "CPU调度算法（FCFS、SJF、SRTF、HRRN）"
+      ],
+      "source_text_sha256": "02041b89d5b1ef5e158a6e3059a4b71561d5aae5c56543dff1d4e51b46abfd19"
+    },
+    {
+      "point_id": "cs408-os-scheduling-04",
+      "module_id": "os",
+      "concept": "时间片与多级反馈队列",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          88,
+          91
+        ]
+      ],
+      "sections": "2.2.5",
+      "syllabus_items": [
+        "CPU调度算法（轮转、优先级、多级反馈）"
+      ],
+      "source_text_sha256": "1abea364cd7627d0771a594fc1e1ca3bf53a8fc4fd27aefa724524ab012690a9"
+    },
+    {
+      "point_id": "cs408-os-scheduling-05",
+      "module_id": "os",
+      "concept": "多处理机调度与亲和性",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          91,
+          92
+        ]
+      ],
+      "sections": "2.2.6",
+      "syllabus_items": [
+        "多处理机调度"
+      ],
+      "source_text_sha256": "85eedf1bc47362ef59d715d8b752744871616d34908b91e8275f483b1fd4c976"
+    },
+    {
+      "point_id": "cs408-os-synchronization-01",
+      "module_id": "os",
+      "concept": "临界区与竞态条件",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          114,
+          115
+        ]
+      ],
+      "sections": "2.3.1",
+      "syllabus_items": [
+        "同步与互斥基本概念"
+      ],
+      "source_text_sha256": "8b0a715d17abe66e117af971e9b61089ac2dfe2f54dc19d09c74fae053b0800b"
+    },
+    {
+      "point_id": "cs408-os-synchronization-02",
+      "module_id": "os",
+      "concept": "软件互斥与硬件原子操作",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          115,
+          119
+        ]
+      ],
+      "sections": "2.3.2–2.3.3",
+      "syllabus_items": [
+        "软件互斥方法",
+        "硬件互斥方法",
+        "锁"
+      ],
+      "source_text_sha256": "a6457fa373d00621c79c3ca19e2e86fd2a65d73b523b4a170605d54571237f5d"
+    },
+    {
+      "point_id": "cs408-os-synchronization-03",
+      "module_id": "os",
+      "concept": "信号量与 P/V 语义",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          119,
+          122
+        ]
+      ],
+      "sections": "2.3.4",
+      "syllabus_items": [
+        "信号量"
+      ],
+      "source_text_sha256": "4ed7bc720d00dd6441d48b442cf8864a473f66e1720ba77569e90f881c430f16"
+    },
+    {
+      "point_id": "cs408-os-synchronization-04",
+      "module_id": "os",
+      "concept": "生产者消费者与信号量顺序",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          122,
+          124
+        ]
+      ],
+      "sections": "2.3.5",
+      "syllabus_items": [
+        "生产者消费者"
+      ],
+      "source_text_sha256": "f7ccd99c73a3a77d4354df9452196a7220b660895c01a6ef63cd1053a4e321a5"
+    },
+    {
+      "point_id": "cs408-os-synchronization-05",
+      "module_id": "os",
+      "concept": "读者写者与公平性",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          124,
+          126
+        ]
+      ],
+      "sections": "2.3.5",
+      "syllabus_items": [
+        "读者写者"
+      ],
+      "source_text_sha256": "f84dc99e1065db4c0e5ae6bdbaa3eb4a8a4f706a7bb3614f6fe367ae680f879e"
+    },
+    {
+      "point_id": "cs408-os-synchronization-06",
+      "module_id": "os",
+      "concept": "哲学家进餐与资源顺序",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          126,
+          128
+        ]
+      ],
+      "sections": "2.3.5",
+      "syllabus_items": [
+        "哲学家进餐"
+      ],
+      "source_text_sha256": "0456fd2d1d8126224c74384cd98480ba66b59c539dad43ce7327487e72414be7"
+    },
+    {
+      "point_id": "cs408-os-synchronization-07",
+      "module_id": "os",
+      "concept": "管程与条件变量",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          128,
+          130
+        ]
+      ],
+      "sections": "2.3.6",
+      "syllabus_items": [
+        "条件变量"
+      ],
+      "source_text_sha256": "f036b4763995f41a6625c524fe846191790275f1908b5e882dd1d6a5261a5e6d"
+    },
+    {
+      "point_id": "cs408-os-deadlocks-01",
+      "module_id": "os",
+      "concept": "死锁条件、饥饿与活锁",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          167,
+          169
+        ]
+      ],
+      "sections": "2.4.1",
+      "syllabus_items": [
+        "死锁基本概念"
+      ],
+      "source_text_sha256": "af64ba4b5c1fa630408fa72053a8febe115fb3c11a3a248f3f4dde64b1cba5c2"
+    },
+    {
+      "point_id": "cs408-os-deadlocks-02",
+      "module_id": "os",
+      "concept": "预防与避免、银行家算法",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          169,
+          174
+        ]
+      ],
+      "sections": "2.4.2–2.4.3",
+      "syllabus_items": [
+        "死锁预防",
+        "死锁避免"
+      ],
+      "source_text_sha256": "049a006161bec47b6bf487f175ada06b5d5f6e54ff1efa6b7b553657d2be558f"
+    },
+    {
+      "point_id": "cs408-os-deadlocks-03",
+      "module_id": "os",
+      "concept": "检测、资源图与解除",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          174,
+          175
+        ]
+      ],
+      "sections": "2.4.4",
+      "syllabus_items": [
+        "死锁检测",
+        "死锁解除"
+      ],
+      "source_text_sha256": "17c3eb01eabdb4bf3234fc79cbe0f3654b1211c2caaac6e61c0b0b4f23e49371"
+    },
+    {
+      "point_id": "cs408-os-memory-01",
+      "module_id": "os",
+      "concept": "装入、链接与重定位",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          194,
+          198
+        ]
+      ],
+      "sections": "3.1.1",
+      "syllabus_items": [
+        "程序链接与装入",
+        "逻辑地址空间",
+        "物理地址空间",
+        "地址变换"
+      ],
+      "source_text_sha256": "a3c4b001aafc15fd3711365fac47f97aa5e588bf3239da2a6f3485677ca7c3fa"
+    },
+    {
+      "point_id": "cs408-os-memory-02",
+      "module_id": "os",
+      "concept": "连续分配与碎片",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          198,
+          201
+        ]
+      ],
+      "sections": "3.1.2",
+      "syllabus_items": [
+        "内存分配与回收",
+        "连续分配管理"
+      ],
+      "source_text_sha256": "510771de752d700c380ad98ed366b7189d3980e1d19e20b667d98b8387a1e53b"
+    },
+    {
+      "point_id": "cs408-os-memory-03",
+      "module_id": "os",
+      "concept": "基本分页与地址转换",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          201,
+          205
+        ]
+      ],
+      "sections": "3.1.3",
+      "syllabus_items": [
+        "页式管理"
+      ],
+      "source_text_sha256": "8d84bd95d39b66f3773c9614662fb5645a3b37b89a15c60f8927090f3e3374e5"
+    },
+    {
+      "point_id": "cs408-os-memory-04",
+      "module_id": "os",
+      "concept": "多级页表与 TLB",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          202,
+          205
+        ]
+      ],
+      "sections": "3.1.3",
+      "syllabus_items": [],
+      "source_text_sha256": "081a1f2db12b1b6a3d09b274778790e8a26002ec58cd3edb0d5790c2323aa0dc"
+    },
+    {
+      "point_id": "cs408-os-memory-05",
+      "module_id": "os",
+      "concept": "分段与段页式",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          205,
+          209
+        ]
+      ],
+      "sections": "3.1.4–3.1.5",
+      "syllabus_items": [
+        "段式管理",
+        "段页式管理"
+      ],
+      "source_text_sha256": "0490df5d79f9b99ef2c50ebce2f9980140a2dd1bd3d75af414dac5db1f356254"
+    },
+    {
+      "point_id": "cs408-os-memory-06",
+      "module_id": "os",
+      "concept": "内存保护与共享",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          194,
+          198
+        ],
+        [
+          201,
+          209
+        ]
+      ],
+      "sections": "3.1.1、3.1.3–3.1.5",
+      "syllabus_items": [
+        "内存共享",
+        "内存保护"
+      ],
+      "source_text_sha256": "e0439e3764fced031575a453677ca7f95941a77227497326e141ea39fba6a25b"
+    },
+    {
+      "point_id": "cs408-os-virtual-01",
+      "module_id": "os",
+      "concept": "请求分页与缺页处理",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          231,
+          234
+        ]
+      ],
+      "sections": "3.2.1–3.2.2",
+      "syllabus_items": [
+        "虚拟内存基本概念",
+        "请求页式管理"
+      ],
+      "source_text_sha256": "7069aad89765f26f7f48e43485cba9bbb25c0ee9562b04aa72c146709d10c6fa"
+    },
+    {
+      "point_id": "cs408-os-virtual-02",
+      "module_id": "os",
+      "concept": "OPT、FIFO、LRU 与 CLOCK",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          236,
+          239
+        ]
+      ],
+      "sections": "3.2.4",
+      "syllabus_items": [
+        "页置换算法"
+      ],
+      "source_text_sha256": "072f2b44a951f7630a3966b63c103b5b2c4bd1609abc01b2de368ac564487fa9"
+    },
+    {
+      "point_id": "cs408-os-virtual-03",
+      "module_id": "os",
+      "concept": "Belady 异常",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          236,
+          239
+        ]
+      ],
+      "sections": "3.2.4",
+      "syllabus_items": [],
+      "source_text_sha256": "072f2b44a951f7630a3966b63c103b5b2c4bd1609abc01b2de368ac564487fa9"
+    },
+    {
+      "point_id": "cs408-os-virtual-04",
+      "module_id": "os",
+      "concept": "页面分配、工作集与抖动",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          234,
+          240
+        ]
+      ],
+      "sections": "3.2.3、3.2.5",
+      "syllabus_items": [
+        "页框分配"
+      ],
+      "source_text_sha256": "d47464d374edc315ac919d41518abd523fef2c0d54fc5f5e2f8b33ebfc83bef5"
+    },
+    {
+      "point_id": "cs408-os-virtual-05",
+      "module_id": "os",
+      "concept": "缺页有效访问时间",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          242,
+          243
+        ]
+      ],
+      "sections": "3.2.8–3.2.9",
+      "syllabus_items": [
+        "虚拟存储器性能因素及改进"
+      ],
+      "source_text_sha256": "1e57d2364b2379b75c709b66dc3283ba4d752b098b481bc4cb750c121103d282"
+    },
+    {
+      "point_id": "cs408-os-virtual-06",
+      "module_id": "os",
+      "concept": "页框回收与内存映射文件",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          240,
+          242
+        ]
+      ],
+      "sections": "3.2.6–3.2.7",
+      "syllabus_items": [
+        "页框回收",
+        "内存映射文件"
+      ],
+      "source_text_sha256": "35fd99d3c7c176141e63d4d07fb6c2e23c76a5bdeee85c54097d971aa641ec14"
+    },
+    {
+      "point_id": "cs408-os-files-01",
+      "module_id": "os",
+      "concept": "文件逻辑结构与操作",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          271,
+          275
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "sections": "4.1.1–4.1.3、4.2.7",
+      "syllabus_items": [
+        "文件基本概念",
+        "建立",
+        "删除",
+        "打开",
+        "关闭",
+        "读",
+        "写",
+        "文件逻辑结构"
+      ],
+      "source_text_sha256": "80885d8f7e765667586f27ae8ef62161c10c34eb2c84db0bd1f89dab5a442b36"
+    },
+    {
+      "point_id": "cs408-os-files-02",
+      "module_id": "os",
+      "concept": "连续、链接与索引分配",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          282,
+          287
+        ]
+      ],
+      "sections": "4.2.6",
+      "syllabus_items": [
+        "文件物理结构"
+      ],
+      "source_text_sha256": "ccf707572bb0820611c070d77c01db71d4fba0ffdca4a82165ab52356d06de48"
+    },
+    {
+      "point_id": "cs408-os-files-03",
+      "module_id": "os",
+      "concept": "多级索引与最大文件",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          282,
+          287
+        ]
+      ],
+      "sections": "4.2.6",
+      "syllabus_items": [],
+      "source_text_sha256": "ccf707572bb0820611c070d77c01db71d4fba0ffdca4a82165ab52356d06de48"
+    },
+    {
+      "point_id": "cs408-os-files-04",
+      "module_id": "os",
+      "concept": "目录、路径与链接",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          282
+        ],
+        [
+          289,
+          290
+        ]
+      ],
+      "sections": "4.2.1–4.2.5、4.2.8",
+      "syllabus_items": [
+        "目录基本概念",
+        "树形目录",
+        "目录操作",
+        "硬链接",
+        "软链接"
+      ],
+      "source_text_sha256": "e8b4bacab9f816a855aacdf3fdbfef1674ddf4c30ff7d6122a996823f7fcec04"
+    },
+    {
+      "point_id": "cs408-os-files-05",
+      "module_id": "os",
+      "concept": "打开文件表与共享偏移",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          277,
+          278
+        ],
+        [
+          287,
+          290
+        ]
+      ],
+      "sections": "4.2.2、4.2.7–4.2.8",
+      "syllabus_items": [
+        "文件元数据",
+        "索引节点inode"
+      ],
+      "source_text_sha256": "2df78db26e6ffa2b5e780d444a1845ed69477560bc4f481fd0415ae7c8903e90"
+    },
+    {
+      "point_id": "cs408-os-files-06",
+      "module_id": "os",
+      "concept": "空闲空间管理",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          317,
+          320
+        ]
+      ],
+      "sections": "4.3.2",
+      "syllabus_items": [
+        "外存空闲空间管理"
+      ],
+      "source_text_sha256": "2e9ed145380603bca9b3eb6cd8304048274e6e60c15e1f408eb03a0c23137e9a"
+    },
+    {
+      "point_id": "cs408-os-files-07",
+      "module_id": "os",
+      "concept": "文件保护与访问控制",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          290,
+          292
+        ]
+      ],
+      "sections": "4.2.9",
+      "syllabus_items": [
+        "文件保护"
+      ],
+      "source_text_sha256": "bd86f55530acb702feca4d7bb918c02ac18fb6d59da34699d149c3c9a2f5f0c7"
+    },
+    {
+      "point_id": "cs408-os-files-08",
+      "module_id": "os",
+      "concept": "VFS、挂载与持久化",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          316,
+          322
+        ]
+      ],
+      "sections": "4.3.1–4.3.4",
+      "syllabus_items": [
+        "外存文件系统布局",
+        "内存文件系统结构",
+        "虚拟文件系统",
+        "文件系统挂载"
+      ],
+      "source_text_sha256": "a7c97eadd386583e02afec1ba5bf9392ec7b255b4ed2e30f99bdfddea53b549a"
+    },
+    {
+      "point_id": "cs408-os-io-01",
+      "module_id": "os",
+      "concept": "设备、驱动与控制器",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          336
+        ]
+      ],
+      "sections": "5.1.1、5.1.3–5.1.4",
+      "syllabus_items": [
+        "设备概念",
+        "设备分类",
+        "I/O接口",
+        "I/O软件层次",
+        "字符设备接口",
+        "块设备接口",
+        "网络设备接口",
+        "阻塞非阻塞I/O"
+      ],
+      "source_text_sha256": "964881e5ef33516b34cb667163b468a7a7ba213ceff0f6fb2bd62fd8ad6a5106"
+    },
+    {
+      "point_id": "cs408-os-io-02",
+      "module_id": "os",
+      "concept": "I/O 控制方式",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          330,
+          332
+        ]
+      ],
+      "sections": "5.1.2",
+      "syllabus_items": [
+        "轮询方式",
+        "中断方式",
+        "DMA方式"
+      ],
+      "source_text_sha256": "7066dc9cca8cc73ea8a6d73ac050bd9296d6530009ba510c2e8c25f767e7bebd"
+    },
+    {
+      "point_id": "cs408-os-io-03",
+      "module_id": "os",
+      "concept": "缓冲、缓存与 SPOOLing",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          343,
+          347
+        ],
+        [
+          349,
+          350
+        ]
+      ],
+      "sections": "5.2.1–5.2.2、5.2.4",
+      "syllabus_items": [
+        "缓冲区管理",
+        "假脱机SPOOLing"
+      ],
+      "source_text_sha256": "9121d2b717c722441dd4cde2cf0dfe640cbf5a82c9385fb1695f0cfc8d88094a"
+    },
+    {
+      "point_id": "cs408-os-io-04",
+      "module_id": "os",
+      "concept": "设备分配、回收与 I/O 调度",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          347,
+          352
+        ]
+      ],
+      "sections": "5.2.3、5.2.5–5.2.6",
+      "syllabus_items": [
+        "设备分配回收",
+        "设备驱动程序接口"
+      ],
+      "source_text_sha256": "4a1b41e1600e2d1eb3e22082d4b08be5a7b9e6090b4b95df546ec40ff8143af2"
+    },
+    {
+      "point_id": "cs408-os-io-05",
+      "module_id": "os",
+      "concept": "磁盘访问与调度",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          363,
+          369
+        ]
+      ],
+      "sections": "5.3.1–5.3.3",
+      "syllabus_items": [
+        "磁盘结构",
+        "磁盘调度算法"
+      ],
+      "source_text_sha256": "2c6de760b9673b6b9c71f718c7e9437289fc7468efd4d21540770c206d78ce84"
+    },
+    {
+      "point_id": "cs408-os-io-06",
+      "module_id": "os",
+      "concept": "磁盘格式、分区与 RAID",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          364,
+          365
+        ]
+      ],
+      "sections": "5.3.2",
+      "syllabus_items": [
+        "磁盘格式化",
+        "磁盘分区"
+      ],
+      "source_text_sha256": "939c7939554aa9be3fb1c6b767827b25656f4bd644ef8fdd3a0d21861f8bb6e3"
+    },
+    {
+      "point_id": "cs408-os-io-07",
+      "module_id": "os",
+      "concept": "SSD、擦除与磨损均衡",
+      "book_id": "wangdao2027-os",
+      "pages": [
+        [
+          369,
+          370
+        ]
+      ],
+      "sections": "5.3.4",
+      "syllabus_items": [
+        "固态硬盘读写特性",
+        "磨损均衡"
+      ],
+      "source_text_sha256": "739e183510586cf4f5f6ba8324fef1207484238197db97d2743c716b2a0e75b9"
+    },
+    {
+      "point_id": "cs408-ds-basics-01",
+      "module_id": "ds",
+      "concept": "逻辑结构、存储结构与数据类型",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          14,
+          16
+        ]
+      ],
+      "sections": "1.1.1–1.1.2",
+      "syllabus_items": [
+        "数据结构基本概念"
+      ],
+      "source_text_sha256": "98d0ef1092bf516ecaad554f5c02126dc293fc06e56f0c0a61f2bb74a7d8db32"
+    },
+    {
+      "point_id": "cs408-ds-basics-02",
+      "module_id": "ds",
+      "concept": "算法性质与正确性",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          17,
+          19
+        ]
+      ],
+      "sections": "1.2.1–1.2.2",
+      "syllabus_items": [
+        "算法基本概念"
+      ],
+      "source_text_sha256": "33c073ffb30de56ed4ec2a33acb009fc76ddfa728f6721cbb02397e25093ea57"
+    },
+    {
+      "point_id": "cs408-ds-basics-03",
+      "module_id": "ds",
+      "concept": "时间复杂度与渐近记号",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          18,
+          19
+        ]
+      ],
+      "sections": "1.2.2",
+      "syllabus_items": [
+        "时间复杂度"
+      ],
+      "source_text_sha256": "1a12aac2ca168cdf34a43f422320244a9788a5e68a790e9d9cd9d9c9f0df708b"
+    },
+    {
+      "point_id": "cs408-ds-basics-04",
+      "module_id": "ds",
+      "concept": "空间复杂度与递归栈",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          18,
+          19
+        ],
+        [
+          107,
+          108
+        ]
+      ],
+      "sections": "1.2.2、3.3.3",
+      "syllabus_items": [
+        "空间复杂度"
+      ],
+      "source_text_sha256": "42d064c0070eaff0ec6bfe2eaf0d18d21b90cb0fe5945464374f41aa261e9a22"
+    },
+    {
+      "point_id": "cs408-ds-linear-01",
+      "module_id": "ds",
+      "concept": "顺序表的访问与插入",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          26,
+          31
+        ]
+      ],
+      "sections": "2.1、2.2.1–2.2.2",
+      "syllabus_items": [
+        "线性表基本概念",
+        "顺序存储"
+      ],
+      "source_text_sha256": "bcadacca5bc0025e4218dcc60fdbec61582ecb1d23d1f46328cb68c0f46326ef"
+    },
+    {
+      "point_id": "cs408-ds-linear-02",
+      "module_id": "ds",
+      "concept": "单链表的指针修改",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          43,
+          49
+        ]
+      ],
+      "sections": "2.3.1–2.3.2",
+      "syllabus_items": [
+        "链式存储（单链表）"
+      ],
+      "source_text_sha256": "3158fe2693d5203223cea7e4ec781c0eea816a7ff3173b328c794e42a1cdb3b0"
+    },
+    {
+      "point_id": "cs408-ds-linear-03",
+      "module_id": "ds",
+      "concept": "双链表与循环链表",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          49,
+          51
+        ]
+      ],
+      "sections": "2.3.3–2.3.4",
+      "syllabus_items": [
+        "链式存储（双链与循环）"
+      ],
+      "source_text_sha256": "92398cbf21953e112b3402fc581397db0ca25bd4966d68d3ecd54a5af7455e29"
+    },
+    {
+      "point_id": "cs408-ds-linear-04",
+      "module_id": "ds",
+      "concept": "带头节点与边界处理",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          44,
+          49
+        ]
+      ],
+      "sections": "2.3.1–2.3.2",
+      "syllabus_items": [],
+      "source_text_sha256": "bda7e9b64865e783d42a0a706f004acc66196d7fb7108e9ffe3285a06542ddce"
+    },
+    {
+      "point_id": "cs408-ds-linear-05",
+      "module_id": "ds",
+      "concept": "静态链表与存储选择",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          51,
+          52
+        ]
+      ],
+      "sections": "2.3.5–2.3.6",
+      "syllabus_items": [
+        "链式存储（静态链表）"
+      ],
+      "source_text_sha256": "59e4f6e7498bbb64b40ac865cd3e22e253cab4ab07b4e4d09caeabc2417e7097"
+    },
+    {
+      "point_id": "cs408-ds-linear-06",
+      "module_id": "ds",
+      "concept": "线性表算法设计",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          29,
+          31
+        ],
+        [
+          44,
+          49
+        ]
+      ],
+      "sections": "2.2.2、2.3.2",
+      "syllabus_items": [
+        "线性表应用"
+      ],
+      "source_text_sha256": "3f6d75bde646b1ac254885eec9fcaf403c73889c6fd035c1529c2991bb3398b7"
+    },
+    {
+      "point_id": "cs408-ds-stack-01",
+      "module_id": "ds",
+      "concept": "栈与合法出栈序列",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          77,
+          81
+        ]
+      ],
+      "sections": "3.1.1–3.1.3",
+      "syllabus_items": [
+        "栈基本概念",
+        "栈顺序存储",
+        "栈链式存储"
+      ],
+      "source_text_sha256": "fa1e540b740065fd19050d51c8116f6616f099eccac5276ef5b5f69329aeae57"
+    },
+    {
+      "point_id": "cs408-ds-stack-02",
+      "module_id": "ds",
+      "concept": "循环队列与判满",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          90,
+          93
+        ]
+      ],
+      "sections": "3.2.1–3.2.2",
+      "syllabus_items": [
+        "队列基本概念",
+        "队列顺序存储"
+      ],
+      "source_text_sha256": "9c7ad9468661c72893ecaca022fb837ddd9a2ddb89b32b31166306519095ae7a"
+    },
+    {
+      "point_id": "cs408-ds-stack-03",
+      "module_id": "ds",
+      "concept": "双端队列与链式队列",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          93,
+          97
+        ]
+      ],
+      "sections": "3.2.3–3.2.4",
+      "syllabus_items": [
+        "队列链式存储",
+        "双端队列",
+        "队列应用"
+      ],
+      "source_text_sha256": "9be324b9fbedc1e0e225cc726d3f914d4852713eddc55b8546dbe3f186407843"
+    },
+    {
+      "point_id": "cs408-ds-stack-04",
+      "module_id": "ds",
+      "concept": "括号匹配、表达式与递归",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          105,
+          108
+        ]
+      ],
+      "sections": "3.3.1–3.3.3",
+      "syllabus_items": [
+        "栈应用"
+      ],
+      "source_text_sha256": "8997fdc081a8850eef9d004c149ad118bb53d789cca7b2e28848a72b2ece020c"
+    },
+    {
+      "point_id": "cs408-ds-stack-05",
+      "module_id": "ds",
+      "concept": "数组地址与特殊矩阵压缩",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          115,
+          118
+        ]
+      ],
+      "sections": "3.4.1–3.4.3",
+      "syllabus_items": [
+        "多维数组存储",
+        "特殊矩阵压缩存储",
+        "数组应用"
+      ],
+      "source_text_sha256": "d31fb8719052c503563e77f212c5ce12979bcf4e31f41be0c323425e641f6b67"
+    },
+    {
+      "point_id": "cs408-ds-stack-06",
+      "module_id": "ds",
+      "concept": "稀疏矩阵与三元组",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          118,
+          119
+        ]
+      ],
+      "sections": "3.4.4",
+      "syllabus_items": [],
+      "source_text_sha256": "92c4522035efad7dcab7de13c30868c3242cdd53a19fbe02dea87e344b2932ea"
+    },
+    {
+      "point_id": "cs408-ds-strings-01",
+      "module_id": "ds",
+      "concept": "串的存储与基本操作",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          124,
+          127
+        ]
+      ],
+      "sections": "4.1.1–4.1.3",
+      "syllabus_items": [],
+      "source_text_sha256": "ed335a10b39555a1785556bcb9287bce05ba9c7ad741a242d49bd7d4a020cc7b"
+    },
+    {
+      "point_id": "cs408-ds-strings-02",
+      "module_id": "ds",
+      "concept": "朴素匹配与回退",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          127,
+          128
+        ]
+      ],
+      "sections": "4.2.1",
+      "syllabus_items": [
+        "字符串朴素模式匹配"
+      ],
+      "source_text_sha256": "1947ae3721085d20d8f1bbb902686def2e5bd711c8931a91ee8f82f104f6d7ba"
+    },
+    {
+      "point_id": "cs408-ds-strings-03",
+      "module_id": "ds",
+      "concept": "KMP、前后缀与 next",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          128,
+          134
+        ]
+      ],
+      "sections": "4.2.2–4.2.3",
+      "syllabus_items": [
+        "字符串KMP模式匹配"
+      ],
+      "source_text_sha256": "3714da1f0ed096709645ec0d6ae3baeb82bfd506d91871b1cd61d2500cc0239d"
+    },
+    {
+      "point_id": "cs408-ds-trees-01",
+      "module_id": "ds",
+      "concept": "树的性质与森林",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          140,
+          143
+        ],
+        [
+          185,
+          190
+        ]
+      ],
+      "sections": "5.1、5.4.1–5.4.3",
+      "syllabus_items": [
+        "树基本概念",
+        "树性质",
+        "森林",
+        "树存储结构",
+        "树森林与二叉树转换",
+        "树森林遍历"
+      ],
+      "source_text_sha256": "16eba194aea5d5a8f8ebd338883295b9d62fd867ea5732a3adb0d6e9ea4eccd6"
+    },
+    {
+      "point_id": "cs408-ds-trees-02",
+      "module_id": "ds",
+      "concept": "二叉树性质与完全二叉树",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          145,
+          148
+        ]
+      ],
+      "sections": "5.2.1",
+      "syllabus_items": [
+        "二叉树定义",
+        "二叉树主要特征"
+      ],
+      "source_text_sha256": "c1e687e25a02953692166076d1c2c8187bb2cced8ff449b67d5b8f31a224d279"
+    },
+    {
+      "point_id": "cs408-ds-trees-03",
+      "module_id": "ds",
+      "concept": "二叉树顺序与链式存储",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          147,
+          149
+        ]
+      ],
+      "sections": "5.2.2",
+      "syllabus_items": [
+        "二叉树顺序存储",
+        "二叉树链式存储"
+      ],
+      "source_text_sha256": "74777db7f0d64860416ce1d848c857f8012f8c5bbb88ef662140af812cdfa4c2"
+    },
+    {
+      "point_id": "cs408-ds-trees-04",
+      "module_id": "ds",
+      "concept": "先中后层序遍历",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          157,
+          160
+        ]
+      ],
+      "sections": "5.3.1",
+      "syllabus_items": [
+        "二叉树遍历"
+      ],
+      "source_text_sha256": "355c9ec8028419ec2211d470f29e128fd6cd9fac92c298d5a01d1ee3aad80f25"
+    },
+    {
+      "point_id": "cs408-ds-trees-05",
+      "module_id": "ds",
+      "concept": "非递归遍历与线索二叉树",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          158,
+          163
+        ]
+      ],
+      "sections": "5.3.1–5.3.2",
+      "syllabus_items": [
+        "线索二叉树基本概念与构造"
+      ],
+      "source_text_sha256": "04a725d79f6b8bd7bfb37597fcecf71379401ae287f3385ab32f112dd4c7be10"
+    },
+    {
+      "point_id": "cs408-ds-trees-06",
+      "module_id": "ds",
+      "concept": "哈夫曼树与带权路径长度",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          198,
+          201
+        ]
+      ],
+      "sections": "5.5.1",
+      "syllabus_items": [
+        "哈夫曼树",
+        "哈夫曼编码"
+      ],
+      "source_text_sha256": "8a22333fed8837309613e01ee83e8b6073ee0b38ba5859225f60949a66bcc403"
+    },
+    {
+      "point_id": "cs408-ds-trees-07",
+      "module_id": "ds",
+      "concept": "并查集与集合操作",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          201,
+          203
+        ]
+      ],
+      "sections": "5.5.2",
+      "syllabus_items": [
+        "并查集及应用"
+      ],
+      "source_text_sha256": "343d7a1880eedd71b7f64ebcf6de2f19c422aeff44c15c2b7495f75594de250b"
+    },
+    {
+      "point_id": "cs408-ds-trees-08",
+      "module_id": "ds",
+      "concept": "堆及其应用",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          373,
+          376
+        ]
+      ],
+      "sections": "8.4.2（跨章：堆的先修）",
+      "syllabus_items": [
+        "堆及应用"
+      ],
+      "source_text_sha256": "0abb1bb6b0eb609b9556f03f72c96c4f2a4b578a2b2f79586f201aebcdddcf98"
+    },
+    {
+      "point_id": "cs408-ds-graphs-01",
+      "module_id": "ds",
+      "concept": "图的基本概念与度",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          212,
+          215
+        ]
+      ],
+      "sections": "6.1.1",
+      "syllabus_items": [
+        "图基本概念"
+      ],
+      "source_text_sha256": "487c64ce39224ca76561af544c166a725ad84f871a6e6322f6743102d17b5856"
+    },
+    {
+      "point_id": "cs408-ds-graphs-02",
+      "module_id": "ds",
+      "concept": "邻接矩阵与邻接表",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          220,
+          223
+        ],
+        [
+          225,
+          226
+        ]
+      ],
+      "sections": "6.2.1–6.2.2、6.2.5",
+      "syllabus_items": [
+        "邻接矩阵",
+        "邻接表",
+        "图基本操作"
+      ],
+      "source_text_sha256": "21ff9ac60d198f4bc9a2cf7d9aab3f3d9f201fd4977bfdca97b1ed66e78c07a6"
+    },
+    {
+      "point_id": "cs408-ds-graphs-03",
+      "module_id": "ds",
+      "concept": "十字链表与邻接多重表",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          223,
+          225
+        ]
+      ],
+      "sections": "6.2.3–6.2.4",
+      "syllabus_items": [
+        "邻接多重表",
+        "十字链表"
+      ],
+      "source_text_sha256": "5b07c5b46351aa8b26437bc227429c1c5649f9fe71cb234c40a34bf3e65b3746"
+    },
+    {
+      "point_id": "cs408-ds-graphs-04",
+      "module_id": "ds",
+      "concept": "广度优先搜索",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          233,
+          236
+        ]
+      ],
+      "sections": "6.3.1",
+      "syllabus_items": [
+        "广度优先搜索"
+      ],
+      "source_text_sha256": "68a6f1b163182f55b73ff71b3815c50529e6a6e98acf728f6fe5e3c685e7198c"
+    },
+    {
+      "point_id": "cs408-ds-graphs-05",
+      "module_id": "ds",
+      "concept": "深度优先搜索与遍历森林",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          236,
+          238
+        ]
+      ],
+      "sections": "6.3.2–6.3.3",
+      "syllabus_items": [
+        "深度优先搜索"
+      ],
+      "source_text_sha256": "b3f929fc81bd1d92f79df4a2b9770bd012e26142dbbfc7ffd6a133b39d39dac5"
+    },
+    {
+      "point_id": "cs408-ds-graphs-06",
+      "module_id": "ds",
+      "concept": "最小生成树与割",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          245,
+          247
+        ]
+      ],
+      "sections": "6.4.1",
+      "syllabus_items": [
+        "最小代价生成树"
+      ],
+      "source_text_sha256": "4ffdf4c785219f95a32f3c7046a16f948415b05f7172460e3e5b35762d586e01"
+    },
+    {
+      "point_id": "cs408-ds-graphs-07",
+      "module_id": "ds",
+      "concept": "单源最短路径与 Dijkstra",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          247,
+          250
+        ]
+      ],
+      "sections": "6.4.2",
+      "syllabus_items": [
+        "单源最短路径"
+      ],
+      "source_text_sha256": "f0254a0be759e6c9d8d8502d91f0e1061938749db829e034d1fe6c94470eeda5"
+    },
+    {
+      "point_id": "cs408-ds-graphs-08",
+      "module_id": "ds",
+      "concept": "Floyd 与全源最短路",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          250,
+          252
+        ]
+      ],
+      "sections": "6.4.2",
+      "syllabus_items": [
+        "全源最短路径"
+      ],
+      "source_text_sha256": "3a47eb234e5c20d17db3224c2faba2195a49957a68498c71a677761946f62d68"
+    },
+    {
+      "point_id": "cs408-ds-graphs-09",
+      "module_id": "ds",
+      "concept": "拓扑排序与 AOV 网",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          252,
+          254
+        ]
+      ],
+      "sections": "6.4.3–6.4.4",
+      "syllabus_items": [
+        "拓扑排序"
+      ],
+      "source_text_sha256": "4f5b7df275a5fb3730eff975273805751e3eecae72e9d5f2021de2ad110d0667"
+    },
+    {
+      "point_id": "cs408-ds-graphs-10",
+      "module_id": "ds",
+      "concept": "关键路径与 AOE 网",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          254,
+          257
+        ]
+      ],
+      "sections": "6.4.5",
+      "syllabus_items": [
+        "关键路径"
+      ],
+      "source_text_sha256": "bffa723de358f7004662649831b62bf5d2e52a7393f81e8c4acbf30bb6d1015f"
+    },
+    {
+      "point_id": "cs408-ds-search-01",
+      "module_id": "ds",
+      "concept": "顺序、折半与分块查找",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          285,
+          290
+        ]
+      ],
+      "sections": "7.1、7.2.1–7.2.3",
+      "syllabus_items": [
+        "顺序查找",
+        "分块查找",
+        "折半查找"
+      ],
+      "source_text_sha256": "d57125b39c7fc7b0f621672471155a38a468bcc81ba9bdebc26af65ef4bf56e6"
+    },
+    {
+      "point_id": "cs408-ds-search-02",
+      "module_id": "ds",
+      "concept": "查找成功与失败的 ASL",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          285,
+          289
+        ],
+        [
+          342,
+          343
+        ]
+      ],
+      "sections": "7.1、7.2、7.5.4",
+      "syllabus_items": [
+        "查找基本概念",
+        "查找算法分析与应用"
+      ],
+      "source_text_sha256": "f8acb917bcfcc065b3b6708f1f94f8baf546637806fcbe45f7f1f4ddc9eb044b"
+    },
+    {
+      "point_id": "cs408-ds-search-03",
+      "module_id": "ds",
+      "concept": "二叉排序树",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          299,
+          303
+        ]
+      ],
+      "sections": "7.3.1",
+      "syllabus_items": [
+        "二叉搜索树"
+      ],
+      "source_text_sha256": "a7567a20f15aeb44a93b5889a5eb6e301efd845a7d24f26ed69e6c40dbdc379f"
+    },
+    {
+      "point_id": "cs408-ds-search-04",
+      "module_id": "ds",
+      "concept": "AVL 平衡调整",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          303,
+          307
+        ]
+      ],
+      "sections": "7.3.2",
+      "syllabus_items": [
+        "平衡二叉树"
+      ],
+      "source_text_sha256": "d6391fd991da7f99e2e80d8bd0e3458b10c2162065c088acf89cc79c70f1e286"
+    },
+    {
+      "point_id": "cs408-ds-search-05",
+      "module_id": "ds",
+      "concept": "红黑树",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          307,
+          313
+        ]
+      ],
+      "sections": "7.3.3",
+      "syllabus_items": [
+        "红黑树"
+      ],
+      "source_text_sha256": "be1ed47c5c03ad990b2e97752b4731c12a1c858398dc0ffba87a1469295b399f"
+    },
+    {
+      "point_id": "cs408-ds-search-06",
+      "module_id": "ds",
+      "concept": "B 树与 B+ 树",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          326,
+          331
+        ]
+      ],
+      "sections": "7.4.1–7.4.2",
+      "syllabus_items": [
+        "B树基本操作",
+        "B+树基本概念"
+      ],
+      "source_text_sha256": "9780c59c6002fa0dd9adfaffabfd2ef4e0afe643dd6757d193bc0e1ae6e81ff7"
+    },
+    {
+      "point_id": "cs408-ds-search-07",
+      "module_id": "ds",
+      "concept": "散列、冲突与装填因子",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          339,
+          343
+        ]
+      ],
+      "sections": "7.5.1–7.5.4",
+      "syllabus_items": [
+        "散列表"
+      ],
+      "source_text_sha256": "95029a46e3bc8255f2baba6ef2b6dd608b5033df8989c63510bb4a92d03d84d9"
+    },
+    {
+      "point_id": "cs408-ds-sort-01",
+      "module_id": "ds",
+      "concept": "排序稳定性与评价",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          353,
+          354
+        ],
+        [
+          395,
+          396
+        ]
+      ],
+      "sections": "8.1.1、8.6.1",
+      "syllabus_items": [
+        "排序基本概念"
+      ],
+      "source_text_sha256": "0e924039c1e98311b6b04482e7429d769e022d60591dff45f917eb4ffc2721de"
+    },
+    {
+      "point_id": "cs408-ds-sort-02",
+      "module_id": "ds",
+      "concept": "插入排序与折半插入",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          355,
+          357
+        ]
+      ],
+      "sections": "8.2.1–8.2.2",
+      "syllabus_items": [
+        "直接插入排序",
+        "折半插入排序"
+      ],
+      "source_text_sha256": "29a70f7ddd0761c353df7366cf0073203358ab269f6603d097f6079159550894"
+    },
+    {
+      "point_id": "cs408-ds-sort-03",
+      "module_id": "ds",
+      "concept": "希尔排序",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          357,
+          358
+        ]
+      ],
+      "sections": "8.2.3",
+      "syllabus_items": [
+        "希尔排序"
+      ],
+      "source_text_sha256": "d0ff51afd74bcd759334454477db3af6b21dc21c4f2822a7bd84e6255f082a43"
+    },
+    {
+      "point_id": "cs408-ds-sort-04",
+      "module_id": "ds",
+      "concept": "冒泡与简单选择",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          362,
+          363
+        ],
+        [
+          373,
+          374
+        ]
+      ],
+      "sections": "8.3.1、8.4.1",
+      "syllabus_items": [
+        "冒泡排序",
+        "简单选择排序"
+      ],
+      "source_text_sha256": "881c2886dd0e9926760de0694267d46a3b30386bd7b24c2f7ad4546f8533b612"
+    },
+    {
+      "point_id": "cs408-ds-sort-05",
+      "module_id": "ds",
+      "concept": "快速排序",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          363,
+          366
+        ]
+      ],
+      "sections": "8.3.2",
+      "syllabus_items": [
+        "快速排序"
+      ],
+      "source_text_sha256": "703a2d0b7baa7d20f40aa5b7eff922d941813b487f807fa750b86ee66bfd25d3"
+    },
+    {
+      "point_id": "cs408-ds-sort-06",
+      "module_id": "ds",
+      "concept": "堆排序",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          373,
+          376
+        ]
+      ],
+      "sections": "8.4.2",
+      "syllabus_items": [
+        "堆排序"
+      ],
+      "source_text_sha256": "0abb1bb6b0eb609b9556f03f72c96c4f2a4b578a2b2f79586f201aebcdddcf98"
+    },
+    {
+      "point_id": "cs408-ds-sort-07",
+      "module_id": "ds",
+      "concept": "归并排序",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          385,
+          387
+        ]
+      ],
+      "sections": "8.5.1",
+      "syllabus_items": [
+        "二路归并排序"
+      ],
+      "source_text_sha256": "512f21ab6ee3766b4886a5053c02ef5cd29de70ce3311dc7ab05614f713f993b"
+    },
+    {
+      "point_id": "cs408-ds-sort-08",
+      "module_id": "ds",
+      "concept": "基数排序",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          387,
+          389
+        ]
+      ],
+      "sections": "8.5.2",
+      "syllabus_items": [
+        "基数排序"
+      ],
+      "source_text_sha256": "036f6f0dcc7b9de043e45a5ce595769bb0e4453390564a1047f79c0f2b949d35"
+    },
+    {
+      "point_id": "cs408-ds-sort-09",
+      "module_id": "ds",
+      "concept": "外部排序与多路归并",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          402,
+          407
+        ]
+      ],
+      "sections": "8.7.1–8.7.5",
+      "syllabus_items": [
+        "外部排序"
+      ],
+      "source_text_sha256": "4c45cc0e4d34c29bffa0cd9d3b51621339d0fb0c518e3a44220749a1ce253c7d"
+    },
+    {
+      "point_id": "cs408-ds-sort-10",
+      "module_id": "ds",
+      "concept": "算法书写与综合分析",
+      "book_id": "wangdao2027-ds",
+      "pages": [
+        [
+          395,
+          397
+        ]
+      ],
+      "sections": "8.6.1–8.6.2",
+      "syllabus_items": [
+        "排序算法分析与应用"
+      ],
+      "source_text_sha256": "3d925e68d9a38e7138e92c78d79c55f42976b955fbdbd0dc1d1cba4d59a74f51"
+    }
+  ],
+  "syllabus_note": "按用户提供的2027版教材章首「考纲内容」及正文分节组织。2027官方大纲全文尚未独立逐项核验，不将本地教材目录冒称官方年度全文。"
+}

@@ -1,0 +1,912 @@
+{
+  "anchor": "BV1T6VFzAE1c",
+  "title": "【Kira老师】《概率论与数理统计》大学生零基础精讲课25h（已完结）| 26考研基础阶段适用",
+  "author": "一高数",
+  "author_mid": 1035929235,
+  "reported_count": 73,
+  "returned_count": 73,
+  "pages": [
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 1,
+      "cid": 31418812036,
+      "title": "最新学习指南(2025年)",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=1",
+      "lesson_ids": [],
+      "catalog_verified": true,
+      "transcript_verified": false,
+      "excluded_reason": "学习指南/课程介绍保留原入口，不作为知识点课时"
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 2,
+      "cid": 29773203035,
+      "title": "原版-课程介绍",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=2",
+      "lesson_ids": [],
+      "catalog_verified": true,
+      "transcript_verified": false,
+      "excluded_reason": "学习指南/课程介绍保留原入口，不作为知识点课时"
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 3,
+      "cid": 29781591780,
+      "title": "1-1 随机事件与样本空间",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=3",
+      "lesson_ids": [
+        "probability-sample-space"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 4,
+      "cid": 29773203532,
+      "title": "1-2 事件间的关系和运算",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=4",
+      "lesson_ids": [
+        "probability-event-rules"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 5,
+      "cid": 29773203810,
+      "title": "1-3 古典概型",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=5",
+      "lesson_ids": [
+        "probability-classical"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 6,
+      "cid": 29773204087,
+      "title": "1-4 几何概型",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=6",
+      "lesson_ids": [
+        "probability-geometric"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 7,
+      "cid": 29773204239,
+      "title": "1-5 概率的概念和基本性质",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=7",
+      "lesson_ids": [
+        "probability-event-rules"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 8,
+      "cid": 29773204409,
+      "title": "1-6 条件概率",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=8",
+      "lesson_ids": [
+        "probability-conditional"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 9,
+      "cid": 29781788642,
+      "title": "1-7 事件间的独立性",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=9",
+      "lesson_ids": [
+        "probability-independent-events"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 10,
+      "cid": 29773204785,
+      "title": "1-8 全概率公式和贝叶斯公式",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=10",
+      "lesson_ids": [
+        "probability-bayes"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 11,
+      "cid": 29773205226,
+      "title": "1-9 全概率公式和贝叶斯公式（练习）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=11",
+      "lesson_ids": [
+        "probability-bayes"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 12,
+      "cid": 29773205163,
+      "title": "2-1 随机变量",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=12",
+      "lesson_ids": [
+        "probability-cdf"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 13,
+      "cid": 29773205211,
+      "title": "2-2 分布函数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=13",
+      "lesson_ids": [
+        "probability-cdf"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 14,
+      "cid": 29773267477,
+      "title": "2-3 离散型随机变量",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=14",
+      "lesson_ids": [
+        "probability-discrete"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 15,
+      "cid": 29773267738,
+      "title": "2-4 二项分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=15",
+      "lesson_ids": [
+        "probability-binomial"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 16,
+      "cid": 29773268120,
+      "title": "2-5 0-1分布、几何分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=16",
+      "lesson_ids": [
+        "probability-geometric-wait"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 17,
+      "cid": 29773268256,
+      "title": "2-6 泊松分布与泊松定理",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=17",
+      "lesson_ids": [
+        "probability-poisson"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 18,
+      "cid": 29773268581,
+      "title": "2-7 超几何分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=18",
+      "lesson_ids": [
+        "probability-hypergeometric"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 19,
+      "cid": 29773268725,
+      "title": "2-8 连续型随机变量的概念与性质",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=19",
+      "lesson_ids": [
+        "probability-density"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 20,
+      "cid": 29773269573,
+      "title": "2-9 连续型随机变量综合题",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=20",
+      "lesson_ids": [
+        "probability-density"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 21,
+      "cid": 29773269924,
+      "title": "2-10 均匀分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=21",
+      "lesson_ids": [
+        "probability-uniform"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 22,
+      "cid": 29773270093,
+      "title": "2-11 指数分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=22",
+      "lesson_ids": [
+        "probability-exponential"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 23,
+      "cid": 29773270290,
+      "title": "2-12 正态分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=23",
+      "lesson_ids": [
+        "probability-normal"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 24,
+      "cid": 29773270752,
+      "title": "2-13 随机变量函数Y=g(X)分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=24",
+      "lesson_ids": [
+        "probability-transform"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 25,
+      "cid": 29773332955,
+      "title": "第3章 多维随机变量及其分布 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=25",
+      "lesson_ids": [
+        "probability-joint-cdf",
+        "probability-joint-table",
+        "probability-marginal",
+        "probability-conditional-density",
+        "probability-independent-variables",
+        "probability-bivariate-normal",
+        "probability-sum-distribution",
+        "probability-extremes"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false,
+      "folded_into": "chapter_opening"
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 26,
+      "cid": 29773333019,
+      "title": "3-1 多维随机变量及其分布函数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=26",
+      "lesson_ids": [
+        "probability-joint-cdf"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 27,
+      "cid": 29773333463,
+      "title": "3-2 二维离散型随机变量的分布和独立性",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=27",
+      "lesson_ids": [
+        "probability-joint-table"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 28,
+      "cid": 29773333898,
+      "title": "3-3 二维连续型随机变量的概念和性质",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=28",
+      "lesson_ids": [
+        "probability-marginal"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 29,
+      "cid": 29773334187,
+      "title": "3-4 二维连续型随机变量求概率和分布函数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=29",
+      "lesson_ids": [
+        "probability-marginal"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 30,
+      "cid": 29773334602,
+      "title": "3-5 边缘概率密度",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=30",
+      "lesson_ids": [
+        "probability-marginal"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 31,
+      "cid": 29860693422,
+      "title": "3-6 条件概率密度与条件概率",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=31",
+      "lesson_ids": [
+        "probability-conditional-density"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 32,
+      "cid": 29773335061,
+      "title": "3-7 二维连续型随机变量的独立性",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=32",
+      "lesson_ids": [
+        "probability-independent-variables"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 33,
+      "cid": 29773335255,
+      "title": "3-8 二维连续型随机变量综合题（练习）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=33",
+      "lesson_ids": [
+        "probability-marginal"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 34,
+      "cid": 29773335358,
+      "title": "3-9 二维均匀分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=34",
+      "lesson_ids": [
+        "probability-marginal"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 35,
+      "cid": 29773335520,
+      "title": "3-10 二维正态分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=35",
+      "lesson_ids": [
+        "probability-bivariate-normal"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 36,
+      "cid": 29773335704,
+      "title": "3-11 二维随机变量函数分布（离散）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=36",
+      "lesson_ids": [
+        "probability-sum-distribution"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 37,
+      "cid": 29773335749,
+      "title": "3-12 二维连续型随机变量函数分布（分布函数法、卷积公式）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=37",
+      "lesson_ids": [
+        "probability-sum-distribution"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 38,
+      "cid": 29773336408,
+      "title": "3-13 二维随机变量函数分布（正态）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=38",
+      "lesson_ids": [
+        "probability-sum-distribution"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 39,
+      "cid": 29773336380,
+      "title": "3-14 最大最小值分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=39",
+      "lesson_ids": [
+        "probability-extremes"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 40,
+      "cid": 29773336466,
+      "title": "第4章 数字特征 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=40",
+      "lesson_ids": [
+        "probability-expectation",
+        "probability-function-expectation",
+        "probability-variance",
+        "probability-chebyshev",
+        "probability-covariance",
+        "probability-uncorrelated"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false,
+      "folded_into": "chapter_opening"
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 41,
+      "cid": 29773336478,
+      "title": "4-1 数学期望",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=41",
+      "lesson_ids": [
+        "probability-expectation"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 42,
+      "cid": 29773398332,
+      "title": "4-2 二维随机变量函数的期望",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=42",
+      "lesson_ids": [
+        "probability-function-expectation"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 43,
+      "cid": 29773398498,
+      "title": "4-3 方差",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=43",
+      "lesson_ids": [
+        "probability-variance"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 44,
+      "cid": 29773398868,
+      "title": "4-4 常见分布的期望和方差",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=44",
+      "lesson_ids": [
+        "probability-variance"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 45,
+      "cid": 29773398933,
+      "title": "4-5 最大最小值分布的期望",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=45",
+      "lesson_ids": [
+        "probability-function-expectation"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 46,
+      "cid": 29773399155,
+      "title": "4-6 切比雪夫不等式",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=46",
+      "lesson_ids": [
+        "probability-chebyshev"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 47,
+      "cid": 29773399210,
+      "title": "4-7 协方差",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=47",
+      "lesson_ids": [
+        "probability-covariance"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 48,
+      "cid": 29773399542,
+      "title": "4-8 相关系数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=48",
+      "lesson_ids": [
+        "probability-covariance"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 49,
+      "cid": 29773399760,
+      "title": "4-9 不相关与独立",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=49",
+      "lesson_ids": [
+        "probability-uncorrelated"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 50,
+      "cid": 29773399863,
+      "title": "5-1 依概率收敛与大数定律",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=50",
+      "lesson_ids": [
+        "probability-large-numbers"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 51,
+      "cid": 29773400347,
+      "title": "5-2 中心极限定理",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=51",
+      "lesson_ids": [
+        "probability-central-limit"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 52,
+      "cid": 29773400465,
+      "title": "第6章 数理统计 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=52",
+      "lesson_ids": [
+        "probability-sample-edf",
+        "probability-sample-statistics",
+        "probability-sampling-laws",
+        "probability-normal-sampling"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false,
+      "folded_into": "chapter_opening"
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 53,
+      "cid": 29773400574,
+      "title": "6-1 总体和样本",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=53",
+      "lesson_ids": [
+        "probability-sample-edf"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 54,
+      "cid": 29773400594,
+      "title": "6-2 经验分布函数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=54",
+      "lesson_ids": [
+        "probability-sample-edf"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 55,
+      "cid": 29773400534,
+      "title": "6-3 样本统计量",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=55",
+      "lesson_ids": [
+        "probability-sample-statistics"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 56,
+      "cid": 29773400881,
+      "title": "6-4 统计量的数字特征",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=56",
+      "lesson_ids": [
+        "probability-sample-statistics"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 57,
+      "cid": 29773401021,
+      "title": "6-5 三大抽样分布与上分位点",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=57",
+      "lesson_ids": [
+        "probability-sampling-laws"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 58,
+      "cid": 29773401480,
+      "title": "6-6 正态总体抽样分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=58",
+      "lesson_ids": [
+        "probability-normal-sampling"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 59,
+      "cid": 29773401781,
+      "title": "6-7 两个正态总体的抽样分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=59",
+      "lesson_ids": [
+        "probability-normal-sampling"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 60,
+      "cid": 29773401903,
+      "title": "7-1 矩估计",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=60",
+      "lesson_ids": [
+        "probability-moments-estimator"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 61,
+      "cid": 29773402094,
+      "title": "7-2 最大似然估计",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=61",
+      "lesson_ids": [
+        "probability-likelihood"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 62,
+      "cid": 29773463967,
+      "title": "7-3 估计量的评价标准",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=62",
+      "lesson_ids": [
+        "probability-estimator-quality"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 63,
+      "cid": 29773464048,
+      "title": "第8章 区间估计 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=63",
+      "lesson_ids": [
+        "probability-mean-interval",
+        "probability-variance-interval",
+        "probability-sample-size"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false,
+      "folded_into": "chapter_opening"
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 64,
+      "cid": 29773464102,
+      "title": "8-1 概念、原理与公式",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=64",
+      "lesson_ids": [
+        "probability-mean-interval"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 65,
+      "cid": 29773464638,
+      "title": "8-2 单个正态总体均值和方差的置信区间",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=65",
+      "lesson_ids": [
+        "probability-mean-interval",
+        "probability-variance-interval"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 66,
+      "cid": 29773465028,
+      "title": "8-3 两个正态总体均值差和方差比的置信区间",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=66",
+      "lesson_ids": [
+        "probability-variance-interval"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 67,
+      "cid": 29773464948,
+      "title": "8-4 样本量的确定",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=67",
+      "lesson_ids": [
+        "probability-sample-size"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 68,
+      "cid": 29773465204,
+      "title": "第9章 假设检验 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=68",
+      "lesson_ids": [
+        "probability-hypothesis",
+        "probability-mean-test",
+        "probability-variance-test",
+        "probability-two-sample"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false,
+      "folded_into": "chapter_opening"
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 69,
+      "cid": 29773464970,
+      "title": "9-1 概念、原理与基本方法",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=69",
+      "lesson_ids": [
+        "probability-hypothesis"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 70,
+      "cid": 29773465972,
+      "title": "9-2 单个正态总体均值的假设检验（双侧、单侧）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=70",
+      "lesson_ids": [
+        "probability-mean-test"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 71,
+      "cid": 29773466197,
+      "title": "9-3 单个正态总体方差的假设检验（双侧、单侧）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=71",
+      "lesson_ids": [
+        "probability-variance-test"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 72,
+      "cid": 29773466052,
+      "title": "9-4 两个正态总体均值差的假设检验",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=72",
+      "lesson_ids": [
+        "probability-two-sample"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1T6VFzAE1c",
+      "page": 73,
+      "cid": 29773466252,
+      "title": "9-5 两个正态总体方差比的检验",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=73",
+      "lesson_ids": [
+        "probability-two-sample"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    }
+  ],
+  "unmapped_pages": [],
+  "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+}

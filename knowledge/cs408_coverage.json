@@ -1,0 +1,3411 @@
+{
+  "target_exam_year": 2027,
+  "syllabus_publication_verified": true,
+  "syllabus_full_text_verified": false,
+  "latest_publication_date": "2026-09-29",
+  "note": "2027 版大纲出版信息已核实；正文逐条映射尚待校对。当前为四科基础知识与原创微课框架，不是官方大纲逐字转写。",
+  "course_learning_status": "public_catalog_and_description_only",
+  "modules": [
+    {
+      "id": "net",
+      "name": "计算机网络",
+      "chapters": [
+        "cs408-net-overview",
+        "cs408-net-physical",
+        "cs408-net-link",
+        "cs408-net-network",
+        "cs408-net-transport",
+        "cs408-net-application"
+      ],
+      "source_url": "https://space.bilibili.com/360996402/lists/6564646?type=season",
+      "point_count": 56
+    },
+    {
+      "id": "co",
+      "name": "计算机组成原理",
+      "chapters": [
+        "cs408-co-overview",
+        "cs408-co-representation",
+        "cs408-co-arithmetic",
+        "cs408-co-memory",
+        "cs408-co-isa",
+        "cs408-co-cpu",
+        "cs408-co-pipeline",
+        "cs408-co-io"
+      ],
+      "source_url": "https://space.bilibili.com/360996402/lists/2199556?type=season",
+      "point_count": 52
+    },
+    {
+      "id": "os",
+      "name": "操作系统",
+      "chapters": [
+        "cs408-os-overview",
+        "cs408-os-process",
+        "cs408-os-scheduling",
+        "cs408-os-synchronization",
+        "cs408-os-deadlocks",
+        "cs408-os-memory",
+        "cs408-os-virtual",
+        "cs408-os-files",
+        "cs408-os-io"
+      ],
+      "source_url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "point_count": 54
+    },
+    {
+      "id": "ds",
+      "name": "数据结构",
+      "chapters": [
+        "cs408-ds-basics",
+        "cs408-ds-linear",
+        "cs408-ds-stack",
+        "cs408-ds-strings",
+        "cs408-ds-trees",
+        "cs408-ds-graphs",
+        "cs408-ds-search",
+        "cs408-ds-sort"
+      ],
+      "source_url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+      "point_count": 54
+    }
+  ],
+  "chapters": 31,
+  "knowledge_points": 216,
+  "coverage": [
+    {
+      "point_id": "cs408-net-overview-01",
+      "module_id": "net",
+      "chapter_id": "cs408-net-overview",
+      "topic": "网络组成、分类与分组交换",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-overview-02",
+      "module_id": "net",
+      "chapter_id": "cs408-net-overview",
+      "topic": "速率、带宽与吞吐量",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-overview-03",
+      "module_id": "net",
+      "chapter_id": "cs408-net-overview",
+      "topic": "发送、传播、处理与排队时延",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-overview-04",
+      "module_id": "net",
+      "chapter_id": "cs408-net-overview",
+      "topic": "时延带宽积与往返时间",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-overview-05",
+      "module_id": "net",
+      "chapter_id": "cs408-net-overview",
+      "topic": "协议、接口与服务",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-overview-06",
+      "module_id": "net",
+      "chapter_id": "cs408-net-overview",
+      "topic": "OSI、TCP/IP 与封装",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-overview-07",
+      "module_id": "net",
+      "chapter_id": "cs408-net-overview",
+      "topic": "连接服务、可靠性与网络边界",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-physical-01",
+      "module_id": "net",
+      "chapter_id": "cs408-net-physical",
+      "topic": "数据、信号与通信方式",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-physical-02",
+      "module_id": "net",
+      "chapter_id": "cs408-net-physical",
+      "topic": "编码与调制",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-physical-03",
+      "module_id": "net",
+      "chapter_id": "cs408-net-physical",
+      "topic": "奈奎斯特与香农公式",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-physical-04",
+      "module_id": "net",
+      "chapter_id": "cs408-net-physical",
+      "topic": "传输介质与设备",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-physical-05",
+      "module_id": "net",
+      "chapter_id": "cs408-net-physical",
+      "topic": "复用、交换与接入",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-physical-06",
+      "module_id": "net",
+      "chapter_id": "cs408-net-physical",
+      "topic": "码分多址与正交码",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-01",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "封装成帧与透明传输",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-02",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "奇偶校验、海明码与 CRC",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-03",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "停等 ARQ 与序号",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-04",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "GBN 与选择重传 SR",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-05",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "滑动窗口与利用率",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-06",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "ALOHA、CSMA 与退避",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-07",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "CSMA/CD 与最短帧",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-08",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "以太网帧、MAC 与冲突域",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-09",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "交换机自学习与转发",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-10",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "VLAN、生成树与交换环",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-11",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "802.11、CSMA/CA 与隐藏站",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-link-12",
+      "module_id": "net",
+      "chapter_id": "cs408-net-link",
+      "topic": "PPP 与广域链路",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-01",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "网络服务、转发与路由",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-02",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "IPv4 地址与子网掩码",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-03",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "CIDR、VLSM 与路由聚合",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-04",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "最长前缀匹配",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-05",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "ARP 与逐跳 MAC",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-06",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "IPv4 数据报首部与 TTL",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-07",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "IPv4 分片与重组",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-08",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "DHCP 地址配置",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-09",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "ICMP 与网络诊断",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-10",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "NAT、NAPT 与地址边界",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-11",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "距离向量、链路状态与分层路由",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-12",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "RIP、OSPF 与 BGP",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-13",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "IPv6 与地址表达",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-14",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "IP 组播、IGMP 与移动 IP",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-15",
+      "module_id": "net",
+      "chapter_id": "cs408-net-network",
+      "topic": "路由器组成与 SDN",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-01",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "端口、多路分解与套接字",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-02",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "UDP 报文与校验",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-03",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "TCP 字节流、序号与确认号",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-04",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "三次握手与序号同步",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-05",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "连接释放与 TIME_WAIT",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-06",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "重传、RTT 与计时器",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-07",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "接收窗口与流量控制",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-08",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "拥塞控制与窗口约束",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-09",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "慢开始、拥塞避免与快速恢复",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-10",
+      "module_id": "net",
+      "chapter_id": "cs408-net-transport",
+      "topic": "TCP 吞吐与端到端追踪",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-application-01",
+      "module_id": "net",
+      "chapter_id": "cs408-net-application",
+      "topic": "客户服务器与 P2P",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-application-02",
+      "module_id": "net",
+      "chapter_id": "cs408-net-application",
+      "topic": "DNS 层次与解析",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-application-03",
+      "module_id": "net",
+      "chapter_id": "cs408-net-application",
+      "topic": "FTP 的控制与数据连接",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-application-04",
+      "module_id": "net",
+      "chapter_id": "cs408-net-application",
+      "topic": "电子邮件与 MIME",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-application-05",
+      "module_id": "net",
+      "chapter_id": "cs408-net-application",
+      "topic": "HTTP、持久连接与状态",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-net-application-06",
+      "module_id": "net",
+      "chapter_id": "cs408-net-application",
+      "topic": "WWW 访问的跨层过程",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-overview-01",
+      "module_id": "co",
+      "chapter_id": "cs408-co-overview",
+      "topic": "存储程序与系统层次",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-overview-02",
+      "module_id": "co",
+      "chapter_id": "cs408-co-overview",
+      "topic": "硬件组成与指令执行",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-overview-03",
+      "module_id": "co",
+      "chapter_id": "cs408-co-overview",
+      "topic": "软件、机器级接口与语言转换",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-overview-04",
+      "module_id": "co",
+      "chapter_id": "cs408-co-overview",
+      "topic": "时钟、CPI 与 CPU 时间",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-overview-05",
+      "module_id": "co",
+      "chapter_id": "cs408-co-overview",
+      "topic": "性能比较与加速比",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-representation-01",
+      "module_id": "co",
+      "chapter_id": "cs408-co-representation",
+      "topic": "进位计数制与转换",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-representation-02",
+      "module_id": "co",
+      "chapter_id": "cs408-co-representation",
+      "topic": "定点原码、反码与补码",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-representation-03",
+      "module_id": "co",
+      "chapter_id": "cs408-co-representation",
+      "topic": "符号扩展、零扩展与截断",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-representation-04",
+      "module_id": "co",
+      "chapter_id": "cs408-co-representation",
+      "topic": "移码与阶码",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-representation-05",
+      "module_id": "co",
+      "chapter_id": "cs408-co-representation",
+      "topic": "IEEE 754 与特殊值",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-representation-06",
+      "module_id": "co",
+      "chapter_id": "cs408-co-representation",
+      "topic": "大小端与数据对齐",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-representation-07",
+      "module_id": "co",
+      "chapter_id": "cs408-co-representation",
+      "topic": "C 类型转换与数据解释",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-arithmetic-01",
+      "module_id": "co",
+      "chapter_id": "cs408-co-arithmetic",
+      "topic": "逻辑运算与门电路",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-arithmetic-02",
+      "module_id": "co",
+      "chapter_id": "cs408-co-arithmetic",
+      "topic": "半加器、全加器与进位链",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-arithmetic-03",
+      "module_id": "co",
+      "chapter_id": "cs408-co-arithmetic",
+      "topic": "补码加减与溢出",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-arithmetic-04",
+      "module_id": "co",
+      "chapter_id": "cs408-co-arithmetic",
+      "topic": "算术移位与逻辑移位",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-arithmetic-05",
+      "module_id": "co",
+      "chapter_id": "cs408-co-arithmetic",
+      "topic": "乘法、Booth 与扩展积",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-arithmetic-06",
+      "module_id": "co",
+      "chapter_id": "cs408-co-arithmetic",
+      "topic": "除法与商余数",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-arithmetic-07",
+      "module_id": "co",
+      "chapter_id": "cs408-co-arithmetic",
+      "topic": "浮点加减与精度损失",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-arithmetic-08",
+      "module_id": "co",
+      "chapter_id": "cs408-co-arithmetic",
+      "topic": "ALU、标志位与运算器",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-01",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "存储层次与局部性",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-02",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "SRAM、DRAM 与 ROM",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-03",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "主存编址、芯片与容量扩展",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-04",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "多模块与交叉编址",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-05",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "Cache 映射与地址分解",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-06",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "Cache 替换与写策略",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-07",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "命中率与平均访存时间",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-08",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "页表、TLB 与虚拟地址",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-memory-09",
+      "module_id": "co",
+      "chapter_id": "cs408-co-memory",
+      "topic": "Cache、主存与虚存综合",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-isa-01",
+      "module_id": "co",
+      "chapter_id": "cs408-co-isa",
+      "topic": "指令格式与扩展操作码",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-isa-02",
+      "module_id": "co",
+      "chapter_id": "cs408-co-isa",
+      "topic": "寻址方式与有效地址",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-isa-03",
+      "module_id": "co",
+      "chapter_id": "cs408-co-isa",
+      "topic": "相对寻址与分支位移",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-isa-04",
+      "module_id": "co",
+      "chapter_id": "cs408-co-isa",
+      "topic": "RISC、CISC 与 ISA",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-isa-05",
+      "module_id": "co",
+      "chapter_id": "cs408-co-isa",
+      "topic": "C 表达式、数组与控制流",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-isa-06",
+      "module_id": "co",
+      "chapter_id": "cs408-co-isa",
+      "topic": "过程调用与栈帧",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-cpu-01",
+      "module_id": "co",
+      "chapter_id": "cs408-co-cpu",
+      "topic": "CPU 寄存器与数据通路",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-cpu-02",
+      "module_id": "co",
+      "chapter_id": "cs408-co-cpu",
+      "topic": "取指与指令周期",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-cpu-03",
+      "module_id": "co",
+      "chapter_id": "cs408-co-cpu",
+      "topic": "单总线与多总线数据通路",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-cpu-04",
+      "module_id": "co",
+      "chapter_id": "cs408-co-cpu",
+      "topic": "硬布线控制器",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-cpu-05",
+      "module_id": "co",
+      "chapter_id": "cs408-co-cpu",
+      "topic": "微程序控制器",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-cpu-06",
+      "module_id": "co",
+      "chapter_id": "cs408-co-cpu",
+      "topic": "异常、中断与返回",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-pipeline-01",
+      "module_id": "co",
+      "chapter_id": "cs408-co-pipeline",
+      "topic": "流水线时空图与吞吐量",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-pipeline-02",
+      "module_id": "co",
+      "chapter_id": "cs408-co-pipeline",
+      "topic": "结构、数据与控制冒险",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-pipeline-03",
+      "module_id": "co",
+      "chapter_id": "cs408-co-pipeline",
+      "topic": "数据转发与 load-use",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-pipeline-04",
+      "module_id": "co",
+      "chapter_id": "cs408-co-pipeline",
+      "topic": "多发射、超标量与超流水",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-pipeline-05",
+      "module_id": "co",
+      "chapter_id": "cs408-co-pipeline",
+      "topic": "多处理器、SIMD 与硬件多线程",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-io-01",
+      "module_id": "co",
+      "chapter_id": "cs408-co-io",
+      "topic": "总线组成与带宽",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-io-02",
+      "module_id": "co",
+      "chapter_id": "cs408-co-io",
+      "topic": "总线仲裁与定时",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-io-03",
+      "module_id": "co",
+      "chapter_id": "cs408-co-io",
+      "topic": "I/O 接口与地址编排",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-io-04",
+      "module_id": "co",
+      "chapter_id": "cs408-co-io",
+      "topic": "程序查询与中断 I/O",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-io-05",
+      "module_id": "co",
+      "chapter_id": "cs408-co-io",
+      "topic": "中断优先级与屏蔽",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-co-io-06",
+      "module_id": "co",
+      "chapter_id": "cs408-co-io",
+      "topic": "DMA 与总线占用",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-overview-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-overview",
+      "topic": "目标、特征与系统分类",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-overview-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-overview",
+      "topic": "用户态、内核态与特权指令",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-overview-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-overview",
+      "topic": "中断、异常与系统调用",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-overview-04",
+      "module_id": "os",
+      "chapter_id": "cs408-os-overview",
+      "topic": "内核组织与虚拟机",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-overview-05",
+      "module_id": "os",
+      "chapter_id": "cs408-os-overview",
+      "topic": "引导过程与操作系统装入",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-process-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-process",
+      "topic": "程序、进程与 PCB",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-process-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-process",
+      "topic": "进程状态与转换",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-process-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-process",
+      "topic": "创建、终止与上下文切换",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-process-04",
+      "module_id": "os",
+      "chapter_id": "cs408-os-process",
+      "topic": "线程与资源共享",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-process-05",
+      "module_id": "os",
+      "chapter_id": "cs408-os-process",
+      "topic": "用户级与内核级线程",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-process-06",
+      "module_id": "os",
+      "chapter_id": "cs408-os-process",
+      "topic": "共享内存、消息与管道",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-process-07",
+      "module_id": "os",
+      "chapter_id": "cs408-os-process",
+      "topic": "信号与异步通知",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-scheduling-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-scheduling",
+      "topic": "调度层次、抢占与时机",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-scheduling-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-scheduling",
+      "topic": "周转、等待与响应时间",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-scheduling-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-scheduling",
+      "topic": "FCFS、SJF、SRTF 与 HRRN",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-scheduling-04",
+      "module_id": "os",
+      "chapter_id": "cs408-os-scheduling",
+      "topic": "时间片与多级反馈队列",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-scheduling-05",
+      "module_id": "os",
+      "chapter_id": "cs408-os-scheduling",
+      "topic": "多处理机调度与亲和性",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-synchronization-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-synchronization",
+      "topic": "临界区与竞态条件",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-synchronization-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-synchronization",
+      "topic": "软件互斥与硬件原子操作",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-synchronization-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-synchronization",
+      "topic": "信号量与 P/V 语义",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-synchronization-04",
+      "module_id": "os",
+      "chapter_id": "cs408-os-synchronization",
+      "topic": "生产者消费者与信号量顺序",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-synchronization-05",
+      "module_id": "os",
+      "chapter_id": "cs408-os-synchronization",
+      "topic": "读者写者与公平性",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-synchronization-06",
+      "module_id": "os",
+      "chapter_id": "cs408-os-synchronization",
+      "topic": "哲学家进餐与资源顺序",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-synchronization-07",
+      "module_id": "os",
+      "chapter_id": "cs408-os-synchronization",
+      "topic": "管程与条件变量",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-deadlocks-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-deadlocks",
+      "topic": "死锁条件、饥饿与活锁",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-deadlocks-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-deadlocks",
+      "topic": "预防与避免、银行家算法",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-deadlocks-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-deadlocks",
+      "topic": "检测、资源图与解除",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-memory-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-memory",
+      "topic": "装入、链接与重定位",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-memory-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-memory",
+      "topic": "连续分配与碎片",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-memory-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-memory",
+      "topic": "基本分页与地址转换",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-memory-04",
+      "module_id": "os",
+      "chapter_id": "cs408-os-memory",
+      "topic": "多级页表与 TLB",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-memory-05",
+      "module_id": "os",
+      "chapter_id": "cs408-os-memory",
+      "topic": "分段与段页式",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-memory-06",
+      "module_id": "os",
+      "chapter_id": "cs408-os-memory",
+      "topic": "内存保护与共享",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-virtual-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-virtual",
+      "topic": "请求分页与缺页处理",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-virtual-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-virtual",
+      "topic": "OPT、FIFO、LRU 与 CLOCK",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-virtual-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-virtual",
+      "topic": "Belady 异常",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-virtual-04",
+      "module_id": "os",
+      "chapter_id": "cs408-os-virtual",
+      "topic": "页面分配、工作集与抖动",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-virtual-05",
+      "module_id": "os",
+      "chapter_id": "cs408-os-virtual",
+      "topic": "缺页有效访问时间",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-virtual-06",
+      "module_id": "os",
+      "chapter_id": "cs408-os-virtual",
+      "topic": "页框回收与内存映射文件",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-files-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-files",
+      "topic": "文件逻辑结构与操作",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-files-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-files",
+      "topic": "连续、链接与索引分配",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-files-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-files",
+      "topic": "多级索引与最大文件",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-files-04",
+      "module_id": "os",
+      "chapter_id": "cs408-os-files",
+      "topic": "目录、路径与链接",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-files-05",
+      "module_id": "os",
+      "chapter_id": "cs408-os-files",
+      "topic": "打开文件表与共享偏移",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-files-06",
+      "module_id": "os",
+      "chapter_id": "cs408-os-files",
+      "topic": "空闲空间管理",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-files-07",
+      "module_id": "os",
+      "chapter_id": "cs408-os-files",
+      "topic": "文件保护与访问控制",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-files-08",
+      "module_id": "os",
+      "chapter_id": "cs408-os-files",
+      "topic": "VFS、挂载与持久化",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-io-01",
+      "module_id": "os",
+      "chapter_id": "cs408-os-io",
+      "topic": "设备、驱动与控制器",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-io-02",
+      "module_id": "os",
+      "chapter_id": "cs408-os-io",
+      "topic": "I/O 控制方式",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-io-03",
+      "module_id": "os",
+      "chapter_id": "cs408-os-io",
+      "topic": "缓冲、缓存与 SPOOLing",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-io-04",
+      "module_id": "os",
+      "chapter_id": "cs408-os-io",
+      "topic": "设备分配、回收与 I/O 调度",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-io-05",
+      "module_id": "os",
+      "chapter_id": "cs408-os-io",
+      "topic": "磁盘访问与调度",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-io-06",
+      "module_id": "os",
+      "chapter_id": "cs408-os-io",
+      "topic": "磁盘格式、分区与 RAID",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-os-io-07",
+      "module_id": "os",
+      "chapter_id": "cs408-os-io",
+      "topic": "SSD、擦除与磨损均衡",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-basics-01",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-basics",
+      "topic": "逻辑结构、存储结构与数据类型",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-basics-02",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-basics",
+      "topic": "算法性质与正确性",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-basics-03",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-basics",
+      "topic": "时间复杂度与渐近记号",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-basics-04",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-basics",
+      "topic": "空间复杂度与递归栈",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-linear-01",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-linear",
+      "topic": "顺序表的访问与插入",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-linear-02",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-linear",
+      "topic": "单链表的指针修改",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-linear-03",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-linear",
+      "topic": "双链表与循环链表",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-linear-04",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-linear",
+      "topic": "带头节点与边界处理",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-linear-05",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-linear",
+      "topic": "静态链表与存储选择",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-linear-06",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-linear",
+      "topic": "线性表算法设计",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-stack-01",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-stack",
+      "topic": "栈与合法出栈序列",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-stack-02",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-stack",
+      "topic": "循环队列与判满",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-stack-03",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-stack",
+      "topic": "双端队列与链式队列",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-stack-04",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-stack",
+      "topic": "括号匹配、表达式与递归",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-stack-05",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-stack",
+      "topic": "数组地址与特殊矩阵压缩",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-stack-06",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-stack",
+      "topic": "稀疏矩阵与三元组",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-strings-01",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-strings",
+      "topic": "串的存储与基本操作",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-strings-02",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-strings",
+      "topic": "朴素匹配与回退",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-strings-03",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-strings",
+      "topic": "KMP、前后缀与 next",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-trees-01",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-trees",
+      "topic": "树的性质与森林",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-trees-02",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-trees",
+      "topic": "二叉树性质与完全二叉树",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-trees-03",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-trees",
+      "topic": "二叉树顺序与链式存储",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-trees-04",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-trees",
+      "topic": "先中后层序遍历",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-trees-05",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-trees",
+      "topic": "非递归遍历与线索二叉树",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-trees-06",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-trees",
+      "topic": "哈夫曼树与带权路径长度",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-trees-07",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-trees",
+      "topic": "并查集与集合操作",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-trees-08",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-trees",
+      "topic": "堆及其应用",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-01",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "图的基本概念与度",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-02",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "邻接矩阵与邻接表",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-03",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "十字链表与邻接多重表",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-04",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "广度优先搜索",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-05",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "深度优先搜索与遍历森林",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-06",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "最小生成树与割",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-07",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "单源最短路径与 Dijkstra",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-08",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "Floyd 与全源最短路",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-09",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "拓扑排序与 AOV 网",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-graphs-10",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-graphs",
+      "topic": "关键路径与 AOE 网",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-search-01",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-search",
+      "topic": "顺序、折半与分块查找",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-search-02",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-search",
+      "topic": "查找成功与失败的 ASL",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-search-03",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-search",
+      "topic": "二叉排序树",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-search-04",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-search",
+      "topic": "AVL 平衡调整",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-search-05",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-search",
+      "topic": "红黑树",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-search-06",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-search",
+      "topic": "B 树与 B+ 树",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-search-07",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-search",
+      "topic": "散列、冲突与装填因子",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-01",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "排序稳定性与评价",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-02",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "插入排序与折半插入",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-03",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "希尔排序",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-04",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "冒泡与简单选择",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-05",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "快速排序",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-06",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "堆排序",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-07",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "归并排序",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-08",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "基数排序",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-09",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "外部排序与多路归并",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    },
+    {
+      "point_id": "cs408-ds-sort-10",
+      "module_id": "ds",
+      "chapter_id": "cs408-ds-sort",
+      "topic": "算法书写与综合分析",
+      "syllabus_mapping": "2027_full_text_pending",
+      "has_lesson": true,
+      "has_original_case": true,
+      "characters": [
+        "anaxa",
+        "hyacine",
+        "castor",
+        "phainon"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cs408-outline-2027",
+      "title": "2027 全国硕士研究生招生考试计算机学科专业基础考试大纲 · 高等教育出版社",
+      "url": "https://www.hep.com.cn/book/show/2099763850751057921",
+      "status": "metadata_verified",
+      "note": "教育部教育考试院编，ISBN 978-7-04-068451-3，出版日期 2026-09-29。仅出版元数据可核实，未取得完整正文，不宣称逐条核验完成。"
+    },
+    {
+      "id": "cs408-hep-analysis",
+      "title": "全国硕士研究生招生考试计算机学科专业基础考试大纲解析 · 高教社公开目录",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68b8764ae119ac9729e8a8bc",
+      "status": "catalog_only",
+      "note": "2025-10-15 出版的解析书，公开目录作为基础知识组织参照，不冒充 2027 大纲正文。"
+    },
+    {
+      "id": "cs408-co-season",
+      "title": "用户指定：计算机组成原理微课堂合集",
+      "url": "https://space.bilibili.com/360996402/lists/2199556?type=season",
+      "status": "catalog_only",
+      "note": "合集页直读未成功；同作者公开课程页 BV1qG41197E4 的简介及部分目录可核对。借鉴短讲、形象过程推演；无字幕逐字转写，未核实合集全部成员。"
+    },
+    {
+      "id": "cs408-net-season",
+      "title": "用户指定：计算机网络课程合集",
+      "url": "https://space.bilibili.com/360996402/lists/6564646?type=season",
+      "status": "catalog_only",
+      "note": "合集页直读未成功；同作者 408 网络强化复习公开分集目录可检索。保留用户指定入口，不宣称完整观看或精确逐集映射。"
+    },
+    {
+      "id": "cs408-co-public",
+      "title": "湖科大教书匠 · 计算机组成原理微课堂公开课程页",
+      "url": "https://www.bilibili.com/video/BV1qG41197E4/",
+      "status": "catalog_only",
+      "note": "核对公开简介和分集标题。课程例题与角色对白由本项目原创，不转载视频、讲义或配音。"
+    },
+    {
+      "id": "cs408-net-public",
+      "title": "湖科大教书匠 · 408 计算机网络强化复习公开目录",
+      "url": "https://www.bilibili.com/video/BV1XHs3zPEuW/",
+      "status": "catalog_only",
+      "note": "公开检索目录包含性能、分层、物理、链路、路由、TCP 与应用层。具体板书、动画、逐句讲法未核实。"
+    },
+    {
+      "id": "cs408-ostep",
+      "title": "OSTEP · 操作系统作者公开教材",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "status": "page_verified",
+      "note": "作者公开资源作为机制核对与后续深入阅读入口，不将其范围当作 408 官方考纲。"
+    },
+    {
+      "id": "cs408-mit",
+      "title": "MIT 6.006 · 算法公开课程",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+      "status": "page_verified",
+      "note": "用于算法学习资源与概念复核入口，题目、案例和中文台词为原创。"
+    },
+    {
+      "id": "cs408-rfc-tcp",
+      "title": "RFC 9293 · TCP 标准",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293",
+      "status": "page_verified",
+      "note": "TCP 协议机制的原始规范；考场算法和计时模型仍以题干约定为准。"
+    },
+    {
+      "id": "cs408-rfc-ip",
+      "title": "RFC 791 · IPv4 基础规范",
+      "url": "https://www.rfc-editor.org/rfc/rfc791",
+      "status": "page_verified",
+      "note": "IPv4 基础规范存在后续更新，课程不把历史文本视为全部现行实现。"
+    }
+  ],
+  "network_course": {
+    "lessons": 56,
+    "exercises": 112,
+    "handout_mapping": "knowledge/network_handout_mapping.json",
+    "official_2027_full_text_verified": false
+  },
+  "textbook_courses": {
+    "co": {
+      "lessons": 52,
+      "mapped_syllabus_items": 93
+    },
+    "os": {
+      "lessons": 54,
+      "mapped_syllabus_items": 111
+    },
+    "ds": {
+      "lessons": 54,
+      "mapped_syllabus_items": 76
+    }
+  },
+  "textbook_mapping": "knowledge/408_textbook_mapping.json",
+  "textbook_syllabus_basis": "按用户提供的2027版教材章首「考纲内容」及正文分节组织。2027官方大纲全文尚未独立逐项核验，不将本地教材目录冒称官方年度全文。"
+}

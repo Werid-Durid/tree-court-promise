@@ -1,0 +1,94 @@
+{
+  "id": "hyacine-tea-01",
+  "slug": "hyacine-tea",
+  "revision": 1,
+  "media_revision": 1,
+  "character": "hyacine",
+  "character_name": "风堇",
+  "title": "替你留一朵晴天",
+  "scene": "courtyard",
+  "duration": 60,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "original": true,
+  "description": "风堇与你独处的原创邀约。",
+  "quiet_label": "花庭的细风",
+  "silence": "杯沿升起很淡的热气。她没有催你，只把盛着花瓣的小碟轻轻推近。",
+  "output_dir": "blender/build/companion-films/hyacine-tea",
+  "continuous_file": "continuous.mp4",
+  "lines": [
+    {
+      "start": 4,
+      "end": 9,
+      "text": "来啦？我把茶晾了一会儿，现在喝应该刚刚好。"
+    },
+    {
+      "start": 12,
+      "end": 17,
+      "text": "你今天，好像把好多事情都放在心里了。"
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "text": "不想说也可以。我们先看这朵花，慢慢打开。"
+    },
+    {
+      "start": 29,
+      "end": 34.031124999999996,
+      "text": "这条缎带本来系在花束上。你喜欢的话，送给你。"
+    },
+    {
+      "start": 38,
+      "end": 43,
+      "text": "不是为了让你打起精神。累的时候，也可以来见我。"
+    },
+    {
+      "start": 49,
+      "end": 55,
+      "text": "今天就坐到影子挪过这片花瓣，好不好？我陪着你。"
+    }
+  ],
+  "interactions": [
+    {
+      "at": 18,
+      "id": "tea",
+      "prompt": "她在杯碟旁给你留出一小块空地。",
+      "choices": [
+        {
+          "id": "a",
+          "label": "想听你说说今天的事。",
+          "reply": "那我从一朵开错季节的小花说起，你愿意听多久都好。",
+          "duration": 7
+        },
+        {
+          "id": "b",
+          "label": "我想先安静一会儿。",
+          "reply": "好呀。你不用找话题，我就在这里。",
+          "duration": 7
+        }
+      ]
+    },
+    {
+      "at": 46,
+      "id": "ribbon",
+      "prompt": "一阵风把缎带轻轻吹到你手边。",
+      "choices": [
+        {
+          "id": "a",
+          "label": "下次一起挑花吧。",
+          "reply": "说好了。到时候，你选喜欢的，我帮你拿着。",
+          "duration": 7
+        },
+        {
+          "id": "b",
+          "label": "今天已经轻松很多了。",
+          "reply": "那就好。回去的路上，也把这份轻松带着吧。",
+          "duration": 7
+        }
+      ]
+    }
+  ]
+}

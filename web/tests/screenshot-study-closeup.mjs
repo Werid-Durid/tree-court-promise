@@ -1,0 +1,17 @@
+import {createRequire} from 'node:module';
+import {mkdir} from 'node:fs/promises';
+import {join} from 'node:path';
+const modules = process.env.TREECOURT_NODE_MODULES || join(process.env.USERPROFILE, '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules');
+const require = createRequire(join(modules, 'package.json'));
+const {chromium} = require('playwright');
+const root = join(process.cwd(), 'web/.runtime/study-wallpaper');
+await mkdir(root, {recursive: true});
+const base = process.env.TREECOURT_URL || 'http://127.0.0.1:8765';
+const browser = await chromium.launch({channel: 'msedge', headless: true});
+const page = await (await browser.newContext({viewport: {width: 1440, height: 900}})).newPage();
+await page.goto(base + '/wallpaper', {waitUntil: 'domcontentloaded'});
+await page.waitForFunction(() => document.querySelector('#wallpaper-stage')?.dataset.ready === 'true', null, {timeout: 30000});
+await page.waitForTimeout(30000);
+await page.screenshot({path: join(root, 'closeup.png')});
+console.log('CLOSEUP_OK', join(root, 'closeup.png'));
+await browser.close();

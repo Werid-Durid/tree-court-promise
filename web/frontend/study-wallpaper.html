@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2a1c14">
+  <meta name="description" content="树庭自习室 · 专注陪伴模式：计时、环境声与搭档陪坐">
+  <title>树庭自习室 · 专注陪伴</title>
+  <link rel="icon" href="/static/leaf.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/wallpaper.css">
+  <link rel="stylesheet" href="/static/focus.css">
+</head>
+<body>
+  <main id="focus-stage" aria-label="树庭自习室 · 专注陪伴"></main>
+  <div class="fc-vignette" aria-hidden="true"></div>
+
+  <header class="fc-top">
+    <a class="fc-back" href="/">← 回到树庭</a>
+    <div class="fc-tools">
+      <button class="fc-tool" id="fc-sound" aria-pressed="false">环境声 · 关</button>
+      <button class="fc-tool" id="fc-full" aria-label="全屏">⛶</button>
+    </div>
+  </header>
+
+  <section class="fc-panel" aria-label="专注陪伴">
+    <div id="fc-picker"></div>
+    <p class="fc-companion" id="fc-line">那刻夏：把这一段时间，交给眼前这件事。</p>
+    <div class="fc-ring">
+      <svg viewBox="0 0 220 220" aria-hidden="true">
+        <circle class="fc-track" cx="110" cy="110" r="100"></circle>
+        <circle class="fc-bar" id="fc-bar" cx="110" cy="110" r="100"></circle>
+      </svg>
+      <div class="fc-time" id="fc-time">25:00</div>
+    </div>
+    <div class="fc-buttons">
+      <button class="fc-btn primary" id="fc-start">开始专注</button>
+      <button class="fc-btn" id="fc-end" disabled>结束</button>
+    </div>
+    <p class="fc-hint" id="fc-hint">25 分钟一轮 · 切出页面会自动暂停</p>
+    <p class="fc-stats" id="fc-stats">今日专注 0 分钟 · 已完成 0 轮</p>
+  </section>
+
+  <div class="fc-status" id="fc-status" role="status">正在准备自习室…</div>
+
+  <script type="module" src="/static/study-wallpaper-main.js"></script>
+</body>
+</html>

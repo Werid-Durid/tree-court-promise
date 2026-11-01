@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "recorded_at": "2026-10-22T14:35:51.533351+00:00",
+  "note": "原始模型/工作副本哈希；--check 用于证明未被修改",
+  "files": [
+    {
+      "path": "blender/generated/anaxa.blend",
+      "size": 10315042,
+      "sha256": "6e737fae57f9bf06e919721d5bfe8ffa9518e3e5a477525a70fb2105ff69c905"
+    },
+    {
+      "path": "blender/generated/castor.blend",
+      "size": 13718985,
+      "sha256": "def79f2d7526b67ecfd63fbc0ce74d65164cd47c4c8f3795c4bd3db02577b68f"
+    },
+    {
+      "path": "blender/generated/hyacine.blend",
+      "size": 9766274,
+      "sha256": "facd8b18353a5d084741f77da6eb2585748e931d4c8fbc0062edd462460e7ee7"
+    },
+    {
+      "path": "blender/generated/phainon.blend",
+      "size": 9669585,
+      "sha256": "101ec59ffa0daaaf68b2c60951e0a1e96049a55f8c237a2397c43bcd1b130681"
+    },
+    {
+      "path": "characters/profiles.json",
+      "size": 4447,
+      "sha256": "4724b04ba1902c27605c209412c4951a9d39b47d1df729cab03baae41f8c15c9"
+    },
+    {
+      "path": "星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（变身）/剑.pmx",
+      "size": 113786,
+      "sha256": "710ef4700916cbdd078edaca0ae5e5f4dc538152aede64a23785e8dc9ec72302"
+    },
+    {
+      "path": "星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（变身）/星穹铁道—白厄3.pmx",
+      "size": 3408431,
+      "sha256": "289fbb5faa81892049c01a80e31a07ccba26a436358ca922080bb5c5e1d3390c"
+    },
+    {
+      "path": "星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（含武器）/剑.pmx",
+      "size": 57371,
+      "sha256": "9063e70dc76ee4760fbad72a856048e2e8ea534d141d9bcf9367eac7151e946e"
+    },
+    {
+      "path": "星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（含武器）/星穹铁道—白厄3.pmx",
+      "size": 2633406,
+      "sha256": "4cab67ad332002aa75f980336b831b87e6bc88ebcfad907739e3f7d85624914f"
+    },
+    {
+      "path": "星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（变身）/剑.pmx",
+      "size": 113786,
+      "sha256": "710ef4700916cbdd078edaca0ae5e5f4dc538152aede64a23785e8dc9ec72302"
+    },
+    {
+      "path": "星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（变身）/星穹铁道—白厄3.pmx",
+      "size": 3408431,
+      "sha256": "289fbb5faa81892049c01a80e31a07ccba26a436358ca922080bb5c5e1d3390c"
+    },
+    {
+      "path": "星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（含武器）/剑.pmx",
+      "size": 57371,
+      "sha256": "9063e70dc76ee4760fbad72a856048e2e8ea534d141d9bcf9367eac7151e946e"
+    },
+    {
+      "path": "星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（含武器）/星穹铁道—白厄3.pmx",
+      "size": 2633406,
+      "sha256": "4cab67ad332002aa75f980336b831b87e6bc88ebcfad907739e3f7d85624914f"
+    },
+    {
+      "path": "星穹铁道—遐蝶（含武器）_by_崩坏：星穹铁道_7a0b8ffe5225310880bf35c5b7907c69/星穹铁道—遐蝶3.pmx",
+      "size": 3376253,
+      "sha256": "854d6ab91e88ff2c9f652b5c483fe85665ef5fa6792ca686a4de31d2ef2531e8"
+    },
+    {
+      "path": "星穹铁道—遐蝶（含武器）_by_崩坏：星穹铁道_7a0b8ffe5225310880bf35c5b7907c69/镰刀.pmx",
+      "size": 244519,
+      "sha256": "f2ae70ee7bc04a1c6a8aa5859b6246c776af919554d2ac2e30442aa672fd0ead"
+    },
+    {
+      "path": "星穹铁道—那刻夏（含武器）_by_崩坏：星穹铁道_7e5f46589002ced9199be5c5ae8da88f/星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（变身）/剑.pmx",
+      "size": 113786,
+      "sha256": "710ef4700916cbdd078edaca0ae5e5f4dc538152aede64a23785e8dc9ec72302"
+    },
+    {
+      "path": "星穹铁道—那刻夏（含武器）_by_崩坏：星穹铁道_7e5f46589002ced9199be5c5ae8da88f/星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（变身）/星穹铁道—白厄3.pmx",
+      "size": 3408431,
+      "sha256": "289fbb5faa81892049c01a80e31a07ccba26a436358ca922080bb5c5e1d3390c"
+    },
+    {
+      "path": "星穹铁道—那刻夏（含武器）_by_崩坏：星穹铁道_7e5f46589002ced9199be5c5ae8da88f/星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（含武器）/剑.pmx",
+      "size": 57371,
+      "sha256": "9063e70dc76ee4760fbad72a856048e2e8ea534d141d9bcf9367eac7151e946e"
+    },
+    {
+      "path": "星穹铁道—那刻夏（含武器）_by_崩坏：星穹铁道_7e5f46589002ced9199be5c5ae8da88f/星穹铁道—白厄_by_崩坏：星穹铁道_3b1fc8e379df673b244a81553c415750/星穹铁道—白厄（含武器）/星穹铁道—白厄3.pmx",
+      "size": 2633406,
+      "sha256": "4cab67ad332002aa75f980336b831b87e6bc88ebcfad907739e3f7d85624914f"
+    },
+    {
+      "path": "星穹铁道—那刻夏（含武器）_by_崩坏：星穹铁道_7e5f46589002ced9199be5c5ae8da88f/星穹铁道—那刻夏.pmx",
+      "size": 2837693,
+      "sha256": "7a683754f17e877cf8513a1e7bf21d79a681c463c7179aacd9ff7b855ab79658"
+    },
+    {
+      "path": "星穹铁道—那刻夏（含武器）_by_崩坏：星穹铁道_7e5f46589002ced9199be5c5ae8da88f/枪.pmx",
+      "size": 206290,
+      "sha256": "51cb6fcd5c473b56d8831d7f2e2ac24a97130458eefa6e379aaaf66d4320ac61"
+    },
+    {
+      "path": "星穹铁道—风堇（含武器）_by_崩坏：星穹铁道_f83f23e3cbce69f9982d3589847ccf01 (2)/小伊卡/星穹铁道—小伊卡.pmx",
+      "size": 443261,
+      "sha256": "6d5cc27ce0a8b5e501d2575645797daba55478b76fa7920469f3e6c4fd33e94c"
+    },
+    {
+      "path": "星穹铁道—风堇（含武器）_by_崩坏：星穹铁道_f83f23e3cbce69f9982d3589847ccf01 (2)/星穹铁道—风堇3.pmx",
+      "size": 2810362,
+      "sha256": "0bd011b0c4dd7574b9dab49859d47d4c1640a5aa430c1e4cce5ae3aa742b7901"
+    },
+    {
+      "path": "星穹铁道—风堇（含武器）_by_崩坏：星穹铁道_f83f23e3cbce69f9982d3589847ccf01 (2)/杖2.pmx",
+      "size": 197278,
+      "sha256": "770985ff3440a13811b321b5c4e5f16b0cdb8d99913ffab8b7a66095fe41f3c0"
+    }
+  ]
+}

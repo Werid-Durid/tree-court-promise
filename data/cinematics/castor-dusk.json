@@ -1,0 +1,94 @@
+{
+  "id": "castor-dusk-01",
+  "slug": "castor-dusk",
+  "revision": 1,
+  "media_revision": 1,
+  "character": "castor",
+  "character_name": "遐蝶",
+  "title": "在晚风落下以前",
+  "scene": "terrace",
+  "duration": 60,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "original": true,
+  "description": "遐蝶与你独处的原创邀约。",
+  "quiet_label": "露台上的暮色",
+  "silence": "远处水光慢慢暗下来。她把相邻的位置留给你，蝶影掠过栏边。",
+  "output_dir": "blender/build/companion-films/castor-dusk",
+  "continuous_file": "continuous.mp4",
+  "lines": [
+    {
+      "start": 4,
+      "end": 9,
+      "text": "这边能看见最后一线夕光。你愿意在这里坐一会儿吗？"
+    },
+    {
+      "start": 12,
+      "end": 17.629416666666668,
+      "text": "刚才有一只蝴蝶停在书上。等我翻页，它又飞走了。"
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "text": "我没有留住它。能一起看见，已经是很好的事了。"
+    },
+    {
+      "start": 29,
+      "end": 34.10395833333333,
+      "text": "这张书签送给你。只是纸做的，你可以放心收下。"
+    },
+    {
+      "start": 38,
+      "end": 43.25420833333333,
+      "text": "你看，晚风并没有把今天吹散。我们都还记得。"
+    },
+    {
+      "start": 49,
+      "end": 55,
+      "text": "如果明天也有这样的黄昏，我想，再把身边的位置留给你。"
+    }
+  ],
+  "interactions": [
+    {
+      "at": 18,
+      "id": "butterfly",
+      "prompt": "蝶影从你们之间轻轻掠过。",
+      "choices": [
+        {
+          "id": "a",
+          "label": "我也看见它了。",
+          "reply": "嗯。那这就不是我一个人的记忆了。",
+          "duration": 7
+        },
+        {
+          "id": "b",
+          "label": "可以讲讲你读的书吗？",
+          "reply": "可以。这一页写的是重逢，我读得很慢。",
+          "duration": 7
+        }
+      ]
+    },
+    {
+      "at": 46,
+      "id": "tomorrow",
+      "prompt": "她看着你，等你决定下一次相见。",
+      "choices": [
+        {
+          "id": "a",
+          "label": "明天，也来这里吧。",
+          "reply": "好。我会带上书，也会为你留着这一页。",
+          "duration": 7
+        },
+        {
+          "id": "b",
+          "label": "换我来邀请你。",
+          "reply": "那我就等着。去哪里，都听你慢慢说。",
+          "duration": 7
+        }
+      ]
+    }
+  ]
+}

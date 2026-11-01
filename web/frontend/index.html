@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#193c32">
+  <meta name="description" content="在神悟树庭，与四位学术搭档一起修习。在理解中相识，在自己的节奏里向前。">
+  <title>树庭之约 · 交互式修习系统</title>
+  <link rel="icon" href="/static/leaf.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/styles.css?v=postgrad-20261025">
+  <script type="module" src="/static/app.js?v=postgrad-exams-20261029"></script>
+</head>
+<body>
+  <a class="skip" href="#content">跳转到内容</a>
+  <aside class="sidebar" aria-label="主导航">
+    <a class="brand" href="#home"><span class="brand-mark">❧</span><span>树庭之约<small>TREE COURT</small></span></a>
+    <div class="sidebar-caption">你的树庭学习室</div>
+    <nav>
+      <a href="#home" data-nav="home"><span>⌂</span>树庭课程表</a>
+      <a href="#companions" data-nav="companions"><span>♧</span>同行之人</a>
+      <a href="#library" data-nav="library"><span>▤</span>智库</a>
+      <a href="#materials" data-nav="materials"><span>▱</span>我的资料</a>
+    </nav>
+    <a href="/wallpaper" class="focus-nav"><span>☾</span>去自习一会儿<span>↗</span></a>
+    <div class="sidebar-bottom"><span class="tree-ornament">✧<br>╱│╲<br>╱ │ ╲</span><p>知识如树，向光生长。</p><div id="sync-status" role="status">正在打开档案…</div><small>本地档案 · 仅保存在这台设备</small></div>
+  </aside>
+  <div class="page">
+    <header class="topbar"><span id="breadcrumb">神悟树庭 / 课程表</span><div><a href="#focus" class="mobile-focus-link">☾ 自习室</a><span class="stage-badge"><i></i>3D 课堂 · 本地模式</span><button id="settings-button" class="icon-button" aria-label="阅读设置">⚙</button><span class="avatar">旅</span></div></header>
+    <main id="content" tabindex="-1"><div class="loading">正在打开树庭智库…</div></main>
+    <footer>树庭之约 · 同人学习项目 <span>每一次理解，都是一次新的相遇。</span></footer>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-body"></div><button id="modal-close" class="modal-x" aria-label="关闭对话框">×</button></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>请启用 JavaScript 以使用交互式修习与本地进度保存。</noscript>
+</body>
+</html>

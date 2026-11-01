@@ -1,0 +1,13 @@
+// 旧标签页回灌与浏览器草稿清除，用独立服务模拟正式重置后的纪元。
+import {createRequire} from 'node:module';import {join,resolve} from 'node:path';import {writeFile,mkdir} from 'node:fs/promises';import assert from 'node:assert/strict';
+const require=createRequire(join(process.env.USERPROFILE,'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/package.json'));const {chromium}=require('playwright');const base=process.env.TREECOURT_URL||'http://127.0.0.1:8779';assert.equal(new URL(base).hostname,'127.0.0.1');
+const browser=await chromium.launch({channel:'msedge',headless:true});const context=await browser.newContext();const page=await context.newPage();
+try{
+ await context.addInitScript(()=>{if(sessionStorage.getItem('seeded'))return;sessionStorage.setItem('seeded','yes');localStorage.setItem('treecourt.web.v1',JSON.stringify({version:1,profile:crypto.randomUUID(),events:[{event_id:crypto.randomUUID(),type:'study_tick',at:new Date().toISOString(),payload:{policy_version:2,seconds:60}}],synced:[],quarantined:[]}));localStorage.setItem('treecourt.web.v1.epoch',JSON.stringify('old-epoch'));localStorage.setItem('treecourt.web.v1.examDraft.old','"old"');localStorage.setItem('treecourt.web.v1.focus','{"elapsed":900000}');});
+ await page.goto(base+'/#companions');await page.locator('[data-invite]').first().waitFor();
+ const result=await page.evaluate(()=>({saved:JSON.parse(localStorage.getItem('treecourt.web.v1')),epoch:JSON.parse(localStorage.getItem('treecourt.web.v1.epoch')),draft:localStorage.getItem('treecourt.web.v1.examDraft.old'),focus:localStorage.getItem('treecourt.web.v1.focus')}));
+ assert.equal(result.saved.events.length,0);assert.equal(result.draft,null);assert.equal(result.focus,null);
+ const user=await (await context.request.get(base+'/api/user',{headers:{Authorization:'Bearer '+result.saved.profile}})).json();assert.equal(user.events.length,0);assert.equal(user.state.study_ms,0);assert.deepEqual(Object.values(user.state.affection),[0,0,0,0]);assert.deepEqual(Object.values(user.state.relationships),['partner','partner','partner','partner']);
+ const stale=await context.request.post(base+'/api/events',{headers:{Authorization:'Bearer '+result.saved.profile,'X-Treecourt-Epoch':'old-epoch'},data:{events:[]}});assert.equal(stale.status(),409);
+ const out=resolve('web/.runtime/social-browser');await mkdir(out,{recursive:true});await writeFile(join(out,'reset-result.json'),JSON.stringify({passed:true,base,checks:['local-drafts-cleared','old-events-not-resynced','affection-and-relationships-zero','old-epoch-write-rejected'],epoch:result.epoch},null,2));console.log('Reset browser checks passed.');
+}finally{await context.close();await browser.close();}

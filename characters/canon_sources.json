@@ -1,0 +1,106 @@
+{
+  "checked_date": "2026-10-24",
+  "coverage": "检索四位角色公开资料、语音页与相关官方短片入口；未取得所有版本主线、短信、活动及短片的完整逐字文本，不宣称穷尽全部原著。",
+  "creative_boundary": "邀约为树庭架空日常原创；原作地名与性格作为约束，不添加为官方经历。二创只参考互动形式，不作为人物事实来源。",
+  "sources": [
+    {
+      "id": "canon-anaxa",
+      "title": "那刻夏语音与角色故事资料索引",
+      "urls": [
+        "https://wiki.biligame.com/sr/那刻夏/语音",
+        "https://honkai-star-rail.fandom.com/zh/wiki/那刻夏/故事"
+      ],
+      "kind": "community_transcription",
+      "status": "public_page_read_partial_dynamic_fields",
+      "facts": [
+        "神悟树庭、求知与质疑",
+        "表达锋利，不能等同羞辱或无条件讨好"
+      ],
+      "limits": "部分动态语音表格为空；未逐句引用"
+    },
+    {
+      "id": "canon-hyacine",
+      "title": "风堇资料与语音",
+      "urls": [
+        "https://wiki.biligame.com/sr/风堇/资料",
+        "https://wiki.biligame.com/sr/风堇/语音"
+      ],
+      "kind": "community_transcription",
+      "status": "public_page_and_index_excerpt_read",
+      "facts": [
+        "昏光庭院、护理工作",
+        "喜爱朋友相聚、茶水、柔和天井光的日常"
+      ],
+      "limits": "未穷尽全部主线对话；剧情为原创"
+    },
+    {
+      "id": "canon-castor",
+      "title": "遐蝶资料与语音",
+      "urls": [
+        "https://wiki.biligame.com/sr/遐蝶/资料",
+        "https://wiki.biligame.com/sr/遐蝶/语音"
+      ],
+      "kind": "community_transcription",
+      "status": "public_page_read_partial_dynamic_fields",
+      "facts": [
+        "礼貌的称呼与对生命的珍视",
+        "接触边界不可忽略",
+        "不把少言误写为没有好奇和感情"
+      ],
+      "limits": "不同剧情阶段能力变化不混用；未加入默认肢体接触"
+    },
+    {
+      "id": "canon-phainon",
+      "title": "白厄角色故事与语音",
+      "urls": [
+        "https://wiki.biligame.com/sr/白厄",
+        "https://wiki.biligame.com/sr/白厄/资料",
+        "https://wiki.biligame.com/sr/白厄/语音"
+      ],
+      "kind": "community_transcription",
+      "status": "public_story_excerpt_and_pages_read",
+      "facts": [
+        "哀丽秘榭的故乡与麦田意象",
+        "童年木雕与英雄想象",
+        "热诚和责任之外保留普通人的生活"
+      ],
+      "limits": "不复述轮回终局，不将短片设定直接写成当前主线事实"
+    },
+    {
+      "id": "official-phainon-daily",
+      "title": "虚一直构｜白厄请你吃烤鱼，躺在麦田吹晚风",
+      "url": "https://www.bilibili.com/video/BV1K93xzaExH/",
+      "publisher": "帕姆的收藏夹",
+      "kind": "official_daily_short",
+      "status": "public_title_description_verified",
+      "design_inference": "共同用餐、麦田晚风、平常小事建立陪伴；未声称取得完整对白或复刻镜头参数"
+    },
+    {
+      "id": "official-castorice-daily",
+      "title": "虚一直构｜《重生之星河棒影》",
+      "url": "https://www.bilibili.com/video/BV19mdVYCEXd/",
+      "publisher": "帕姆的收藏夹",
+      "kind": "official_daily_short",
+      "status": "public_title_description_verified",
+      "design_inference": "书页、故事创作与对天外冒险的好奇；不照搬短片情节"
+    },
+    {
+      "id": "fan-video-search",
+      "title": "B站乙女向二创检索",
+      "kind": "fanwork_search",
+      "status": "search_attempted_no_reliable_full_transcript",
+      "queries": [
+        "那刻夏 乙女向 约会",
+        "白厄 乙女向 第一视角",
+        "风堇 乙女向"
+      ],
+      "limits": "未取得可核实完整脚本，不冒称学习或改编某位作者作品；第一视角、生活道具与选项回应为项目原创设计"
+    }
+  ],
+  "latest_revision_research": {
+    "checked_date": "2026-10-29",
+    "report": "characters/邀约改稿与研究记录-20261029.md",
+    "coverage": "已读四人公开语音选段、近期官方宣传文本及少量二创介绍；未取得大量乙女视频字幕、Lofter乙女全文或近期思绪完整剧情。",
+    "adaptation": "原创树庭架空日常，不宣称改编某位二创作者或复刻近期卡面。"
+  }
+}

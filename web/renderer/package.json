@@ -1,0 +1,15 @@
+{
+  "name": "treecourt-renderer",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild story-scene.js --bundle --format=esm --minify --outfile=../frontend/scene.bundle.js && esbuild study-wallpaper.js --bundle --format=esm --minify --outfile=../frontend/study-wallpaper.bundle.js && esbuild outing-scene.js --bundle --format=esm --minify --outfile=../frontend/outing-scene.bundle.js"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

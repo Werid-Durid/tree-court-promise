@@ -1,0 +1,32 @@
+import {createRequire} from 'node:module';
+import {mkdir} from 'node:fs/promises';
+import {join} from 'node:path';
+const modules = process.env.TREECOURT_NODE_MODULES || join(process.env.USERPROFILE, '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules');
+const require = createRequire(join(modules, 'package.json'));
+const {chromium} = require('playwright');
+const root = join(process.cwd(), 'web/.runtime/classroom-style');
+await mkdir(root, {recursive: true});
+const base = process.env.TREECOURT_URL || 'http://127.0.0.1:8765';
+const browser = await chromium.launch({channel: 'msedge', headless: true});
+const page = await (await browser.newContext({viewport: {width: 1440, height: 1000}})).newPage();
+const errors = [];
+page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });
+await page.goto(base, {waitUntil: 'domcontentloaded'});
+await page.locator('#hero-start').waitFor({timeout: 30000});
+await page.locator('#hero-start').click();
+await page.locator('[data-enter]').first().waitFor({timeout: 20000});
+await page.locator('[data-enter]').first().click();
+await page.waitForFunction(() => document.querySelector('.scene-host')?.dataset.ready === 'true', null, {timeout: 90000}).catch(() => {});
+await page.waitForTimeout(800);
+await page.locator('[data-talk="anaxa"]').click();
+await page.waitForTimeout(1500);
+await page.locator('#mood-cycle').click();
+await page.locator('#mood-cycle').click();
+await page.waitForTimeout(1800);
+const state = await page.evaluate(() => ({
+  mood: document.querySelector('#mood-cycle')?.textContent,
+  speaker: document.querySelector('.scene-host')?.dataset.speaker,
+}));
+await page.screenshot({path: join(root, 'anaxa-sad.png')});
+console.log(JSON.stringify({...state, errors}, null, 2));
+await browser.close();

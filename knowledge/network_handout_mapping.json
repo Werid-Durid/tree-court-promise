@@ -1,0 +1,770 @@
+{
+  "version": 1,
+  "source": {
+    "id": "network-handout-hugong",
+    "title": "用户提供：计算机网络讲义全-湖工",
+    "file": "data/lectures/network/handout.pdf",
+    "original_path": "D:\\啥都有\\xwechat_files\\wxid_yatdtzqtl4cf22_4b5e\\msg\\file\\2026-10\\计算机网络讲义全-湖工.pdf",
+    "sha256": "38c85f0a9964dedc76948967d1b48e517e8c2a4bed3c2be999416278ea2f350c",
+    "pages": 1622,
+    "extraction": "图片型 PPT，目录索引及选定汇总/过程页离线 OCR 与图像核对，未声称逐字识别全部页"
+  },
+  "syllabus_note": "参照408六章知识框架与出版社公开复习目录筛选，2027正式大纲全文未取得，年度变动未逐条核验。",
+  "framework_source": "https://phei.com.cn/module/goods/wssd_content.jsp?bookid=68922",
+  "lessons": [
+    {
+      "point_id": "cs408-net-overview-01",
+      "concept": "网络组成、分类与分组交换",
+      "pages": [
+        [
+          1,
+          46
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-overview-02",
+      "concept": "速率、带宽与吞吐量",
+      "pages": [
+        [
+          47,
+          67
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-overview-03",
+      "concept": "发送、传播、处理与排队时延",
+      "pages": [
+        [
+          47,
+          67
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-overview-04",
+      "concept": "时延带宽积与往返时间",
+      "pages": [
+        [
+          68,
+          82
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-overview-05",
+      "concept": "协议、接口与服务",
+      "pages": [
+        [
+          136,
+          162
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-overview-06",
+      "concept": "OSI、TCP/IP 与封装",
+      "pages": [
+        [
+          83,
+          162
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-overview-07",
+      "concept": "连接服务、可靠性与网络边界",
+      "pages": [
+        [
+          320,
+          332
+        ],
+        [
+          739,
+          767
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-physical-01",
+      "concept": "数据、信号与通信方式",
+      "pages": [
+        [
+          163,
+          168
+        ],
+        [
+          191,
+          202
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-physical-02",
+      "concept": "编码与调制",
+      "pages": [
+        [
+          203,
+          223
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-physical-03",
+      "concept": "奈奎斯特与香农公式",
+      "pages": [
+        [
+          224,
+          239
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-physical-04",
+      "concept": "传输介质与设备",
+      "pages": [
+        [
+          169,
+          190
+        ],
+        [
+          620,
+          657
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-physical-05",
+      "concept": "复用、交换与接入",
+      "pages": [
+        [
+          14,
+          36
+        ],
+        [
+          441,
+          472
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-physical-06",
+      "concept": "码分多址与正交码",
+      "pages": [
+        [
+          441,
+          472
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-01",
+      "concept": "封装成帧与透明传输",
+      "pages": [
+        [
+          262,
+          294
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-02",
+      "concept": "奇偶校验、海明码与 CRC",
+      "pages": [
+        [
+          295,
+          319
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-03",
+      "concept": "停等 ARQ 与序号",
+      "pages": [
+        [
+          320,
+          349
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-04",
+      "concept": "GBN 与选择重传 SR",
+      "pages": [
+        [
+          350,
+          412
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-05",
+      "concept": "滑动窗口与利用率",
+      "pages": [
+        [
+          333,
+          412
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-06",
+      "concept": "ALOHA、CSMA 与退避",
+      "pages": [
+        [
+          435,
+          440
+        ],
+        [
+          473,
+          552
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-07",
+      "concept": "CSMA/CD 与最短帧",
+      "pages": [
+        [
+          473,
+          521
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-08",
+      "concept": "以太网帧、MAC 与冲突域",
+      "pages": [
+        [
+          473,
+          521
+        ],
+        [
+          553,
+          603
+        ],
+        [
+          620,
+          657
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-09",
+      "concept": "交换机自学习与转发",
+      "pages": [
+        [
+          658,
+          679
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-10",
+      "concept": "VLAN、生成树与交换环",
+      "pages": [
+        [
+          680,
+          738
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-11",
+      "concept": "802.11、CSMA/CA 与隐藏站",
+      "pages": [
+        [
+          522,
+          552
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-link-12",
+      "concept": "PPP 与广域链路",
+      "pages": [
+        [
+          413,
+          434
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-01",
+      "concept": "网络服务、转发与路由",
+      "pages": [
+        [
+          739,
+          767
+        ],
+        [
+          869,
+          931
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-02",
+      "concept": "IPv4 地址与子网掩码",
+      "pages": [
+        [
+          768,
+          831
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-03",
+      "concept": "CIDR、VLSM 与路由聚合",
+      "pages": [
+        [
+          832,
+          868
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-04",
+      "concept": "最长前缀匹配",
+      "pages": [
+        [
+          869,
+          893
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-05",
+      "concept": "ARP 与逐跳 MAC",
+      "pages": [
+        [
+          553,
+          619
+        ],
+        [
+          869,
+          893
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-06",
+      "concept": "IPv4 数据报首部与 TTL",
+      "pages": [
+        [
+          1041,
+          1075
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-07",
+      "concept": "IPv4 分片与重组",
+      "pages": [
+        [
+          1041,
+          1075
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-08",
+      "concept": "DHCP 地址配置",
+      "pages": [
+        [
+          1454,
+          1482
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-09",
+      "concept": "ICMP 与网络诊断",
+      "pages": [
+        [
+          1076,
+          1107
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": [
+        "https://datatracker.ietf.org/doc/html/rfc6633"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-10",
+      "concept": "NAT、NAPT 与地址边界",
+      "pages": [
+        [
+          1108,
+          1133
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-11",
+      "concept": "距离向量、链路状态与分层路由",
+      "pages": [
+        [
+          932,
+          1040
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-12",
+      "concept": "RIP、OSPF 与 BGP",
+      "pages": [
+        [
+          956,
+          1040
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-network-13",
+      "concept": "IPv6 与地址表达",
+      "pages": [],
+      "source_status": "supplement_not_in_handout",
+      "supplement_urls": [
+        "https://www.rfc-editor.org/rfc/rfc8200"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-14",
+      "concept": "IP 组播、IGMP 与移动 IP",
+      "pages": [],
+      "source_status": "supplement_not_in_handout",
+      "supplement_urls": [
+        "https://datatracker.ietf.org/doc/html/rfc9776",
+        "https://datatracker.ietf.org/doc/html/rfc5944"
+      ]
+    },
+    {
+      "point_id": "cs408-net-network-15",
+      "concept": "路由器组成与 SDN",
+      "pages": [
+        [
+          869,
+          893
+        ],
+        [
+          932,
+          955
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": [
+        "https://opennetworking.org/sdn-definition/"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-01",
+      "concept": "端口、多路分解与套接字",
+      "pages": [
+        [
+          1134,
+          1168
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-transport-02",
+      "concept": "UDP 报文与校验",
+      "pages": [
+        [
+          1169,
+          1199
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-transport-03",
+      "concept": "TCP 字节流、序号与确认号",
+      "pages": [
+        [
+          1306,
+          1348
+        ],
+        [
+          1402,
+          1436
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-transport-04",
+      "concept": "三次握手与序号同步",
+      "pages": [
+        [
+          1349,
+          1378
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-transport-05",
+      "concept": "连接释放与 TIME_WAIT",
+      "pages": [
+        [
+          1379,
+          1401
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-transport-06",
+      "concept": "重传、RTT 与计时器",
+      "pages": [
+        [
+          1280,
+          1305
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": [
+        "https://www.rfc-editor.org/rfc/rfc6298"
+      ]
+    },
+    {
+      "point_id": "cs408-net-transport-07",
+      "concept": "接收窗口与流量控制",
+      "pages": [
+        [
+          1200,
+          1228
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-transport-08",
+      "concept": "拥塞控制与窗口约束",
+      "pages": [
+        [
+          1200,
+          1279
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-transport-09",
+      "concept": "慢开始、拥塞避免与快速恢复",
+      "pages": [
+        [
+          1229,
+          1279
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-transport-10",
+      "concept": "TCP 吞吐与端到端追踪",
+      "pages": [
+        [
+          1200,
+          1279
+        ],
+        [
+          1306,
+          1348
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-application-01",
+      "concept": "客户服务器与 P2P",
+      "pages": [
+        [
+          1437,
+          1453
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-application-02",
+      "concept": "DNS 层次与解析",
+      "pages": [
+        [
+          1483,
+          1509
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-application-03",
+      "concept": "FTP 的控制与数据连接",
+      "pages": [
+        [
+          1510,
+          1530
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-application-04",
+      "concept": "电子邮件与 MIME",
+      "pages": [
+        [
+          1531,
+          1563
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-application-05",
+      "concept": "HTTP、持久连接与状态",
+      "pages": [
+        [
+          1564,
+          1622
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    },
+    {
+      "point_id": "cs408-net-application-06",
+      "concept": "WWW 访问的跨层过程",
+      "pages": [
+        [
+          108,
+          135
+        ],
+        [
+          604,
+          619
+        ],
+        [
+          1454,
+          1509
+        ],
+        [
+          1564,
+          1622
+        ]
+      ],
+      "source_status": "toc_and_selected_slides_reviewed",
+      "supplement_urls": []
+    }
+  ],
+  "lesson_count": 56,
+  "exercise_count": 112,
+  "supplementary_topics": [
+    "IPv6",
+    "IP组播、IGMP与移动IP",
+    "SDN（路由器本体部分可参照讲义）",
+    "ALOHA、海明码等边界补充"
+  ],
+  "lower_priority": [
+    "因特网历史与标准化过程：保留查阅，不作为独立必修课时",
+    "STP、VPN的配置细节及动画重复页：按主题辅助理解，不增设独立检测",
+    "HTML/CSS/JavaScript页面制作细节：不代替HTTP协议课"
+  ],
+  "corrections": [
+    {
+      "topic": "ICMP源点抑制",
+      "page": 1107,
+      "note": "讲义列出历史报文类型；课程提示 RFC 6633 已弃用，不把它作为现行拥塞控制机制。",
+      "reference": "https://datatracker.ietf.org/doc/html/rfc6633"
+    }
+  ]
+}

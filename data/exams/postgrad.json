@@ -1,0 +1,1713 @@
+{
+  "version": 1,
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "papers": [
+    {
+      "id": "math1-2026",
+      "level": "math1",
+      "year": 2026,
+      "month": 0,
+      "form": 1,
+      "title": "2026年 · 考研数学一",
+      "files": [
+        {
+          "id": "2837206447b98926dd6e",
+          "name": "2026年数学一真题试卷.pdf",
+          "path": "math1/2026-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2026-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "73adc808f1228b5d65ce1419a884219c101a6349f6c120ce1a01131fc6cccb67",
+          "bytes": 1451127,
+          "pages": 5,
+          "question_pages": 5,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/fjw345/mathonline/blob/bc8d40210cd831b56603595914ef2876876ab1ac/resource/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%20%28%E4%B8%80%29%20%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90%EF%BC%881987-2026%EF%BC%89/2026%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%EF%BC%88%E6%95%B0%E4%B8%80%EF%BC%89/26%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/fjw345/mathonline",
+          "source_commit": "bc8d40210cd831b56603595914ef2876876ab1ac"
+        },
+        {
+          "id": "c488b99af8a66a1c58fb",
+          "name": "2026年数学一参考解析.pdf",
+          "path": "math1/2026-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2026-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "d0f1899255f0cfdebb660570308b180c9798740a2c3797970a45f24c34fc4b20",
+          "bytes": 1932303,
+          "pages": 2,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/fjw345/mathonline/blob/bc8d40210cd831b56603595914ef2876876ab1ac/resource/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%20%28%E4%B8%80%29%20%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90%EF%BC%881987-2026%EF%BC%89/2026%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%EF%BC%88%E6%95%B0%E4%B8%80%EF%BC%89/26%E6%95%B0%E4%B8%80%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88.pdf",
+          "repository": "https://github.com/fjw345/mathonline",
+          "source_commit": "bc8d40210cd831b56603595914ef2876876ab1ac"
+        }
+      ],
+      "paper_id": "2837206447b98926dd6e",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 10,
+        "fill_first": 11,
+        "fill_last": 16,
+        "written_first": 17,
+        "written_last": 22
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/fjw345/mathonline",
+        "commit": "bc8d40210cd831b56603595914ef2876876ab1ac",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "math1-2025",
+      "level": "math1",
+      "year": 2025,
+      "month": 0,
+      "form": 1,
+      "title": "2025年 · 考研数学一",
+      "files": [
+        {
+          "id": "c44d8b3878d70686e69b",
+          "name": "2025年数学一真题（逐题原图）.zip",
+          "path": "math1/2025-question-images.zip",
+          "kind": "paper",
+          "extension": ".zip",
+          "sha256": "2115559930aa2e503ce1b8640b20e715718cdaa65abc60669be0ee33ec0635dd",
+          "bytes": 879499,
+          "pages": 22,
+          "question_pages": 22,
+          "exam_safe": true,
+          "contains_answers": false,
+          "image_pages": [
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q01_id665.png",
+              "sha256": "658b1f02f57f0ff7bf33fcc1fbab0c7226a0741d0e049cccadbea3a0ef633970",
+              "question_number": 1
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q02_id663.png",
+              "sha256": "cc8918bd41f58f7ee2529bca417130a7dada0dccfa2e9773f4b288286badd6f8",
+              "question_number": 2
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q03_id664.png",
+              "sha256": "eefd553c0d5d0365e1d0f6bccec777a5f27863bce692d900db631d8f22fc0764",
+              "question_number": 3
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q04_id659.png",
+              "sha256": "c790ca2986c83293ca5882a00210fcb700da9c159feea8feba5e2d00985de270",
+              "question_number": 4
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q05_id660.png",
+              "sha256": "187705b2419a5132139d9618ab9399e1ceb083436668a8c6c777cc2bb48e2eff",
+              "question_number": 5
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q06_id662.png",
+              "sha256": "cfb6bc5609c37aaf99809b3609f7e5a67d44199075eb44465d3b584ce4388bd0",
+              "question_number": 6
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q07_id661.png",
+              "sha256": "df13a68afb49a723e67d93e5272ca94f82da5d38759559e0e2c66bf3f216f525",
+              "question_number": 7
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q08_id644.png",
+              "sha256": "2d215e877e6dd878847bce080a9dbf130d5e75d05f1fa60b178018e9617cd310",
+              "question_number": 8
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q09_id645.png",
+              "sha256": "c19ba3b79b6f265e54bd74576dc3beadda96cfb8f97b2785b7d24cc909dcc1c3",
+              "question_number": 9
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q10_id653.png",
+              "sha256": "9bdbd50550f834efc51b1eed920120d6ae3aa490df0c92bc5e4c5fcbfd12f0d1",
+              "question_number": 10
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q11_id652.png",
+              "sha256": "fc604db4a778b3df301d08f4e62150551e5e40b284d12cdbede2b4889e5d37a7",
+              "question_number": 11
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q12_id650.png",
+              "sha256": "797006455005cf00a61899a799d98454b99de75bef4d9b42c60083c897fc2737",
+              "question_number": 12
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q13_id651.png",
+              "sha256": "097aa0ed68c6d0e3adb1230fb47684407e71f2f95fea30031161666a3ee4b0c4",
+              "question_number": 13
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q14_id646.png",
+              "sha256": "04db342b40d4934d5980e4b61016a1cc1d941ff907620130e1de4be67adb1806",
+              "question_number": 14
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q15_id647.png",
+              "sha256": "4e71dcf36ad3948407832a6291817c464e419cb8ffe34f5ae08209dbf8827ce3",
+              "question_number": 15
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q16_id649.png",
+              "sha256": "73dd7cf541b82035f02ff68a2cd5b78b20314af5c8cf22c28068fc3a21104b10",
+              "question_number": 16
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q17_id648.png",
+              "sha256": "c95e84ef40219a69ffb101abe103246c5a84d7ac3372f7b43bd66246a5d4efb3",
+              "question_number": 17
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q18_id657.png",
+              "sha256": "64e0099d2acc5dce8ae26a7bffbf87b40086e88eb0bb0f1bb365490ae9fb18f3",
+              "question_number": 18
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q19_id658.png",
+              "sha256": "a3e84ea8c80c527006166a6b166055bec29aad51ebf9b9db6337064040ffa429",
+              "question_number": 19
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q20_id655.png",
+              "sha256": "d5727ac78b5066c3442821ccfee4e92740dc124aa9d28d9f3b4ca66125075305",
+              "question_number": 20
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q21_id654.png",
+              "sha256": "652f119de845f24b35d14ddcef0dd5de0b09ba6c513dcb83d66964284345dd33",
+              "question_number": 21
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2025-images/Q22_id656.png",
+              "sha256": "f446de81e13511606b3be97d587ba1e82c6a0515611f095c0c66914066faf778",
+              "question_number": 22
+            }
+          ],
+          "source_url": "https://github.com/lx-ruc/kaoyanshuxue/tree/196dc9d2d8271978a030a3721a828c8723cd3864/kaoyan_math_images/",
+          "repository": "https://github.com/lx-ruc/kaoyanshuxue",
+          "source_commit": "196dc9d2d8271978a030a3721a828c8723cd3864"
+        },
+        {
+          "id": "42c8dc2505f1058e31c5",
+          "name": "2025年数学一试题与解析.pdf",
+          "path": "math1/2025-combined.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2025-combined.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "6353d8b12315c9236cf35f030969d083557447e4bf8696cfa190bed7015a03ae",
+          "bytes": 833749,
+          "pages": 16,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/fjw345/mathonline/blob/bc8d40210cd831b56603595914ef2876876ab1ac/resource/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%20%28%E4%B8%80%29%20%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90%EF%BC%881987-2026%EF%BC%89/2025%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%80%EF%BC%89%E7%9C%9F%E9%A2%98%E8%AF%95%E5%8D%B7%E5%8F%8A%E8%A7%A3%E6%9E%90%E8%AF%A6%E7%BB%86%E7%89%88.pdf",
+          "repository": "https://github.com/fjw345/mathonline",
+          "source_commit": "bc8d40210cd831b56603595914ef2876876ab1ac"
+        }
+      ],
+      "paper_id": "c44d8b3878d70686e69b",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 10,
+        "fill_first": 11,
+        "fill_last": 16,
+        "written_first": 17,
+        "written_last": 22
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "question_images",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/lx-ruc/kaoyanshuxue",
+        "commit": "196dc9d2d8271978a030a3721a828c8723cd3864",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。本卷按第1—22题原图分页；下载为原图ZIP，配套PDF解析交卷后开放。"
+    },
+    {
+      "id": "math1-2024",
+      "level": "math1",
+      "year": 2024,
+      "month": 0,
+      "form": 1,
+      "title": "2024年 · 考研数学一",
+      "files": [
+        {
+          "id": "00c1f33bea1b3a35f346",
+          "name": "2024年数学一真题（逐题原图）.zip",
+          "path": "math1/2024-question-images.zip",
+          "kind": "paper",
+          "extension": ".zip",
+          "sha256": "8df2436575812371f43980096777b0f64a707cb5616a0bf085e8c3feba9821a6",
+          "bytes": 762066,
+          "pages": 22,
+          "question_pages": 22,
+          "exam_safe": true,
+          "contains_answers": false,
+          "image_pages": [
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q01_id687.png",
+              "sha256": "9f4548b88028d32e30ef80115bda49e22d067903fa215d18b479faa76ee264b0",
+              "question_number": 1
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q02_id685.png",
+              "sha256": "e7d39dde54523588c62fe06d866991727efdf3fa6b53de27bf2ac65d3b6a44e9",
+              "question_number": 2
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q03_id686.png",
+              "sha256": "242e6e3b8f54bc127d2e9c8d46fe022881596a2dcd6841afdc10e770b55fe38a",
+              "question_number": 3
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q04_id681.png",
+              "sha256": "cc694466719daddb4b515899ce7da814c4913b72e039252b173210c5eba2bf57",
+              "question_number": 4
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q05_id682.png",
+              "sha256": "326875a586f0b7ca806f661f29bacec256db8de093103cba84f23848bde70c76",
+              "question_number": 5
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q06_id684.png",
+              "sha256": "154358e2eb17950d9de2d599098d028074e823f4b9e474b0cb7a114d0916aa30",
+              "question_number": 6
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q07_id683.png",
+              "sha256": "5eeb59243b6efa757b93cf0727945e4f9cfbdc75c7406f8a01964ba0870566ee",
+              "question_number": 7
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q08_id666.png",
+              "sha256": "0752bd51c802485b1d3a19cec56fe75f201706bd48bc0a1384694f86807255e4",
+              "question_number": 8
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q09_id667.png",
+              "sha256": "9ec4f5d46e8cff233c8870e75fba3f3fec89b6657db2797763462a4119f67701",
+              "question_number": 9
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q10_id675.png",
+              "sha256": "b63fd9a087cb50858e4f4e69b42a7c25c42191e4cf7f6133645e859aaa321c68",
+              "question_number": 10
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q11_id674.png",
+              "sha256": "63fbfd7405e108e8855c940b4047ed70dd3d339f5f7de8d1b2102d5a652921d8",
+              "question_number": 11
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q12_id672.png",
+              "sha256": "5ba1aaaf7a88763eb3d65375aa07608a2d4e4da52fe34677339ab5def24f2a07",
+              "question_number": 12
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q13_id673.png",
+              "sha256": "a9ca88088d1be655555d7b258f7d7a22103f5a4970f3709537ca5cee290b98c8",
+              "question_number": 13
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q14_id668.png",
+              "sha256": "8e1eb93f774b02e918cde9e56821249411ee93ec20783be29615915bd877a934",
+              "question_number": 14
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q15_id669.png",
+              "sha256": "0574a3fede9395327bec39ac73f358506560d962dba5f5e25f319e5c78c3b659",
+              "question_number": 15
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q16_id671.png",
+              "sha256": "f15e7c346bdbda953ba4a1b1ff6ce29a909a65873d19bd91eb215253e78ada40",
+              "question_number": 16
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q17_id670.png",
+              "sha256": "37cbaf10b21f4d8a4748f003382e36a50819286aa81adf5470e2e67539ac7753",
+              "question_number": 17
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q18_id679.png",
+              "sha256": "b8e97f5c9e0d3aefe56900d4ac13b001c0f149e3422fba9c110c929604213285",
+              "question_number": 18
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q19_id680.png",
+              "sha256": "091fb2035a5e67439c3c177af450d41d587f6b79f323b700ca5547834c911026",
+              "question_number": 19
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q20_id677.png",
+              "sha256": "657edf9d7d29b0dd655b33c523417a19cc2d78a65100fb731812191a0233bce6",
+              "question_number": 20
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q21_id676.png",
+              "sha256": "b1120517b76a634d11b8a217be95a2172f6364659898d353250455509a9102ed",
+              "question_number": 21
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2024-images/Q22_id678.png",
+              "sha256": "9d5751246291449e35b780db382021afc9efd51863511b1aecbd6b384263bce5",
+              "question_number": 22
+            }
+          ],
+          "source_url": "https://github.com/lx-ruc/kaoyanshuxue/tree/196dc9d2d8271978a030a3721a828c8723cd3864/kaoyan_math_images/",
+          "repository": "https://github.com/lx-ruc/kaoyanshuxue",
+          "source_commit": "196dc9d2d8271978a030a3721a828c8723cd3864"
+        },
+        {
+          "id": "a423c01c6b7fb4efa5bc",
+          "name": "2024年数学一试题与解析.pdf",
+          "path": "math1/2024-combined.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2024-combined.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "e96120aa9badaa6b9047ab79089b1cb662c2ad0924a066bed38a303aeaabcded",
+          "bytes": 1257847,
+          "pages": 7,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/fjw345/mathonline/blob/bc8d40210cd831b56603595914ef2876876ab1ac/resource/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%20%28%E4%B8%80%29%20%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90%EF%BC%881987-2026%EF%BC%89/2021-2024%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%80%EF%BC%89%E7%9C%9F%E9%A2%98%2B%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90/2024%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E4%B8%80%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88.pdf",
+          "repository": "https://github.com/fjw345/mathonline",
+          "source_commit": "bc8d40210cd831b56603595914ef2876876ab1ac"
+        }
+      ],
+      "paper_id": "00c1f33bea1b3a35f346",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 10,
+        "fill_first": 11,
+        "fill_last": 16,
+        "written_first": 17,
+        "written_last": 22
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "question_images",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/lx-ruc/kaoyanshuxue",
+        "commit": "196dc9d2d8271978a030a3721a828c8723cd3864",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。本卷按第1—22题原图分页；下载为原图ZIP，配套PDF解析交卷后开放。"
+    },
+    {
+      "id": "math1-2023",
+      "level": "math1",
+      "year": 2023,
+      "month": 0,
+      "form": 1,
+      "title": "2023年 · 考研数学一",
+      "files": [
+        {
+          "id": "988b2b074acc2f4864a6",
+          "name": "2023年数学一真题（逐题原图）.zip",
+          "path": "math1/2023-question-images.zip",
+          "kind": "paper",
+          "extension": ".zip",
+          "sha256": "dfed279a24619fa42162d95703328a25620f60109d4261390c4df6ee716c958d",
+          "bytes": 728086,
+          "pages": 22,
+          "question_pages": 22,
+          "exam_safe": true,
+          "contains_answers": false,
+          "image_pages": [
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q01_id709.png",
+              "sha256": "577b66095c174ebcfdb3e6d29853f2bcb06d63bc6d15f4344ce98d9aa656a6f9",
+              "question_number": 1
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q02_id707.png",
+              "sha256": "9d1410ec1bb350bf65d06bbce417c0634e0a47ea9ad5f96e655e2cb03548235b",
+              "question_number": 2
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q03_id708.png",
+              "sha256": "fa554202ad60484f3abee67ec3ad32d3ba1e2ac4b635cf33ce7cef3f74a678a8",
+              "question_number": 3
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q04_id703.png",
+              "sha256": "c95c8da108648ff110ddf4f19b2845f904d5df05559823658b3ea4dd6e97c902",
+              "question_number": 4
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q05_id704.png",
+              "sha256": "cb7058013127f6f6d5c8759b36222b7e74bb97f85a43f3c74f5272a97e6756bf",
+              "question_number": 5
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q06_id706.png",
+              "sha256": "45e45735abdb400ccab8a640f884ba6c2c7251a39b9d788f4d00be2700fea215",
+              "question_number": 6
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q07_id705.png",
+              "sha256": "7937cb0d9d4070fa68110c03a5074c5866f20e09e636f48b2c801401e8b7e451",
+              "question_number": 7
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q08_id688.png",
+              "sha256": "1f492d31074a499d70d369871435ee858c049f7da000f8f336fcbaa910c25fcb",
+              "question_number": 8
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q09_id689.png",
+              "sha256": "9dfa60a9a4e9ba80fa91402a74a4d5583fa63dfb6fe5a0feee7b43d1d098bde3",
+              "question_number": 9
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q10_id697.png",
+              "sha256": "c955e69be9735e152f5eb4e14b8f17a14e43df105e862858628f4d9bf91ad553",
+              "question_number": 10
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q11_id696.png",
+              "sha256": "d605220c102b47cd400479159c3a3a9eca377dda64f87293c4aa1d298b8e4be1",
+              "question_number": 11
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q12_id694.png",
+              "sha256": "87df499b0fdd212566da3ed245a59964adaba91ae101b6dedf6b260dc803ed3a",
+              "question_number": 12
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q13_id695.png",
+              "sha256": "764fb709d8fa5e1aab03f52314efadcfcddf9248507370327309dc644ac34851",
+              "question_number": 13
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q14_id690.png",
+              "sha256": "110c71d8a570615b71f02c075a934dd041476d75994535e27b2f8a49e8796b95",
+              "question_number": 14
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q15_id691.png",
+              "sha256": "b48b23a22edc8dfe920f2bac2acd0bc19504c4b95ca87440c8523639d8e73ef2",
+              "question_number": 15
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q16_id693.png",
+              "sha256": "b5b4a1596bc41f2ce4488bfe7b77fd4587b87f94cb66f8908f08a1fa151ecb9e",
+              "question_number": 16
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q17_id692.png",
+              "sha256": "9557f42efe4f31ca7749cd58e1dd7042af153af6ffeb4ed2eb48ff5b652cafc0",
+              "question_number": 17
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q18_id701.png",
+              "sha256": "6fe2111aa16ace5951f27c181d846b56096e27742b13db1e8a8ce1ffa78264e8",
+              "question_number": 18
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q19_id702.png",
+              "sha256": "4370b4625154a0c58b4a9c726f48d48af6dcdf68710d2825e0b549c564ec2f2c",
+              "question_number": 19
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q20_id699.png",
+              "sha256": "0e4c18eba839d83dc1cfa0677b201eaa675e529fd1544509eebd9659f7a2bdc6",
+              "question_number": 20
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q21_id698.png",
+              "sha256": "983f01b3ca2ee2408ef24724b40c0a284b088b9272b6b3c1e8a50ccca79da67e",
+              "question_number": 21
+            },
+            {
+              "path": "assets/exams/postgrad/math1/2023-images/Q22_id700.png",
+              "sha256": "4b7e5dda945e8f4a1c1a758463874aa7d8eba208bc81e5efd8aed325f03fd387",
+              "question_number": 22
+            }
+          ],
+          "source_url": "https://github.com/lx-ruc/kaoyanshuxue/tree/196dc9d2d8271978a030a3721a828c8723cd3864/kaoyan_math_images/",
+          "repository": "https://github.com/lx-ruc/kaoyanshuxue",
+          "source_commit": "196dc9d2d8271978a030a3721a828c8723cd3864"
+        },
+        {
+          "id": "aa8f6cbb162fc1961b54",
+          "name": "2023年数学一试题与解析.pdf",
+          "path": "math1/2023-combined.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2023-combined.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "e2516598d0147f4790cf4ebd09ea79fb9544df935b6b6d9dadd9be52e2a62cf2",
+          "bytes": 1728383,
+          "pages": 14,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/fjw345/mathonline/blob/bc8d40210cd831b56603595914ef2876876ab1ac/resource/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%20%28%E4%B8%80%29%20%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90%EF%BC%881987-2026%EF%BC%89/2021-2024%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%EF%BC%88%E4%B8%80%EF%BC%89%E7%9C%9F%E9%A2%98%2B%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90/2023%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E4%B8%80%E7%9C%9F%E9%A2%98%E5%8F%8A%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/fjw345/mathonline",
+          "source_commit": "bc8d40210cd831b56603595914ef2876876ab1ac"
+        }
+      ],
+      "paper_id": "988b2b074acc2f4864a6",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 10,
+        "fill_first": 11,
+        "fill_last": 16,
+        "written_first": 17,
+        "written_last": 22
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "question_images",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/lx-ruc/kaoyanshuxue",
+        "commit": "196dc9d2d8271978a030a3721a828c8723cd3864",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。本卷按第1—22题原图分页；下载为原图ZIP，配套PDF解析交卷后开放。"
+    },
+    {
+      "id": "math1-2022",
+      "level": "math1",
+      "year": 2022,
+      "month": 0,
+      "form": 1,
+      "title": "2022年 · 考研数学一",
+      "files": [
+        {
+          "id": "81a74ce676496f3210eb",
+          "name": "2022年数学一真题试卷.pdf",
+          "path": "math1/2022-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2022-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "ee415f56ddf87b5de0a42de766d880ecfe6f70b80091fa2dd63371ad18e8dc89",
+          "bytes": 1048343,
+          "pages": 4,
+          "question_pages": 4,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/01.1987-2020%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E6%A0%87%E5%87%86%E7%89%88%EF%BC%88%E7%9B%B4%E6%8E%A5%E6%89%93%E5%8D%B0%EF%BC%89/2022.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        },
+        {
+          "id": "4c87888102b4c5eb79f8",
+          "name": "2022年数学一参考解析.pdf",
+          "path": "math1/2022-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2022-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "74e02218c735b06f8d00172848188f8d4cafce7d8a2749b257ac8640b0e78736",
+          "bytes": 4783772,
+          "pages": 11,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/03.2005-2020%E5%B9%B4%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3%EF%BC%88%E6%AD%A5%E9%AA%A4%E8%A7%A3%E6%9E%90%EF%BC%89/2022%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        }
+      ],
+      "paper_id": "81a74ce676496f3210eb",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 10,
+        "fill_first": 11,
+        "fill_last": 16,
+        "written_first": 17,
+        "written_last": 22
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+        "commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "math1-2021",
+      "level": "math1",
+      "year": 2021,
+      "month": 0,
+      "form": 1,
+      "title": "2021年 · 考研数学一",
+      "files": [
+        {
+          "id": "414b4c153d208d105780",
+          "name": "2021年数学一真题试卷.pdf",
+          "path": "math1/2021-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2021-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "e7a4fe03f7153b7149617becccfba9937f74d474b4ae5f60e5563fa678fae29f",
+          "bytes": 171711,
+          "pages": 3,
+          "question_pages": 3,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/01.1987-2020%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E6%A0%87%E5%87%86%E7%89%88%EF%BC%88%E7%9B%B4%E6%8E%A5%E6%89%93%E5%8D%B0%EF%BC%89/2021.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        },
+        {
+          "id": "7bbca5b4836aecbcc1f3",
+          "name": "2021年数学一参考解析.pdf",
+          "path": "math1/2021-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2021-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "70a668324aadff0b8f80d7f17d6eb178d945ebddc2395894dbea43cb18fa419a",
+          "bytes": 226193,
+          "pages": 8,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/03.2005-2020%E5%B9%B4%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3%EF%BC%88%E6%AD%A5%E9%AA%A4%E8%A7%A3%E6%9E%90%EF%BC%89/2021%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        }
+      ],
+      "paper_id": "414b4c153d208d105780",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 10,
+        "fill_first": 11,
+        "fill_last": 16,
+        "written_first": 17,
+        "written_last": 22
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+        "commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "math1-2020",
+      "level": "math1",
+      "year": 2020,
+      "month": 0,
+      "form": 1,
+      "title": "2020年 · 考研数学一",
+      "files": [
+        {
+          "id": "dba65a4973749f64982b",
+          "name": "2020年数学一真题试卷.pdf",
+          "path": "math1/2020-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2020-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "0d5d8e5eb1bcf4eb0fcddb6c6868c30dd243a55a70a2c9b5d9224744ff3d28b2",
+          "bytes": 253377,
+          "pages": 3,
+          "question_pages": 3,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/01.1987-2020%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E6%A0%87%E5%87%86%E7%89%88%EF%BC%88%E7%9B%B4%E6%8E%A5%E6%89%93%E5%8D%B0%EF%BC%89/2020.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        },
+        {
+          "id": "7e629918b30495c36ff6",
+          "name": "2020年数学一参考解析.pdf",
+          "path": "math1/2020-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2020-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "d009339e97a35347dfd41e900e61045b23d5843882fa76c76d557377a74f0848",
+          "bytes": 1297978,
+          "pages": 7,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/03.2005-2020%E5%B9%B4%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3%EF%BC%88%E6%AD%A5%E9%AA%A4%E8%A7%A3%E6%9E%90%EF%BC%89/2020%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        }
+      ],
+      "paper_id": "dba65a4973749f64982b",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 8,
+        "fill_first": 9,
+        "fill_last": 14,
+        "written_first": 15,
+        "written_last": 23
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+        "commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "math1-2019",
+      "level": "math1",
+      "year": 2019,
+      "month": 0,
+      "form": 1,
+      "title": "2019年 · 考研数学一",
+      "files": [
+        {
+          "id": "95c2f0ea7e128aac1be7",
+          "name": "2019年数学一真题试卷.pdf",
+          "path": "math1/2019-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2019-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "e84a81231f6153320c8dd9351ea368c1df99e5484cc342632c6cec4b664cefed",
+          "bytes": 420224,
+          "pages": 4,
+          "question_pages": 4,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/01.1987-2020%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E6%A0%87%E5%87%86%E7%89%88%EF%BC%88%E7%9B%B4%E6%8E%A5%E6%89%93%E5%8D%B0%EF%BC%89/2019.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        },
+        {
+          "id": "0dbcb9cb60ebd6f3ca91",
+          "name": "2019年数学一参考解析.pdf",
+          "path": "math1/2019-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2019-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "7b1f21ff55dface07c1f4c59d7b504936bcd0d3af1554bdea8d239799430f357",
+          "bytes": 2160582,
+          "pages": 7,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/03.2005-2020%E5%B9%B4%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3%EF%BC%88%E6%AD%A5%E9%AA%A4%E8%A7%A3%E6%9E%90%EF%BC%89/2019%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        }
+      ],
+      "paper_id": "95c2f0ea7e128aac1be7",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 8,
+        "fill_first": 9,
+        "fill_last": 14,
+        "written_first": 15,
+        "written_last": 23
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+        "commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "math1-2018",
+      "level": "math1",
+      "year": 2018,
+      "month": 0,
+      "form": 1,
+      "title": "2018年 · 考研数学一",
+      "files": [
+        {
+          "id": "5523f69123a6789c7298",
+          "name": "2018年数学一真题试卷.pdf",
+          "path": "math1/2018-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2018-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "d53943ff1da742c9dc8ede65c05fcc124030ccd2bdb1a4e1f419c0a31027a747",
+          "bytes": 443356,
+          "pages": 3,
+          "question_pages": 3,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/01.1987-2020%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E6%A0%87%E5%87%86%E7%89%88%EF%BC%88%E7%9B%B4%E6%8E%A5%E6%89%93%E5%8D%B0%EF%BC%89/2018.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        },
+        {
+          "id": "f1512ff1eb72e354ca0f",
+          "name": "2018年数学一参考解析.pdf",
+          "path": "math1/2018-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2018-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "548d53b6cadc1e452c6b776e140c2b2be3700ea524cdc89f798bb4f0fc184b84",
+          "bytes": 1957482,
+          "pages": 7,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/03.2005-2020%E5%B9%B4%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3%EF%BC%88%E6%AD%A5%E9%AA%A4%E8%A7%A3%E6%9E%90%EF%BC%89/2018%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        }
+      ],
+      "paper_id": "5523f69123a6789c7298",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 8,
+        "fill_first": 9,
+        "fill_last": 14,
+        "written_first": 15,
+        "written_last": 23
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+        "commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "math1-2017",
+      "level": "math1",
+      "year": 2017,
+      "month": 0,
+      "form": 1,
+      "title": "2017年 · 考研数学一",
+      "files": [
+        {
+          "id": "b55a9c6b5ddfc5c9ce92",
+          "name": "2017年数学一真题试卷.pdf",
+          "path": "math1/2017-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2017-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "43a9259f2a28b17ba5ee176fe4beb2e1c2277f7ab45a210b4cd1a3d4ea1ab967",
+          "bytes": 444381,
+          "pages": 4,
+          "question_pages": 4,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/01.1987-2020%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E6%A0%87%E5%87%86%E7%89%88%EF%BC%88%E7%9B%B4%E6%8E%A5%E6%89%93%E5%8D%B0%EF%BC%89/2017.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        },
+        {
+          "id": "e1797fde407f95d0d16d",
+          "name": "2017年数学一参考解析.pdf",
+          "path": "math1/2017-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/math1/2017-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "372672b4532211c23ccfc04a1492f6f26a338596caea0b12803b7e00fd52c423",
+          "bytes": 2225797,
+          "pages": 7,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/youngflysky/KaoYanZhenTi-PDF/blob/43c9c2d7c57a8f7ec61a7848c7174c2648b074ea/%E6%95%B0%E4%B8%80%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98/03.2005-2020%E5%B9%B4%E6%95%B0%E4%B8%80%E7%9C%9F%E9%A2%98%E8%AF%A6%E8%A7%A3%EF%BC%88%E6%AD%A5%E9%AA%A4%E8%A7%A3%E6%9E%90%EF%BC%89/2017%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+          "source_commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea"
+        }
+      ],
+      "paper_id": "b55a9c6b5ddfc5c9ce92",
+      "duration_minutes": 180,
+      "max_score": 150,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 8,
+        "fill_first": 9,
+        "fill_last": 14,
+        "written_first": 15,
+        "written_last": 23
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/youngflysky/KaoYanZhenTi-PDF",
+        "commit": "43c9c2d7c57a8f7ec61a7848c7174c2648b074ea",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2026",
+      "level": "english1",
+      "year": 2026,
+      "month": 0,
+      "form": 1,
+      "title": "2026年 · 考研英语一",
+      "files": [
+        {
+          "id": "1723d460d639374a1259",
+          "name": "2026年英语一真题试卷.pdf",
+          "path": "english1/2026-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2026-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "df5647a6e9d6e11c1fc40867d647b56f0e35a5067c7ba2637997d99d72adac1a",
+          "bytes": 481810,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2026%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        }
+      ],
+      "paper_id": "1723d460d639374a1259",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": false,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。尚未取得完整配套解析。"
+    },
+    {
+      "id": "english1-2025",
+      "level": "english1",
+      "year": 2025,
+      "month": 0,
+      "form": 1,
+      "title": "2025年 · 考研英语一",
+      "files": [
+        {
+          "id": "c005d7cf600fe79b1c2c",
+          "name": "2025年英语一真题试卷.pdf",
+          "path": "english1/2025-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2025-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "019b369a53fff9b9a9917b6e5dce88f68e96eefed020eec05f15dbad64469c03",
+          "bytes": 530360,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2025%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "462e8e2792a251b1479b",
+          "name": "2025年英语一参考解析.pdf",
+          "path": "english1/2025-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2025-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "1fc958e5dd830003e605218eb5d90377e2f1aafc54f1aa420edcb0f559fa92ef",
+          "bytes": 3526657,
+          "pages": 5,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2a/blob/eaea914e59270697c03c61bae0dd6c1983350e0f/2025%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%E5%92%8C%E7%AD%94%E6%A1%88/2025%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88/2025%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%AD%94%E6%A1%88.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2a",
+          "source_commit": "eaea914e59270697c03c61bae0dd6c1983350e0f"
+        }
+      ],
+      "paper_id": "c005d7cf600fe79b1c2c",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2024",
+      "level": "english1",
+      "year": 2024,
+      "month": 0,
+      "form": 1,
+      "title": "2024年 · 考研英语一",
+      "files": [
+        {
+          "id": "e58e7c81ba9bb5b6951a",
+          "name": "2024年英语一真题试卷.pdf",
+          "path": "english1/2024-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2024-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "4a1f2ef37c2470c6719c84c23d334b7b3921b4ce565eade6805bcb457f3da092",
+          "bytes": 739153,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2024%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "539d9b884b6b7932408a",
+          "name": "2024年英语一参考解析.pdf",
+          "path": "english1/2024-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2024-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "7a47b60dbe10ebd96d078d83ce815a493c2ee99044c6db0ae350b02c31a6576f",
+          "bytes": 1161080,
+          "pages": 15,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2/blob/e559cb88cd7268171e05d779ee6a46cf0d47f94a/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%2B%E8%A7%A3%E6%9E%90/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E8%A7%A3%E6%9E%90/2024%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2",
+          "source_commit": "e559cb88cd7268171e05d779ee6a46cf0d47f94a"
+        }
+      ],
+      "paper_id": "e58e7c81ba9bb5b6951a",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2023",
+      "level": "english1",
+      "year": 2023,
+      "month": 0,
+      "form": 1,
+      "title": "2023年 · 考研英语一",
+      "files": [
+        {
+          "id": "a44f2bf1f72aed6c74fb",
+          "name": "2023年英语一真题试卷.pdf",
+          "path": "english1/2023-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2023-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "0b140886f70339bb5d4b4053460008729e1a401e11ea38f2b17509df3cba59f6",
+          "bytes": 696431,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2023%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "b91c2fed1534afc15eb1",
+          "name": "2023年英语一参考解析.pdf",
+          "path": "english1/2023-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2023-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "408e14fa4ded9098774736de16bcd48fd29ed4dfb88b0c1ff2bcdabf545a2ebd",
+          "bytes": 34619344,
+          "pages": 40,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2/blob/e559cb88cd7268171e05d779ee6a46cf0d47f94a/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%2B%E8%A7%A3%E6%9E%90/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E8%A7%A3%E6%9E%90/2023%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2",
+          "source_commit": "e559cb88cd7268171e05d779ee6a46cf0d47f94a"
+        }
+      ],
+      "paper_id": "a44f2bf1f72aed6c74fb",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2022",
+      "level": "english1",
+      "year": 2022,
+      "month": 0,
+      "form": 1,
+      "title": "2022年 · 考研英语一",
+      "files": [
+        {
+          "id": "9e5d3903d8ed30020568",
+          "name": "2022年英语一真题试卷.pdf",
+          "path": "english1/2022-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2022-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "2edf411b1afbcd5625150e6bfc83138951a15f9f1cb2f4b2b3e223a5a35571f4",
+          "bytes": 1604057,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2022%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "1cebcff7c307f728fdaa",
+          "name": "2022年英语一参考解析.pdf",
+          "path": "english1/2022-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2022-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "773b2c0945661e98aac7cf090794a88064f0efea5d9d4c9b937093101db6cd43",
+          "bytes": 55727817,
+          "pages": 71,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2/blob/e559cb88cd7268171e05d779ee6a46cf0d47f94a/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%2B%E8%A7%A3%E6%9E%90/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E8%A7%A3%E6%9E%90/2022%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2",
+          "source_commit": "e559cb88cd7268171e05d779ee6a46cf0d47f94a"
+        }
+      ],
+      "paper_id": "9e5d3903d8ed30020568",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2021",
+      "level": "english1",
+      "year": 2021,
+      "month": 0,
+      "form": 1,
+      "title": "2021年 · 考研英语一",
+      "files": [
+        {
+          "id": "c1644741804dcb99b45c",
+          "name": "2021年英语一真题试卷.pdf",
+          "path": "english1/2021-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2021-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "422cb57e1f703b2c1b9942db9df74f4fa6291cb6af7d8af03eaa3e9ba51bea65",
+          "bytes": 4533572,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2021%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "a069e0bd887ab1f69475",
+          "name": "2021年英语一参考解析.pdf",
+          "path": "english1/2021-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2021-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "7044594ea533cea7bad550fce374f223cc0fa3d1fb9b1f664089ff68cd195eb8",
+          "bytes": 28373662,
+          "pages": 64,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2/blob/e559cb88cd7268171e05d779ee6a46cf0d47f94a/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%2B%E8%A7%A3%E6%9E%90/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E8%A7%A3%E6%9E%90/2021%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2",
+          "source_commit": "e559cb88cd7268171e05d779ee6a46cf0d47f94a"
+        }
+      ],
+      "paper_id": "c1644741804dcb99b45c",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2020",
+      "level": "english1",
+      "year": 2020,
+      "month": 0,
+      "form": 1,
+      "title": "2020年 · 考研英语一",
+      "files": [
+        {
+          "id": "50e0ce5f196ced4cf1b7",
+          "name": "2020年英语一真题试卷.pdf",
+          "path": "english1/2020-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2020-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "eb0fa0a5725e2ad9f0b2089f591c31e7f404d28570703169e0b17687747aea7d",
+          "bytes": 1660677,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2020%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "5dafd91ceb2b4fd5882f",
+          "name": "2020年英语一参考解析.pdf",
+          "path": "english1/2020-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2020-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "4bff04fb2fec67aa64bb62324734b4525cc199ac1489f691ccc1b9c9b9bdfdd4",
+          "bytes": 45538882,
+          "pages": 64,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2/blob/e559cb88cd7268171e05d779ee6a46cf0d47f94a/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%2B%E8%A7%A3%E6%9E%90/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E8%A7%A3%E6%9E%90/2020%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2",
+          "source_commit": "e559cb88cd7268171e05d779ee6a46cf0d47f94a"
+        }
+      ],
+      "paper_id": "50e0ce5f196ced4cf1b7",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2019",
+      "level": "english1",
+      "year": 2019,
+      "month": 0,
+      "form": 1,
+      "title": "2019年 · 考研英语一",
+      "files": [
+        {
+          "id": "c4394e6297cdba3a4855",
+          "name": "2019年英语一真题试卷.pdf",
+          "path": "english1/2019-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2019-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "79d5840239240092264ae31b4b641bb6d3ff2131e08d9cd7b9ae4bbc69c27941",
+          "bytes": 529582,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2019%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "40cf75ed8bd56d54c453",
+          "name": "2019年英语一参考解析.pdf",
+          "path": "english1/2019-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2019-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "2d30e4a1891dc12914d93b4a4b803c3dbe31214d734fe565c68d0cfeb7a75773",
+          "bytes": 35597020,
+          "pages": 72,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2/blob/e559cb88cd7268171e05d779ee6a46cf0d47f94a/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%2B%E8%A7%A3%E6%9E%90/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E8%A7%A3%E6%9E%90/2019%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2",
+          "source_commit": "e559cb88cd7268171e05d779ee6a46cf0d47f94a"
+        }
+      ],
+      "paper_id": "c4394e6297cdba3a4855",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2018",
+      "level": "english1",
+      "year": 2018,
+      "month": 0,
+      "form": 1,
+      "title": "2018年 · 考研英语一",
+      "files": [
+        {
+          "id": "3f912d1a8a7d9e4197b2",
+          "name": "2018年英语一真题试卷.pdf",
+          "path": "english1/2018-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2018-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "c7b0c7efee3a1b45806659c9099e01fa09fa520f2f1aaa16a68af4c87e8f0047",
+          "bytes": 1542043,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2018%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "9500417cd96b12329b78",
+          "name": "2018年英语一参考解析.pdf",
+          "path": "english1/2018-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2018-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "3039c0e4e2443307acad61c9d76d2a3b3a8087a0346462078c7901ca42f62bb7",
+          "bytes": 31189610,
+          "pages": 72,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2/blob/e559cb88cd7268171e05d779ee6a46cf0d47f94a/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%2B%E8%A7%A3%E6%9E%90/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E8%A7%A3%E6%9E%90/2018%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2",
+          "source_commit": "e559cb88cd7268171e05d779ee6a46cf0d47f94a"
+        }
+      ],
+      "paper_id": "3f912d1a8a7d9e4197b2",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    },
+    {
+      "id": "english1-2017",
+      "level": "english1",
+      "year": 2017,
+      "month": 0,
+      "form": 1,
+      "title": "2017年 · 考研英语一",
+      "files": [
+        {
+          "id": "120f4ea054e8b1bf91ae",
+          "name": "2017年英语一真题试卷.pdf",
+          "path": "english1/2017-paper.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2017-paper.pdf",
+          "kind": "paper",
+          "extension": ".pdf",
+          "sha256": "cfee114d60f42a8217cfb110b75484167a590a28b6bc570cbe357fa85f981b43",
+          "bytes": 1920822,
+          "pages": 14,
+          "question_pages": 14,
+          "exam_safe": true,
+          "contains_answers": false,
+          "source_url": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/90b39d12d0d801585efed6ece63662a3d3e77a0a/%E7%9C%9F%E9%A2%98/2017%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98.pdf",
+          "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+          "source_commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a"
+        },
+        {
+          "id": "74dc1f39aa06c75cd5f8",
+          "name": "2017年英语一参考解析.pdf",
+          "path": "english1/2017-solution.pdf",
+          "pdf_path": "assets/exams/postgrad/english1/2017-solution.pdf",
+          "kind": "solution",
+          "extension": ".pdf",
+          "sha256": "5dcef444eae705f189b86395c40b0e6fce1b0685449fd9c1bc6c5a0f3325b0f0",
+          "bytes": 32011684,
+          "pages": 72,
+          "question_pages": 0,
+          "exam_safe": false,
+          "contains_answers": true,
+          "source_url": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2/blob/e559cb88cd7268171e05d779ee6a46cf0d47f94a/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E7%9C%9F%E9%A2%98%2B%E8%A7%A3%E6%9E%90/2010-2024%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E8%A7%A3%E6%9E%90/2017%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90.pdf",
+          "repository": "https://github.com/Gatsby666-jay/Kaoyan-English-2b-2",
+          "source_commit": "e559cb88cd7268171e05d779ee6a46cf0d47f94a"
+        }
+      ],
+      "paper_id": "120f4ea054e8b1bf91ae",
+      "duration_minutes": 180,
+      "max_score": 100,
+      "answer_schema": {
+        "choice_first": 1,
+        "choice_last": 40,
+        "matching_first": 41,
+        "matching_last": 45,
+        "translation_first": 46,
+        "translation_last": 50,
+        "writing_first": 51,
+        "writing_last": 52
+      },
+      "reference_only": false,
+      "external_word": false,
+      "ready": true,
+      "exam_ready": true,
+      "paper_format": "pdf",
+      "solution_available": true,
+      "source": {
+        "repository": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026",
+        "commit": "90b39d12d0d801585efed6ece63662a3d3e77a0a",
+        "verified_on": "2026-10-29",
+        "verification": "git_blob_sha1_and_local_sha256"
+      },
+      "source_note": "原题图文按文件展示，不经OCR重写。"
+    }
+  ]
+}

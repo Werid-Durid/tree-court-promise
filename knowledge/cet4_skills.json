@@ -1,0 +1,964 @@
+{
+  "schema_version": "1.0.0-draft",
+  "review_status": "user_authorized_implementation",
+  "publish_enabled": true,
+  "language": "zh-CN",
+  "provenance": {
+    "course_url": "https://www.bilibili.com/video/BV1u8pb6REzY/",
+    "verified_scope": "已核实54集目录；本文件技巧为通用教学规则草案，未核实为刘晓燕本人在该课程中的具体讲法。",
+    "course_structure": "用户五模块为教学组织口径；所给视频目录另含翻译分集，本轮仅处理阅读、听力、写作。",
+    "exam_reference": "https://cet.neea.edu.cn/html1/report/16123/196-1.htm",
+    "exam_reference_scope": "仅用于核对四级题型分类，不作为以下应试技巧或口诀的来源。",
+    "example_origin": "全部交互样例为项目原创，不是真题或课程原题。",
+    "memory_hook_policy": "未核实到课程口诀，所有memory_hook留空；不得自动冒充刘晓燕式原话。",
+    "review_sample_ids": [
+      "reading_skimming_topic",
+      "reading_detail_evidence",
+      "reading_inference_boundary",
+      "writing_three_part_structure",
+      "writing_template_function",
+      "writing_lexical_precision"
+    ],
+    "course_attribution_note": "用户取消讲义/时间戳作为接入前置条件；这不把未核实讲法变成教师原话。"
+  },
+  "integration_contract": {
+    "status": "connected",
+    "loader": "未来storyEngine按module与skill_id索引；仅在人工审核通过且publish_enabled为true时纳入个人知识库。",
+    "required_context": [
+      "module",
+      "exam_section",
+      "question_type",
+      "task_material"
+    ],
+    "dispatch": "trigger_condition为人工可读规则，不执行任意代码；适配器须按白名单题型显式映射。",
+    "interaction_types": [
+      "reasoning_clues",
+      "structure_order",
+      "template_match",
+      "revision_match"
+    ],
+    "choice_generation": "action_steps是一条连续策略的步骤，不能把每一步伪装成互斥答案；思路线索应是完整行动路径，与common_traps对应的错误路径比较。",
+    "feedback": "无论采用哪条路径均解释证据和边界；memory_hook为空时不得捏造来源口诀；不扣好感、不强制锁章。",
+    "character_source": "characters/profiles.json",
+    "scoring": "solution只供形成性反馈；不得直接写入既有章节测试或好感事件。接入需另行定义事件与审核。"
+  },
+  "modules": {
+    "reading": [
+      {
+        "module": "reading",
+        "skill_id": "reading_skimming_topic",
+        "skill_name": "快速形成并核验主旨",
+        "exam_section": "仔细阅读：主旨题、标题题；长篇阅读仅用于建立段落索引",
+        "trigger_condition": "题干要求概括全文、标题或段落中心；不能仅因出现熟词而触发。",
+        "action_steps": [
+          "略读首尾段与各段首句，形成主题和作者意图的暂定概括。",
+          "检查转折句、重复概念和支撑段，修正首句未直接点题的概括。",
+          "比较选项对全文的覆盖范围，排除仅含例子或扩大结论者，再核验文本。"
+        ],
+        "common_traps": [
+          "把一个例子当全文中心",
+          "把首句一定是主题句当绝对规则",
+          "选项范围比原文更大",
+          "长篇匹配仅凭主旨、不核对题干细节"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P14、P33、P45；待用户补充时间戳/讲义。此规则暂按通用方法设计，非已核实课程结论。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-reading-04",
+          "cet4-reading-06"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "A school trial found that short breaks helped some students stay focused. One class took a garden walk. Another rested indoors. Longer trials are still needed.",
+          "task": "为这段材料选择一条形成标题的思路。",
+          "clues": [
+            {
+              "id": "coverage",
+              "text": "先概括短休息与专注的关系，再保留试验有限这一边界。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "example",
+              "text": "抓住花园散步这个画面，把标题定为学校花园。",
+              "step_refs": [
+                1
+              ],
+              "trap": "以例代旨"
+            },
+            {
+              "id": "absolute",
+              "text": "由部分学生受益，概括为所有休息都能提高所有人的成绩。",
+              "step_refs": [
+                3
+              ],
+              "trap": "扩大范围"
+            }
+          ],
+          "solution": "coverage",
+          "feedback_basis": "两种休息方式都是例子；中心是短休息可能有助专注，some和试验限制不能删除。"
+        },
+        "implementation_point_id": "cet4-skills-reading-01",
+        "project_memory_hook": "先看整棵树，再认枝叶；标题要罩住中心，也要守住范围。"
+      },
+      {
+        "module": "reading",
+        "skill_id": "reading_detail_evidence",
+        "skill_name": "细节定位与命题关系核验",
+        "exam_section": "仔细阅读：细节题；长篇阅读：信息匹配",
+        "trigger_condition": "题干询问明确人物、事件、原因、时间或数据，或要求匹配具体陈述。",
+        "action_steps": [
+          "提取题干中的对象、所问关系与稀有定位词。",
+          "定位原句并读相邻句，辨认指代、否定与条件。",
+          "对齐主体、动作、时间和数量范围，选择被原文支持的改写。"
+        ],
+        "common_traps": [
+          "同词复现但对象不同",
+          "把计划当已发生事件",
+          "忽略some、only或否定",
+          "定位后不读上下文"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P14、P33–44、P45–49；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-reading-01",
+          "cet4-reading-02",
+          "cet4-reading-06"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "The library planned to extend its hours in May, but staff shortages delayed the change until July.",
+          "task": "要确认开放时间何时真正改变，应沿哪条证据走？",
+          "clues": [
+            {
+              "id": "final_event",
+              "text": "用extend hours定位，再读but后的延迟信息，把实际改变连到July。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "first_date",
+              "text": "定位到第一个月份May就停止阅读。",
+              "step_refs": [
+                1
+              ],
+              "trap": "计划与事实混淆"
+            },
+            {
+              "id": "invent",
+              "text": "把staff shortages联想到图书馆永久关闭。",
+              "step_refs": [
+                2
+              ],
+              "trap": "无依据补充事实"
+            }
+          ],
+          "solution": "final_event",
+          "feedback_basis": "May修饰原计划，until July限定延迟后的变化；原文没有永久关闭的信息。"
+        },
+        "implementation_point_id": "cet4-skills-reading-02",
+        "project_memory_hook": "定位是书签，核对才是证据；谁、做什么、何时，都要对齐。"
+      },
+      {
+        "module": "reading",
+        "skill_id": "reading_inference_boundary",
+        "skill_name": "限定证据范围内的推断",
+        "exam_section": "仔细阅读：推断题",
+        "trigger_condition": "题干出现infer、imply、suggest等，并要求由文本支持的间接判断。",
+        "action_steps": [
+          "找到与所问对象有关的事实、条件和说话者。",
+          "将必要前提与可支持的结论连起来，保留时间、数量和可能性限制。",
+          "逐项检查是否额外加入原因、绝对量词或未来保证，选择证据足够的最小推断。"
+        ],
+        "common_traps": [
+          "用常识补充原文没有的原因",
+          "把相关当因果",
+          "由一次现象推成永久规律",
+          "把可能改成必然"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P14、P33–44；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-reading-05"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "After a quiet room opened, several students said they found it easier to concentrate. The report did not measure exam scores.",
+          "task": "如何从报告中再走一步，而不越过证据？",
+          "clues": [
+            {
+              "id": "limited",
+              "text": "只推到部分受访学生自述更易专注，保留成绩未测这一限制。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "causal",
+              "text": "把自述体验直接当作静室必然提高考试分数的证明。",
+              "step_refs": [
+                2
+              ],
+              "trap": "跨越指标并强推因果"
+            },
+            {
+              "id": "universal",
+              "text": "把several换成所有学生，并保证未来也有效。",
+              "step_refs": [
+                3
+              ],
+              "trap": "扩大范围与时间"
+            }
+          ],
+          "solution": "limited",
+          "feedback_basis": "报告支持体验层面的有限判断；未测量成绩，不能推出分数提升。"
+        },
+        "implementation_point_id": "cet4-skills-reading-03",
+        "project_memory_hook": "推断只跨有支点的一步，不把可能写成保证。"
+      },
+      {
+        "module": "reading",
+        "skill_id": "reading_word_context",
+        "skill_name": "由语境推断词义",
+        "exam_section": "仔细阅读：词义猜测题",
+        "trigger_condition": "题干询问某词或短语在指定位置的意思。",
+        "action_steps": [
+          "确定目标词在句中的词性、指代对象及搭配。",
+          "寻找定义、例子、因果或转折形成的语义限制。",
+          "把候选释义代回原句与相邻句，排除虽是熟义却不合当前语境者。"
+        ],
+        "common_traps": [
+          "只选最熟悉的词典义",
+          "仅凭字形相似",
+          "忽略转折和搭配",
+          "替换后词性不符"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P14、P33–44；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-reading-03"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "The room was cramped: only one small desk could fit inside.",
+          "task": "哪条语境线索能约束cramped的含义？",
+          "clues": [
+            {
+              "id": "definition",
+              "text": "用only one small desk可容纳的空间反推房间狭小，再代回句中。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "sound",
+              "text": "只因发音联想到camp，判断房间适合露营。",
+              "step_refs": [
+                1
+              ],
+              "trap": "声音联想代替语境"
+            },
+            {
+              "id": "personal",
+              "text": "根据自己喜欢书桌，判断房间很舒适。",
+              "step_refs": [
+                3
+              ],
+              "trap": "代入个人偏好"
+            }
+          ],
+          "solution": "definition",
+          "feedback_basis": "冒号后的容量说明是词义证据，不是对房间舒适度的评价。"
+        },
+        "implementation_point_id": "cet4-skills-reading-04",
+        "project_memory_hook": "陌生词先问邻居，再把释义放回句子试一遍。"
+      },
+      {
+        "module": "reading",
+        "skill_id": "reading_author_attitude",
+        "skill_name": "区分作者态度与引述观点",
+        "exam_section": "仔细阅读：态度题",
+        "trigger_condition": "题干明确询问作者对某对象的评价或语气。",
+        "action_steps": [
+          "锁定态度针对的对象，区分作者陈述与他人引述。",
+          "收集评价词、让步转折与论据的方向。",
+          "综合全文选择强度相称的态度，不以单个情绪词代替整体判断。"
+        ],
+        "common_traps": [
+          "把引述人物的反对当作者反对",
+          "忽略although等保留条件",
+          "把谨慎肯定读成无条件赞同",
+          "用个人立场代替文本"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P14、P33–44；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-reading-08"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "The proposal is promising, although its cost still needs careful study.",
+          "task": "用哪些信号合成作者的态度？",
+          "clues": [
+            {
+              "id": "balanced",
+              "text": "合并promising与成本待研究，保留谨慎肯定的程度。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "praise",
+              "text": "只看到promising，删掉所有保留意见。",
+              "step_refs": [
+                2
+              ],
+              "trap": "忽略让步"
+            },
+            {
+              "id": "reject",
+              "text": "只看到cost，判断作者彻底反对。",
+              "step_refs": [
+                2
+              ],
+              "trap": "单词定态度"
+            }
+          ],
+          "solution": "balanced",
+          "feedback_basis": "积极评价与待解决问题同时存在；态度不能被两极化。"
+        },
+        "implementation_point_id": "cet4-skills-reading-05",
+        "project_memory_hook": "态度要认说话人，也要认程度；一句转折，两边都留下。"
+      }
+    ],
+    "listening": [
+      {
+        "module": "listening",
+        "skill_id": "listening_preview_options",
+        "skill_name": "用选项差异确定听取目标",
+        "exam_section": "短篇新闻、长对话、听力篇章",
+        "trigger_condition": "播放前有可用预读时间且选项可见；不能假设已印出完整问题。",
+        "action_steps": [
+          "浏览同题选项，辨认它们共同涉及时间、地点、人物、原因还是行动。",
+          "标记选项之间的差异，不提前选答案。",
+          "播放时记录与差异有关的证据，听清问题后再完成对应。"
+        ],
+        "common_traps": [
+          "预读时编造完整故事",
+          "只等原词重现",
+          "选项熟悉就提前作答",
+          "把没有听到的问题当作已知"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P15、P21–32；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-listening-01"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "Options: at a library / at a station / at a clinic. Playback: Please return this book by Friday.",
+          "task": "预读时该怎样分配注意力？",
+          "clues": [
+            {
+              "id": "scene",
+              "text": "把三项差异归为场所，留意活动与场景证据。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "date",
+              "text": "不看选项差异，只准备抄所有日期。",
+              "step_refs": [
+                1
+              ],
+              "trap": "目标错配"
+            },
+            {
+              "id": "guess",
+              "text": "先按最熟悉的场所作决定。",
+              "step_refs": [
+                2
+              ],
+              "trap": "提前猜答案"
+            }
+          ],
+          "solution": "scene",
+          "feedback_basis": "选项差异要求关注场景；日期可以是细节，但不能替代所问维度。"
+        },
+        "implementation_point_id": "cet4-skills-listening-01",
+        "project_memory_hook": "预读先找选项的不同，耳朵才知道该追哪条线索。"
+      },
+      {
+        "module": "listening",
+        "skill_id": "listening_signal_relations",
+        "skill_name": "用信号词更新信息关系",
+        "exam_section": "短篇新闻、长对话、听力篇章",
+        "trigger_condition": "听到转折、纠正、因果、建议等关系信号。",
+        "action_steps": [
+          "记录信号词连接的前后命题，不把信号词本身当答案。",
+          "判断后句是改计划、补条件、给原因还是作总结。",
+          "按问题要求回取主事件或最终决定，保留前文仍有效的信息。"
+        ],
+        "common_traps": [
+          "断言but后必为每道题答案",
+          "只记最初计划",
+          "倒置因果",
+          "忽略否定或条件"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P15、P23、P27、P30；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-listening-02",
+          "cet4-listening-05"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "I planned to drive, but the road is closed, so I will take the train.",
+          "task": "怎样更新出行记录？",
+          "clues": [
+            {
+              "id": "update",
+              "text": "区分开车的旧计划、封路原因和坐火车的最终决定。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "old",
+              "text": "只记第一个交通工具。",
+              "step_refs": [
+                1
+              ],
+              "trap": "未更新计划"
+            },
+            {
+              "id": "reverse",
+              "text": "把坐火车记为道路封闭的原因。",
+              "step_refs": [
+                2
+              ],
+              "trap": "倒置因果"
+            }
+          ],
+          "solution": "update",
+          "feedback_basis": "but与so构成两层关系，题目问实际安排时对应train；问原因时对应road closed。"
+        },
+        "implementation_point_id": "cet4-skills-listening-02",
+        "project_memory_hook": "信号词是路标，答案在它连接的意思里。"
+      },
+      {
+        "module": "listening",
+        "skill_id": "listening_paraphrase",
+        "skill_name": "跨表达识别同一命题",
+        "exam_section": "短篇新闻、长对话、听力篇章",
+        "trigger_condition": "选项与录音词面不同，需要判断意思是否一致。",
+        "action_steps": [
+          "抓住录音中的主体、行为、评价及否定。",
+          "比较候选表达是否保留相同对象、程度和因果。",
+          "用命题一致性匹配，不能仅靠一对近义词。"
+        ],
+        "common_traps": [
+          "把昂贵替换成便宜",
+          "近义词相同但主体不同",
+          "忽略too、hardly或not",
+          "原词复现就选"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P15、P21–32；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-listening-04"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "The repairs cost more than we can afford.",
+          "task": "怎样在不同说法之间搭桥？",
+          "clues": [
+            {
+              "id": "meaning",
+              "text": "把维修费用超过承受能力连到too expensive。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "cheap",
+              "text": "听到cost就连到a good bargain。",
+              "step_refs": [
+                2
+              ],
+              "trap": "评价方向反转"
+            },
+            {
+              "id": "actor",
+              "text": "把维修费用改写成工人的交通费。",
+              "step_refs": [
+                1
+              ],
+              "trap": "替换对象"
+            }
+          ],
+          "solution": "meaning",
+          "feedback_basis": "超出承受能力对应价格过高，且所谈对象仍须为repairs。"
+        },
+        "implementation_point_id": "cet4-skills-listening-03",
+        "project_memory_hook": "换了词也要是同一件事，主体、方向和程度不能换。"
+      },
+      {
+        "module": "listening",
+        "skill_id": "listening_number_revision",
+        "skill_name": "区分原值、更正值与计算条件",
+        "exam_section": "长对话、短篇新闻、听力篇章中的数字时间细节",
+        "trigger_condition": "录音出现多个时间、价格、数量，或更正、折扣、持续时间。",
+        "action_steps": [
+          "给数字加对象与单位标签，区分原安排和更正后的值。",
+          "听清问题问到达、出发、持续时长还是总价。",
+          "仅按录音明确条件取值或计算，核对单位，不凭听到的第一个数作答。"
+        ],
+        "common_traps": [
+          "取第一个数字",
+          "把出发时间当到达时间",
+          "未听条件就计算",
+          "混淆thirteen与thirty等音形"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P15、P21–32；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-listening-03"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "The tour was scheduled for 9:30, but it will now start at 10:00 and last forty minutes.",
+          "task": "若问现在几点开始，如何整理数字？",
+          "clues": [
+            {
+              "id": "labels",
+              "text": "把9:30标为原定、10:00标为现开始、40分钟标为时长。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "first",
+              "text": "只抄9:30。",
+              "step_refs": [
+                1
+              ],
+              "trap": "原值陷阱"
+            },
+            {
+              "id": "end",
+              "text": "计算10:40并用来回答开始时间。",
+              "step_refs": [
+                2,
+                3
+              ],
+              "trap": "答错时间维度"
+            }
+          ],
+          "solution": "labels",
+          "feedback_basis": "现在的开始时间是10:00；10:40只在问结束时间且条件成立时使用。"
+        },
+        "implementation_point_id": "cet4-skills-listening-04",
+        "project_memory_hook": "数字带标签：原定、现在、时长，别装进同一个口袋。"
+      },
+      {
+        "module": "listening",
+        "skill_id": "listening_intention_evidence",
+        "skill_name": "从语境判断建议与下一步行动",
+        "exam_section": "长对话、听力篇章",
+        "trigger_condition": "题目询问建议、说话意图或下一步行动。",
+        "action_steps": [
+          "记录当前问题与双方的回应。",
+          "判断疑问或否定是否承担建议、委婉拒绝等功能。",
+          "依据对方接受、保留或拒绝的反应，区分提出建议与实际决定。"
+        ],
+        "common_traps": [
+          "把建议当已完成事实",
+          "忽略对方拒绝",
+          "只按句子字面解读",
+          "以个人习惯推测下一步"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P15、P27–29；待用户补充时间戳/讲义。暂为通用规则草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-listening-06"
+        ],
+        "interaction": {
+          "type": "reasoning_clues",
+          "material": "Why not ask the librarian? — Good idea. I'll do that after class.",
+          "task": "用哪条线索区分建议与承诺？",
+          "clues": [
+            {
+              "id": "accept",
+              "text": "先识别建议，再用Good idea和I'll确认接受及未来行动。",
+              "step_refs": [
+                1,
+                2,
+                3
+              ],
+              "trap": null
+            },
+            {
+              "id": "done",
+              "text": "把ask读成已经问过。",
+              "step_refs": [
+                3
+              ],
+              "trap": "未来与过去混淆"
+            },
+            {
+              "id": "literal",
+              "text": "只按why判断为追问未去的原因。",
+              "step_refs": [
+                2
+              ],
+              "trap": "忽略语用"
+            }
+          ],
+          "solution": "accept",
+          "feedback_basis": "问句提出建议，回应接受；时间仍为课后，尚未发生。"
+        },
+        "implementation_point_id": "cet4-skills-listening-05",
+        "project_memory_hook": "先听建议，再听回应；答应去做，不等于已经做过。"
+      }
+    ],
+    "writing": [
+      {
+        "module": "writing",
+        "skill_id": "writing_three_part_structure",
+        "skill_name": "按题目任务组织三段论述",
+        "exam_section": "写作：适合议论或建议类任务的训练结构",
+        "trigger_condition": "题目要求表达观点、分析原因或提出建议；书信等题型应先满足文体要求，不能强套。",
+        "action_steps": [
+          "审题确定主题、受众与必须回应的要点，用首段引入并明确观点。",
+          "主体段给出相关原因或机制，并用具体例子说明它如何支持观点。",
+          "末段回扣观点，提出可行行动或有边界的展望，不另开未论证主题。"
+        ],
+        "common_traps": [
+          "三段齐全但没有回应题目",
+          "主体只有口号没有论证",
+          "把例子放在引入前造成指代不明",
+          "总结新增相反观点",
+          "把三段式说成所有作文的强制规定"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P12、P16、P18–20；待用户补充时间戳/讲义。三段式是本项目训练支架，未核实为课程唯一要求。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-writing-01",
+          "cet4-writing-02",
+          "cet4-writing-03",
+          "cet4-writing-04"
+        ],
+        "interaction": {
+          "type": "structure_order",
+          "material": "任务：就课间短休息是否有助学习写一段论述提纲。以下三张卡是本次任务的一种合理结构。",
+          "task": "排列三张结构卡，随后说明主体如何支持首段观点。",
+          "cards": [
+            {
+              "id": "conclusion",
+              "text": "回扣适度休息的价值，建议按学习负荷安排短休息。"
+            },
+            {
+              "id": "opening",
+              "text": "引入持续学习的疲劳问题，提出适度短休息有益专注的观点。"
+            },
+            {
+              "id": "reason",
+              "text": "解释疲劳为何影响注意，并用课间恢复精力的具体例子支撑。"
+            }
+          ],
+          "solution": [
+            "opening",
+            "reason",
+            "conclusion"
+          ],
+          "feedback_basis": "先建立待论证观点，再提供支持，最后回扣；这是本练习卡片的逻辑顺序，不排除其他合理作文结构。"
+        },
+        "implementation_point_id": "cet4-skills-writing-01",
+        "project_memory_hook": "先立观点，再给支撑，最后收束；先服从题目，再选结构。"
+      },
+      {
+        "module": "writing",
+        "skill_id": "writing_template_function",
+        "skill_name": "按交际功能匹配模板句",
+        "exam_section": "写作：书信、应用文与议论文中的句子功能",
+        "trigger_condition": "已明确受众和任务，需要表达邀请、请求、观点或因果等功能。",
+        "action_steps": [
+          "先确定句子要完成的功能与语体，而不是先背整段套话。",
+          "选择功能匹配的句式，用具体对象、事件和理由替换占位内容。",
+          "检查语法、指代、礼貌程度与题目要点，删除不适配的模板句。"
+        ],
+        "common_traps": [
+          "邀请函套用投诉开头",
+          "占位词未替换",
+          "套话太长挤掉题目要点",
+          "句型正确但语体不合受众"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P12、P16–20；待用户补充时间戳/讲义及模板适用条件。以下模板是项目原创示例。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-writing-05",
+          "cet4-writing-07"
+        ],
+        "interaction": {
+          "type": "template_match",
+          "material": "任务：为学习交流会邀请信匹配句子功能。",
+          "task": "把功能与句子配对，再检查主题信息是否足够具体。",
+          "functions": [
+            {
+              "id": "invite",
+              "text": "提出邀请"
+            },
+            {
+              "id": "request",
+              "text": "请求回复"
+            },
+            {
+              "id": "explain",
+              "text": "说明活动目的"
+            }
+          ],
+          "sentences": [
+            {
+              "id": "reply",
+              "text": "Could you let us know by Friday whether you can attend?"
+            },
+            {
+              "id": "purpose",
+              "text": "The meeting will give students a chance to share study methods."
+            },
+            {
+              "id": "invitation",
+              "text": "We would like to invite you to our study meeting."
+            }
+          ],
+          "solution": {
+            "invite": "invitation",
+            "request": "reply",
+            "explain": "purpose"
+          },
+          "feedback_basis": "按邀请、目的、回复功能匹配；真正成文还须根据题目补足时间地点，不能把这些示例当完整信件。"
+        },
+        "implementation_point_id": "cet4-skills-writing-02",
+        "project_memory_hook": "模板像工具，先看要做什么，再决定拿哪一件。"
+      },
+      {
+        "module": "writing",
+        "skill_id": "writing_lexical_precision",
+        "skill_name": "保持原意的词汇与表达升级",
+        "exam_section": "写作：议论文、应用文修改",
+        "trigger_condition": "草稿存在重复或表达不准确，且替换后能保留含义、搭配与语体。",
+        "action_steps": [
+          "写出原句真正表达的动作、程度和对象。",
+          "检查候选表达的词性、搭配、语域及语义范围，优先准确自然。",
+          "代回整句核对主谓与上下文；没有更合适表达时保留原词，不为生僻而替换。"
+        ],
+        "common_traps": [
+          "把所有use换成utilize",
+          "替换后意思变强或变窄",
+          "忽略搭配和词性",
+          "把词长当得分保证"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P12、P16–17；待用户补充时间戳/讲义。暂为通用修改原则，未核实课程词汇替换表。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-writing-06",
+          "cet4-writing-08"
+        ],
+        "interaction": {
+          "type": "template_match",
+          "material": "这里的升级指表达更准确，不承诺因使用生词而加分。",
+          "task": "将朴素表达与保留原意的修改配对，再口头检查一次搭配。",
+          "functions": [
+            {
+              "id": "money",
+              "text": "The plan helps us use less money."
+            },
+            {
+              "id": "focus",
+              "text": "Noise makes it hard for us to focus."
+            },
+            {
+              "id": "natural",
+              "text": "Please use a pen.（表达已自然）"
+            }
+          ],
+          "sentences": [
+            {
+              "id": "attention",
+              "text": "Noise makes it difficult for us to concentrate."
+            },
+            {
+              "id": "keep",
+              "text": "Please use a pen."
+            },
+            {
+              "id": "save",
+              "text": "The plan helps us save money."
+            }
+          ],
+          "solution": {
+            "money": "save",
+            "focus": "attention",
+            "natural": "keep"
+          },
+          "feedback_basis": "save money与concentrate更精确；use a pen已经自然，应保留。正式练习还要比较语境，不推广为逐词替换表。"
+        },
+        "implementation_point_id": "cet4-skills-writing-03",
+        "project_memory_hook": "词语升级先求准确；自然的句子，可以原样留下。"
+      },
+      {
+        "module": "writing",
+        "skill_id": "writing_revision_errors",
+        "skill_name": "按层级排查常见失分风险",
+        "exam_section": "写作：全部文体的终稿检查",
+        "trigger_condition": "已有草稿，进入限时修改阶段。",
+        "action_steps": [
+          "先查是否完成题目任务、文体和要求的篇幅，再查段落逻辑。",
+          "逐句圈出主语和谓语，核对主谓一致、时态、句子完整性。",
+          "检查冠词、单复数、搭配、拼写和标点，优先修复影响理解的问题。"
+        ],
+        "common_traps": [
+          "只改高级词而忽略跑题",
+          "用逗号连接两个完整独立句",
+          "主语单复数与谓语不一致",
+          "把项目检查项冒充官方逐项扣分表"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P12、P16–20；待用户补充时间戳/讲义。仅列失分风险，不声明官方每项固定扣分值。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-writing-01",
+          "cet4-writing-08"
+        ],
+        "interaction": {
+          "type": "revision_match",
+          "material": "找出问题并匹配修订：The students studies every day. / She was tired, she went home.",
+          "task": "按错误类型匹配修订，不用生词替代语法修复。",
+          "issues": [
+            {
+              "id": "agreement",
+              "text": "The students studies every day."
+            },
+            {
+              "id": "splice",
+              "text": "She was tired, she went home."
+            }
+          ],
+          "revisions": [
+            {
+              "id": "split",
+              "text": "She was tired. She went home."
+            },
+            {
+              "id": "plural",
+              "text": "The students study every day."
+            }
+          ],
+          "solution": {
+            "agreement": "plural",
+            "splice": "split"
+          },
+          "feedback_basis": "students为复数，对应study；两个独立句可用句号分开。此处不凭空补加因果关系。"
+        },
+        "implementation_point_id": "cet4-skills-writing-04",
+        "project_memory_hook": "先查任务和逻辑，再查句子骨架，最后修拼写标点。"
+      },
+      {
+        "module": "writing",
+        "skill_id": "writing_reason_example_link",
+        "skill_name": "把原因和例子连成论证",
+        "exam_section": "写作：议论文主体段",
+        "trigger_condition": "已给观点，需要说明为什么成立或建议如何起作用。",
+        "action_steps": [
+          "为观点选一个直接相关的原因，避免换句话重复观点。",
+          "说明原因发挥作用的机制，加入贴题的具体情境或例子。",
+          "用一句解释把例子连回观点，限定结论，不伪造调查数据。"
+        ],
+        "common_traps": [
+          "只有for example但没有例子",
+          "例子与观点无关",
+          "虚构权威统计数字",
+          "重复观点当原因"
+        ],
+        "memory_hook": "",
+        "source_ref": "BV1u8pb6REzY P12、P17–19；待用户补充时间戳/讲义。暂为通用论证方法草案。",
+        "source_status": "general_method_course_attribution_pending",
+        "existing_point_ids": [
+          "cet4-writing-03",
+          "cet4-writing-04"
+        ],
+        "interaction": {
+          "type": "structure_order",
+          "material": "观点：整理课堂笔记有助复习。以下为一个主体段的结构。",
+          "task": "让原因、例子和解释按依赖关系衔接。",
+          "cards": [
+            {
+              "id": "example",
+              "text": "例如把容易混淆的两种公式放在同一页比较。"
+            },
+            {
+              "id": "link",
+              "text": "这样能更快发现区别，因而让复习更有针对性。"
+            },
+            {
+              "id": "reason",
+              "text": "整理笔记可以把分散知识组织成可比较的单元。"
+            }
+          ],
+          "solution": [
+            "reason",
+            "example",
+            "link"
+          ],
+          "feedback_basis": "这组卡片中例子依赖先前的组织方法，最后解释它如何支持复习；不是要求所有段落都只能采用这一顺序。"
+        },
+        "implementation_point_id": "cet4-skills-writing-05",
+        "project_memory_hook": "原因搭桥，例子落地，解释把它们接回观点。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6381 @@
+{
+  "date": "2026-10-30",
+  "removed_GiB": 14.78,
+  "results": [
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 30835,
+      "path": "__pycache__"
+    },
+    {
+      "files": 14,
+      "status": "removed",
+      "bytes": 44781391,
+      "path": "build"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 124,
+      "path": "启动白厄麦田邀约.bat"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 169053,
+      "path": "blender/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 554,
+      "path": "blender/animation-audit.log"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 876557653,
+      "path": "blender/animation-backups"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 284623,
+      "path": "blender/build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2766,
+      "path": "blender/build_phainon_game_props.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1748,
+      "path": "blender/export_phainon_interactive.py"
+    },
+    {
+      "files": 606,
+      "status": "removed",
+      "bytes": 1316552491,
+      "path": "blender/model-backups"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2602,
+      "path": "blender/repair-export.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 646,
+      "path": "blender/repair-reports-audit.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1139,
+      "path": "blender/repair-verification.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 26254,
+      "path": "blender/shading-audit.log"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 54953,
+      "path": "characters/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 3101,
+      "path": "docs/UE5白厄麦田互动版.md"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 4449,
+      "path": "docs/白厄互动邀约修订-v2.md"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 147648,
+      "path": "game/__pycache__"
+    },
+    {
+      "files": 22,
+      "status": "removed",
+      "bytes": 470374,
+      "path": "knowledge/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1803,
+      "path": "tmp/analyze_extremes.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1508,
+      "path": "tmp/analyze_extremes2.py"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 375658,
+      "path": "tmp/blender-out"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 6218,
+      "path": "tmp/blender-runs"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1389,
+      "path": "tmp/check_head.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1156,
+      "path": "tmp/check_joints.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 220,
+      "path": "tmp/check_json.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 560,
+      "path": "tmp/check_rt_fbx.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 607,
+      "path": "tmp/check_unlit.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 374,
+      "path": "tmp/crop_face.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1045,
+      "path": "tmp/debug_cape.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1087,
+      "path": "tmp/debug_cape2.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 490,
+      "path": "tmp/glb_mats.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 544,
+      "path": "tmp/glb_morphs.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 613,
+      "path": "tmp/glb_morphs2.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 801,
+      "path": "tmp/inspect_glb_anim.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 727,
+      "path": "tmp/inspect_glb_anim2.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 817,
+      "path": "tmp/inspect_glb_compare.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 607,
+      "path": "tmp/inspect_rigid_objs.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 250,
+      "path": "tmp/list_actions.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 357,
+      "path": "tmp/list_anim_actions.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 526,
+      "path": "tmp/manifest_summary.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1304,
+      "path": "tmp/morphs.json"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 586198,
+      "path": "tmp/pdfs"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 190299,
+      "path": "tmp/phainon-face.png"
+    },
+    {
+      "files": 19,
+      "status": "removed",
+      "bytes": 5079239,
+      "path": "tmp/research"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 467,
+      "path": "tmp/restore_paired_src.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1017,
+      "path": "tmp/screenshot_lookup.mjs"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1758198,
+      "path": "tmp/tmp74oiqicp"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1278,
+      "path": "tmp/top_bones.json"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1603,
+      "path": "tmp/top_bones.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 790,
+      "path": "tmp/top_fixed.json"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1670,
+      "path": "tmp/top_fixed.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 186,
+      "path": "tmp/ue_api_list.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 194,
+      "path": "tmp/ue_api_list2.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 32,
+      "path": "tmp/ue_args_cat.json"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 135,
+      "path": "tmp/ue_args_get.json"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 54,
+      "path": "tmp/ue_args_sec.json"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 132,
+      "path": "tmp/ue_classes.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1574,
+      "path": "tmp/verify_fixed.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1024,
+      "path": "tmp/verify_glbs.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 746,
+      "path": "tmp/verify_paired.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 236187,
+      "path": "tmp/zhuxia-cover.jpg"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 52310,
+      "path": "tools/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 568,
+      "path": "tools/prepare_phainon_game_ambient.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 3054,
+      "path": "tools/prepare_phainon_game_story.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1266,
+      "path": "tools/verify_phainon_game.py"
+    },
+    {
+      "files": 198,
+      "status": "removed",
+      "bytes": 476030982,
+      "path": "ue5/.toolchain"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 5307,
+      "path": "ue5/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 477403,
+      "path": "ue5/build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 192383,
+      "path": "ue5/game-stdout.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1766,
+      "path": "ue5/inspect_phainon_interactive.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 15476,
+      "path": "ue5/install_phainon_interactive.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 450041,
+      "path": "ue5/repair-character-materials.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1074,
+      "path": "ue5/start-phainon-outing.ps1"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 11039,
+      "path": "voice/__pycache__"
+    },
+    {
+      "files": 140,
+      "status": "removed",
+      "bytes": 81609995,
+      "path": "web/artifacts"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 22253980,
+      "path": "blender/animated/anaxa.before-physics.fbx"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 26267244,
+      "path": "blender/animated/anaxa.before-physics.glb"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 25053660,
+      "path": "blender/animated/castor.before-physics.fbx"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 33233220,
+      "path": "blender/animated/castor.before-physics.glb"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 20477244,
+      "path": "blender/animated/hyacine.before-physics.fbx"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 23013784,
+      "path": "blender/animated/hyacine.before-physics.glb"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 21801788,
+      "path": "blender/animated/phainon.before-physics.fbx"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 23751376,
+      "path": "blender/animated/phainon.before-physics.glb"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 800,
+      "path": "blender/animation-reports/build-anaxa.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1405,
+      "path": "blender/animation-reports/build-assistant-student.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 800,
+      "path": "blender/animation-reports/build-castor.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1923,
+      "path": "blender/animation-reports/story-room-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 31619,
+      "path": "blender/animation-reports/story-ue-bridge.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 28893,
+      "path": "blender/animation-reports/story-ue-install.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 31075,
+      "path": "blender/animation-reports/story-ue-preview.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 202,
+      "path": "blender/animation-reports/story-website-error.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 31412,
+      "path": "blender/animation-reports/story-website-out.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 68708,
+      "path": "blender/animation-reports/ue-install.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 30869,
+      "path": "blender/animation-reports/ue-motion-preview.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 202,
+      "path": "blender/animation-reports/website-error.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 6150,
+      "path": "blender/animation-reports/website-out.log"
+    },
+    {
+      "files": 1795,
+      "status": "removed",
+      "bytes": 1239156480,
+      "path": "blender/build/phainon-film"
+    },
+    {
+      "files": 2352,
+      "status": "removed",
+      "bytes": 2532068369,
+      "path": "blender/build/phainon-film-v2"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 6272,
+      "path": "blender/build/phainon-film-v2-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1319,
+      "path": "blender/build/phainon-film-v2-dub.log"
+    },
+    {
+      "files": 39,
+      "status": "removed",
+      "bytes": 45921188,
+      "path": "blender/build/phainon-interactive"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 982,
+      "path": "blender/build/phainon-motion-continuity.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 399,
+      "path": "blender/build/phainon-motion-readback.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 53500,
+      "path": "blender/build/phainon-motion-review.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2292,
+      "path": "blender/build/phainon-motion-v3.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2192,
+      "path": "blender/build/phainon-response-voice-repair.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 813,
+      "path": "blender/build/phainon-seat-contact.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 860,
+      "path": "blender/build/phainon-sit-check.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 600502,
+      "path": "blender/classroom/story_classroom.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 5181556,
+      "path": "blender/generated/anaxa.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 6644452,
+      "path": "blender/generated/castor.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 5154210,
+      "path": "blender/generated/hyacine.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 5214483,
+      "path": "blender/generated/phainon.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 6325,
+      "path": "blender/materials/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 191837,
+      "path": "blender/repair-reports/ue-visual-check.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 28326,
+      "path": "blender/shading-reports/export.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 191570,
+      "path": "blender/shading-reports/ue-game-check.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 191354,
+      "path": "blender/shading-reports/ue-game-final.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 254802,
+      "path": "blender/shading-reports/ue-portraits-final.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 255552,
+      "path": "blender/shading-reports/ue-portraits.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 456295,
+      "path": "blender/shading-reports/ue-style.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1163,
+      "path": "blender/shading-reports/verification.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 26147272,
+      "path": "blender/study/anaxa.before-physics.glb"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 3074,
+      "path": "data/cinematics/phainon-wheat-v1.json"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 4034,
+      "path": "data/cinematics/phainon-wheat-v2.json"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 65782512,
+      "path": "ue5/TreeCourt/Binaries"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 1627828,
+      "path": "ue5/TreeCourt/DerivedDataCache"
+    },
+    {
+      "files": 93,
+      "status": "removed",
+      "bytes": 2676169656,
+      "path": "ue5/TreeCourt/Intermediate"
+    },
+    {
+      "files": 77,
+      "status": "removed",
+      "bytes": 134444301,
+      "path": "ue5/TreeCourt/Intermediate-before-ascii-build"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 22359,
+      "path": "ue5/TreeCourt/Source"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 548,
+      "path": "ue5/reports/inspect-phainon-source.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 223784,
+      "path": "ue5/reports/phainon-game-visual-backup-2026.10.30-06.39.54.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 216442,
+      "path": "ue5/reports/phainon-game-visual.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 202819,
+      "path": "ue5/reports/phainon-gameplay-smoke-backup-2026.10.30-06.35.44.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 203168,
+      "path": "ue5/reports/phainon-gameplay-smoke-backup-2026.10.30-07.46.53.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 196663,
+      "path": "ue5/reports/phainon-gameplay-smoke-backup-2026.10.30-07.50.35.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 458781,
+      "path": "ue5/reports/phainon-gameplay-smoke-backup-2026.10.30-07.52.11.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 200488,
+      "path": "ue5/reports/phainon-gameplay-smoke-backup-2026.10.30-11.16.07.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 200945,
+      "path": "ue5/reports/phainon-gameplay-smoke-backup-2026.10.30-11.19.02.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1025,
+      "path": "ue5/reports/phainon-gameplay-smoke-console.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 200654,
+      "path": "ue5/reports/phainon-gameplay-smoke.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 8544,
+      "path": "ue5/reports/phainon-import-inspect.json"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 258972,
+      "path": "ue5/reports/phainon-inspect-backup-2026.10.30-07.46.30.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 251372,
+      "path": "ue5/reports/phainon-inspect-backup-2026.10.30-07.47.57.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 249892,
+      "path": "ue5/reports/phainon-inspect-backup-2026.10.30-07.50.40.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 31186,
+      "path": "ue5/reports/phainon-inspect-console.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 252004,
+      "path": "ue5/reports/phainon-inspect.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 7880,
+      "path": "ue5/reports/phainon-interactive-build.json"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 287646,
+      "path": "ue5/reports/phainon-interactive-import-backup-2026.10.30-06.21.07.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 112265,
+      "path": "ue5/reports/phainon-interactive-import-console.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 484550,
+      "path": "ue5/reports/phainon-interactive-import.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 324285,
+      "path": "ue5/reports/phainon-interactive-map-build-backup-2026.10.30-06.28.29.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 276863,
+      "path": "ue5/reports/phainon-interactive-map-build-backup-2026.10.30-06.31.23.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 276798,
+      "path": "ue5/reports/phainon-interactive-map-build-backup-2026.10.30-06.32.24.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 276088,
+      "path": "ue5/reports/phainon-interactive-map-build-backup-2026.10.30-06.34.10.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 308414,
+      "path": "ue5/reports/phainon-interactive-map-build-backup-2026.10.30-07.50.00.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 373191,
+      "path": "ue5/reports/phainon-interactive-map-build-backup-2026.10.30-11.11.40.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 293984,
+      "path": "ue5/reports/phainon-interactive-map-build-backup-2026.10.30-11.24.10.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 33483,
+      "path": "ue5/reports/phainon-interactive-map-build-console.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 351821,
+      "path": "ue5/reports/phainon-interactive-map-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 6930,
+      "path": "ue5/reports/phainon-runtime-ascii-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 6946,
+      "path": "ue5/reports/phainon-runtime-ascii-fresh.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2476,
+      "path": "ue5/reports/phainon-runtime-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 50306,
+      "path": "ue5/reports/phainon-runtime-clean-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 34881,
+      "path": "ue5/reports/phainon-runtime-final-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 34308,
+      "path": "ue5/reports/phainon-runtime-gameplay-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 3176,
+      "path": "ue5/reports/phainon-runtime-local-build.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 726,
+      "path": "ue5/reports/phainon-source-transform.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 391,
+      "path": "ue5/reports/phainon-web-tests.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 88393,
+      "path": "ue5/reports/spatial-install.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 3461384651,
+      "path": "voice/models/torch-2.8.0+cu128-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1048576,
+      "path": "voice/models/torch-range-probe.bin"
+    },
+    {
+      "files": 14,
+      "status": "removed",
+      "bytes": 112517,
+      "path": "web/backend/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2564,
+      "path": "web/backend/native_outings.py"
+    },
+    {
+      "files": 24,
+      "status": "removed",
+      "bytes": 254978,
+      "path": "web/tests/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1832,
+      "path": "web/tests/test_native_outings.py"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1138866,
+      "path": "blender/build/cinematic-classroom/story_classroom.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 118953,
+      "path": "blender/build/outings/courtyard.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 106575,
+      "path": "blender/build/outings/grove.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 118861,
+      "path": "blender/build/outings/terrace.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 279232,
+      "path": "blender/build/outings/wheat.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1263790,
+      "path": "blender/build/phainon-film-v3/body-26.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1263749,
+      "path": "blender/build/phainon-film-v3/body-27.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1254327,
+      "path": "blender/build/phainon-film-v3/body-28.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1251464,
+      "path": "blender/build/phainon-film-v3/body-29.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1250115,
+      "path": "blender/build/phainon-film-v3/body-30.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1254737,
+      "path": "blender/build/phainon-film-v3/body-31.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 790,
+      "path": "blender/build/phainon-film-v3/encode.log"
+    },
+    {
+      "files": 1776,
+      "status": "removed",
+      "bytes": 1875739197,
+      "path": "blender/build/phainon-film-v3/frames"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 214236,
+      "path": "blender/build/phainon-film-v3/full-render.log"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 5256787,
+      "path": "blender/build/phainon-film-v3/iterations"
+    },
+    {
+      "files": 192,
+      "status": "removed",
+      "bytes": 95096856,
+      "path": "blender/build/phainon-film-v3/motion-review"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 1988079,
+      "path": "blender/build/phainon-film-v3/pose-check"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1143855,
+      "path": "blender/build/phainon-film-v3/preview-26.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1150126,
+      "path": "blender/build/phainon-film-v3/preview-27.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1119742,
+      "path": "blender/build/phainon-film-v3/preview-28.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1051347,
+      "path": "blender/build/phainon-film-v3/preview-29.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1063594,
+      "path": "blender/build/phainon-film-v3/preview-30.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1038588,
+      "path": "blender/build/phainon-film-v3/preview-31.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1017811,
+      "path": "blender/build/phainon-film-v3/preview-54.png"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 77479,
+      "path": "blender/build/phainon-film-v3/responses-render.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 220184,
+      "path": "blender/build/spatial-repair/hand-castor-retry.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 220217,
+      "path": "blender/build/spatial-repair/hand-castor.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 183598,
+      "path": "blender/build/spatial-repair/hand-phainon.log"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 479100,
+      "path": "blender/build/study-room/study_room.blend1"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 329030,
+      "path": "ue5/TreeCourt/Saved/L_ClassroomB187B09D4FACFDABD9F6B1A685344654.tmp"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 1446639,
+      "path": "ue5/TreeCourt/Saved/Logs"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 9396793,
+      "path": "ue5/TreeCourt/Saved/anaxa8A5588BC4AB73C77B67D72B538E40EF8.tmp"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 11033778,
+      "path": "ue5/TreeCourt/Saved/castor26CD70A84A8BD5FAFE62B29C0C586184.tmp"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 9200579,
+      "path": "ue5/TreeCourt/Saved/hyacineBA8B45244CC87AADB956449284A195FD.tmp"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 8383888,
+      "path": "ue5/TreeCourt/Saved/phainon5BC0848A46EF0E30BFCF62BEA1A7F772.tmp"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 20542,
+      "path": "voice/backups/integration-20261020-093338/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 34274,
+      "path": "tmp/mcp/venv/Scripts/__pycache__"
+    },
+    {
+      "files": 77,
+      "status": "removed",
+      "bytes": 25043444,
+      "path": "ue5/TreeCourt/Content/TreeCourt/InteractivePhainon"
+    },
+    {
+      "files": 120,
+      "status": "removed",
+      "bytes": 122030710,
+      "path": "blender/build/phainon-film-v3/responses/name-call_you/frames"
+    },
+    {
+      "files": 120,
+      "status": "removed",
+      "bytes": 122045501,
+      "path": "blender/build/phainon-film-v3/responses/name-stay/frames"
+    },
+    {
+      "files": 120,
+      "status": "removed",
+      "bytes": 136094202,
+      "path": "blender/build/phainon-film-v3/responses/waymark-blank/frames"
+    },
+    {
+      "files": 120,
+      "status": "removed",
+      "bytes": 136065158,
+      "path": "blender/build/phainon-film-v3/responses/waymark-next_place/frames"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 48664,
+      "path": "tmp/mcp/unreal-blender-mcp/src/unreal_blender_mcp/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 243608,
+      "path": "tmp/mcp/venv/Lib/site-packages/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 243780,
+      "path": "ue5/TreeCourt/Saved/Crashes/UECC-Windows-F4BF63574A0EEBD4C9561FBB681D700E_0000/TreeCourt.log"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 42418,
+      "path": "tmp/mcp/unreal-blender-mcp/blender-mcp/src/blender_mcp/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 30596,
+      "path": "tmp/mcp/unreal-blender-mcp/src/unreal_blender_mcp/blender_addon_server/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 873,
+      "path": "tmp/mcp/venv/Lib/site-packages/_yaml/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 97878,
+      "path": "tmp/mcp/venv/Lib/site-packages/adodbapi/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 22282,
+      "path": "tmp/mcp/venv/Lib/site-packages/aiohappyeyeballs/__pycache__"
+    },
+    {
+      "files": 48,
+      "status": "removed",
+      "bytes": 1154547,
+      "path": "tmp/mcp/venv/Lib/site-packages/aiohttp/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2693,
+      "path": "tmp/mcp/venv/Lib/site-packages/aiosignal/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2174,
+      "path": "tmp/mcp/venv/Lib/site-packages/annotated_doc/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 30878,
+      "path": "tmp/mcp/venv/Lib/site-packages/annotated_types/__pycache__"
+    },
+    {
+      "files": 10,
+      "status": "removed",
+      "bytes": 132863,
+      "path": "tmp/mcp/venv/Lib/site-packages/anyio/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 205764,
+      "path": "tmp/mcp/venv/Lib/site-packages/attr/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 2372,
+      "path": "tmp/mcp/venv/Lib/site-packages/attrs/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 3022,
+      "path": "tmp/mcp/venv/Lib/site-packages/certifi/__pycache__"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 421999,
+      "path": "tmp/mcp/venv/Lib/site-packages/cffi/__pycache__"
+    },
+    {
+      "files": 10,
+      "status": "removed",
+      "bytes": 163134,
+      "path": "tmp/mcp/venv/Lib/site-packages/charset_normalizer/__pycache__"
+    },
+    {
+      "files": 17,
+      "status": "removed",
+      "bytes": 505526,
+      "path": "tmp/mcp/venv/Lib/site-packages/click/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 41634,
+      "path": "tmp/mcp/venv/Lib/site-packages/colorama/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 21691,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 55050,
+      "path": "tmp/mcp/venv/Lib/site-packages/distro/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 50678,
+      "path": "tmp/mcp/venv/Lib/site-packages/dotenv/__pycache__"
+    },
+    {
+      "files": 23,
+      "status": "removed",
+      "bytes": 397229,
+      "path": "tmp/mcp/venv/Lib/site-packages/fastapi/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 4073,
+      "path": "tmp/mcp/venv/Lib/site-packages/frozenlist/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 81273,
+      "path": "tmp/mcp/venv/Lib/site-packages/h11/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 54938,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpcore/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 59833,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpcore2/__pycache__"
+    },
+    {
+      "files": 17,
+      "status": "removed",
+      "bytes": 301030,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpx/__pycache__"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 345302,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpx2/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 13562,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpx_sse/__pycache__"
+    },
+    {
+      "files": 10,
+      "status": "removed",
+      "bytes": 175294,
+      "path": "tmp/mcp/venv/Lib/site-packages/idna/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 50052,
+      "path": "tmp/mcp/venv/Lib/site-packages/isapi/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 175228,
+      "path": "tmp/mcp/venv/Lib/site-packages/jsonschema/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2038,
+      "path": "tmp/mcp/venv/Lib/site-packages/jsonschema_specifications/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 127751,
+      "path": "tmp/mcp/venv/Lib/site-packages/jwt/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 270,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/__pycache__"
+    },
+    {
+      "files": 16,
+      "status": "removed",
+      "bytes": 34397,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 103835,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/__pycache__"
+    },
+    {
+      "files": 18,
+      "status": "removed",
+      "bytes": 101215,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 30219,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_protocol/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 129815,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_text_splitters/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 85857,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 50759,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph_sdk/__pycache__"
+    },
+    {
+      "files": 32,
+      "status": "removed",
+      "bytes": 1259996,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 89812,
+      "path": "tmp/mcp/venv/Lib/site-packages/markdown_it/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 69315,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 119343,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp_types/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 16517,
+      "path": "tmp/mcp/venv/Lib/site-packages/mdurl/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 92969,
+      "path": "tmp/mcp/venv/Lib/site-packages/multidict/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 2100,
+      "path": "tmp/mcp/venv/Lib/site-packages/multipart/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 96068,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 723,
+      "path": "tmp/mcp/venv/Lib/site-packages/orjson/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1034,
+      "path": "tmp/mcp/venv/Lib/site-packages/ormsgpack/__pycache__"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 439609,
+      "path": "tmp/mcp/venv/Lib/site-packages/packaging/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 3771,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 5821,
+      "path": "tmp/mcp/venv/Lib/site-packages/propcache/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 288124,
+      "path": "tmp/mcp/venv/Lib/site-packages/pycparser/__pycache__"
+    },
+    {
+      "files": 35,
+      "status": "removed",
+      "bytes": 742922,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 179399,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic_core/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 50692,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic_settings/__pycache__"
+    },
+    {
+      "files": 16,
+      "status": "removed",
+      "bytes": 168323,
+      "path": "tmp/mcp/venv/Lib/site-packages/pygments/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 80261,
+      "path": "tmp/mcp/venv/Lib/site-packages/python_multipart/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 61836,
+      "path": "tmp/mcp/venv/Lib/site-packages/referencing/__pycache__"
+    },
+    {
+      "files": 19,
+      "status": "removed",
+      "bytes": 243040,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 24139,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests_toolbelt/__pycache__"
+    },
+    {
+      "files": 77,
+      "status": "removed",
+      "bytes": 1172257,
+      "path": "tmp/mcp/venv/Lib/site-packages/rich/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 349,
+      "path": "tmp/mcp/venv/Lib/site-packages/rpds/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 8175,
+      "path": "tmp/mcp/venv/Lib/site-packages/shellingham/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 3870,
+      "path": "tmp/mcp/venv/Lib/site-packages/sniffio/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 69537,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 30970,
+      "path": "tmp/mcp/venv/Lib/site-packages/sse_starlette/__pycache__"
+    },
+    {
+      "files": 23,
+      "status": "removed",
+      "bytes": 285395,
+      "path": "tmp/mcp/venv/Lib/site-packages/starlette/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 94482,
+      "path": "tmp/mcp/venv/Lib/site-packages/tenacity/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 59002,
+      "path": "tmp/mcp/venv/Lib/site-packages/truststore/__pycache__"
+    },
+    {
+      "files": 17,
+      "status": "removed",
+      "bytes": 300806,
+      "path": "tmp/mcp/venv/Lib/site-packages/typer/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 35483,
+      "path": "tmp/mcp/venv/Lib/site-packages/typing_inspection/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 246525,
+      "path": "tmp/mcp/venv/Lib/site-packages/urllib3/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1085,
+      "path": "tmp/mcp/venv/Lib/site-packages/uuid_utils/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 105796,
+      "path": "tmp/mcp/venv/Lib/site-packages/uvicorn/__pycache__"
+    },
+    {
+      "files": 21,
+      "status": "removed",
+      "bytes": 188059,
+      "path": "tmp/mcp/venv/Lib/site-packages/websockets/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 596,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 23130,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32com/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1272,
+      "path": "tmp/mcp/venv/Lib/site-packages/xxhash/__pycache__"
+    },
+    {
+      "files": 17,
+      "status": "removed",
+      "bytes": 250325,
+      "path": "tmp/mcp/venv/Lib/site-packages/yaml/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 92540,
+      "path": "tmp/mcp/venv/Lib/site-packages/yarl/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 183795,
+      "path": "tmp/mcp/venv/Lib/site-packages/zstandard/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 7189,
+      "path": "tmp/mcp/venv/Lib/site-packages/adodbapi/examples/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 131539,
+      "path": "tmp/mcp/venv/Lib/site-packages/adodbapi/test/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 42907,
+      "path": "tmp/mcp/venv/Lib/site-packages/aiohttp/_websocket/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 223034,
+      "path": "tmp/mcp/venv/Lib/site-packages/anyio/_backends/__pycache__"
+    },
+    {
+      "files": 18,
+      "status": "removed",
+      "bytes": 250295,
+      "path": "tmp/mcp/venv/Lib/site-packages/anyio/_core/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 65711,
+      "path": "tmp/mcp/venv/Lib/site-packages/anyio/abc/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 70365,
+      "path": "tmp/mcp/venv/Lib/site-packages/anyio/streams/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1733,
+      "path": "tmp/mcp/venv/Lib/site-packages/certifi/tests/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 14019,
+      "path": "tmp/mcp/venv/Lib/site-packages/charset_normalizer/cli/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 49202,
+      "path": "tmp/mcp/venv/Lib/site-packages/colorama/tests/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 22151,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 208596,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/x509/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 31441,
+      "path": "tmp/mcp/venv/Lib/site-packages/fastapi/_compat/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 73757,
+      "path": "tmp/mcp/venv/Lib/site-packages/fastapi/dependencies/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 3148,
+      "path": "tmp/mcp/venv/Lib/site-packages/fastapi/middleware/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 61709,
+      "path": "tmp/mcp/venv/Lib/site-packages/fastapi/openapi/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 51303,
+      "path": "tmp/mcp/venv/Lib/site-packages/fastapi/security/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 43742,
+      "path": "tmp/mcp/venv/Lib/site-packages/fastapi/telemetry/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 124829,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpcore/_async/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 43764,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpcore/_backends/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 113764,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpcore/_sync/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 131554,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpcore2/_async/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 43809,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpcore2/_backends/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 119605,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpcore2/_sync/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 37736,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpx/_transports/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 38142,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpx2/_transports/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 98079,
+      "path": "tmp/mcp/venv/Lib/site-packages/httpx2/websockets/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 25271,
+      "path": "tmp/mcp/venv/Lib/site-packages/isapi/samples/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 4569,
+      "path": "tmp/mcp/venv/Lib/site-packages/isapi/test/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 19616,
+      "path": "tmp/mcp/venv/Lib/site-packages/jsonschema/benchmarks/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 275724,
+      "path": "tmp/mcp/venv/Lib/site-packages/jsonschema/tests/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2178,
+      "path": "tmp/mcp/venv/Lib/site-packages/jsonschema_specifications/tests/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 104598,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/agents/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 43839,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/chat_models/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 11710,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/embeddings/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 40903,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/mcp/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1333,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/messages/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 575,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/rate_limiters/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1174,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/tools/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 7712,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/_api/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1489,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/adapters/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 103219,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/__pycache__"
+    },
+    {
+      "files": 30,
+      "status": "removed",
+      "bytes": 42479,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/callbacks/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 116754,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/__pycache__"
+    },
+    {
+      "files": 10,
+      "status": "removed",
+      "bytes": 7858,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chat_loaders/__pycache__"
+    },
+    {
+      "files": 35,
+      "status": "removed",
+      "bytes": 71311,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chat_models/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 4913,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/docstore/__pycache__"
+    },
+    {
+      "files": 145,
+      "status": "removed",
+      "bytes": 136318,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/document_loaders/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 10932,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/document_transformers/__pycache__"
+    },
+    {
+      "files": 51,
+      "status": "removed",
+      "bytes": 70498,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/embeddings/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 30054,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 11444,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/graphs/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 35750,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/indexes/__pycache__"
+    },
+    {
+      "files": 83,
+      "status": "removed",
+      "bytes": 90424,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/llms/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 1587,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/load/__pycache__"
+    },
+    {
+      "files": 18,
+      "status": "removed",
+      "bytes": 103430,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/memory/__pycache__"
+    },
+    {
+      "files": 23,
+      "status": "removed",
+      "bytes": 63359,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/output_parsers/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 5187,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/prompts/__pycache__"
+    },
+    {
+      "files": 44,
+      "status": "removed",
+      "bytes": 94514,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/retrievers/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 6138,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/runnables/__pycache__"
+    },
+    {
+      "files": 18,
+      "status": "removed",
+      "bytes": 8793,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/schema/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 3410,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/smith/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 24422,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/storage/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 9341,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/__pycache__"
+    },
+    {
+      "files": 58,
+      "status": "removed",
+      "bytes": 51913,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/utilities/__pycache__"
+    },
+    {
+      "files": 15,
+      "status": "removed",
+      "bytes": 8961,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/utils/__pycache__"
+    },
+    {
+      "files": 67,
+      "status": "removed",
+      "bytes": 62109,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/vectorstores/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 16589,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/adapters/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 41682,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 212,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agents/__pycache__"
+    },
+    {
+      "files": 27,
+      "status": "removed",
+      "bytes": 394254,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/callbacks/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5704,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chains/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 45578,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chat_loaders/__pycache__"
+    },
+    {
+      "files": 21,
+      "status": "removed",
+      "bytes": 169514,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chat_message_histories/__pycache__"
+    },
+    {
+      "files": 50,
+      "status": "removed",
+      "bytes": 843558,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chat_models/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 11868,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/cross_encoders/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 10110,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/docstore/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 48159,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/document_compressors/__pycache__"
+    },
+    {
+      "files": 170,
+      "status": "removed",
+      "bytes": 1114182,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/document_loaders/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 58528,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/document_transformers/__pycache__"
+    },
+    {
+      "files": 78,
+      "status": "removed",
+      "bytes": 556953,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/embeddings/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5484,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/example_selectors/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 112007,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/graph_vectorstores/__pycache__"
+    },
+    {
+      "files": 19,
+      "status": "removed",
+      "bytes": 211767,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/graphs/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 38834,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/indexes/__pycache__"
+    },
+    {
+      "files": 102,
+      "status": "removed",
+      "bytes": 1019795,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/llms/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 25536,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/memory/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 12834,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/output_parsers/__pycache__"
+    },
+    {
+      "files": 23,
+      "status": "removed",
+      "bytes": 90014,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/query_constructors/__pycache__"
+    },
+    {
+      "files": 44,
+      "status": "removed",
+      "bytes": 248365,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/retrievers/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 64474,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/storage/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 33686,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/__pycache__"
+    },
+    {
+      "files": 75,
+      "status": "removed",
+      "bytes": 642923,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/utilities/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 10071,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/utils/__pycache__"
+    },
+    {
+      "files": 88,
+      "status": "removed",
+      "bytes": 2130012,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/vectorstores/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 41955,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/_api/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 28381,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/_security/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 161627,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/callbacks/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 16846,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/document_loaders/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 20977,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/documents/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10568,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/embeddings/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 24458,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/example_selectors/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 66540,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/indexing/__pycache__"
+    },
+    {
+      "files": 10,
+      "status": "removed",
+      "bytes": 310965,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/language_models/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 72253,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/load/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 206558,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/messages/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 87774,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/output_parsers/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 17447,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/outputs/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 171841,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/prompts/__pycache__"
+    },
+    {
+      "files": 16,
+      "status": "removed",
+      "bytes": 530253,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/runnables/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 115410,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/tools/__pycache__"
+    },
+    {
+      "files": 15,
+      "status": "removed",
+      "bytes": 195568,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/tracers/__pycache__"
+    },
+    {
+      "files": 21,
+      "status": "removed",
+      "bytes": 173223,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/utils/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 72687,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/vectorstores/__pycache__"
+    },
+    {
+      "files": 15,
+      "status": "removed",
+      "bytes": 110817,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/_internal/__pycache__"
+    },
+    {
+      "files": 10,
+      "status": "removed",
+      "bytes": 56923,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/channels/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 24723,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/func/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 116482,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/graph/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 3116,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/managed/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 144204,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/prebuilt/__pycache__"
+    },
+    {
+      "files": 25,
+      "status": "removed",
+      "bytes": 594445,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/pregel/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 134791,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/stream/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 1104,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/utils/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 260345,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph_sdk/_async/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 11414,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph_sdk/_shared/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 234209,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph_sdk/_sync/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 61700,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph_sdk/auth/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 22056,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph_sdk/encryption/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 68183,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph_sdk/stream/__pycache__"
+    },
+    {
+      "files": 27,
+      "status": "removed",
+      "bytes": 199991,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/_internal/__pycache__"
+    },
+    {
+      "files": 14,
+      "status": "removed",
+      "bytes": 65867,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/_utils/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 12416,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/beta/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 14135,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/env/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 243280,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/evaluation/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2813,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 118919,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/resources/__pycache__"
+    },
+    {
+      "files": 18,
+      "status": "removed",
+      "bytes": 483547,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/sandbox/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 58795,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/testing/__pycache__"
+    },
+    {
+      "files": 101,
+      "status": "removed",
+      "bytes": 190013,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/types/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 75074,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/wrappers/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5455,
+      "path": "tmp/mcp/venv/Lib/site-packages/markdown_it/cli/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 14416,
+      "path": "tmp/mcp/venv/Lib/site-packages/markdown_it/common/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 6438,
+      "path": "tmp/mcp/venv/Lib/site-packages/markdown_it/helpers/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 5216,
+      "path": "tmp/mcp/venv/Lib/site-packages/markdown_it/presets/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 61896,
+      "path": "tmp/mcp/venv/Lib/site-packages/markdown_it/rules_block/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 22705,
+      "path": "tmp/mcp/venv/Lib/site-packages/markdown_it/rules_core/__pycache__"
+    },
+    {
+      "files": 16,
+      "status": "removed",
+      "bytes": 47638,
+      "path": "tmp/mcp/venv/Lib/site-packages/markdown_it/rules_inline/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 23148,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/cli/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 109318,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/client/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 243,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/os/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 161803,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/__pycache__"
+    },
+    {
+      "files": 14,
+      "status": "removed",
+      "bytes": 79192,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/shared/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 74042,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp_types/_v2025_11_25/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 79885,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp_types/_v2026_07_28/__pycache__"
+    },
+    {
+      "files": 29,
+      "status": "removed",
+      "bytes": 1014694,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/_core/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1134,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/_pyinstaller/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 49841,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/_typing/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 33208,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/_utils/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1275,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/char/__pycache__"
+    },
+    {
+      "files": 19,
+      "status": "removed",
+      "bytes": 15327,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/core/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 22856,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/ctypeslib/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 5629,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/doc/__pycache__"
+    },
+    {
+      "files": 18,
+      "status": "removed",
+      "bytes": 510493,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/f2py/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 81226,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/fft/__pycache__"
+    },
+    {
+      "files": 32,
+      "status": "removed",
+      "bytes": 960200,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/lib/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 128914,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/linalg/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 442180,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/ma/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 36733,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/matrixlib/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 469318,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/polynomial/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 10448,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/random/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 288,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/rec/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 292,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/strings/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 11692,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/testing/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 72836,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/tests/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 16213,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/typing/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1441,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/_logs/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 12777,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/attributes/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 4883,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/baggage/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10921,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/context/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 673,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/environment_variables/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2526,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/metrics/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 6965,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/propagate/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 16904,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/propagators/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 54288,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/trace/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 13741,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/util/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 236,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/version/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 761,
+      "path": "tmp/mcp/venv/Lib/site-packages/ormsgpack/_pyinstaller/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 55648,
+      "path": "tmp/mcp/venv/Lib/site-packages/packaging/licenses/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 108051,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 4607,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/__pycache__"
+    },
+    {
+      "files": 29,
+      "status": "removed",
+      "bytes": 494901,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic/_internal/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 52022,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic/deprecated/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 39061,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic/experimental/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 18773,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic/plugin/__pycache__"
+    },
+    {
+      "files": 26,
+      "status": "removed",
+      "bytes": 582923,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic/v1/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 62620,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic_settings/sources/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 37871,
+      "path": "tmp/mcp/venv/Lib/site-packages/pygments/filters/__pycache__"
+    },
+    {
+      "files": 14,
+      "status": "removed",
+      "bytes": 171866,
+      "path": "tmp/mcp/venv/Lib/site-packages/pygments/formatters/__pycache__"
+    },
+    {
+      "files": 263,
+      "status": "removed",
+      "bytes": 3358326,
+      "path": "tmp/mcp/venv/Lib/site-packages/pygments/lexers/__pycache__"
+    },
+    {
+      "files": 49,
+      "status": "removed",
+      "bytes": 160181,
+      "path": "tmp/mcp/venv/Lib/site-packages/pygments/styles/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 245,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 87810,
+      "path": "tmp/mcp/venv/Lib/site-packages/referencing/tests/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 34236,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests_toolbelt/adapters/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 21253,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests_toolbelt/auth/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 892,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests_toolbelt/cookies/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 11443,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests_toolbelt/downloadutils/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 36909,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests_toolbelt/multipart/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 15803,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests_toolbelt/threaded/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 22982,
+      "path": "tmp/mcp/venv/Lib/site-packages/requests_toolbelt/utils/__pycache__"
+    },
+    {
+      "files": 23,
+      "status": "removed",
+      "bytes": 167847,
+      "path": "tmp/mcp/venv/Lib/site-packages/rich/_unicode_data/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 10925,
+      "path": "tmp/mcp/venv/Lib/site-packages/shellingham/posix/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4061,
+      "path": "tmp/mcp/venv/Lib/site-packages/sniffio/_tests/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 40866,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/connectors/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3018,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/dialects/__pycache__"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 777803,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/engine/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 83251,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/event/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 386797,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/ext/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 879,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/future/__pycache__"
+    },
+    {
+      "files": 38,
+      "status": "removed",
+      "bytes": 2397043,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/orm/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 100325,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/pool/__pycache__"
+    },
+    {
+      "files": 33,
+      "status": "removed",
+      "bytes": 2380104,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/sql/__pycache__"
+    },
+    {
+      "files": 17,
+      "status": "removed",
+      "bytes": 348924,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/testing/__pycache__"
+    },
+    {
+      "files": 15,
+      "status": "removed",
+      "bytes": 273260,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/util/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 90227,
+      "path": "tmp/mcp/venv/Lib/site-packages/starlette/middleware/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 17647,
+      "path": "tmp/mcp/venv/Lib/site-packages/tenacity/asyncio/__pycache__"
+    },
+    {
+      "files": 15,
+      "status": "removed",
+      "bytes": 229147,
+      "path": "tmp/mcp/venv/Lib/site-packages/typer/_click/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 38492,
+      "path": "tmp/mcp/venv/Lib/site-packages/urllib3/contrib/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 22397,
+      "path": "tmp/mcp/venv/Lib/site-packages/urllib3/http2/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 114063,
+      "path": "tmp/mcp/venv/Lib/site-packages/urllib3/util/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 3691,
+      "path": "tmp/mcp/venv/Lib/site-packages/uuid_utils/compat/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 9144,
+      "path": "tmp/mcp/venv/Lib/site-packages/uvicorn/lifespan/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 2940,
+      "path": "tmp/mcp/venv/Lib/site-packages/uvicorn/loops/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 23468,
+      "path": "tmp/mcp/venv/Lib/site-packages/uvicorn/middleware/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3358,
+      "path": "tmp/mcp/venv/Lib/site-packages/uvicorn/protocols/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 31650,
+      "path": "tmp/mcp/venv/Lib/site-packages/uvicorn/supervisors/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 160585,
+      "path": "tmp/mcp/venv/Lib/site-packages/websockets/asyncio/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 23853,
+      "path": "tmp/mcp/venv/Lib/site-packages/websockets/extensions/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 172792,
+      "path": "tmp/mcp/venv/Lib/site-packages/websockets/legacy/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 116556,
+      "path": "tmp/mcp/venv/Lib/site-packages/websockets/sync/__pycache__"
+    },
+    {
+      "files": 37,
+      "status": "removed",
+      "bytes": 200808,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/Demos/__pycache__"
+    },
+    {
+      "files": 33,
+      "status": "removed",
+      "bytes": 1123673,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/lib/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 102142,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/scripts/__pycache__"
+    },
+    {
+      "files": 26,
+      "status": "removed",
+      "bytes": 256742,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/test/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 258372,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32com/client/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 70435,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32com/demos/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 88054,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32com/makegw/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 97408,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32com/server/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 21423,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32com/servers/__pycache__"
+    },
+    {
+      "files": 40,
+      "status": "removed",
+      "bytes": 283386,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32com/test/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 18869,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/adsi/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 327,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/authorization/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 321,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/axcontrol/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 109267,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/axdebug/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 834,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/axscript/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 318,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/bits/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 323,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/directsound/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3861,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/ifilter/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 11263,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/internet/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 121272,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/mapi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 54544,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/propsys/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 55513,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/shell/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 327,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/taskscheduler/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 19115,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/asn1/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 511,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/backends/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 265,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/bindings/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 265,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/decrepit/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 33664,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/primitives/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1218,
+      "path": "tmp/mcp/venv/Lib/site-packages/jsonschema/tests/typing/__pycache__"
+    },
+    {
+      "files": 23,
+      "status": "removed",
+      "bytes": 440893,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain/agents/middleware/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 8295,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 12325,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/chat/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 12571,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/conversational/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 13648,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/conversational_chat/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 12607,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/format_scratchpad/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 9198,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/json_chat/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 14425,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/mrkl/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 35048,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/openai_assistant/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 20004,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/openai_functions_agent/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 12062,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/openai_functions_multi_agent/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4515,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/openai_tools/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 31906,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/output_parsers/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 26333,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/react/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 13456,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/self_ask_with_search/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 19611,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/structured_chat/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5045,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/tool_calling_agent/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10802,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/xml/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 4995,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/callbacks/streamlit/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 9130,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/callbacks/tracers/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 27030,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/api/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1186,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/chat_vector_db/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 74221,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/combine_documents/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 41059,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/constitutional_ai/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 9166,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/conversation/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 22999,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/conversational_retrieval/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 11925,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/elasticsearch_database/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2239,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/ernie_functions/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 14314,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/flare/__pycache__"
+    },
+    {
+      "files": 15,
+      "status": "removed",
+      "bytes": 14302,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/graph_qa/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 8386,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/hyde/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 759,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/llm_bash/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 8246,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/llm_checker/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 14823,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/llm_math/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 8561,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/llm_summarization_checker/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 785,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/llm_symbolic_math/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 26758,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/natbot/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 51991,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/openai_functions/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2939,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/openai_tools/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 8051,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/qa_generation/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 40811,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/qa_with_sources/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 33386,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/query_constructor/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 22275,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/question_answering/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 13736,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/retrieval_qa/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 35934,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/router/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 22472,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/sql_database/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 21778,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/structured_output/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 8222,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/summarize/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 3590,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/document_loaders/blob_loaders/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 9405,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/document_loaders/parsers/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 21903,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/agents/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 22723,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/comparison/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 28615,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/criteria/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 26295,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/embedding_distance/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4685,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/exact_match/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 18257,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/parsing/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 20760,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/qa/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4011,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/regex_match/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 21964,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/scoring/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 16703,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/evaluation/string_distance/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 5700,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/indexes/prompts/__pycache__"
+    },
+    {
+      "files": 21,
+      "status": "removed",
+      "bytes": 19411,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/memory/chat_message_histories/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 3330,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/prompts/example_selector/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 39108,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/retrievers/document_compressors/__pycache__"
+    },
+    {
+      "files": 22,
+      "status": "removed",
+      "bytes": 33032,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/retrievers/self_query/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 2743,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/schema/callbacks/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 6857,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/schema/runnable/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 109365,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/smith/evaluation/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 5946,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/ainetwork/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 3778,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/amadeus/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1194,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/arxiv/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 5346,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/azure_cognitive_services/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1224,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/bearly/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1786,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/bing_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1035,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/brave_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1053,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/clickup/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1955,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/dataforseo_api_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1925,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/ddg_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1268,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/e2b_data_analysis/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 7812,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/edenai/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 2564,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/eleven_labs/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 7999,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/file_management/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1075,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/github/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1075,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/gitlab/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 6715,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/gmail/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1745,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/golden_query/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1707,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_cloud/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1787,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_finance/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1752,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_jobs/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1752,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_lens/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1849,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_places/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1787,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_scholar/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1800,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1766,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_serper/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1778,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/google_trends/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1085,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/graphql/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1670,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/human/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1089,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/interaction/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1594,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/jira/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1968,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/json/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1782,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/memorize/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1095,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/merriam_webster/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1702,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/metaphor_search/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 4006,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/multion/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1018,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/nasa/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1724,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/nuclia/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 6850,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/office365/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 217,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/openapi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1701,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/openweathermap/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 8386,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/playwright/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1169,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/powerbi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1060,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/pubmed/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 831,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/python/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1098,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/reddit_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1285,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/requests/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1233,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/scenexplain/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1734,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/searchapi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1095,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/searx_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1779,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/shell/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 5553,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/slack/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1183,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/sleep/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1242,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/spark_sql/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 2135,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/sql_database/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1084,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/stackexchange/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1062,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/steam/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1916,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/steamship_image_generation/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1895,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/tavily_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1155,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/vectorstore/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1072,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/wikipedia/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1694,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/wolfram_alpha/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1033,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/youtube/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2525,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/zapier/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 3435,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/vectorstores/docarray/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 4580,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/vectorstores/redis/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3495,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/ainetwork/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2142,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/amadeus/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2011,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/cassandra_database/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3754,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/clickup/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2207,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/cogniswitch/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2841,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/connery/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1527,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/csv/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4751,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/file_management/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2412,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/financial_datasets/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 15457,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/github/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4646,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/gitlab/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5804,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/gmail/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2950,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/jira/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 6536,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/json/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2041,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/multion/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2602,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/nasa/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 9645,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/nla/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2759,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/office365/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 48598,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/openapi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5706,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/playwright/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2174,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/polygon/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 16459,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/powerbi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4811,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/slack/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 8979,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/spark_sql/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 18482,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/sql/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2488,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/steam/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1535,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/xorbits/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3270,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agent_toolkits/zapier/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 26955,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/agents/openai_assistant/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 30886,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/callbacks/streamlit/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 29447,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/callbacks/tracers/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 24408,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chains/ernie_functions/__pycache__"
+    },
+    {
+      "files": 14,
+      "status": "removed",
+      "bytes": 123799,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chains/graph_qa/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 1456,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chains/natbot/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 19324,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chains/openapi/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 57686,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/chains/pebblo_retrieval/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 23598,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/document_loaders/blob_loaders/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 155757,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/document_loaders/parsers/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 40837,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/graph_vectorstores/extractors/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 26079,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/ainetwork/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 11964,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/amadeus/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2327,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/arxiv/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3888,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/asknews/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5767,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/audio/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 34436,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/azure_ai_services/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 31968,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/azure_cognitive_services/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 8564,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/bearly/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 8547,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/bing_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3907,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/brave_search/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 8878,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/cassandra_database/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10390,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/clickup/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 14952,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/cogniswitch/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 16393,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/connery/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 21177,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/databricks/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3792,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/dataforseo_api_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2207,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/dataherald/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 9678,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/ddg_search/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 54142,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/e2b_data_analysis/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 37344,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/edenai/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 6136,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/eleven_labs/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2796,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/few_shot/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 21479,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/file_management/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 9536,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/financial_datasets/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 9624,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/github/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 6823,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/gitlab/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 27307,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/gmail/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2002,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/golden_query/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5182,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/google_cloud/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1827,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/google_finance/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1784,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/google_jobs/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1780,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/google_lens/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1820,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/google_scholar/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3608,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/google_serper/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1812,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/google_trends/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2142,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/graphql/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2328,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/human/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1119,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/interaction/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2407,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/jina_search/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 5651,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/jira/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 6610,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/json/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3238,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/memorize/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1716,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/merriam_webster/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3660,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/metaphor_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2404,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/mojeek_search/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 9119,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/multion/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 7113,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/nasa/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 11230,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/nuclia/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 24936,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/office365/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2026,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/openai_dalle_image_generation/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 219,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/openapi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1959,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/openweathermap/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2334,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/passio_nutrition_ai/__pycache__"
+    },
+    {
+      "files": 10,
+      "status": "removed",
+      "bytes": 34867,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/playwright/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 9519,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/polygon/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 21481,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/powerbi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1762,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/pubmed/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2744,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/reddit_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 10657,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/requests/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 6064,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/riza/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2145,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/scenexplain/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3560,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/searchapi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4265,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/searx_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2324,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/semanticscholar/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4543,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/shell/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 14152,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/slack/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2298,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/sleep/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 7489,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/spark_sql/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10034,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/sql_database/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1710,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/stackexchange/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 3590,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/steam/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 7061,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/steamship_image_generation/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 9620,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/tavily_search/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 6795,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/vectorstore/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1745,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/wikidata/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2164,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/wikipedia/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1859,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/wolfram_alpha/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2671,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/you/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2775,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/youtube/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10255,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/zapier/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 5621,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/zenguard/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 18099,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/vectorstores/docarray/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 92768,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/vectorstores/redis/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 103869,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_core/messages/block_translators/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 2867,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/cache/base/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 4701,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/cache/memory/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 6624,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/cache/redis/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 37820,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/checkpoint/base/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 28137,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/checkpoint/memory/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 50615,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/checkpoint/serde/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 69318,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/store/base/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 26909,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph/store/memory/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 45213,
+      "path": "tmp/mcp/venv/Lib/site-packages/langgraph_sdk/stream/transport/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 44507,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/_internal/otel/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 64874,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/_internal/voice/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 84290,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/claude_agent_sdk/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 26445,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/gemini_live/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 39305,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/google_adk/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 31967,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/google_adk_live/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 71701,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/livekit/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 28256,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/openai_agents_sdk/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 57947,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/openai_realtime/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 20933,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/otel/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 38150,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/pipecat/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 19780,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/integrations/strands_agents/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 93325,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/resources/annotation_queues/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 24387,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/resources/datasets/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 12300,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/resources/fleet/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 16998,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/resources/public/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 33660,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/resources/runs/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 100561,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/resources/sandboxes/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 38506,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/resources/threads/__pycache__"
+    },
+    {
+      "files": 22,
+      "status": "removed",
+      "bytes": 23414,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/types/annotation_queues/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 3135,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/types/datasets/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1099,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/types/fleet/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 3549,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/types/public/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 2336,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/types/runs/__pycache__"
+    },
+    {
+      "files": 18,
+      "status": "removed",
+      "bytes": 20967,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/types/sandboxes/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 3692,
+      "path": "tmp/mcp/venv/Lib/site-packages/langsmith/types/threads/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 53038,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/client/auth/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 24292,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/client/experimental/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 12287,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/client/stdio/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3370,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/os/posix/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 14324,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/os/win32/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 28840,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/auth/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 68552,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/experimental/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 60179,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/fastmcp/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 61502,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/lowlevel/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 428,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/shared/experimental/__pycache__"
+    },
+    {
+      "files": 68,
+      "status": "removed",
+      "bytes": 4062315,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/_core/tests/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 5171,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/_pyinstaller/tests/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 16317,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/f2py/_backends/__pycache__"
+    },
+    {
+      "files": 35,
+      "status": "removed",
+      "bytes": 317073,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/f2py/tests/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 58319,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/fft/tests/__pycache__"
+    },
+    {
+      "files": 26,
+      "status": "removed",
+      "bytes": 1279082,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/lib/tests/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 165166,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/linalg/tests/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 631793,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/ma/tests/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 82709,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/matrixlib/tests/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 308437,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/polynomial/tests/__pycache__"
+    },
+    {
+      "files": 11,
+      "status": "removed",
+      "bytes": 573114,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/random/tests/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 122568,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/testing/_private/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 129996,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/testing/tests/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 17557,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/typing/tests/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 16985,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/_logs/_internal/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1501,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/_logs/severity/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 7131,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/baggage/propagation/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 59426,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/metrics/_internal/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 7136,
+      "path": "tmp/mcp/venv/Lib/site-packages/opentelemetry/trace/propagation/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 35611,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/build_env/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 133819,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/cli/__pycache__"
+    },
+    {
+      "files": 19,
+      "status": "removed",
+      "bytes": 166928,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/commands/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 17902,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/distributions/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 80140,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/index/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 33717,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/locations/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 59906,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/metadata/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 62194,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/models/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 88432,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/network/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 49975,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/operations/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 132916,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/req/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1381,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/resolution/__pycache__"
+    },
+    {
+      "files": 26,
+      "status": "removed",
+      "bytes": 169935,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/utils/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 74869,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/vcs/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 48654,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/cachecontrol/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 3087,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/certifi/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 174076,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/distlib/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 55086,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/distro/__pycache__"
+    },
+    {
+      "files": 10,
+      "status": "removed",
+      "bytes": 164617,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/idna/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 53603,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/msgpack/__pycache__"
+    },
+    {
+      "files": 18,
+      "status": "removed",
+      "bytes": 333994,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/packaging/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 161263,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/pkg_resources/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 137303,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/platformdirs/__pycache__"
+    },
+    {
+      "files": 15,
+      "status": "removed",
+      "bytes": 140981,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/pygments/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 18823,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/pyproject_hooks/__pycache__"
+    },
+    {
+      "files": 19,
+      "status": "removed",
+      "bytes": 242887,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/requests/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 26552,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/resolvelib/__pycache__"
+    },
+    {
+      "files": 77,
+      "status": "removed",
+      "bytes": 1134012,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/rich/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 34850,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/tomli/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 10706,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/tomli_w/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 57181,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/truststore/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 241378,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/urllib3/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 193553,
+      "path": "tmp/mcp/venv/Lib/site-packages/pydantic_settings/sources/providers/__pycache__"
+    },
+    {
+      "files": 17,
+      "status": "removed",
+      "bytes": 89337,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/Demos/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 66418,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/debugger/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 36600,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/dialogs/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 33666,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/docking/__pycache__"
+    },
+    {
+      "files": 17,
+      "status": "removed",
+      "bytes": 242970,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/framework/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 58372,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/idle/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 55536,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/mfc/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 315954,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/scintilla/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 89556,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/tools/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 252646,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/dialects/mssql/__pycache__"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 352645,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/dialects/mysql/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 339471,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/dialects/oracle/__pycache__"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 626871,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/dialects/postgresql/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 205590,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/dialects/sqlite/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 260303,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/ext/asyncio/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 23097,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/ext/declarative/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 63874,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/testing/fixtures/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 66551,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/testing/plugin/__pycache__"
+    },
+    {
+      "files": 14,
+      "status": "removed",
+      "bytes": 591806,
+      "path": "tmp/mcp/venv/Lib/site-packages/sqlalchemy/testing/suite/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 53811,
+      "path": "tmp/mcp/venv/Lib/site-packages/urllib3/contrib/emscripten/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 122506,
+      "path": "tmp/mcp/venv/Lib/site-packages/uvicorn/protocols/http/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 83284,
+      "path": "tmp/mcp/venv/Lib/site-packages/uvicorn/protocols/websockets/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 814,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/Demos/c_extension/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3857,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/Demos/dde/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 4629,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/Demos/pipes/__pycache__"
+    },
+    {
+      "files": 20,
+      "status": "removed",
+      "bytes": 66054,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/Demos/security/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 19477,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/Demos/service/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 9737,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/Demos/win32wnet/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 16580,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/scripts/VersionStamp/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 38870,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/adsi/demos/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 16728,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/authorization/demos/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 104947,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/axscript/client/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 7311,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/axscript/server/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 22969,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/axscript/test/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 8831,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/bits/test/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 25081,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/directsound/test/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 10326,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/ifilter/demos/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 4550,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/mapi/demos/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 462,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/propsys/test/__pycache__"
+    },
+    {
+      "files": 12,
+      "status": "removed",
+      "bytes": 40543,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/shell/demos/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 9382,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/shell/test/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 10641,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/taskscheduler/test/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 14307,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/backends/openssl/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10481,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/bindings/openssl/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 8455,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/decrepit/ciphers/__pycache__"
+    },
+    {
+      "files": 14,
+      "status": "removed",
+      "bytes": 101552,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 20554,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 7147,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/primitives/kdf/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 93552,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/primitives/serialization/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 8166,
+      "path": "tmp/mcp/venv/Lib/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1160,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/ainetwork/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1115,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/amadeus/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1117,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/clickup/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 4158,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/conversational_retrieval/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1161,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/csv/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1883,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/file_management/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1605,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/github/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1142,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/gitlab/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1132,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/gmail/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1126,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/jira/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 2894,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/json/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1148,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/multion/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1126,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/nasa/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 1945,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/nla/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1155,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/office365/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 6984,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/openapi/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1180,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/pandas/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1856,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/playwright/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 3901,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/powerbi/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1170,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/python/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1132,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/slack/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1176,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/spark/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 2962,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/spark_sql/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 2932,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/sql/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1132,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/steam/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 13215,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/vectorstore/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1174,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/xorbits/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1142,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/agents/agent_toolkits/zapier/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 3914,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/chains/api/openapi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1775,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/document_loaders/parsers/html/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 5539,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/document_loaders/parsers/language/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 3284,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/schema/callbacks/tracers/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 2615,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_classic/tools/openapi/utils/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 2866,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/document_loaders/parsers/html/__pycache__"
+    },
+    {
+      "files": 22,
+      "status": "removed",
+      "bytes": 54543,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/document_loaders/parsers/language/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 23515,
+      "path": "tmp/mcp/venv/Lib/site-packages/langchain_community/tools/openapi/utils/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 28966,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/client/auth/extensions/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 29556,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/auth/handlers/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 17133,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/auth/middleware/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 11988,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/fastmcp/prompts/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 26544,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/fastmcp/resources/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10536,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/fastmcp/tools/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 32255,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/server/fastmcp/utilities/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 47053,
+      "path": "tmp/mcp/venv/Lib/site-packages/mcp/shared/experimental/tasks/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 3961,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/random/_examples/cffi/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 6616,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/random/_examples/numba/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 209,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/random/tests/data/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 25706,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/metadata/importlib/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 15392,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/operations/build/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 34718,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/operations/install/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 22750,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/resolution/legacy/__pycache__"
+    },
+    {
+      "files": 9,
+      "status": "removed",
+      "bytes": 128698,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 10244,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 1781,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/certifi/tests/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 55333,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/packaging/licenses/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 37931,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/pygments/filters/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 11150,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/pygments/formatters/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 128119,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/pygments/lexers/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 6345,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/pygments/styles/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 16420,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 35763,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/resolvelib/resolvers/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 36673,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/__pycache__"
+    },
+    {
+      "files": 3,
+      "status": "removed",
+      "bytes": 22430,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/urllib3/http2/__pycache__"
+    },
+    {
+      "files": 13,
+      "status": "removed",
+      "bytes": 107145,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/urllib3/util/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 35022,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/Demos/app/__pycache__"
+    },
+    {
+      "files": 6,
+      "status": "removed",
+      "bytes": 38452,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/Demos/ocx/__pycache__"
+    },
+    {
+      "files": 8,
+      "status": "removed",
+      "bytes": 84170,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/framework/editor/__pycache__"
+    },
+    {
+      "files": 4,
+      "status": "removed",
+      "bytes": 21045,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32/Demos/security/sspi/__pycache__"
+    },
+    {
+      "files": 7,
+      "status": "removed",
+      "bytes": 103696,
+      "path": "tmp/mcp/venv/Lib/site-packages/win32comext/shell/demos/servers/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 1282,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/_core/tests/examples/cython/__pycache__"
+    },
+    {
+      "files": 1,
+      "status": "removed",
+      "bytes": 822,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/_core/tests/examples/limited_api/__pycache__"
+    },
+    {
+      "files": 35,
+      "status": "removed",
+      "bytes": 222230,
+      "path": "tmp/mcp/venv/Lib/site-packages/numpy/typing/tests/data/pass/__pycache__"
+    },
+    {
+      "files": 5,
+      "status": "removed",
+      "bytes": 53851,
+      "path": "tmp/mcp/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/emscripten/__pycache__"
+    },
+    {
+      "files": 2,
+      "status": "removed",
+      "bytes": 30836,
+      "path": "tmp/mcp/venv/Lib/site-packages/pythonwin/pywin/framework/editor/color/__pycache__"
+    },
+    {
+      "path": "voice/__pycache__",
+      "bytes": 11085,
+      "files": 3,
+      "status": "removed after validation"
+    },
+    {
+      "path": "web/backend/__pycache__",
+      "bytes": 94550,
+      "files": 10,
+      "status": "removed after validation"
+    },
+    {
+      "path": "web/tests/__pycache__",
+      "bytes": 47967,
+      "files": 6,
+      "status": "removed after validation"
+    },
+    {
+      "path": "tmp/prepare_cleanup.py",
+      "bytes": 7886,
+      "files": 1,
+      "status": "removed after validation"
+    },
+    {
+      "path": "tmp/run_cleanup.ps1",
+      "bytes": 2750,
+      "files": 1,
+      "status": "removed after validation"
+    },
+    {
+      "path": "tmp/audit_animation_sources.py",
+      "bytes": 1594,
+      "files": 1,
+      "status": "removed after validation"
+    }
+  ],
+  "root": "D:\\开发项目\\树庭学习室\\tree_court",
+  "preserved": [
+    "data/runtime",
+    "saves",
+    "voice/.venv",
+    "voice/models/Qwen3-TTS-12Hz-1.7B-Base",
+    "voice/references",
+    "data/voice/generated",
+    "blender/generated",
+    "blender/animated",
+    "blender/walking",
+    "blender/source/phainon-wheat-base.blend",
+    "blender/build/phainon-film-v3",
+    "ue5/TreeCourt/Content (except InteractivePhainon)",
+    "tmp/mcp",
+    "tmp/plugins",
+    "original models and learning materials",
+    "dist"
+  ],
+  "removed_bytes": 15870399650,
+  "removed_files": 14748,
+  "validation": {
+    "frontend_tests": 9,
+    "backend_tests": 20,
+    "blender_source_dependencies_passed": true,
+    "media_full_decode_passed": true
+  }
+}

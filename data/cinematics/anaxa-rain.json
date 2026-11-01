@@ -1,0 +1,94 @@
+{
+  "id": "anaxa-rain-01",
+  "slug": "anaxa-rain",
+  "revision": 1,
+  "media_revision": 1,
+  "character": "anaxa",
+  "character_name": "那刻夏",
+  "title": "雨停之前，不必归还",
+  "scene": "grove",
+  "duration": 60,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "original": true,
+  "description": "那刻夏与你独处的原创邀约。",
+  "quiet_label": "回廊里的雨声",
+  "silence": "雨沿檐角落下。他把书签留在你手边，等你慢慢读完这一页。",
+  "output_dir": "blender/build/companion-films/anaxa-rain",
+  "continuous_file": "continuous.mp4",
+  "lines": [
+    {
+      "start": 4,
+      "end": 9,
+      "text": "闭馆钟还没响。坐吧，这张椅子是干的。"
+    },
+    {
+      "start": 12,
+      "end": 17,
+      "text": "书上的批注？不是答案，只是我暂时相信的解释。"
+    },
+    {
+      "start": 20,
+      "end": 25.622500000000002,
+      "text": "你可以不同意。和你讨论，本来就不是为了听一句赞同。"
+    },
+    {
+      "start": 29,
+      "end": 34.49045833333333,
+      "text": "雨把路淋湿了。借你这把伞，不附带归还期限。"
+    },
+    {
+      "start": 38,
+      "end": 43.561416666666666,
+      "text": "不过，书签先留下。下次翻到这里，我就知道你来了。"
+    },
+    {
+      "start": 49,
+      "end": 55,
+      "text": "今天没有课题。我只是觉得，这一页适合与你一起读。"
+    }
+  ],
+  "interactions": [
+    {
+      "at": 18,
+      "id": "margin",
+      "prompt": "你看着书边两种颜色的笔迹。",
+      "choices": [
+        {
+          "id": "a",
+          "label": "把我的想法也写在这里？",
+          "reply": "可以。空白留着，就是等另一个人来提出异议。",
+          "duration": 7
+        },
+        {
+          "id": "b",
+          "label": "那我先听你说。",
+          "reply": "听完以后，再告诉我，你自己的判断。",
+          "duration": 7
+        }
+      ]
+    },
+    {
+      "at": 46,
+      "id": "umbrella",
+      "prompt": "雨势渐小，他仍没有收起桌边的伞。",
+      "choices": [
+        {
+          "id": "a",
+          "label": "下次，我来还伞。",
+          "reply": "我记住的是下次。至于伞，它可以慢慢等。",
+          "duration": 7
+        },
+        {
+          "id": "b",
+          "label": "再陪我坐一会儿吧。",
+          "reply": "好。闭馆之前，这一段时间归我们。",
+          "duration": 7
+        }
+      ]
+    }
+  ]
+}

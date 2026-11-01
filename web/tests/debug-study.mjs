@@ -1,0 +1,14 @@
+import {createRequire} from 'node:module';
+import {join} from 'node:path';
+const modules = process.env.TREECOURT_NODE_MODULES || join(process.env.USERPROFILE, '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules');
+const require = createRequire(join(modules, 'package.json'));
+const {chromium} = require('playwright');
+const base = process.env.TREECOURT_URL || 'http://127.0.0.1:8765';
+const browser = await chromium.launch({channel: 'msedge', headless: true});
+const page = await (await browser.newContext({viewport: {width: 1440, height: 900}})).newPage();
+page.on('console', m => { if (m.type() === 'error') console.log('CONSOLE>', m.text().slice(0, 5000)); });
+page.on('pageerror', e => console.log('PAGEERROR>', e.message.slice(0, 5000)));
+await page.goto(base + '/wallpaper', {waitUntil: 'domcontentloaded'});
+await page.waitForTimeout(9000);
+console.log('READY', await page.evaluate(() => document.querySelector('#wallpaper-stage')?.dataset.ready || 'no'));
+await browser.close();

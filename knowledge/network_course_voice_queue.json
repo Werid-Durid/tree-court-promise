@@ -1,0 +1,2022 @@
+{
+  "status": "pending_audio_generation",
+  "note": "教材课堂台词按角色及全文哈希索引；尚未合成音频，不复用错词旧录音。",
+  "lines": [
+    {
+      "id": "course-cs408-net-overview-01-textbook",
+      "character": "anaxa",
+      "text": "今天把「网络组成、分类与分组交换」讲清楚。先确认定义：网络由互连且自治的系统构成，边缘系统与核心网络分工；电路、报文、分组交换的建立连接、存储转发及资源使用不同。 接着追踪机制：端系统负责运行应用，核心网络用链路和交换节点转送分组。电路交换先建立专用通路；报文交换以整份报文为单位存储转发；分组交换先把报文拆分，各用户按需共享链路。比较时要同时看建立时间、转发粒度和突发业务的资源利用。",
+      "text_sha256": "a5a71e2f72fc6d73b1f19149593b47a9bfe9ed5e9928f6ed3f5a2d9658f6c08c"
+    },
+    {
+      "id": "course-cs408-net-overview-01-worked",
+      "character": "anaxa",
+      "text": "看这个例子：忽略所有首部和传播时延，6000bit 报文拆成三个 2000bit 分组，经两条 1Mb/s 链路存储转发，全部到达需多少毫秒？ 每个分组发送 2ms。首个分组经过两条链路需 4ms，后两个在流水线中各追加 2ms，共 8ms。 结论是8ms。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "3489d1bf7299e5b5b37b035f9c889608c06450c1ab78aa3f427841324bb3c57d"
+    },
+    {
+      "id": "course-cs408-net-overview-01-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。同样条件，8000bit 报文拆成四个 2000bit 分组，经两条链路，需多少毫秒？只填数值。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "99fbe5a4140e988a231c5381ff8b515fcf668edca9515abe07efaa47331226ea"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-overview-01",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：分组交换不保证零等待；节点忙时仍会排队。报文交换与分组交换都能存储转发，不能仅凭这个词区分二者。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "c736207e22ddac6de2a4a59fb97217a5539732a8ca4ae6c6655931d9b2bc0c54"
+    },
+    {
+      "id": "course-side-castor-cs408-net-overview-01",
+      "character": "castor",
+      "text": "请保留适用条件。分组交换不保证零等待；节点忙时仍会排队。报文交换与分组交换都能存储转发，不能仅凭这个词区分二者。",
+      "text_sha256": "f84a2c9532d2396027d7e53f2d729b16345861bd66d3f65951a6477efff4a5a8"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-overview-01",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：忽略所有首部和传播时延，6000bit 报文拆成三个 2000bit 分组，经两条 1Mb/s 链路存储转发，全部到达需多少毫秒？ 每个分组发送 2ms。首个分组经过两条链路需 4ms，后两个在流水线中各追加 2ms，共 8ms。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "b6dfc265cce8af0f7354bb5fe8554aa0f3924ddcd5e2973f7840528778c08e88"
+    },
+    {
+      "id": "course-cs408-net-overview-02-textbook",
+      "character": "anaxa",
+      "text": "今天把「速率、带宽与吞吐量」讲清楚。先确认定义：速率是单位时间比特数，网络带宽常指可传输速率，吞吐量是实际通过量；传播速度不由链路比特率直接决定。 接着追踪机制：数字链路的带宽常以 bit/s 描述传送能力，吞吐量描述实际测得的通过量。发送一个文件需要把字节数换为比特数，再除以有效速率。多段路径的持续吞吐还受瓶颈链路制约。",
+      "text_sha256": "5f21505dc426b9a0c3c7aff205709e3067a9e5c7b04eda2fa6bd3dd0f7f9a701"
+    },
+    {
+      "id": "course-cs408-net-overview-02-worked",
+      "character": "anaxa",
+      "text": "看这个例子：按十进制单位，20MB 文件以 10Mb/s 的有效速率传送，忽略其他开销需几秒？ 20MB = 160Mb；160/10 = 16s。先统一单位，再计算。 结论是16s。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "eec8d444ae84b38eddbb9c75ed3992f33380dbf825720b7448144082da796dc8"
+    },
+    {
+      "id": "course-cs408-net-overview-02-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。按十进制单位，30MB 文件以 20Mb/s 的有效速率传送，需几秒？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "7b5a96005e8f6c2e071013d9a9df994902d870c96cdfbf76bc0e8119834a9c8a"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-overview-02",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：通信带宽若以 Hz 给出是频率范围，不能直接当 bit/s。Mb/s 与 MB/s 相差八倍；带宽提高不会直接改变信号在介质中的传播速度。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "b35d375e5ea0f5c3e632dd38364e0cf3388c60c5c5a210ebad93981f58c9a7d0"
+    },
+    {
+      "id": "course-side-castor-cs408-net-overview-02",
+      "character": "castor",
+      "text": "请保留适用条件。通信带宽若以 Hz 给出是频率范围，不能直接当 bit/s。Mb/s 与 MB/s 相差八倍；带宽提高不会直接改变信号在介质中的传播速度。",
+      "text_sha256": "6e0f34aa4d0f7b257e5dfa630e8968f3736b1aea58d0790421b6a3cc0f9fab3b"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-overview-02",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：按十进制单位，20MB 文件以 10Mb/s 的有效速率传送，忽略其他开销需几秒？ 20MB = 160Mb；160/10 = 16s。先统一单位，再计算。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "f20425af84dce033c88ca92240c00619bb56b255343529555e5f9f76ab7f2168"
+    },
+    {
+      "id": "course-cs408-net-overview-03-textbook",
+      "character": "anaxa",
+      "text": "今天把「发送、传播、处理与排队时延」讲清楚。先确认定义：发送时延 L/R，传播时延 d/v，节点还有处理和排队；按题设考虑链路数与存储转发重叠。 接着追踪机制：发送时延是把整组比特推入链路所需的时间；传播时延是信号沿介质前进的时间。路由器还要处理分组并排队。存储转发节点必须收齐分组才开始向下一段发送，因此多跳题应画时间轴。",
+      "text_sha256": "b32bc23752f3b21a7c1ff754f3f1e303b873bcc8d2e8949b7d9c69a8bd772e0a"
+    },
+    {
+      "id": "course-cs408-net-overview-03-worked",
+      "character": "anaxa",
+      "text": "看这个例子：1500B 分组经 12Mb/s 链路发送，链路 200km，传播速率 2×10⁸m/s，忽略节点开销，总时延几毫秒？ 发送 1500×8/(12×10⁶)=1ms；传播 200000/(2×10⁸)=1ms；相加为 2ms。 结论是2ms。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "343d52e5b6e6f3242acbeb530a54d5ae6e9d4912d1788d2dc4e55e401784fbe0"
+    },
+    {
+      "id": "course-cs408-net-overview-03-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。1000B 分组经 8Mb/s 链路发送，距离及传播速率同例题，总时延几毫秒？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "cd53ad0d3a51be7fa8823d037db988c7f17c23a7e233af16d362e471007894d4"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-overview-03",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：发送时延看 L/R，传播时延看 d/v。如果题目声明忽略排队，不应自行加入随机排队时间；直通交换与存储转发也不能混算。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "9f66dbf3de1391b7899862c99c65d902f0bf95fe2e7783c59f1a97fcac960bc7"
+    },
+    {
+      "id": "course-side-castor-cs408-net-overview-03",
+      "character": "castor",
+      "text": "请保留适用条件。发送时延看 L/R，传播时延看 d/v。如果题目声明忽略排队，不应自行加入随机排队时间；直通交换与存储转发也不能混算。",
+      "text_sha256": "c7731ac9cd8334b4c9e3edb8c58c6b332fa007ce0175ff5d5a4288d6c9b8ae8a"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-overview-03",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：1500B 分组经 12Mb/s 链路发送，链路 200km，传播速率 2×10⁸m/s，忽略节点开销，总时延几毫秒？ 发送 1500×8/(12×10⁶)=1ms；传播 200000/(2×10⁸)=1ms；相加为 2ms。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "995947f257a00ec82979d2f30c6a368befb36472327873225e9f3deb0cb87bef"
+    },
+    {
+      "id": "course-cs408-net-overview-04-textbook",
+      "character": "anaxa",
+      "text": "今天把「时延带宽积与往返时间」讲清楚。先确认定义：时延带宽积描述传播路径中可容纳的比特；RTT 关联往返传输，滑动窗口吞吐估计需明确定义是否含发送时间。 接着追踪机制：连续发送时，第一个比特到达链路末端之前，发送端已经推入若干比特。这个在途量等于链路发送速率乘单向传播时间。窗口协议若要覆盖往返等待，需要另行考虑 RTT 对发送窗口的要求。",
+      "text_sha256": "26441d3abb882cfad948ade55e7761f19887274ec4549c92e1e9fb6fa5317f5c"
+    },
+    {
+      "id": "course-cs408-net-overview-04-worked",
+      "character": "anaxa",
+      "text": "看这个例子：20Mb/s 链路的单向传播时延为 10ms，在途容量多少 bit？ 把 10ms 换为 0.01s，再算 20×10⁶×0.01=200000bit。 结论是200000bit。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "c1b20ed2f1e83b068afd7275d837c1b9fbf580a40329e134c2767bee57b2ddb1"
+    },
+    {
+      "id": "course-cs408-net-overview-04-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。40Mb/s 链路单向传播时延 5ms，在途容量多少 bit？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "d5412cb1a92bfbf214aac47e9797383f305222f836c23aeb81bd34c9393e1e2a"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-overview-04",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：题目给单向传播时延时不要擅自翻倍；计算等待确认所需窗口时又不能只取单程。时延带宽积本身不是速率。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "354c91c0bd4a746f2d31be24a540fcd13192a5fc74f0d175e3397db6a100d77a"
+    },
+    {
+      "id": "course-side-castor-cs408-net-overview-04",
+      "character": "castor",
+      "text": "请保留适用条件。题目给单向传播时延时不要擅自翻倍；计算等待确认所需窗口时又不能只取单程。时延带宽积本身不是速率。",
+      "text_sha256": "269833054bf462e625ef7701b615f2350973310620b232393c3c433a7fc37f43"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-overview-04",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：20Mb/s 链路的单向传播时延为 10ms，在途容量多少 bit？ 把 10ms 换为 0.01s，再算 20×10⁶×0.01=200000bit。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "9c562fe90b92925f9920087641e331bfe2a4c1e96d6f076a9f065b3ceca5bf94"
+    },
+    {
+      "id": "course-cs408-net-overview-05-textbook",
+      "character": "anaxa",
+      "text": "今天把「协议、接口与服务」讲清楚。先确认定义：协议约定对等实体的交互，服务描述相邻层向上的能力，接口规定本地层间使用方式；三者不是同义词。 接着追踪机制：协议解决同层对等实体如何交互，语法规定格式，语义规定动作含义，同步规定时序。服务描述本层向上层提供的能力；接口是同一系统相邻层之间调用服务的边界。下层的实现细节可以对上层透明。",
+      "text_sha256": "2e28957d1fabb34bd9fb5b2e41cc0f7475921be0d60f7d2676a2c419aa9dba18"
+    },
+    {
+      "id": "course-cs408-net-overview-05-worked",
+      "character": "anaxa",
+      "text": "看这个例子：约定确认报文的字段排列、收到确认后移窗、多久重传，分别对应哪三个要素？ 字段排列回答“长什么样”，移窗动作回答“做什么”，重传时间回答“何时做”。 结论是语法、语义、同步。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "18f976b5d55aa16c4b79af0d8d4c66228610f7379350c4af02f645ef2ebb8f70"
+    },
+    {
+      "id": "course-cs408-net-overview-05-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。协议三要素中，规定报文字段格式的要素是什么？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "bfb9fb47e9dfb7a896a43c024d16d958e651ec999f58d3b5536231d6fef4c503"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-overview-05",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：服务和协议并非同义。可靠服务不等于每一层都必须独立实现相同的重传；判断横向还是纵向，要先确定参与者的位置。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "59b1b013dca46d50e9eee372e969457c585214738514d66887d85dfc0c99b5eb"
+    },
+    {
+      "id": "course-side-castor-cs408-net-overview-05",
+      "character": "castor",
+      "text": "请保留适用条件。服务和协议并非同义。可靠服务不等于每一层都必须独立实现相同的重传；判断横向还是纵向，要先确定参与者的位置。",
+      "text_sha256": "dbe34ef998605d195c3f43c4f25ead11ebf39259a29eef4998ffa845a0c8ebd6"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-overview-05",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：约定确认报文的字段排列、收到确认后移窗、多久重传，分别对应哪三个要素？ 字段排列回答“长什么样”，移窗动作回答“做什么”，重传时间回答“何时做”。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "adc47491087f0043b521ef895dc3dd7c209e8b0e20217a9ed90f04124cf5373c"
+    },
+    {
+      "id": "course-cs408-net-overview-06-textbook",
+      "character": "anaxa",
+      "text": "今天把「OSI、TCP/IP 与封装」讲清楚。先确认定义：分层封装逐级添加控制信息，接收端解封装；TCP/IP 常用分层与 OSI 七层不完全一一对应。 接着追踪机制：五层教学模型从应用、运输、网络、数据链路到物理逐层封装。每层把上层交付的数据视为载荷，并加入本层所需控制信息。路由器沿途处理链路首部与网络首部，不需要像终点那样理解应用正文。",
+      "text_sha256": "2ae9fedb8a6b8ab920d4a71501345f672dfc92c931662e71c81d497b17203680"
+    },
+    {
+      "id": "course-cs408-net-overview-06-worked",
+      "character": "anaxa",
+      "text": "看这个例子：应用数据 100B，TCP、IPv4、以太网首部各 20、20、14B，帧尾 4B，忽略填充和前导码，帧长多少 B？ 100+20+20+14+4=158B。题目已说明不计的部分不能再加入。 结论是158B。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "c58462a980fb9ed988f54c93b2ce1c6248a4e45e972003b7053611ee11d5583b"
+    },
+    {
+      "id": "course-cs408-net-overview-06-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。应用数据换为 200B，其他条件相同，帧长多少 B？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "6701d9c5bbfd18ecf837f2a957b1bce96f35879f29215928bc26cf1613f3df60"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-overview-06",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：OSI 七层、TCP/IP 四层与五层教学模型不可机械按层号对应。以太网还有帧尾；不是所有层都只添加首部。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "073077eef601406a1ec94bcac5f87c8ae3ce6fb9626d0021163a9ac6a91f14d7"
+    },
+    {
+      "id": "course-side-castor-cs408-net-overview-06",
+      "character": "castor",
+      "text": "请保留适用条件。OSI 七层、TCP/IP 四层与五层教学模型不可机械按层号对应。以太网还有帧尾；不是所有层都只添加首部。",
+      "text_sha256": "3e645bda794129a15ec720aceca4c8292d56bfa3e83c17cf300d60c1349cf28a"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-overview-06",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：应用数据 100B，TCP、IPv4、以太网首部各 20、20、14B，帧尾 4B，忽略填充和前导码，帧长多少 B？ 100+20+20+14+4=158B。题目已说明不计的部分不能再加入。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "da53ac88c323e8c26a597907fb60eacab3a70e48b1a155c9206a2bc721217a35"
+    },
+    {
+      "id": "course-cs408-net-overview-07-textbook",
+      "character": "anaxa",
+      "text": "今天把「连接服务、可靠性与网络边界」讲清楚。先确认定义：面向连接与可靠性是不同属性，分层可靠机制各有边界；链路无误不等于整个端到端路径都可靠。 接着追踪机制：面向连接与是否可靠是两个不同维度。IP 提供尽最大努力的数据报服务，可能丢失、乱序或重复；端到端可靠性可以由 TCP 提供。链路层是否重传取决于该链路的服务设计。",
+      "text_sha256": "e9e9be0f3e8f58f0a93b64a6ae64f47a4437bb3d4ed3b936f663703990ed69bd"
+    },
+    {
+      "id": "course-cs408-net-overview-07-worked",
+      "character": "anaxa",
+      "text": "看这个例子：IP 不保证交付，TCP 却向应用提供可靠字节流，这是否矛盾？ TCP 可以在 IP 之上通过序号、确认与重传补足端到端的可靠性。 结论是不矛盾。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "f9f6b6152443bbb3cd764352354e785a80630e6a4f3b1f9ff0bbfb3f317732f5"
+    },
+    {
+      "id": "course-cs408-net-overview-07-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。在 IP 之上提供可靠字节流服务的常见运输协议，写缩写。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "83813441db01f81c3a553205c8006b86895782903105edb64c04f62dc103cea1"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-overview-07",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：不能从“已经建立连接”推出数据必定可靠；也不能从某层不可靠推出上层应用一定不可靠。必须指出可靠性由哪一层、什么机制提供。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "2503a26762dd2827a2bb97e724ae3fd77f10f7aaa0d23baad300ffaa7df4d75f"
+    },
+    {
+      "id": "course-side-castor-cs408-net-overview-07",
+      "character": "castor",
+      "text": "请保留适用条件。不能从“已经建立连接”推出数据必定可靠；也不能从某层不可靠推出上层应用一定不可靠。必须指出可靠性由哪一层、什么机制提供。",
+      "text_sha256": "caac686ce54b3aae25c92e03b56aad675b5e0457719f0f781e376fc42ebece1a"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-overview-07",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：IP 不保证交付，TCP 却向应用提供可靠字节流，这是否矛盾？ TCP 可以在 IP 之上通过序号、确认与重传补足端到端的可靠性。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "384ca03fe9b2b48c5610be70e7d85d3eda35bb442c6a7600e5c553bff141ab88"
+    },
+    {
+      "id": "course-cs408-net-physical-01-textbook",
+      "character": "anaxa",
+      "text": "今天把「数据、信号与通信方式」讲清楚。先确认定义：数据和信号各可有模拟或数字表示；单工、半双工、全双工描述通信方向能力，码元与比特不能混称。 接着追踪机制：数据是信息的表示，信号是数据在介质中的电磁表现。单工只能单向，半双工能双向但不能同时，全双工允许同时双向。串行与并行描述一次传几个比特，同步与异步描述收发时钟的配合方式。",
+      "text_sha256": "edf3f42865fab820866c3b717aa342db378bcf3498bad082c0d8f38931c0160b"
+    },
+    {
+      "id": "course-cs408-net-physical-01-worked",
+      "character": "anaxa",
+      "text": "看这个例子：对讲机双方都能讲话，但按键讲话时对方只能听，属于哪种双工方式？ 方向可以变化，但不能同时双向传输，符合半双工定义。 结论是半双工。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "c1a0284f04326e2fed81c4f44a94e1e70c1c8ad3b2eb99294872b80b40a68887"
+    },
+    {
+      "id": "course-cs408-net-physical-01-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。电话双方能够同时讲话和接收声音，对应哪种双工方式？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "02eae3ba59d52bf23a9b59523a29dd716822567c5baa91e29fa7dc2dc93f1747"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-physical-01",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：“双向”并不必然是全双工。异步字符传输仍需在单个字符的比特区间内保持定时，不能理解成完全没有同步。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "108d72ef70c5163d319fe96eb6b03f13d89a17d1e34128f5d93d4be238d44898"
+    },
+    {
+      "id": "course-side-castor-cs408-net-physical-01",
+      "character": "castor",
+      "text": "请保留适用条件。“双向”并不必然是全双工。异步字符传输仍需在单个字符的比特区间内保持定时，不能理解成完全没有同步。",
+      "text_sha256": "d40545cc9ba46db13e5ede4c3859bc945e0d75db1cf1afbc56c6e9029f9a8bcd"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-physical-01",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：对讲机双方都能讲话，但按键讲话时对方只能听，属于哪种双工方式？ 方向可以变化，但不能同时双向传输，符合半双工定义。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "4fe705a3cd2a1f781ea160fe0c8e83787c0d1f1c4c36c15f7c4d0339d4f05622"
+    },
+    {
+      "id": "course-cs408-net-physical-02-textbook",
+      "character": "anaxa",
+      "text": "今天把「编码与调制」讲清楚。先确认定义：编码改变数据到信号的表示，调制可改变载波幅度、频率、相位；曼彻斯特中间跳变携带时钟，具体位值约定要读清。 接着追踪机制：编码把数据映射为基带信号，调制把数据映射为适合带通信道的载波变化。曼彻斯特编码每个比特中部都有跳变，方便提取时钟。一个码元若能取 M 种状态，理想情况下可携带 log₂M bit 信息。 曼彻斯特每比特分成两个半位，中点必有电平跳变；因此它的定时特征与单纯 NRZ 不同。遇到波形题，先把位区间与中点标出，再按题设的上升/下降对应关系读数。",
+      "text_sha256": "afed5f69adf478204071c8910d8bd9aaf2ba57a54b35929f18ff6e09931ed956"
+    },
+    {
+      "id": "course-cs408-net-physical-02-worked",
+      "character": "anaxa",
+      "text": "看这个例子：8 种等可能状态的调制，每秒传 2000 个码元，理想比特率多少 bit/s？ 每码元 log₂8=3bit，因此 2000×3=6000bit/s。 结论是6000bit/s。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "1dadff524d24d5441b6913bbf62a66eeecf308d72f36293e1f91b5dba8264d00"
+    },
+    {
+      "id": "course-cs408-net-physical-02-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。16 种状态、每秒 1000 个码元，理想比特率多少 bit/s？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "b126ebea7ffcea35e0e4f01a72240e693a626cec338b145539cee9fa15ed745f"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-physical-02",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：码元率和比特率不能不加条件地相等。判断曼彻斯特波形时还应遵守题目给出的 0/1 跳变约定，不要把不同教材的约定混用。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "cea0fc218daaa94d9a4b96e100a5be2bd87478ae2ee95e2ee0cdffd74346001f"
+    },
+    {
+      "id": "course-side-castor-cs408-net-physical-02",
+      "character": "castor",
+      "text": "请保留适用条件。码元率和比特率不能不加条件地相等。判断曼彻斯特波形时还应遵守题目给出的 0/1 跳变约定，不要把不同教材的约定混用。",
+      "text_sha256": "c4825401cac04f2a32afe180de2efc9132c397e5c54e26434fadf47a1b43c98c"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-physical-02",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：8 种等可能状态的调制，每秒传 2000 个码元，理想比特率多少 bit/s？ 每码元 log₂8=3bit，因此 2000×3=6000bit/s。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "d13f8a06e9e1598903b587dd836d8b37752643f9aadd3fde2ec0c2f7a46c2cd3"
+    },
+    {
+      "id": "course-cs408-net-physical-03-textbook",
+      "character": "anaxa",
+      "text": "今天把「奈奎斯特与香农公式」讲清楚。先确认定义：理想低通信道奈氏上限 2W log₂M，含噪声香农容量 W log₂(1+S/N)；dB 信噪比需先转线性比。 接着追踪机制：奈氏准则限制理想低通信道中的码元速率，M 进制信号的比特率上限为 2Wlog₂M。香农公式考虑噪声，容量为 Wlog₂(1+S/N)。两种公式的假设不同，题目同时给限带、噪声和调制状态时，要分别算约束。",
+      "text_sha256": "a0de5e1b498e68f6eb8e37ef459288e3a892cbb71df8925edae1d60275a1c1f1"
+    },
+    {
+      "id": "course-cs408-net-physical-03-worked",
+      "character": "anaxa",
+      "text": "看这个例子：理想低通信道带宽 3kHz，四进制，按奈氏准则比特率上限多少 bit/s？ 2×3000×log₂4=12000bit/s；这是理想无噪声且带宽受限时的结果。 结论是12000bit/s。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "ecdeb28aea27fa8e0b13a34dffaa2af1a719c9db3abe0fca66230927d6115ca2"
+    },
+    {
+      "id": "course-cs408-net-physical-03-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。带宽 4kHz、线性信噪比 15，按香农公式容量多少 bit/s？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "84ee96a4a0f8919eeac7f63eeb8b94e134709be6a506a219ac396b3d2c78f61a"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-physical-03",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：香农公式里的 S/N 是线性功率比。若给 dB，先换成 10^(dB/10)。不能把奈氏公式里的状态数误当信噪比。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "8345e598abc0b0045c34d1deea2cf513df603e7313e1ab82532d6ed45fa66586"
+    },
+    {
+      "id": "course-side-castor-cs408-net-physical-03",
+      "character": "castor",
+      "text": "请保留适用条件。香农公式里的 S/N 是线性功率比。若给 dB，先换成 10^(dB/10)。不能把奈氏公式里的状态数误当信噪比。",
+      "text_sha256": "b7f050ed40859639ab80bd22712d782c745b1ac9ada52719e9d4256315f19ad2"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-physical-03",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：理想低通信道带宽 3kHz，四进制，按奈氏准则比特率上限多少 bit/s？ 2×3000×log₂4=12000bit/s；这是理想无噪声且带宽受限时的结果。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "1622407e9505b72d411852015523c58e4b7d415e647c81d286380da2e50232fe"
+    },
+    {
+      "id": "course-cs408-net-physical-04-textbook",
+      "character": "anaxa",
+      "text": "今天把「传输介质与设备」讲清楚。先确认定义：双绞线、同轴与光纤及无线有不同损耗、带宽和抗干扰特性；中继器与集线器在物理层转发信号。 接着追踪机制：双绞线、同轴电缆和光纤属于导引型介质，无线电等属于非导引型介质。中继器和集线器再生或转发物理信号，不读取 MAC 地址来选择出口；交换机则需要查看帧并学习地址。",
+      "text_sha256": "1dadb0fc4d591e0ede68d7f61c6f86a2582801d072655a960bda592b3c6ace2a"
+    },
+    {
+      "id": "course-cs408-net-physical-04-worked",
+      "character": "anaxa",
+      "text": "看这个例子：8 台半双工主机接同一传统集线器，形成几个冲突域？ 集线器把信号复制到其他端口，所有主机仍共享同一个冲突域。 结论是1个。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "7a0a70e86bb31955be8b023331e2d4ea2aa693123f534978a7651b0b2d7212c0"
+    },
+    {
+      "id": "course-cs408-net-physical-04-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。把集线器换成交换机，8 台主机各占一个独立端口，通常分成几个独立端口段？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "90799305d8585d1019fc1d27d94386afdf28b121c3a0edcc3334d852a7d2fa2f"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-physical-04",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：集线器端口多不等于把冲突域分开。设备的工作层次应由其处理的信息确定，而不是由外壳、端口数或距离推断。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "700741d3bc925d4e04b35b62af2f00283ed1e0c90a811d2bfe48acb9bea20b26"
+    },
+    {
+      "id": "course-side-castor-cs408-net-physical-04",
+      "character": "castor",
+      "text": "请保留适用条件。集线器端口多不等于把冲突域分开。设备的工作层次应由其处理的信息确定，而不是由外壳、端口数或距离推断。",
+      "text_sha256": "51fae4ba7d1835aaf8bbd47c7a447333cbcb910e108fae76ad823336e45cc947"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-physical-04",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：8 台半双工主机接同一传统集线器，形成几个冲突域？ 集线器把信号复制到其他端口，所有主机仍共享同一个冲突域。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "a3c86adfebde37fea3c0c8958891bd1f1751cd43da101f170730f1cebf359053"
+    },
+    {
+      "id": "course-cs408-net-physical-05-textbook",
+      "character": "anaxa",
+      "text": "今天把「复用、交换与接入」讲清楚。先确认定义：频分、时分、波分、码分按不同维度区分共享者；统计时分按需求动态安排，与固定时隙不同。 接着追踪机制：频分复用把频谱切成不同频带，时分复用把时间切成时隙，波分复用在光纤上使用不同波长，码分复用通过可区分码片序列共享时频资源。统计时分复用按实际需求分配资源。",
+      "text_sha256": "5a074ae870b2770c9826c1283a576b9a68c07585a8648611939aa03dcad3088f"
+    },
+    {
+      "id": "course-cs408-net-physical-05-worked",
+      "character": "anaxa",
+      "text": "看这个例子：4 个用户等分一条 8Mb/s 的固定 TDM 链路，忽略开销，每用户长期平均速率多少 Mb/s？ 总资源均分为四份，8/4=2Mb/s。没有流量的用户份额在固定 TDM 下不自动转给别人。 结论是2Mb/s。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "c295c5d93c0617bb31e02ffa6a2721cb2177727fd146fa1f5214d2b6a87bad74"
+    },
+    {
+      "id": "course-cs408-net-physical-05-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。5 个用户等分 10Mb/s 固定 TDM 链路，每用户平均速率多少 Mb/s？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "51a3d51701888c494418cbc20eb43a675bd9dd9ea3dfa2fc8d6480ac197ebb6e"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-physical-05",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：复用描述共享一条传输资源的方法，交换描述数据在网络中如何通过节点；两者相关但不能互相替代。固定时隙没有数据时仍可能空置。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "154359883e0c2e682d399b11bb19cbe1d534a5403a90d254d251ba1359b14f34"
+    },
+    {
+      "id": "course-side-castor-cs408-net-physical-05",
+      "character": "castor",
+      "text": "请保留适用条件。复用描述共享一条传输资源的方法，交换描述数据在网络中如何通过节点；两者相关但不能互相替代。固定时隙没有数据时仍可能空置。",
+      "text_sha256": "97f260dcac7bb93ab99368cfa41ae19be36ff6e68e7a8394d1f4979ab432e793"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-physical-05",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：4 个用户等分一条 8Mb/s 的固定 TDM 链路，忽略开销，每用户长期平均速率多少 Mb/s？ 总资源均分为四份，8/4=2Mb/s。没有流量的用户份额在固定 TDM 下不自动转给别人。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "57bc37c60ed1e1262f6028dc69581a4ebefbb744e694479afd5baff01fe1b30c"
+    },
+    {
+      "id": "course-cs408-net-physical-06-textbook",
+      "character": "anaxa",
+      "text": "今天把「码分多址与正交码」讲清楚。先确认定义：理想同步 CDMA 用码片序列相关性分离信号，正交码内积为零；接收判决还依幅度和码长归一化约定。 接着追踪机制：用 ±1 表示码片后，接收端把收到的叠加向量与目标码片序列作归一化内积，提取该用户的分量。正交码片的内积为零，可在理想同步条件下减少彼此干扰。",
+      "text_sha256": "48b3af8286ac857bad8e7cba4e9bb6578c6494771e871d1fb9d10d1165fba367"
+    },
+    {
+      "id": "course-cs408-net-physical-06-worked",
+      "character": "anaxa",
+      "text": "看这个例子：C=(1,-1,1,-1)，S=C，归一化内积为多少？ 点积为 4，码长为 4，结果 4/4=1。 结论是1。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "794769ff616bb00ee094a03ec20de3b9f66dc22df9ed783eb9d71ce1a1635f1f"
+    },
+    {
+      "id": "course-cs408-net-physical-06-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。相同 C 下收到 S=-C，归一化内积是多少？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "adafa12e5864a9c8fbf9c5db93386ea6a985991b13e655bd99d80121cb9a875c"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-physical-06",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：正交是码片间的关系，不是序列中 1 的数量相同。计算时要对齐码片并明确是否除以码片长度，现实系统还有同步、功率与噪声问题。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "f29b93342ee86da2e67798f0ac684604146714ccb9e9971c99527dbc2788975a"
+    },
+    {
+      "id": "course-side-castor-cs408-net-physical-06",
+      "character": "castor",
+      "text": "请保留适用条件。正交是码片间的关系，不是序列中 1 的数量相同。计算时要对齐码片并明确是否除以码片长度，现实系统还有同步、功率与噪声问题。",
+      "text_sha256": "bc2902acfd04d0d7d36f422245561661aca8a70fbd4ba1468f90776bca85e2f8"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-physical-06",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：C=(1,-1,1,-1)，S=C，归一化内积为多少？ 点积为 4，码长为 4，结果 4/4=1。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "5e7b974d1c1817e8eadd90e6357bb06942e3a1547604cd11e416c67297294fff"
+    },
+    {
+      "id": "course-cs408-net-link-01-textbook",
+      "character": "anaxa",
+      "text": "今天把「封装成帧与透明传输」讲清楚。先确认定义：帧定界识别边界，字节或比特填充避免数据冒充边界标记；填充与差错检测解决不同问题。 接着追踪机制：成帧要让接收端找出帧边界，透明传输要让载荷中的特殊图样不被误当边界。零比特填充在数据中每出现连续五个 1 后插入 0，接收方按相反规则删除；面向字节的协议可采用转义字节。",
+      "text_sha256": "d7ac2e070a1f2c0d918c9625ffa8f986144ad35473d41129dbf12781bb6118f7"
+    },
+    {
+      "id": "course-cs408-net-link-01-worked",
+      "character": "anaxa",
+      "text": "看这个例子：数据区为 111110，进行零比特填充后的序列是什么？ 前五个 1 后插入 0，再保留原来的末尾 0，得到七位序列。 结论是1111100。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "4bbdd0ffddba9dfa1bdc529bca9eb7fca7bf355f9e2dff115bd5f9e1f59877df"
+    },
+    {
+      "id": "course-cs408-net-link-01-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。数据区为 111111，填充后序列是什么？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "6902e546965e8d751b2a9b562cc44aa8187c6e8ab1e96b26da92ba55bcdc26df"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-01",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：填充针对数据区域，不把帧标志本身按同样规则破坏。MTU 限制链路载荷长度，不等同于包含首部尾部的全部帧长。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "b2113553556a13b868e08c4b76b8077dc6aecfd5e3062d313f990921639864e8"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-01",
+      "character": "castor",
+      "text": "请保留适用条件。填充针对数据区域，不把帧标志本身按同样规则破坏。MTU 限制链路载荷长度，不等同于包含首部尾部的全部帧长。",
+      "text_sha256": "7b08cdff3862dcad0e7b2c44da9b31aee763062ca0c39e9a5e775ead5b2d12a5"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-01",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：数据区为 111110，进行零比特填充后的序列是什么？ 前五个 1 后插入 0，再保留原来的末尾 0，得到七位序列。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "e85c3d0de8ae9898d18301aec679616216073670cf0cd8615e194eb9aebc6fdb"
+    },
+    {
+      "id": "course-cs408-net-link-02-textbook",
+      "character": "anaxa",
+      "text": "今天把「奇偶校验、海明码与 CRC」讲清楚。先确认定义：奇偶校验、纠错编码和 CRC 能力不同；CRC 把比特串作多项式模 2 除，不能把可检错等同保证可纠正。 接着追踪机制：CRC 把比特串视为二进制多项式，模 2 除法中的加减都用异或。生成多项式次数为 r 时，先在数据后补 r 个 0，求余数后拼回原数据。接收端除以同一生成多项式检查余数。 海明码基础补充：m 个数据位配 r 个校验位，单比特纠错通常需要 2^r≥m+r+1。校验位放在 1、2、4 等二的幂位置，综合症指出出错位置。m=4 时 r=3 满足 8≥8；这不意味着任意多比特错误都能纠正。",
+      "text_sha256": "992b6eb5cc0a3f5846bee9fd99539636c98f0d4ffe210b01a20707189ac1d665"
+    },
+    {
+      "id": "course-cs408-net-link-02-worked",
+      "character": "anaxa",
+      "text": "看这个例子：数据 1101，生成比特串 1011，CRC 余数是多少？ 对 1101000 模2除以 1011，余数为 001；发送 1101001。 结论是001。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "5a017b9166c8f63b0453381ec51ee4e9f4942057a8b737aaf5cd6f728ec9f0ee"
+    },
+    {
+      "id": "course-cs408-net-link-02-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。数据 1011，生成比特串同为 1011，三位余数是什么？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "6a238fdd2bdec87ed13d50fd34d3a17a659e6536edf5e84a797c62a8e7dbfadf"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-02",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：余数为零只说明未检出错误，不能保证绝无差错。奇偶校验偏向检错，海明码可在给定冗余条件下定位并纠正特定范围内的差错，不能与 CRC 功能混同。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "3f38aba2d70fa1e7d5c2b815344a741ba1f9f4d5aaa9daa2b0fc63d64d9f6843"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-02",
+      "character": "castor",
+      "text": "请保留适用条件。余数为零只说明未检出错误，不能保证绝无差错。奇偶校验偏向检错，海明码可在给定冗余条件下定位并纠正特定范围内的差错，不能与 CRC 功能混同。",
+      "text_sha256": "cbf2f8e53dd378ec60626fb781405808dc1da6b42a519c8be5f4bb20bedc1afc"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-02",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：数据 1101，生成比特串 1011，CRC 余数是多少？ 对 1101000 模2除以 1011，余数为 001；发送 1101001。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "119e48d9f7f5237f71d4a1a1e72e2698c2125bc8f3f835b8a2b41c68f3d78497"
+    },
+    {
+      "id": "course-cs408-net-link-03-textbook",
+      "character": "anaxa",
+      "text": "今天把「停等 ARQ 与序号」讲清楚。先确认定义：停等每次等待确认后再继续，超时重传与序号识别重复；确认丢失不应造成应用重复交付。 接着追踪机制：停等协议一次只允许一个未确认数据帧。超时后重传可补偿丢失；交替的 0/1 序号使接收端识别“新帧”还是“上一帧因确认丢失而重传”。确认丢失时数据可能已经交付。",
+      "text_sha256": "341d5016d04cb441a30b05943dc796c4b15a5a831544b05f76d14c3c21fcc3e9"
+    },
+    {
+      "id": "course-cs408-net-link-03-worked",
+      "character": "anaxa",
+      "text": "看这个例子：数据帧 0 已正确交付，但 ACK 丢了，帧 0 重到后应交付几次额外数据？ 接收方识别重复帧，只重发确认，不再交付，避免上层收到重复内容。 结论是0次。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "86ac0965cc4c4605dcfcb5618019b926bd5f03ffd4bc37674ea8fde85e4c5009"
+    },
+    {
+      "id": "course-cs408-net-link-03-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。停等协议交替区分新旧帧，最低需要几个序号比特？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "7230f699fe86547b03eb3f67516f44ad5dd5ac9981bf4dccd43aeafdcec0a999"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-03",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：收到重复帧应再次确认，但不能重复交付给上层。计时器从发送某个待确认帧起使用，超时不代表接收端一定没收到数据。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "e2cf4de379c3f59e955257923835eaa71043f31f9b5faa3b318c78e1c8761d28"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-03",
+      "character": "castor",
+      "text": "请保留适用条件。收到重复帧应再次确认，但不能重复交付给上层。计时器从发送某个待确认帧起使用，超时不代表接收端一定没收到数据。",
+      "text_sha256": "d599b64bc3109d30177611683bf882a02e779d24cc30b7874b4feaad9a3e0532"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-03",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：数据帧 0 已正确交付，但 ACK 丢了，帧 0 重到后应交付几次额外数据？ 接收方识别重复帧，只重发确认，不再交付，避免上层收到重复内容。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "c74737fda99c6238d1c8f288399a6c293b752c0d93e9d19f620f5d43a932e3ed"
+    },
+    {
+      "id": "course-cs408-net-link-04-textbook",
+      "character": "anaxa",
+      "text": "今天把「GBN 与选择重传 SR」讲清楚。先确认定义：GBN 通常累积确认并从失序处回退重传；SR 缓存合规失序帧并选择重传，窗口需避免新旧序号混淆。 接着追踪机制：GBN 允许连续发多帧，接收窗口为 1，累计确认连续收到的前缀；发生特定超时后回退重传。SR 缓存接收窗口内的乱序帧，逐帧确认并选择性重传，代价是更复杂的缓存与状态。",
+      "text_sha256": "91fc8c8fa3bfacc133f1369564da8f77fb399fbfc2eff70b6c864596907190ee"
+    },
+    {
+      "id": "course-cs408-net-link-04-worked",
+      "character": "anaxa",
+      "text": "看这个例子：3 位序号，对称 SR 的窗口最大可为多少帧？ 序号空间为 8，新旧两组窗口要能区分，因此每个窗口最多占一半，即 4 帧。 结论是4帧。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "5fdb5145d6fd384fc244dd0d5acfc405ceb9a11d222159284ff96bcca875c261"
+    },
+    {
+      "id": "course-cs408-net-link-04-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。4 位序号的 GBN，发送窗口最大多少帧？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "948755805a8d72c6bde41879b23e484e6884b2457d06c0ecb1cd5d61eeee7887"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-04",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：n 位序号时，GBN 的发送窗口不超过 2ⁿ−1；对称 SR 窗口不超过 2ⁿ⁻¹。不能把 SR 的缓存行为直接套到 GBN 接收端。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "d753e4e4614b772495a0571eea21301df85824a689e786aa85dab14bdb8ed1d5"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-04",
+      "character": "castor",
+      "text": "请保留适用条件。n 位序号时，GBN 的发送窗口不超过 2ⁿ−1；对称 SR 窗口不超过 2ⁿ⁻¹。不能把 SR 的缓存行为直接套到 GBN 接收端。",
+      "text_sha256": "7d3958cc60295c64fd9f381d691ce1ae1c09d52f45876363ed717e2debefe5f6"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-04",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：3 位序号，对称 SR 的窗口最大可为多少帧？ 序号空间为 8，新旧两组窗口要能区分，因此每个窗口最多占一半，即 4 帧。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "adc6904a4ed0dbe49c6c10c7c6c68ad6e40065655a128db67a7f416e8e9001ae"
+    },
+    {
+      "id": "course-cs408-net-link-05-textbook",
+      "character": "anaxa",
+      "text": "今天把「滑动窗口与利用率」讲清楚。先确认定义：无差错等假设下，窗口能覆盖反馈等待就可保持链路忙碌；最大发送帧数受协议窗口和序号空间共同约束。 接着追踪机制：忽略 ACK 发送和处理开销时，一个帧占用的发送时间 T=L/R，一个发送—确认周期约为 T+RTT。窗口中有 W 帧可连续发送时，有效发送量为 WT，利用率上限为 min(1,WT/(T+RTT))。",
+      "text_sha256": "46f422d74b61e95997b59f4a6ee8455779726a8071582a65c4e842855112df27"
+    },
+    {
+      "id": "course-cs408-net-link-05-worked",
+      "character": "anaxa",
+      "text": "看这个例子：T=1ms，RTT 仅含往返传播共 9ms，W=5，链路利用率百分数为多少？ 一个周期为 1+9=10ms，能发 5ms 的数据，利用率 5/10=50%。 结论是50%。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "792479442ff42a67a362ed167494e0bbf27aca5c92d19e31d730d17d211dd1d4"
+    },
+    {
+      "id": "course-cs408-net-link-05-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。保持例题时延，窗口提高为 10 帧，利用率百分数多少？只填数值。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "e8f7825a5b4596e74c8b6306fcb6ac1d34b34d0becb758c0502f81c783594ed4"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-05",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：RTT 若题干已包含数据发送时间，不应重复加 T。窗口足够大时公式饱和于 1，不能算出超过 100% 的链路利用率。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "34ac9c3d9075fb14e62a466ba1e392f32f3a0330237b85527f9253778c4c697b"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-05",
+      "character": "castor",
+      "text": "请保留适用条件。RTT 若题干已包含数据发送时间，不应重复加 T。窗口足够大时公式饱和于 1，不能算出超过 100% 的链路利用率。",
+      "text_sha256": "29cb234d61ee630162b4b96cc584570d6584da7b2540120f4d5b70ac13ad8aa0"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-05",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：T=1ms，RTT 仅含往返传播共 9ms，W=5，链路利用率百分数为多少？ 一个周期为 1+9=10ms，能发 5ms 的数据，利用率 5/10=50%。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "c711c1f00e56ec793add0d9311e6851b0ce4fee3dbd175a508b654db7d535561"
+    },
+    {
+      "id": "course-cs408-net-link-06-textbook",
+      "character": "anaxa",
+      "text": "今天把「ALOHA、CSMA 与退避」讲清楚。先确认定义：ALOHA、时隙 ALOHA 与载波监听对冲突处理不同；监听不能消除传播时延引起的碰撞。 接着追踪机制：随机接入需要解决多个站点同时争用共享介质的问题。纯 ALOHA 任意时刻可发送，时隙 ALOHA 只在时隙边界开始；CSMA 先监听，忙时按规则等待。碰撞后退避把再次发送时刻打散。 以共享以太网的截断二进制指数退避为例，令 k=min(重传次数,10)，从 0 到 2^k−1 中随机选整数，乘基本退避时间。它打散再次竞争的时刻，并不改变碰撞已经发生的事实。",
+      "text_sha256": "1e9c229fec55a4ca3f2098d6451511a0cd2e141ea108ca162b23cc0e53d85f21"
+    },
+    {
+      "id": "course-cs408-net-link-06-worked",
+      "character": "anaxa",
+      "text": "看这个例子：帧发送时间 T=2ms，纯 ALOHA 的易损期为几毫秒？ 另一帧在前后各一个 T 范围开始，都可能与当前帧重叠，易损期 2T=4ms。 结论是4ms。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "169236e05088caf74c4a4cf0b997794450d0b3a860e153fb33640d73be2513a8"
+    },
+    {
+      "id": "course-cs408-net-link-06-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。相同 T 下，时隙 ALOHA 的易损期为几毫秒？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "68454337a9efacd9e61c72589f0e434ad61f39df7cad5797aac9a036d79fb7a8"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-06",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：监听到空闲不意味着绝对不会碰撞，因为远端信号还可能在传播途中。ALOHA 的易损期比较采用等长帧及题设同步条件，不能与不同负载模型混算。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "f4c820f3aee9533991dc5f2c5b12c1c245a1d6b177d9353b8b79e11755131fec"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-06",
+      "character": "castor",
+      "text": "请保留适用条件。监听到空闲不意味着绝对不会碰撞，因为远端信号还可能在传播途中。ALOHA 的易损期比较采用等长帧及题设同步条件，不能与不同负载模型混算。",
+      "text_sha256": "99ad726df8acbbf88247a96d7252f0c19092c6f13160dfeae77339e6a66dc1cb"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-06",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：帧发送时间 T=2ms，纯 ALOHA 的易损期为几毫秒？ 另一帧在前后各一个 T 范围开始，都可能与当前帧重叠，易损期 2T=4ms。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "14183b1cddb1be6a2ef6d330e58a32ed44c4273ea09611daafa51adfdd41abbd"
+    },
+    {
+      "id": "course-cs408-net-link-07-textbook",
+      "character": "anaxa",
+      "text": "今天把「CSMA/CD 与最短帧」讲清楚。先确认定义：共享半双工以太网需在发送期间检测碰撞，最短发送时间与往返传播相关；全双工交换以太网不沿用碰撞机制。 接着追踪机制：CSMA/CD 在发送过程中继续检测碰撞。最远端的冲突信号可能要经过往返传播才被检测到，因此发送时间不得短于 2τ。发现碰撞后停止发送并按截断二进制指数退避重新争用。",
+      "text_sha256": "d5319082e4c877ca931a8119f8f05c8151951a6d2758fe12a03dbe2bd8a10dd5"
+    },
+    {
+      "id": "course-cs408-net-link-07-worked",
+      "character": "anaxa",
+      "text": "看这个例子：R=10Mb/s，争用期 51.2μs，最短帧长多少 B？ 10⁷×51.2×10⁻⁶=512bit，再除以 8 得 64B。 结论是64B。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "aec52d817deede912906bb138dbe954fc7bec8832f38bd6576ad09810229af33"
+    },
+    {
+      "id": "course-cs408-net-link-07-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。R=100Mb/s、往返传播时延 5.12μs，按模型最短帧长多少 B？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "5a8917c4ec56549a4f6ae0ff2eb4539a84b9b356db56469201f662a4135075c1"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-07",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：这是共享、半双工以太网的模型；现代交换式全双工链路不使用碰撞检测来协调发送。最短帧计算要明确 R 与往返传播时延。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "151d38f398bb8f7bc95feb9237ac69bd8eb16887191ddcf16434abdccb4c74f2"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-07",
+      "character": "castor",
+      "text": "请保留适用条件。这是共享、半双工以太网的模型；现代交换式全双工链路不使用碰撞检测来协调发送。最短帧计算要明确 R 与往返传播时延。",
+      "text_sha256": "3cc08f9e8a9a0b2cbfc3e6af5fb92022799abce76bc52ef4ae0591f3428c7dd7"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-07",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：R=10Mb/s，争用期 51.2μs，最短帧长多少 B？ 10⁷×51.2×10⁻⁶=512bit，再除以 8 得 64B。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "80ebd38a7f0c4960ad818e90daa5f9a517f852058f7967cdd013f4f2f5853c9a"
+    },
+    {
+      "id": "course-cs408-net-link-08-textbook",
+      "character": "anaxa",
+      "text": "今天把「以太网帧、MAC 与冲突域」讲清楚。先确认定义：以太网帧含地址、类型或长度、数据与校验等；集线器共享冲突域，交换机端口分隔冲突域但不自动分隔广播域。 接着追踪机制：以太网帧用 MAC 地址实现本地链路交付，交换机按目的 MAC 查表。同一局域网内的广播可以扩散，但经过路由器转发时会重封装链路帧。MAC 地址用于接口识别，不能据此代替 IP 的网络层编址。",
+      "text_sha256": "1b1322541400e0ae17a0416c1f094aa1f95b5f1f6723ffab2564b4a6d3705ede"
+    },
+    {
+      "id": "course-cs408-net-link-08-worked",
+      "character": "anaxa",
+      "text": "看这个例子：不含 VLAN 的最小 64B 以太网帧，数据和填充合计至少多少 B？ 64−14−4=46B；这是载荷与填充的合计，而非要求上层每次必须产生 46B 正文。 结论是46B。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "edd88d4469a2326f61d2e179c74fe9cb35ac108d7e5da6f8a561851b4ecdac6e"
+    },
+    {
+      "id": "course-cs408-net-link-08-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。若上层交付 30B，满足上述最小帧长还需填充多少 B？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "2e392c5af583e24ee419002f3756004e6e15264122cd46244c8a1c0b870b8964"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-08",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：以太网最小帧长通常从目的 MAC 计至 FCS，前导码与帧间间隔不包含在这 64B 中。交换机分隔链路段，路由器或 VLAN 才分隔相应广播域。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "e78297562db313fe67e40f7c8ff22da58a22c0d25d94e0a5752274329516685e"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-08",
+      "character": "castor",
+      "text": "请保留适用条件。以太网最小帧长通常从目的 MAC 计至 FCS，前导码与帧间间隔不包含在这 64B 中。交换机分隔链路段，路由器或 VLAN 才分隔相应广播域。",
+      "text_sha256": "1c35ff48437a89c979790d1e1e38820a338215f727b0723926089e9fcdd43116"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-08",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：不含 VLAN 的最小 64B 以太网帧，数据和填充合计至少多少 B？ 64−14−4=46B；这是载荷与填充的合计，而非要求上层每次必须产生 46B 正文。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "66755187f77361bc075c98177cdcf52bf2ebd8091538f9db4c5b7b55096d9f77"
+    },
+    {
+      "id": "course-cs408-net-link-09-textbook",
+      "character": "anaxa",
+      "text": "今天把「交换机自学习与转发」讲清楚。先确认定义：交换机从入帧源 MAC 学习端口，对目的 MAC 决定转发、过滤或泛洪；表项会老化。 接着追踪机制：交换机先从入帧的源 MAC 学习“这个地址在哪个入端口”，再依据目的 MAC 决定出口。已知且不在入端口则定向转发；未知单播泛洪；目的地址同在入端口所连段时过滤。表项超时要删除。",
+      "text_sha256": "7fbb407a529952eaf1d7dba939395fbef5425cf761d0de287245eb5e42d3696c"
+    },
+    {
+      "id": "course-cs408-net-link-09-worked",
+      "character": "anaxa",
+      "text": "看这个例子：4 个活动端口属于同一 VLAN，表空，1 口收到未知单播帧，应向几个端口泛洪？ 排除入端口 1，转发到其余三个可转发端口，并学习源地址位于 1 口。 结论是3个。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "397812607672d6681d2f13ead32ef1b95f94e0d648941ad15cf33a4831975d26"
+    },
+    {
+      "id": "course-cs408-net-link-09-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。5 个活动端口同一 VLAN，2 口收到未知单播，泛洪到几个端口？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "8068aa6375a71245a56941d8735f924d6e8286f5bb626054828a0e94589f0f4a"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-09",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：不要用目的 MAC 来学习源所在位置。泛洪不回送入端口，也不能越过 VLAN 边界；生成树还可能使部分端口不处于转发状态。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "358d7447dcc727a4530abb44883c32be2eb1c30c9d7853922bbd7c5744fa4972"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-09",
+      "character": "castor",
+      "text": "请保留适用条件。不要用目的 MAC 来学习源所在位置。泛洪不回送入端口，也不能越过 VLAN 边界；生成树还可能使部分端口不处于转发状态。",
+      "text_sha256": "f75aea0d65d1b45d49b26c540f43752dcdbc392b49eb0a7f53e0e9c24283703c"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-09",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：4 个活动端口属于同一 VLAN，表空，1 口收到未知单播帧，应向几个端口泛洪？ 排除入端口 1，转发到其余三个可转发端口，并学习源地址位于 1 口。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "f352b002d841d9713129dc5439378b18cbf8929c4446df34b660f81ac665b1b0"
+    },
+    {
+      "id": "course-cs408-net-link-10-textbook",
+      "character": "anaxa",
+      "text": "今天把「VLAN、生成树与交换环」讲清楚。先确认定义：VLAN 形成逻辑广播边界，干道可携带标记；二层环路需生成树等机制阻断冗余转发路径。 接着追踪机制：VLAN 把交换网络划成逻辑广播域，802.1Q 标记在跨交换机链路上携带 VLAN 标识。交换环会造成广播风暴与重复帧；STP 通过使部分端口不参与转发，形成无环的活动拓扑。",
+      "text_sha256": "cd44f5667bd5b3e48451d641f53af455b6b086918f04744336919c7a86f29be1"
+    },
+    {
+      "id": "course-cs408-net-link-10-worked",
+      "character": "anaxa",
+      "text": "看这个例子：一台交换机的端口分别划入 3 个 VLAN，且未启用三层转发，共有几个逻辑广播域？ 每个 VLAN 是一个逻辑广播域，同 VLAN 的广播按其成员范围传播。 结论是3个。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "a2cbd19e1582909b9211783b234b23a07be5bbb0f463dbffc49d5d79590a2131"
+    },
+    {
+      "id": "course-cs408-net-link-10-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。802.1Q 标记使一个未标记以太网帧的长度增加多少 B？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "efccee148590d58781f392bb584e1a68affcf5f1f5c3610df6ea3fdbbb74784b"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-10",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：VLAN 不会自动提供不同广播域间的三层通信；需要路由功能。STP 属讲义的补充机制，不应把它等同于网络层最短路径路由。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "912cfb0c080102b97e41353617a584f7be397e8d5c222bf9dfc870c8db036553"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-10",
+      "character": "castor",
+      "text": "请保留适用条件。VLAN 不会自动提供不同广播域间的三层通信；需要路由功能。STP 属讲义的补充机制，不应把它等同于网络层最短路径路由。",
+      "text_sha256": "6b823c00bc61709043ec1b2d4eda816ae88236651e3df7697aea666c5fccb8a5"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-10",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：一台交换机的端口分别划入 3 个 VLAN，且未启用三层转发，共有几个逻辑广播域？ 每个 VLAN 是一个逻辑广播域，同 VLAN 的广播按其成员范围传播。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "e221e6bc7fdec5b749c9f6431c4c72965a5841aa36e8b0bf6e66c60d066425d4"
+    },
+    {
+      "id": "course-cs408-net-link-11-textbook",
+      "character": "anaxa",
+      "text": "今天把「802.11、CSMA/CA 与隐藏站」讲清楚。先确认定义：无线难以像有线共享介质那样边发边可靠检测碰撞，使用退避、确认及可选 RTS/CTS 等；隐藏站是可见性问题。 接着追踪机制：无线站点可能因遮挡或距离而互相听不到，却同时影响接入点，形成隐藏站。CSMA/CA 通过监听、随机退避、帧间间隔、确认及可选 RTS/CTS 降低碰撞概率；NAV 提供虚拟载波监听。 在基本 DCF 教学模型中，SIFS 短于 DIFS，使 ACK 等紧接的响应获得更高优先级。随机退避计数通常只在介质空闲时递减，介质忙时冻结，恢复空闲并满足间隔条件后再继续。",
+      "text_sha256": "3abe13551cefccf79cdb938f0cf16198e67c15a09ba5c1d1934806d3be0dfeda"
+    },
+    {
+      "id": "course-cs408-net-link-11-worked",
+      "character": "anaxa",
+      "text": "看这个例子：启用 RTS/CTS 且四个报文均成功时，一次 DATA 交付对应几个该序列中的帧？ 请求、许可、数据、确认共 4 帧；不把间隔时长当作额外帧。 结论是4帧。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "f5d48a7bf16e34a9e865d0835fe14accdff2d88a69365c6b54d85ddf0f71b836"
+    },
+    {
+      "id": "course-cs408-net-link-11-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。CTS 之后、ACK 之前发送的主要帧是什么？写英文缩写。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "d410225edee380635f052ac5ea866d22b46353b13c97c795f4e3d9bd421ed37a"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-11",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：碰撞避免不是保证无碰撞。RTS/CTS 是可选机制，不应写成所有无线数据帧都必须使用；某些 802.11 帧的地址含义还取决于方向位。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "0198d5a7d3e6377ed669a5969627f60e057cb2e8dbee5420173ff16b8fd20c17"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-11",
+      "character": "castor",
+      "text": "请保留适用条件。碰撞避免不是保证无碰撞。RTS/CTS 是可选机制，不应写成所有无线数据帧都必须使用；某些 802.11 帧的地址含义还取决于方向位。",
+      "text_sha256": "70461ee814acdd97c23c6be76cb94cd92bf64b7d6d6f2fead782d42d58181b21"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-11",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：启用 RTS/CTS 且四个报文均成功时，一次 DATA 交付对应几个该序列中的帧？ 请求、许可、数据、确认共 4 帧；不把间隔时长当作额外帧。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "191a307cbe03c80a9401a0e189a88d2b8ec8691109de015e75c0527292596c1b"
+    },
+    {
+      "id": "course-cs408-net-link-12-textbook",
+      "character": "anaxa",
+      "text": "今天把「PPP 与广域链路」讲清楚。先确认定义：PPP 用于点到点链路，包含成帧及链路协商等功能，基础 PPP 不提供以太网式竞争接入或通用可靠重传服务。 接着追踪机制：PPP 用于点对点链路，可协商链路选项并承载多种网络层协议。LCP 负责链路控制，NCP 用于网络层协议相关配置。帧中协议字段标识载荷类型，透明传输与差错检测保证帧能被正确识别和检错。",
+      "text_sha256": "4b638f7132ed55ae06c552e598a37355cad26280a32c26f451c70ac1694023eb"
+    },
+    {
+      "id": "course-cs408-net-link-12-worked",
+      "character": "anaxa",
+      "text": "看这个例子：PPP 中负责建立、配置和测试数据链路的协议缩写是什么？ LCP 是链路控制协议；网络层相关参数由相应 NCP 协商。 结论是LCP。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "75f16130fc6f53dfd1b3e3280a73ab71200d0f8c894c624ba1b0585ac77b3986"
+    },
+    {
+      "id": "course-cs408-net-link-12-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。PPP 中一组网络控制协议的总称，写英文缩写。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "4615c54c4a0863f82309e4393d246145c9f90aff869c525524a0a6b6646c08e1"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-link-12",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：PPP 并不因为有 FCS 就自动成为可靠重传协议；点对点链路也不需要按共享以太网那样竞争介质。不要把 LCP 与 NCP 的任务交换。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "22b43f7852cf188d5f7d6f239977f6a41b65eef98c23ddebfab132ff87f4d43e"
+    },
+    {
+      "id": "course-side-castor-cs408-net-link-12",
+      "character": "castor",
+      "text": "请保留适用条件。PPP 并不因为有 FCS 就自动成为可靠重传协议；点对点链路也不需要按共享以太网那样竞争介质。不要把 LCP 与 NCP 的任务交换。",
+      "text_sha256": "7ccf0c0dd1b3dfc45b6dc7612c727de7e0db7976ca24d5e438b67bd40e0bf86e"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-link-12",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：PPP 中负责建立、配置和测试数据链路的协议缩写是什么？ LCP 是链路控制协议；网络层相关参数由相应 NCP 协商。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "c1f469d7070877a84c479a73214b82d4570decf5edd48e70377d04a4955e5ce6"
+    },
+    {
+      "id": "course-cs408-net-network-01-textbook",
+      "character": "anaxa",
+      "text": "今天把「网络服务、转发与路由」讲清楚。先确认定义：转发按表把包送到合适接口，路由计算或交换形成路径信息；数据报与虚电路提供不同组织方式。 接着追踪机制：转发是在一个路由器内，把当前分组从入口送往合适出口；路由选择决定路径信息如何建立。数据报网络让每个分组携带目的地址、逐跳独立查表；虚电路则要维护相关连接状态。",
+      "text_sha256": "bb968cef2a808d8d0d46c31291d2bb4fa7c18ca2c24cd316f896495ed782a343"
+    },
+    {
+      "id": "course-cs408-net-network-01-worked",
+      "character": "anaxa",
+      "text": "看这个例子：一个数据报依次经过 3 台中间路由器，在各台都需查询转发表吗？ 每台路由器依据当前目的地址与本地转发表决定下一跳，先前一次查询不代替后续查询。 结论是需要。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "556bc1178b3fd419d2a6c30011f68ef69866aea49a9330f515f759a68102ad66"
+    },
+    {
+      "id": "course-cs408-net-network-01-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。IP 分组逐跳查表选出口属于转发还是路由选择？只填其中一个术语。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "1fbb7259288378e0b290d7dd3eaea413dd729566d906902fb7d9b136516d3aab"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-01",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：下一跳地址是当前路由器要交给的邻接路由器，不是把 IP 数据报的最终目的地址改成下一跳。控制平面与数据平面要区分。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "bb2df14159ef1d1e7d2f658c60bc031ca6ba7e3d93fdd45842a8efb9674988cf"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-01",
+      "character": "castor",
+      "text": "请保留适用条件。下一跳地址是当前路由器要交给的邻接路由器，不是把 IP 数据报的最终目的地址改成下一跳。控制平面与数据平面要区分。",
+      "text_sha256": "4b4adfe7428f8192dd9e5d1c75099b6933828d6a35ade9e4d5e01f12ecf2d821"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-01",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：一个数据报依次经过 3 台中间路由器，在各台都需查询转发表吗？ 每台路由器依据当前目的地址与本地转发表决定下一跳，先前一次查询不代替后续查询。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "bbc16b1e0966a80b31fef5ca05f1038e6073dc3114848ffbda08eb1c0aaacc6e"
+    },
+    {
+      "id": "course-cs408-net-network-02-textbook",
+      "character": "anaxa",
+      "text": "今天把「IPv4 地址与子网掩码」讲清楚。先确认定义：IPv4 地址 32 位，前缀标识网络范围；按通常子网题设计算网络、广播和主机范围，特殊前缀另看规则。 接着追踪机制：IPv4 地址有 32 位，前缀与主机部分的分界由掩码决定。地址与掩码逐位相与得到子网地址。传统可分配主机数在普通广播子网中为 2ʰ−2，分别排除主机位全零和全一。",
+      "text_sha256": "879659ce9094ebdcd3c9ce4e0cc462a3bbfb403cc3b4e431736929ba62e5747e"
+    },
+    {
+      "id": "course-cs408-net-network-02-worked",
+      "character": "anaxa",
+      "text": "看这个例子：普通 /26 子网可分配多少个主机地址？ 主机位 32−26=6，有 64 个组合，扣除网络地址与广播地址得到 62。 结论是62个。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "dea7427b136de83cfa1eaa12e5e1920dff64f40533e0fe08015209ae16afb037"
+    },
+    {
+      "id": "course-cs408-net-network-02-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。普通 /27 子网可分配多少个主机地址？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "1f69813af99ab5c3bb9db8bd0ce66b1d69251e0d0fc3bd4117a45768b24d21e0"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-02",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：/31 点对点等特殊用途不适用简单减二规则；本课计算题都明确采用普通广播子网。判断能否直接交付，要用本机掩码计算目标是否同网。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "f5cc0952b37422d9d15a37ee080a9b8692223d8f4657bff6c79c837606c4cc3c"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-02",
+      "character": "castor",
+      "text": "请保留适用条件。/31 点对点等特殊用途不适用简单减二规则；本课计算题都明确采用普通广播子网。判断能否直接交付，要用本机掩码计算目标是否同网。",
+      "text_sha256": "12aa19111ff1bf21c809d96000a1af600705286dea4d4a7e690ac1674a12a4e6"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-02",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：普通 /26 子网可分配多少个主机地址？ 主机位 32−26=6，有 64 个组合，扣除网络地址与广播地址得到 62。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "3694780bb2edc4326a8b21a8c7016b32308ad146bcfad35cbc9b76a5ebf258b3"
+    },
+    {
+      "id": "course-cs408-net-network-03-textbook",
+      "character": "anaxa",
+      "text": "今天把「CIDR、VLSM 与路由聚合」讲清楚。先确认定义：无类前缀支持不同长度网络，变长划分按需求与对齐分配；聚合需共享前缀且注意是否引入额外范围。 接着追踪机制：CIDR 用前缀长度表达网络范围，不再依赖旧的 A/B/C 类默认边界。VLSM 按主机需求分配不同大小且对齐的地址块。聚合只合并具有连续地址、相同高位前缀且满足对齐条件的块。 例如先给 50 台主机分配普通 /26，再给 20 台分配 /27：可在 192.168.1.0/24 内依次选 192.168.1.0/26 和 192.168.1.64/27。分别覆盖 .0—.63 与 .64—.95，不重叠且边界对齐。",
+      "text_sha256": "03c737c1415123f26451e22fa9182b54b9b8c9697bbda246194248e951cd46b1"
+    },
+    {
+      "id": "course-cs408-net-network-03-worked",
+      "character": "anaxa",
+      "text": "看这个例子：192.168.8.0/24 与 192.168.9.0/24 精确聚合后前缀长度是多少？ 两个第三字节仅最后一位不同，且从偶数块 8 开始，合为 192.168.8.0/23。 结论是23。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "59495b29eabe8d663cf966d7a9d019d9f8f36ea89c4471318cdeafacea49640d"
+    },
+    {
+      "id": "course-cs408-net-network-03-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。192.168.12.0/24 到 192.168.15.0/24 四块精确聚合，前缀长度多少？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "3ab083202ac91035c361ca50e754264239e9f28b7490e932a0bf75634a19e1d2"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-03",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：两个地址块看起来相邻并不保证可精确聚合；聚合后可能覆盖额外地址。地址分配先安排大块，逐个核对边界与容量。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "dac68c3d55b6998e9262669c3b41ca09fe7de24aa6820410463934755f24e795"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-03",
+      "character": "castor",
+      "text": "请保留适用条件。两个地址块看起来相邻并不保证可精确聚合；聚合后可能覆盖额外地址。地址分配先安排大块，逐个核对边界与容量。",
+      "text_sha256": "281926c294eeffa0e1c2b1d5352c8b4f3708d375af6b1486b5f8adb71e55fa3c"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-03",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：192.168.8.0/24 与 192.168.9.0/24 精确聚合后前缀长度是多少？ 两个第三字节仅最后一位不同，且从偶数块 8 开始，合为 192.168.8.0/23。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "8d930c0799be42de8c377b12306abd7331fc794bb7ae87956c778d5fbba3a4a3"
+    },
+    {
+      "id": "course-cs408-net-network-04-textbook",
+      "character": "anaxa",
+      "text": "今天把「最长前缀匹配」讲清楚。先确认定义：同一目的匹配多条路由时优先更长前缀，默认路由仅在没有更具体匹配时兜底。 接着追踪机制：路由表中可能有多个前缀同时覆盖目的地址。最长前缀匹配选择最具体的那个，也就是有效匹配位最多的表项；默认路由 /0 只在没有更具体匹配时兜底。",
+      "text_sha256": "46bb7e2979a2aa499d13507246ab4f45466e50564f9c4bac5f38f8b07b98ba95"
+    },
+    {
+      "id": "course-cs408-net-network-04-worked",
+      "character": "anaxa",
+      "text": "看这个例子：目的 10.1.2.8 同时匹配 /8、/16、/24、/0，选择哪个前缀长度？ 四项都匹配，/24 的约束最具体，因此选择对应出口。 结论是24。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "6f1e86da5b50d812e509ba7ad82c61223fb5993c20f648f12176e968852c1a6c"
+    },
+    {
+      "id": "course-cs408-net-network-04-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。匹配项为 /12、/20、/0，应选哪个前缀长度？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "540e7f604322fbf65ed9ad95b211f7ada236af3da2203c50407c8bbcb14d5c2b"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-04",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：比较的是前缀长度，不是表格书写先后、下一跳数值大小或旧的地址类别。先确认每条前缀确实匹配，再比较长度。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "387516c2097c14db21a89ac5ce93761815c790e10e22279365997886fd0e62da"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-04",
+      "character": "castor",
+      "text": "请保留适用条件。比较的是前缀长度，不是表格书写先后、下一跳数值大小或旧的地址类别。先确认每条前缀确实匹配，再比较长度。",
+      "text_sha256": "23a4238eed97d9e45237ad963e979e821d79bfccef0ad02d3a8941845232233f"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-04",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：目的 10.1.2.8 同时匹配 /8、/16、/24、/0，选择哪个前缀长度？ 四项都匹配，/24 的约束最具体，因此选择对应出口。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "2cf6584d2fa73bd12597a6f484b8288e82c1004f676f854d4a5fcce677f64f83"
+    },
+    {
+      "id": "course-cs408-net-network-05-textbook",
+      "character": "anaxa",
+      "text": "今天把「ARP 与逐跳 MAC」讲清楚。先确认定义：ARP 在本地链路解析下一跳 IP 到链路地址；跨网段时解析网关 MAC，端到端 IP 与逐跳 MAC 分别变化。 接着追踪机制：主机先判断目标是否在本地子网。同网时 ARP 解析目标接口 MAC；异网时解析默认网关在本链路的 MAC。路由器每转发一跳会重新封装链路帧，普通未作地址转换时 IP 的端点地址保持不变。",
+      "text_sha256": "fbe3baa0b369d1836d27f14d606b31a58b3a0e075f811dba48421dc5608bafc9"
+    },
+    {
+      "id": "course-cs408-net-network-05-worked",
+      "character": "anaxa",
+      "text": "看这个例子：A 访问异网的 B，A 首跳以太网帧的目的 MAC 属于 B 还是默认网关？ A 先把帧交给同链路上的网关接口，由网关继续向 B 的网络转发。 结论是默认网关。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "4debe05a5966f1bae39d412bb2afe6d36bd594983cc71de6e20073db3ca400de"
+    },
+    {
+      "id": "course-cs408-net-network-05-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。普通不做 NAT 的路由转发中，最终目的 IP 是否应改成下一跳的 IP？填“是”或“否”。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "1c98e5eef33474a87d8fc71eb155c4e850c48c6079afbe9c50c7645e0941184c"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-05",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：ARP 请求在本地链路广播，不能跨路由器去询问远端主机 MAC。把“最终目的 IP”与“当前一跳的目的 MAC”画在不同栏中能避免混淆。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "c643f7843f4a5e31fbf4832b1d5829121608c6afaedf4da269972a87eb735841"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-05",
+      "character": "castor",
+      "text": "请保留适用条件。ARP 请求在本地链路广播，不能跨路由器去询问远端主机 MAC。把“最终目的 IP”与“当前一跳的目的 MAC”画在不同栏中能避免混淆。",
+      "text_sha256": "0d76fe487c6145777e2194f4b1b2c90b8c5cf3998b58bfbe71efbfb41d625661"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-05",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：A 访问异网的 B，A 首跳以太网帧的目的 MAC 属于 B 还是默认网关？ A 先把帧交给同链路上的网关接口，由网关继续向 B 的网络转发。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "66c32cab065895130455207fb8d43d194a8626a29e5219289eeba1eb707a8a39"
+    },
+    {
+      "id": "course-cs408-net-network-06-textbook",
+      "character": "anaxa",
+      "text": "今天把「IPv4 数据报首部与 TTL」讲清楚。先确认定义：首部字段控制长度、分片、生存时间等；路由转发递减 TTL，首部校验也需相应处理，通常不覆盖负载。 接着追踪机制：IPv4 首部最小 20B，IHL 以 4B 为单位，首部校验和只覆盖首部。路由器转发时递减 TTL，必要时报告超时；协议字段说明载荷交给 TCP、UDP 或其他上层协议。",
+      "text_sha256": "ced485c7ec2c62722ef7a2fb7492f6fe11bd98536c4889c857b83d746b810b62"
+    },
+    {
+      "id": "course-cs408-net-network-06-worked",
+      "character": "anaxa",
+      "text": "看这个例子：IHL=6，总长度 100B，数据部分长多少 B？ 首部 6×4=24B，数据 100−24=76B。 结论是76B。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "8f53424ae68a769e669ef6ddf581a8c88be86198715d66113118b1dbbb7c8fc5"
+    },
+    {
+      "id": "course-cs408-net-network-06-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。IHL=5，总长度 120B，数据部分长多少 B？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "3677499d6b4add4e2dd70fced51e9fa206b1af0806f5dedb56de72dd8a20eace"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-06",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：总长度包括首部与数据。IHL 是字长计数而非直接的字节数；TTL 也不能在这类题中简单解释成精确经过的秒数。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "e1b6782c03a7fec161e6bc75de67936f49c0c1aa69cf0847a2d77c1899d16101"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-06",
+      "character": "castor",
+      "text": "请保留适用条件。总长度包括首部与数据。IHL 是字长计数而非直接的字节数；TTL 也不能在这类题中简单解释成精确经过的秒数。",
+      "text_sha256": "173350ba8be901c4fbcd30999c0e4a4d4fbcf4ed82ae95c75adba559bc4c4fa8"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-06",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：IHL=6，总长度 100B，数据部分长多少 B？ 首部 6×4=24B，数据 100−24=76B。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "d7e02f5045674fc534abb39ecb9224ad0afbb6bb0ef458df562671042ec6de0f"
+    },
+    {
+      "id": "course-cs408-net-network-07-textbook",
+      "character": "anaxa",
+      "text": "今天把「IPv4 分片与重组」讲清楚。先确认定义：MTU 限制单链路报文大小，IPv4 可按规则分片，偏移以 8 字节计；最终目的重组，DF 等标志也需检查。 接着追踪机制：IPv4 数据报在允许分片且超出出口 MTU 时可分片，分片保留相同标识，目的主机重组。片偏移以 8B 为单位；除最后一片外，每片数据长度必须是 8B 的整数倍。 例题的三片数据长为 1480、1480、1040B，片偏移依次 0、185、370，MF 依次 1、1、0；加上各自 20B 首部，三片总长分别为 1500、1500、1060B。DF 若为 1，就不能照此直接分片。",
+      "text_sha256": "753ff8557e4138838fe7c90dd96821b627edd73a65ac8377317dac2edd71a116"
+    },
+    {
+      "id": "course-cs408-net-network-07-worked",
+      "character": "anaxa",
+      "text": "看这个例子：总长 4020B、首部 20B、MTU=1500B，忽略选项，需分几片？ 数据共 4000B；每片最多 1480B，可分为 1480、1480、1040B，共 3 片。 结论是3片。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "1b330acc2b591c353e28b2bc6e7cdc563eeda302b5c3a42534750eef5ca25588"
+    },
+    {
+      "id": "course-cs408-net-network-07-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。第二片的片偏移字段是多少？沿用例题。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "007fb98bb20774523ae6b84bf05414cdefa454c09d7728f27092cecd225ff909"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-07",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：MTU 包括 IPv4 首部，分片时应先扣每片首部。DF=1 禁止分片；中间路由器一般不负责将同一原数据报的分片重组。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "5adac943cb8a6b9b63b70b57ac068ec92de0865eff8c0791c2f680672fd79785"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-07",
+      "character": "castor",
+      "text": "请保留适用条件。MTU 包括 IPv4 首部，分片时应先扣每片首部。DF=1 禁止分片；中间路由器一般不负责将同一原数据报的分片重组。",
+      "text_sha256": "157de1f3d15251e08a8e340054c0704cd6ee18e371b2ee7a92f324f858027d9a"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-07",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：总长 4020B、首部 20B、MTU=1500B，忽略选项，需分几片？ 数据共 4000B；每片最多 1480B，可分为 1480、1480、1040B，共 3 片。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "fdc573798d7c51db5c3eb2ea331dd69d235832a1cebffde2a16c4054d717cfee"
+    },
+    {
+      "id": "course-cs408-net-network-08-textbook",
+      "character": "anaxa",
+      "text": "今天把「DHCP 地址配置」讲清楚。先确认定义：DHCP 提供地址与租约等配置，初始过程常用发现、提供、请求、确认；地址可用性还涉及网络规则。 接着追踪机制：DHCP 帮助新接入主机获得地址、掩码、网关与 DNS 等配置。典型首次分配顺序为发现、提供、请求、确认；客户端在未获地址时可用 0.0.0.0，报文通过 UDP 承载。",
+      "text_sha256": "04868db625a9896f114897685bf875c00314f93c9e2305a559bf710e17626a7b"
+    },
+    {
+      "id": "course-cs408-net-network-08-worked",
+      "character": "anaxa",
+      "text": "看这个例子：首次配置四步流程中，服务器对客户端请求做最终确认的报文是什么？ OFFER 只是提供租用候选，收到 REQUEST 后服务器用 ACK 确认分配。 结论是ACK。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "5dfcae715f84e6f71e8b2f69788bafc40d0d4c2fc9bd008b99d5e9c6dc6fab55"
+    },
+    {
+      "id": "course-cs408-net-network-08-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。DHCP 服务器使用的 UDP 端口号是多少？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "f571ad89ebf8c07ac28d9dc7e07489f7854fe7afc4e8144fa4aa586fb4f8f266"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-08",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：DHCP 属应用层协议，尽管它配置网络层参数。并非后续每次续租都重复相同的全广播过程，也不要交换客户端与服务端的端口。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "09fb4bc675c5430081534af14bce2b2f9350a03a90e65ebae5a2ab2305cd30b2"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-08",
+      "character": "castor",
+      "text": "请保留适用条件。DHCP 属应用层协议，尽管它配置网络层参数。并非后续每次续租都重复相同的全广播过程，也不要交换客户端与服务端的端口。",
+      "text_sha256": "74137f75909000fe395d98fcdf861fcbf2e56327959604755e0ba9ea5c5b57ab"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-08",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：首次配置四步流程中，服务器对客户端请求做最终确认的报文是什么？ OFFER 只是提供租用候选，收到 REQUEST 后服务器用 ACK 确认分配。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "34b17c0c555ae5c7fa4b3006234ff586f535619611cf94898009269f21c19707"
+    },
+    {
+      "id": "course-cs408-net-network-09-textbook",
+      "character": "anaxa",
+      "text": "今天把「ICMP 与网络诊断」讲清楚。先确认定义：ICMP 报告部分差错和提供诊断，ping 常用回显，traceroute 利用 TTL 到期等行为；不是所有错误都发送 ICMP。 接着追踪机制：ICMP 由 IP 承载，用于差错报告与部分诊断查询。ping 常用回送请求与回答；基于 TTL 的路径探测利用中间路由器产生的时间超过报文。差错报告有抑制规则，避免差错报文再引发差错风暴。",
+      "text_sha256": "a3e80f32f3cdfa5e61a865f54e3d4740db6b0356906cd6625b4d877c9dbf2c12"
+    },
+    {
+      "id": "course-cs408-net-network-09-worked",
+      "character": "anaxa",
+      "text": "看这个例子：TTL=1 的 IPv4 数据报需要被路由器转发时，递减后无法继续转发，常见 ICMP 差错类型是什么？ 路由器丢弃生存范围耗尽的分组，并在允许报告的条件下发送时间超过报文。 结论是时间超过。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "083db3300c658ff6c43c9a05ab6314cabd12cbf9b5e8d5fac18908e0a8d934c4"
+    },
+    {
+      "id": "course-cs408-net-network-09-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。ICMP 报文直接由 IP 还是 UDP 承载？写协议缩写。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "15e2d162181b189ab970e70478618dbcf7a88ca8dd818582ac51df04bd07811b"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-09",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：讲义列出的源点抑制是历史机制，RFC 6633 已弃用，不能当作当前 TCP 拥塞控制方案。ICMP 不是 TCP/UDP 的端口服务。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "13781ddfcfeb3b9e17a36bf44f5ae9c277d122e53da7f181551d20bc4d4e7728"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-09",
+      "character": "castor",
+      "text": "请保留适用条件。讲义列出的源点抑制是历史机制，RFC 6633 已弃用，不能当作当前 TCP 拥塞控制方案。ICMP 不是 TCP/UDP 的端口服务。",
+      "text_sha256": "d45df464cdd5f52feaddea14cca8b0c17d49a08de7017285495babfba543ed48"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-09",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：TTL=1 的 IPv4 数据报需要被路由器转发时，递减后无法继续转发，常见 ICMP 差错类型是什么？ 路由器丢弃生存范围耗尽的分组，并在允许报告的条件下发送时间超过报文。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "9b9d0b9219872b077fb64ca8a49abd3ff91ca7edbda34667e5fe24ff04634a12"
+    },
+    {
+      "id": "course-cs408-net-network-10-textbook",
+      "character": "anaxa",
+      "text": "今天把「NAT、NAPT 与地址边界」讲清楚。先确认定义：NAT 改写地址，NAPT 还以端口区分会话，需维护映射；私网地址与端到端连通性受映射和策略影响。 接着追踪机制：私有地址用于内部网络。NAT 改写地址映射，NAPT 还利用运输层端口区分多条内部会话，让多个内部端点共享公有地址。返回报文需按映射还原并转交正确主机。",
+      "text_sha256": "a9f0427387c158a9cd3602d9b6a03afafc6c447efc9f848ec3c85e02769e2980"
+    },
+    {
+      "id": "course-cs408-net-network-10-worked",
+      "character": "anaxa",
+      "text": "看这个例子：两台主机都从本地端口 5000 访问同一远端服务，共享一个公有 IP，NAPT 如何区分返回流量？ 转换器为两条活动映射选取可区分的外部端点，而不是要求内部应用一开始就用不同端口。 结论是使用不同外部端口。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "9c3f347ac5717e2e25fbfd72a5345e3d7b6446d8ce939c42597406b167474b00"
+    },
+    {
+      "id": "course-cs408-net-network-10-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。内网 20 台主机可以通过 NAPT 共享至少几个公有 IPv4 地址？按基本共享模型填最小值。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "7ececd048f309d523f647f6811dd92c9469d9bb39c8f8fe64bc611f65ef28fd8"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-10",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：NAT 不等于加密，也不天然提供应用层身份认证。讨论透明转发时要明确是否存在地址转换，不能同时假设地址保持不变和已执行 NAT。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "8c06a1688e9e04afb705a292b4a174d75afc1246cb3cf32be87ead30a6b15166"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-10",
+      "character": "castor",
+      "text": "请保留适用条件。NAT 不等于加密，也不天然提供应用层身份认证。讨论透明转发时要明确是否存在地址转换，不能同时假设地址保持不变和已执行 NAT。",
+      "text_sha256": "4665a9b98a2365e2ffb77154db0058c050c7f7a6f3e25ee30760e35e4620d803"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-10",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：两台主机都从本地端口 5000 访问同一远端服务，共享一个公有 IP，NAPT 如何区分返回流量？ 转换器为两条活动映射选取可区分的外部端点，而不是要求内部应用一开始就用不同端口。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "91b5eaf40ef26f0feef309cdc5bda83e581754f6e5f7496daeb02adf62c8f747"
+    },
+    {
+      "id": "course-cs408-net-network-11-textbook",
+      "character": "anaxa",
+      "text": "今天把「距离向量、链路状态与分层路由」讲清楚。先确认定义：距离向量交换到目的的估计，链路状态传播拓扑再计算；自治系统划分内部与外部路由范围。 接着追踪机制：距离向量向邻居通告自己到各目的地的距离，接收者加上到邻居的代价再比较；链路状态传播局部链路状态，各路由器据全网拓扑独立求路径。自治系统分层减少管理耦合。",
+      "text_sha256": "52fc152f70f80ec798bbf49dc93ce559c5c7a8dc30acc63255d8e042197808b7"
+    },
+    {
+      "id": "course-cs408-net-network-11-worked",
+      "character": "anaxa",
+      "text": "看这个例子：A 到邻居 B 的代价为 2，B 通告到 D 为 5，经 B 的候选距离是多少？ 先走 A→B 付出 2，再采用 B 到 D 的距离 5，合计 7。 结论是7。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "4abe9424ebc9e5805fb2689420571453d3216b1f74728e305324c2a80b4417dc"
+    },
+    {
+      "id": "course-cs408-net-network-11-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。A 到 C 代价 3，C 通告到 D 为 2，经 C 候选距离是多少？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "9fd7830330ed4549f13fbeb2bf80b5ee92761db8cd0b4337f493fdcac83c38bf"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-11",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：距离向量并非向所有路由器直接广播整网拓扑。链路状态数据库相近，也不表示各路由器的最短路径树根节点相同。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "6ac37bb1196886f2632d8904067a6f4da65800732485fbd07986dec1c3bdfdb2"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-11",
+      "character": "castor",
+      "text": "请保留适用条件。距离向量并非向所有路由器直接广播整网拓扑。链路状态数据库相近，也不表示各路由器的最短路径树根节点相同。",
+      "text_sha256": "78727f9ce83b6ffa69651fca1d8592443b101393fc72a8be2181cfd6de922de7"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-11",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：A 到邻居 B 的代价为 2，B 通告到 D 为 5，经 B 的候选距离是多少？ 先走 A→B 付出 2，再采用 B 到 D 的距离 5，合计 7。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "0d33960182046916eec25dc79a0acb75629754a3d025c9fcfcb131a81d72dab6"
+    },
+    {
+      "id": "course-cs408-net-network-12-textbook",
+      "character": "anaxa",
+      "text": "今天把「RIP、OSPF 与 BGP」讲清楚。先确认定义：RIP 典型以跳数度量，OSPF 基于链路状态，BGP 在自治系统间传播路径与策略；最少跳数不等于所有协议目标。 接着追踪机制：RIP 是基于距离向量的内部网关协议，常以跳数为度量；OSPF 以链路状态与最短路径算法形成域内路由；BGP 在自治系统间交换可达性与路径属性，并遵守策略。 OSPF 的路径推演可用小图练习：A—B 代价2，A—C代价5，B—C代价1，B—D代价4，C—D代价1。以 A 为根先确定 B 的距离2，再把 C 更新为3、D更新为6，确定 C 后把 D 改为4。每次扩展当前未确定距离最小者，不能把第一次发现的路径立即当最终路径。",
+      "text_sha256": "9a95630a937bf8990b5c224bfcb97e9a2ba3480483a261ca6f60c2187c9b57e7"
+    },
+    {
+      "id": "course-cs408-net-network-12-worked",
+      "character": "anaxa",
+      "text": "看这个例子：RIP 中到某网的度量为 16，表示什么？ RIP 的可达跳数最多 15，16 被用作不可达，而不是“还能走 16 跳”。 结论是不可达。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "c5c42ad582aed884e753c447ea479ac2518bfadcea44afcf212bab090d3ccc1a"
+    },
+    {
+      "id": "course-cs408-net-network-12-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。BGP 会话通常采用的 TCP 端口号是多少？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "17fdaa92e0691fc8a38270210597c13f4c003019fccb52e2f2ef971af304c3c5"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-12",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：BGP 的选择不能简单等同于全网跳数最少。RIP 的 16 表示不可达；协议承载方式不同，OSPF 不是通过 TCP 建立连接。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "b85d453aff0892986fb46b8786791b477a0d74134c8975f73cf42de0811469a5"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-12",
+      "character": "castor",
+      "text": "请保留适用条件。BGP 的选择不能简单等同于全网跳数最少。RIP 的 16 表示不可达；协议承载方式不同，OSPF 不是通过 TCP 建立连接。",
+      "text_sha256": "b9ee3c81fa9a9751d88b7a990c230d0a9fb494accc199c94ea8b71c3667e5958"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-12",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：RIP 中到某网的度量为 16，表示什么？ RIP 的可达跳数最多 15，16 被用作不可达，而不是“还能走 16 跳”。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "3c8518bc76ab763693f737544e96e238614cab3e77180a9bc65b00ae062e0d25"
+    },
+    {
+      "id": "course-cs408-net-network-13-textbook",
+      "character": "anaxa",
+      "text": "今天把「IPv6 与地址表达」讲清楚。先确认定义：IPv6 地址 128 位，基本首部与扩展首部分离，无 IPv4 式首部校验和；分片不由转发路由器像 IPv4 那样完成。 接着追踪机制：IPv6 地址扩展为 128 位，基本首部固定 40B，扩展首部承载可选功能。文本用八组十六进制表示，每组前导零可省略，连续全零组可用一次双冒号压缩。此点为标准补充，不冒称讲义原文。 例如 2001:0db8:0000:0000:0000:0000:0000:0001 可以压缩成 2001:db8::1。IPv4 向 IPv6 过渡可涉及双栈、隧道等；它们是迁移机制，不是把 32 位地址直接补零就自动成为可互通的 IPv6 地址。",
+      "text_sha256": "6efd82afd4ad09bf758e08bcd6cd265ec0750652c00acb1a04ea0f0589bb47e4"
+    },
+    {
+      "id": "course-cs408-net-network-13-worked",
+      "character": "anaxa",
+      "text": "看这个例子：IPv6 基本首部为多少 B？ 基本首部固定为 40B；存在扩展首部时，不能仍把完整头部总长强行定为 40B。 结论是40B。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "8ed40c64d06074ef5084dcff5ebdd15213e035b332d322ed54ecc56dfb784160"
+    },
+    {
+      "id": "course-cs408-net-network-13-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。IPv6 地址总共多少 bit？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "0b5d32995beb9b5f70d7219edae6987222ebbbb9e2d0735b65ec737ed4c16db8"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-13",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：同一地址不能出现两处 ::，否则无法唯一确定省略组数。IPv6 路由器不进行 IPv4 式的沿途分片，源端通过相应机制处理路径 MTU。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "66fdb4546db3efff23dd1b787cd734af001d7fa871907cf04d505a8fc88830cf"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-13",
+      "character": "castor",
+      "text": "请保留适用条件。同一地址不能出现两处 ::，否则无法唯一确定省略组数。IPv6 路由器不进行 IPv4 式的沿途分片，源端通过相应机制处理路径 MTU。",
+      "text_sha256": "2fc6638e94ffe8ae44f678e6b9386bd81424e6c0aa402beadc4ddf461bad517b"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-13",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：IPv6 基本首部为多少 B？ 基本首部固定为 40B；存在扩展首部时，不能仍把完整头部总长强行定为 40B。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "bbc57283c9b131ffaea4edaaa402bb25318fb7ea521282bddf116730a8304162"
+    },
+    {
+      "id": "course-cs408-net-network-14-textbook",
+      "character": "anaxa",
+      "text": "今天把「IP 组播、IGMP 与移动 IP」讲清楚。先确认定义：组播面向接收组，IGMP 管理本地组成员；移动 IP 以归属和转交等机制支持位置变化，二者解决的问题不同。 接着追踪机制：IP 组播让一份发送面向一个接收组，IGMP 用于 IPv4 主机与相邻组播路由器间的成员关系管理。移动 IP 区分固定归属身份与当前位置，通过代理及隧道等机制支持移动。讲义未设这两个主题的独立节，本课仅补基础辨析。 IPv4 组播在以太网的常见地址映射保留组播 IP 的低23位，因此多个组播 IP 可能映射到同一 MAC，不能据此认定成员组完全相同。移动 IPv4 中，归属地址维持身份，转交地址表示当前位置；归属代理通过隧道把分组送往转交地址。",
+      "text_sha256": "e13c0ed100f1ed57fa89d93ccb3125b1476207e7e8f2f177c7ff6f59255f04c4"
+    },
+    {
+      "id": "course-cs408-net-network-14-worked",
+      "character": "anaxa",
+      "text": "看这个例子：IPv4 主机向相邻组播路由器报告组成员关系，协议缩写是什么？ IGMP 处理本地成员关系，构造跨网络组播树需要相应组播路由机制。 结论是IGMP。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "1f20bfab24512bebd72bf5a7b3a9f5252d98850319c81e1980350ffdb0d09766"
+    },
+    {
+      "id": "course-cs408-net-network-14-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。224.0.0.0/4 的前缀长度是多少？只填数值。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "a6e0d77a2e85eeaa08d0258f21b7f8a2f13bbef6e22b6bf3c4f7a9d8e07adefe"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-14",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：IGMP 不是完成全网组播路由计算的协议；移动 IP 也不等同于手机接入 Wi-Fi 的每一种过程。IPv6 邻居发现和成员管理不可直接套用 IPv4 名称。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "5471b547fc7cf2f9966405971c88b1aa00d3dde7d9b26c1717fd0262ccdde774"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-14",
+      "character": "castor",
+      "text": "请保留适用条件。IGMP 不是完成全网组播路由计算的协议；移动 IP 也不等同于手机接入 Wi-Fi 的每一种过程。IPv6 邻居发现和成员管理不可直接套用 IPv4 名称。",
+      "text_sha256": "afd6dd70ecabfec1fc4c920080716a2cf3796a24ee18ff2ee343eaa64073fb23"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-14",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：IPv4 主机向相邻组播路由器报告组成员关系，协议缩写是什么？ IGMP 处理本地成员关系，构造跨网络组播树需要相应组播路由机制。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "58433c1ba7f388b90bf05005ff901803d3d3d7eb939b8fc2a73b86052cccc793"
+    },
+    {
+      "id": "course-cs408-net-network-15-textbook",
+      "character": "anaxa",
+      "text": "今天把「路由器组成与 SDN」讲清楚。先确认定义：路由器包含输入、交换结构、输出及控制处理等；SDN 强调控制与转发的组织分离，不取消实际数据转发。 接着追踪机制：路由器的数据平面通过输入处理、交换结构和输出队列转送分组；控制平面负责路由及相关策略。SDN 进一步强调控制逻辑与转发设备解耦，由控制系统向设备下发规则。SDN 为本讲义目录未独立展开的补充。",
+      "text_sha256": "9322008dcf11a4c405caebdcde21dd851b634c7432b5b0ce6966b3d551427805"
+    },
+    {
+      "id": "course-cs408-net-network-15-worked",
+      "character": "anaxa",
+      "text": "看这个例子：根据既有流表把一个到来的分组送往出口，是控制平面还是数据平面的工作？ 这是对具体分组执行已有规则；计算与安装规则属于控制逻辑。 结论是数据平面。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "a95c262c18813e8dc1d79c4b3d4f58dc1212053573aa18e1de6d909c7c41dc49"
+    },
+    {
+      "id": "course-cs408-net-network-15-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。SDN 中负责决定并下发转发策略的主要逻辑属于哪一平面？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "df9e3565b443defb81d23772a013e7698aaa08d6fa822c4ac2751276f9c4aaaf"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-network-15",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：逻辑集中不等于物理上只能有一台控制器。把路由器当成只查表的黑箱，会漏掉队列、接口速率与交换结构对性能的影响。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "c2b8cc2cffe9992d807b295e555f4d9aef2577efb2cec32290c7fe390f10c58b"
+    },
+    {
+      "id": "course-side-castor-cs408-net-network-15",
+      "character": "castor",
+      "text": "请保留适用条件。逻辑集中不等于物理上只能有一台控制器。把路由器当成只查表的黑箱，会漏掉队列、接口速率与交换结构对性能的影响。",
+      "text_sha256": "d55b1f3789881dab46633c2f1e723aaf52e08000d44e540e511e6a060f3b9c1b"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-network-15",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：根据既有流表把一个到来的分组送往出口，是控制平面还是数据平面的工作？ 这是对具体分组执行已有规则；计算与安装规则属于控制逻辑。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "4c24ad2fc6fb359b1e033c54b878183680a5920139c8a6ab0aad02b7ea699c3a"
+    },
+    {
+      "id": "course-cs408-net-transport-01-textbook",
+      "character": "anaxa",
+      "text": "今天把「端口、多路分解与套接字」讲清楚。先确认定义：传输层区分进程通信，TCP 连接通常由两端地址和端口等标识；端口号不是设备的物理插口。 接着追踪机制：网络层把数据交给目标主机，运输层再把数据交给正确进程。端口号与 IP 地址一起标识端点；TCP 连接还要结合双方端点及协议区分，UDP 则按相应分用规则交付数据报。",
+      "text_sha256": "fdf88d3b07b64d7c6417ad93b01f6d4eaadc759d727a1b95443a277c41ab1eec"
+    },
+    {
+      "id": "course-cs408-net-transport-01-worked",
+      "character": "anaxa",
+      "text": "看这个例子：两名客户端都连接同一服务器的 443 端口，是否只能建立一条 TCP 连接？ 不同客户端端点使连接元组不同，服务器可以区分并发连接。 结论是不是。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "999a58a23f0408f7c7fc23163ca97f82b03b5f7647c1bdadecec170ffa33e0f0"
+    },
+    {
+      "id": "course-cs408-net-transport-01-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。TCP/UDP 端口号字段为多少 bit？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "9577005f3c009abca15c905736ea93636cec5c9dc6a94df291f11fe5e42c0bdd"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-01",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：同一个端口数在 TCP 与 UDP 中不表示同一套连接状态。服务器监听一个端口，也可以同时维护许多不同客户端连接。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "b634c6b6dbe5b1445e23683a3e93229f958368e10397da4b386dc7db81648b4a"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-01",
+      "character": "castor",
+      "text": "请保留适用条件。同一个端口数在 TCP 与 UDP 中不表示同一套连接状态。服务器监听一个端口，也可以同时维护许多不同客户端连接。",
+      "text_sha256": "71426b0e1d2d8a63cfca84aae9addbf874bb80266ebf78f75975d301f2f56a6c"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-01",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：两名客户端都连接同一服务器的 443 端口，是否只能建立一条 TCP 连接？ 不同客户端端点使连接元组不同，服务器可以区分并发连接。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "86d87df19ca528940ba1cfc9289bdac94fb8d66c02fa1dd41ab447735a2761fd"
+    },
+    {
+      "id": "course-cs408-net-transport-02-textbook",
+      "character": "anaxa",
+      "text": "今天把「UDP 报文与校验」讲清楚。先确认定义：UDP 无连接、面向报文，提供基本复用分解和校验机制；它不自行提供 TCP 式可靠、有序字节流。 接着追踪机制：UDP 在应用报文外添加固定 8B 首部，保留报文边界，不自行保证可靠交付。校验和把伪首部、UDP 首部与数据按反码求和，伪首部帮助检验是否送错端点或协议。",
+      "text_sha256": "05c64e72b599139f49bb222338a2f4e9d7fd30fd96b0959c98c79c558bd357bf"
+    },
+    {
+      "id": "course-cs408-net-transport-02-worked",
+      "character": "anaxa",
+      "text": "看这个例子：UDP 载荷 100B，UDP 长度字段填多少 B？ 长度字段包含 8B 固定首部与 100B 数据，共 108B。 结论是108B。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "84c5be95378e348712f34014d030fc942ea9122c1471963e04d9304efee5605b"
+    },
+    {
+      "id": "course-cs408-net-transport-02-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。UDP 载荷 200B，长度字段填多少 B？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "d9bf3790ffcfdae384d6e2b4f73f741fa777d3790917fac0c9c8358455929375"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-02",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：UDP 首部中的长度包含首部与数据。检错不等于确认重传；“UDP 不可靠”不表示应用不能自行设计恢复机制。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "dbb98031f72d053ea271719a3aaad10d6c3a80e50713f9c04669fb71b11c51a6"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-02",
+      "character": "castor",
+      "text": "请保留适用条件。UDP 首部中的长度包含首部与数据。检错不等于确认重传；“UDP 不可靠”不表示应用不能自行设计恢复机制。",
+      "text_sha256": "e3ee0561007e113849d671d19a278bf75d0ab6e67222c11c1875de7cc76dd2a6"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-02",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：UDP 载荷 100B，UDP 长度字段填多少 B？ 长度字段包含 8B 固定首部与 100B 数据，共 108B。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "cb18ecdabbfe881331cda4de3c00a2dfc17908c9c2c9c2b64b71d99636f3ad3a"
+    },
+    {
+      "id": "course-cs408-net-transport-03-textbook",
+      "character": "anaxa",
+      "text": "今天把「TCP 字节流、序号与确认号」讲清楚。先确认定义：TCP 序号按字节编排，确认号常表示期待的下一个字节；一个发送调用不保证对应一个 TCP 报文段。 接着追踪机制：TCP 给字节编号，报文段序号通常是其第一个数据字节的序号；确认号是接收方下一步期望的字节序号。累计确认已经连续收到的前缀，报文段如何切分不改变应用看到的字节流。",
+      "text_sha256": "f204e2442c00af45b9dce016f5e71020e12459057a33e7e2abc7fbf16484c884"
+    },
+    {
+      "id": "course-cs408-net-transport-03-worked",
+      "character": "anaxa",
+      "text": "看这个例子：seq=100 的报文段携带 200B 连续数据，接收方期望的下一个字节序号是多少？ 数据字节覆盖 100 到 299，下一字节是 300。 结论是300。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "e9683f238e74bf340b60d9ade9437449371a69195efcd77375a2fc29923f474f"
+    },
+    {
+      "id": "course-cs408-net-transport-03-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。seq=500、携带 120B 连续数据，下一确认号是多少？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "ff16b609b1ff37a0e993d3ee1e54fc68d3c76ebee18b8331b6c2c2b1c7e89f81"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-03",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：普通纯 ACK 不消耗数据序号，SYN 和 FIN 各占一个序号。遇到缺口时，收到更后的字节也不能直接把累计确认跨过缺口。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "f8f187d6f01bf48f2b498bdc1f23da9bc7e47cf0bee7f9c09290fd33373be7d2"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-03",
+      "character": "castor",
+      "text": "请保留适用条件。普通纯 ACK 不消耗数据序号，SYN 和 FIN 各占一个序号。遇到缺口时，收到更后的字节也不能直接把累计确认跨过缺口。",
+      "text_sha256": "e1bfe8b1051f242ea3f1a94bbdefe3cabe716f973f094b3aa7877de923e30044"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-03",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：seq=100 的报文段携带 200B 连续数据，接收方期望的下一个字节序号是多少？ 数据字节覆盖 100 到 299，下一字节是 300。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "f57208ae34b387d4a7f998913c12c68f10613da56697ec99eaaed5dce0304b17"
+    },
+    {
+      "id": "course-cs408-net-transport-04-textbook",
+      "character": "anaxa",
+      "text": "今天把「三次握手与序号同步」讲清楚。先确认定义：SYN 与 SYN+ACK 等交换建立双方序号和连接状态；SYN 占用一个序号，最后 ACK 可按规则携带数据。 接着追踪机制：三次握手让双方确认对端存在并同步各自的初始序号。客户端 SYN，服务端 SYN+ACK，客户端 ACK；两方初始序号各自选择，确认号与被确认的方向对应。",
+      "text_sha256": "d0873d8047782d3d892431fe45cd03d2f130a368e73909609408c0ae3e08129b"
+    },
+    {
+      "id": "course-cs408-net-transport-04-worked",
+      "character": "anaxa",
+      "text": "看这个例子：客户端初始序号 x=100，服务端对 SYN 的确认号应是多少？ SYN 虽不计普通数据字节，仍占一个序号，所以期待客户端后续从 101 开始。 结论是101。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "f81e10fd6e6dcac3b518b7914ca3245a57f745f8fa1e2b59e28931b2de1ad933"
+    },
+    {
+      "id": "course-cs408-net-transport-04-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。服务端初始序号 y=400，客户端第三次握手对它的确认号是多少？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "4ddacc622ec84b0de8021483ef47142adc4598ccbf4652dc543e74eabb80650b"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-04",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：不要让客户端和服务器共用同一个初始序号。基础考试模型中 SYN 占一个序号；末次不携带数据的 ACK 本身不再消耗一个序号。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "330827ab4ba42e8ca91478387cb037e823839d1063672143c41fabfab36dc95c"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-04",
+      "character": "castor",
+      "text": "请保留适用条件。不要让客户端和服务器共用同一个初始序号。基础考试模型中 SYN 占一个序号；末次不携带数据的 ACK 本身不再消耗一个序号。",
+      "text_sha256": "785c7391d0bd0450f9623e9eced1b73232d0f556053a10cc8ed8ee817517f50e"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-04",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：客户端初始序号 x=100，服务端对 SYN 的确认号应是多少？ SYN 虽不计普通数据字节，仍占一个序号，所以期待客户端后续从 101 开始。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "c3d65e2c049059660804a0dd3363e4458f2df9bd983196c58c36b98b3a500ac4"
+    },
+    {
+      "id": "course-cs408-net-transport-05-textbook",
+      "character": "anaxa",
+      "text": "今天把「连接释放与 TIME_WAIT」讲清楚。先确认定义：FIN 表示一个方向不再发送并占用序号，双向关闭可分步完成；主动关闭方典型有 TIME_WAIT，具体状态依过程。 接着追踪机制：TCP 全双工连接的两个方向分别关闭，收到 FIN 只表示对方没有更多数据发送。主动关闭的一端在完成相应确认后可能进入 TIME_WAIT，等待旧报文消失并在必要时重发最后确认。",
+      "text_sha256": "9e5bfa1a1c565e7f64e43fbcf696d8c9f7eedea4f71f0d9d862d16d71ad58f3e"
+    },
+    {
+      "id": "course-cs408-net-transport-05-worked",
+      "character": "anaxa",
+      "text": "看这个例子：题设 MSL=30s，TIME_WAIT 等待多久？ 按 2MSL 模型，2×30=60s；不直接套用讲义中的示例常数。 结论是60s。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "266ee89ede50c9042ed2f09b189164a3e71f399e264f5eb921faffe476d95d32"
+    },
+    {
+      "id": "course-cs408-net-transport-05-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。题设 MSL=45s，TIME_WAIT 等待多少秒？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "05d542632f942c37bdf2b7cbe731316f596218124f3b0117cb3b80b823129bd7"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-05",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：四次挥手是常见分开发送情形，并非任何实现都必须恰好四段。2MSL 是等待时间模型，FIN 占一个序号，纯 ACK 不占。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "99a89afbe4519c053ece04dce9fda974fc3609ae9d284afff5f6ba3089806d41"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-05",
+      "character": "castor",
+      "text": "请保留适用条件。四次挥手是常见分开发送情形，并非任何实现都必须恰好四段。2MSL 是等待时间模型，FIN 占一个序号，纯 ACK 不占。",
+      "text_sha256": "9fbd72c6d68f941057959172dddfd3fbeb3a4ab70e089cb63b411cd09758e584"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-05",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：题设 MSL=30s，TIME_WAIT 等待多久？ 按 2MSL 模型，2×30=60s；不直接套用讲义中的示例常数。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "6d18ff95f55742c69b0871f86b4edce9d88a18ea15d2fc223793ac714c8eebcf"
+    },
+    {
+      "id": "course-cs408-net-transport-06-textbook",
+      "character": "anaxa",
+      "text": "今天把「重传、RTT 与计时器」讲清楚。先确认定义：TCP 依据 RTT 估计和变化设置超时，累积确认与快速重传等处理丢失；重复 ACK 并不等同每次都立刻超时。 接着追踪机制：重传时间过短会造成无谓重传，过长会使丢失恢复迟缓。TCP 用平滑 RTT 与 RTT 波动估计 RTO，重传超时还会退避；对有重传歧义的样本应谨慎使用。 例如旧 SRTT=100ms、旧 RTTVAR=10ms，新样本140ms，α=1/8、β=1/4：先用旧 SRTT 算 RTTVAR=17.5ms，再更新 SRTT=105ms。若题设忽略粒度及协议下界，计算式为105+4×17.5=175ms；实际 RFC 6298 还要求处理 RTO 下界，不能把此简化值直接当完整实现。",
+      "text_sha256": "82e129825eb45b1731fd53c0534dc0117bd0341e9ec562edff77bc226241b7b7"
+    },
+    {
+      "id": "course-cs408-net-transport-06-worked",
+      "character": "anaxa",
+      "text": "看这个例子：旧 SRTT=100ms，样本=180ms，α=1/8，新 SRTT 多少 ms？ 7/8×100+1/8×180=110ms。这里只计算平滑估计，未据此直接省略偏差。 结论是110ms。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "26c9a239abef1453ca9a05de7eb74dd135f5c62bc22aa46cf22e26d63e5592f8"
+    },
+    {
+      "id": "course-cs408-net-transport-06-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。旧 SRTT=100ms，样本=140ms，α=1/8，新 SRTT 多少 ms？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "938ddee0c4315a96a4942f275898fdf0b8e46e54ab71332584f2f7ac420011ae"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-06",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：RFC 6298 更新偏差时要使用更新前的平滑 RTT。真实协议还含计时粒度与下界；简化考试题若明确忽略下界，按题设计算并说明。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "5e7c61253188090eee8525d57b2ffe38242d0bc2ac358c14498d5242c7a86f2f"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-06",
+      "character": "castor",
+      "text": "请保留适用条件。RFC 6298 更新偏差时要使用更新前的平滑 RTT。真实协议还含计时粒度与下界；简化考试题若明确忽略下界，按题设计算并说明。",
+      "text_sha256": "b4958a05bda0f387a35a8dda1fbf5804424c229e6ddaeba38eba37477a49e75e"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-06",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：旧 SRTT=100ms，样本=180ms，α=1/8，新 SRTT 多少 ms？ 7/8×100+1/8×180=110ms。这里只计算平滑估计，未据此直接省略偏差。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "ad484d9db377ca7886bf099fcbb2b0918efb2ab6a4667a9ee810463135e5699f"
+    },
+    {
+      "id": "course-cs408-net-transport-07-textbook",
+      "character": "anaxa",
+      "text": "今天把「接收窗口与流量控制」讲清楚。先确认定义：接收窗口 rwnd 限制接收方缓存承受量，零窗口探测等机制避免双方永远等待；发送还受拥塞窗口限制。 接着追踪机制：接收方用通告窗口 rwnd 表示自己还能接纳的范围，使发送方不会压垮接收缓存。已发送而未确认的数据占用发送窗口空间；窗口为零时需要探测机制避免双方永远等待。",
+      "text_sha256": "e7eaac384e378885d1233bdd7d6ea5fa8d5767fa17c979de973da6790becb746"
+    },
+    {
+      "id": "course-cs408-net-transport-07-worked",
+      "character": "anaxa",
+      "text": "看这个例子：仅考虑 rwnd=5000B，已有 3000B 未确认，还能新增发送多少 B？ 窗口中 3000B 已被占用，剩余 5000−3000=2000B。 结论是2000B。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "d57192305e5affe3b7a24d6e2a9b3179beffb6a2829aaa9bba8d95ef1d8a3805"
+    },
+    {
+      "id": "course-cs408-net-transport-07-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。rwnd=6000B，已有 2500B 未确认，按同样假设还能新增多少 B？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "669291d9564553158e21fc7e11887d8e6d7bef5d52dfef40b329e7d2226d4290"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-07",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：流量控制关注接收方承受能力，拥塞控制关注网络。窗口数值随报文到达而有延迟，并不是两端每时每刻看到的值都完全同步。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "96625a18910b64343fd57fd280326778b83fa84b741c675539f6ac55f0c497bb"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-07",
+      "character": "castor",
+      "text": "请保留适用条件。流量控制关注接收方承受能力，拥塞控制关注网络。窗口数值随报文到达而有延迟，并不是两端每时每刻看到的值都完全同步。",
+      "text_sha256": "abdd0744e064252176a3b00285bcfe834cff22eb0b63fab230c5a7a655289092"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-07",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：仅考虑 rwnd=5000B，已有 3000B 未确认，还能新增发送多少 B？ 窗口中 3000B 已被占用，剩余 5000−3000=2000B。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "39ebf6dc0c1ab2ce26d2b1dada4c6a48697842bc2db30e98429ef4fc6b13bddb"
+    },
+    {
+      "id": "course-cs408-net-transport-08-textbook",
+      "character": "anaxa",
+      "text": "今天把「拥塞控制与窗口约束」讲清楚。先确认定义：拥塞控制保护网络，流量控制保护接收者；可发送量还需减去已在途但未确认的数据，不只是取两个窗口的最小值。 接着追踪机制：发送窗口同时受接收能力与网络拥塞约束，常用模型取 min(rwnd,cwnd)。cwnd 由发送方按拥塞信号调整，rwnd 由接收方通告。可继续注入的数据还要扣除已在途的字节。",
+      "text_sha256": "56667b6fbd684ec360eefb7f8357936b85b099139daa36f3b246b328953de473"
+    },
+    {
+      "id": "course-cs408-net-transport-08-worked",
+      "character": "anaxa",
+      "text": "看这个例子：rwnd=8KB，cwnd=5KB，已有 3KB 在途，最多还能新增多少 KB？ 有效窗口为 5KB，扣除在途 3KB 后剩 2KB。 结论是2KB。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "063cabe85322883e06ccafa8b4958fdc38be631a30d8d314a3817bf09f1e9db5"
+    },
+    {
+      "id": "course-cs408-net-transport-08-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。rwnd=10KB，cwnd=6KB，已有 4KB 在途，还能新增多少 KB？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "f596d5160c7704d9ba14422f676e5cce2ad2d6736587bf0a116f67c3b30699de"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-08",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：只取两个窗口较大值会违反更严格的限制。比较前统一单位：题目可能以 MSS 数描述 cwnd，却以字节描述 rwnd。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "0c3ba06abb965f3570d0057d77a3573237cf6c412ee694081685725128e4b3db"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-08",
+      "character": "castor",
+      "text": "请保留适用条件。只取两个窗口较大值会违反更严格的限制。比较前统一单位：题目可能以 MSS 数描述 cwnd，却以字节描述 rwnd。",
+      "text_sha256": "93f05314b3a5270f34414e9825304eb40fdfb15e855f3c74f0b4eebe0d78ab52"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-08",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：rwnd=8KB，cwnd=5KB，已有 3KB 在途，最多还能新增多少 KB？ 有效窗口为 5KB，扣除在途 3KB 后剩 2KB。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "4602823dbdfc0bddbb5493a6da582691cb91c40c13fde5675ce058f3faf07d5b"
+    },
+    {
+      "id": "course-cs408-net-transport-09-textbook",
+      "character": "anaxa",
+      "text": "今天把「慢开始、拥塞避免与快速恢复」讲清楚。先确认定义：窗口增长与丢包后的调整依算法及事件类型，超时与重复 ACK 可能有不同处理；按题设注明 Tahoe、Reno 等约定。 接着追踪机制：慢开始在无丢失且确认及时的简化轮次模型中每轮近似翻倍；到阈值后拥塞避免近似每轮加一 MSS。超时与三个重复 ACK 是不同信号，在常见 Reno 教学模型中触发不同恢复过程。",
+      "text_sha256": "240d4b48215100eccdcd5a91ccdcaa286f130e6cd258d6f01a4ef6c8a6875d87"
+    },
+    {
+      "id": "course-cs408-net-transport-09-worked",
+      "character": "anaxa",
+      "text": "看这个例子：初始 cwnd=1MSS，连续三轮均处于慢开始并成功，第三轮结束后 cwnd 为多少 MSS？ 从初始 1 开始，三次更新分别变为 2、4、8；阈值足够高。 结论是8MSS。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "2f000f9899f10f0eb0856f760e9db824f732ec08f9a458aa2926fa87910e9d26"
+    },
+    {
+      "id": "course-cs408-net-transport-09-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。初始 cwnd=2MSS，连续两轮都在慢开始并成功，结束后为多少 MSS？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "a0c1a12c58a4c58328b0fc4cfe10e8a4cfa0fb143519090b914ffbcd1c690a93"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-09",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：不要把慢开始的“慢”理解成窗口线性增长。算法版本、阈值边界和收到重复 ACK 后的瞬时窗口必须由题干明确，不能一套数字通吃所有 TCP。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "bf69f52adb183fd9d219473d7553b94cd738229e1abba9b9516e694ae3842e52"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-09",
+      "character": "castor",
+      "text": "请保留适用条件。不要把慢开始的“慢”理解成窗口线性增长。算法版本、阈值边界和收到重复 ACK 后的瞬时窗口必须由题干明确，不能一套数字通吃所有 TCP。",
+      "text_sha256": "b5b3466577c9bc446b0ec6c68f9c8f80a1e4cacb7674e26dad985c25617411a7"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-09",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：初始 cwnd=1MSS，连续三轮均处于慢开始并成功，第三轮结束后 cwnd 为多少 MSS？ 从初始 1 开始，三次更新分别变为 2、4、8；阈值足够高。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "cb2e844a19f9a96ff5fe14ad6515b3d371a8e4a526477d7502313c1b7e0b7de7"
+    },
+    {
+      "id": "course-cs408-net-transport-10-textbook",
+      "character": "anaxa",
+      "text": "今天把「TCP 吞吐与端到端追踪」讲清楚。先确认定义：吞吐受窗口、RTT、瓶颈速率及丢包等限制，理想窗口/RTT 估计必须检查单位与假设。 接着追踪机制：窗口受限、链路不拥塞且 ACK 正常时，平均吞吐可近似为窗口字节数除以 RTT；还不能超过瓶颈链路容量。一次业务访问跨越解析、建连和数据传输多个阶段，性能分析要区分冷启动与稳态。",
+      "text_sha256": "37783389d86732b49066a217901cf01d405dcc68708980e83ddc338d6e056401"
+    },
+    {
+      "id": "course-cs408-net-transport-10-worked",
+      "character": "anaxa",
+      "text": "看这个例子：有效窗口 20000B，RTT=0.1s，忽略其他限制，吞吐约多少 B/s？ 20000/0.1=200000B/s，换为比特率是 1.6Mb/s。 结论是200000B/s。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "22f6b73437e840ea36974e8b0427661321cdd7c7ea36dceefe04d8542792095d"
+    },
+    {
+      "id": "course-cs408-net-transport-10-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。有效窗口 30000B，RTT=0.2s，按同模型吞吐多少 B/s？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "97cf32782bef32c8ac55712a1fa0c3fe5067eddd4eeed6e4c5c12388d2c8c0fd"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-transport-10",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：W/RTT 是在特定模型下的近似，不是所有短连接精确完成时间。算出 B/s 后如需 bit/s，仍要乘八；窗口字段扩展等细节按题设处理。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "c9690f914628231fb15aafc621370c305cddb877d439593df5ec55453cbfe148"
+    },
+    {
+      "id": "course-side-castor-cs408-net-transport-10",
+      "character": "castor",
+      "text": "请保留适用条件。W/RTT 是在特定模型下的近似，不是所有短连接精确完成时间。算出 B/s 后如需 bit/s，仍要乘八；窗口字段扩展等细节按题设处理。",
+      "text_sha256": "c8ba73dbfe5ce52d3f782d465f2f807ea9f547466c264294367e3199c82ec1bb"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-transport-10",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：有效窗口 20000B，RTT=0.1s，忽略其他限制，吞吐约多少 B/s？ 20000/0.1=200000B/s，换为比特率是 1.6Mb/s。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "10bb3fcf101c84fc65985babc8656c70bb6fc75ea4406be9eb50301e763a45f9"
+    },
+    {
+      "id": "course-cs408-net-application-01-textbook",
+      "character": "anaxa",
+      "text": "今天把「客户服务器与 P2P」讲清楚。先确认定义：客户服务器与对等模式按服务组织方式区分；P2P 可让多个节点贡献上传能力，但发现、管理和实际性能仍有约束。 接着追踪机制：客户与服务器描述同一次通信中的请求方和服务提供方，不是固定的硬件等级。P2P 中节点可同时向别人取资源并提供资源，减轻单一服务器压力，但也要面对发现、协调、在线状态等问题。",
+      "text_sha256": "71b2d14bc044d48872b814ebd0c647193bfe6d2e8089ceb2a1ca9f1e2c23a1ec"
+    },
+    {
+      "id": "course-cs408-net-application-01-worked",
+      "character": "anaxa",
+      "text": "看这个例子：某节点下载一个分片，同时上传自己已有分片，体现哪种应用组织方式？ 同一节点兼任请求者与提供者，是对等分发的典型行为。 结论是P2P。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "cd5da665b979e782a5aa90bd33e1eb777b0008762a0bf590f6e72d4b668db4ce"
+    },
+    {
+      "id": "course-cs408-net-application-01-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。浏览器向网站服务进程请求页面，这次交互属于 C/S 还是 P2P？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "8bdfc81a9589b1a3685814354b992c4d2a17ee6f13e264b615ac8d56b2285713"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-application-01",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：P2P 不等于完全没有任何集中组件；客户程序所在机器也可能同时运行服务器进程。分类要先指出具体应用与交互。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "f1d080c6e303e55c039db43f2765c24b4f749ac6048a43629e5b13ade8acbd23"
+    },
+    {
+      "id": "course-side-castor-cs408-net-application-01",
+      "character": "castor",
+      "text": "请保留适用条件。P2P 不等于完全没有任何集中组件；客户程序所在机器也可能同时运行服务器进程。分类要先指出具体应用与交互。",
+      "text_sha256": "f3b0fa1d220cdf4cafc9ee61355a012a1b40c624ff8cde8582fcbf9909a0b026"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-application-01",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：某节点下载一个分片，同时上传自己已有分片，体现哪种应用组织方式？ 同一节点兼任请求者与提供者，是对等分发的典型行为。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "65963373874b8f8457d384b3f5d76852fd96a671de924ef3b73af7d3b262233d"
+    },
+    {
+      "id": "course-cs408-net-application-02-textbook",
+      "character": "anaxa",
+      "text": "今天把「DNS 层次与解析」讲清楚。先确认定义：DNS 是分布式命名系统，根、顶级、权威等层次分工，递归与迭代查询不同；缓存受 TTL 等规则约束。 接着追踪机制：DNS 将分层域名映射到资源记录。主机通常向本地域名解析器请求递归服务，解析器可以逐级向根、顶级域、权威服务器迭代查询，并按 TTL 缓存结果。查询方式要看每一段的请求者是谁。",
+      "text_sha256": "1311616b981e028275db114da30538eda411710cc0b347dbbaa3be49679d8854"
+    },
+    {
+      "id": "course-cs408-net-application-02-worked",
+      "character": "anaxa",
+      "text": "看这个例子：无缓存，解析器按根→顶级→权威查询，向这三类服务器共发几个查询？ 这里只数解析器发出的三次逐级查询，不把主机到本地解析器的一次请求算进去。 结论是3个。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "8e9a1f0b5a8fb55a827708a0e6ac90a23959ab8c2b1084632f632ca22969789d"
+    },
+    {
+      "id": "course-cs408-net-application-02-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。沿用例题，若把主机向本地解析器的请求也计入，共多少次请求？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "8eb0c92d8a0b6bb453b9d0414bd50b088fc39b0500bacbfc4f2b39bc877b793d"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-application-02",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：DNS 解析不是一定从根开始，缓存会减少查询。DNS 可用 UDP 或 TCP，不能因为常见短查询用 UDP 就断言它永远不用 TCP。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "e599ddf4daa8d9ccf79d4c18134b521623b342860fa34bf2dfe42e97050d5e2c"
+    },
+    {
+      "id": "course-side-castor-cs408-net-application-02",
+      "character": "castor",
+      "text": "请保留适用条件。DNS 解析不是一定从根开始，缓存会减少查询。DNS 可用 UDP 或 TCP，不能因为常见短查询用 UDP 就断言它永远不用 TCP。",
+      "text_sha256": "5054d3cb560700e5d8f21b15b429e085434c9da8dc51c781781b6ad2294f7e41"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-application-02",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：无缓存，解析器按根→顶级→权威查询，向这三类服务器共发几个查询？ 这里只数解析器发出的三次逐级查询，不把主机到本地解析器的一次请求算进去。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "ef3010ab83f9e67ecafd08ec0912ced96c800136a59cf845be2b81bbb6534ea3"
+    },
+    {
+      "id": "course-cs408-net-application-03-textbook",
+      "character": "anaxa",
+      "text": "今天把「FTP 的控制与数据连接」讲清楚。先确认定义：FTP 区分控制与数据连接，主动和被动方式影响建立方向；经典明文 FTP 不自动提供保密性。 接着追踪机制：FTP 用控制连接传递命令，再通过数据连接传文件或目录内容。控制连接通常贯穿会话，数据连接按传输任务建立。主动与被动模式改变数据连接的建立方向及端口选择。",
+      "text_sha256": "7c832aa91227c5d31b6d6fa0e5c9fa845f4be8233f032a7eccb2feaeb4e792f5"
+    },
+    {
+      "id": "course-cs408-net-application-03-worked",
+      "character": "anaxa",
+      "text": "看这个例子：一个 FTP 会话保留一条控制连接，某时正在进行一条数据连接的传输，此时至少有几条 TCP 连接？ 一条传控制命令，另一条传数据，功能分离但可同时存在。 结论是2条。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "f6590ddc641374d1541bd88b2b9bc6eede587b89989c1e6c76d622b016000a0d"
+    },
+    {
+      "id": "course-cs408-net-application-03-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。FTP 默认控制连接的服务器端口号是多少？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "5adf2cdff51aa22f2e0bbcc6ec1fb20a346a103a50ffd068dca415b5c03dc4ac"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-application-03",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：不能把所有 FTP 数据连接都认定为服务器端口 20。被动模式由服务器通告数据端口并等待客户端连接；21 是常见控制端口。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "3235a1d21571f6d114f98ebf4d3af08dd327551a4f9e882a6f06f26193b82824"
+    },
+    {
+      "id": "course-side-castor-cs408-net-application-03",
+      "character": "castor",
+      "text": "请保留适用条件。不能把所有 FTP 数据连接都认定为服务器端口 20。被动模式由服务器通告数据端口并等待客户端连接；21 是常见控制端口。",
+      "text_sha256": "db9341c407f7b9c6b03c8ecfec248f0539f7c83e8a7347c0ccc651ea19679c34"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-application-03",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：一个 FTP 会话保留一条控制连接，某时正在进行一条数据连接的传输，此时至少有几条 TCP 连接？ 一条传控制命令，另一条传数据，功能分离但可同时存在。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "6a1437b7c50aef69b2a98fb54d3331f0d2fc1533004a18daa02ac49e79fdc169"
+    },
+    {
+      "id": "course-cs408-net-application-04-textbook",
+      "character": "anaxa",
+      "text": "今天把「电子邮件与 MIME」讲清楚。先确认定义：SMTP 负责邮件提交或传送，POP3、IMAP 用于访问邮箱，MIME 扩展内容格式；邮件路径不等同浏览器取网页。 接着追踪机制：电子邮件通常先由客户端提交到邮件服务器，再由服务器间 SMTP 转发，收件人用 POP3、IMAP 或相应应用方式读取。MIME 描述内容类型和编码，使非纯 ASCII 内容能通过邮件体系传送。 基础协议端口辨析：SMTP 服务器间传送常用 TCP25，POP3 常用 TCP110，IMAP 常用 TCP143。这是协议识别的基础值；加密与提交服务存在其他端口，不应把基础考试示意当作所有实际部署。",
+      "text_sha256": "0cb1fbbf72ceb627590b87802f44076da78cfd4bb0fe5d77e2d9e0dce6e72884"
+    },
+    {
+      "id": "course-cs408-net-application-04-worked",
+      "character": "anaxa",
+      "text": "看这个例子：两台邮件服务器之间转发邮件，最对应的协议缩写是什么？ SMTP 用于邮件提交与转发；收件人的读取是另一段交互。 结论是SMTP。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "7c2ebe7d111d80e9f5f39ee5d59f663838185da4c496cc008992a529a486a340"
+    },
+    {
+      "id": "course-cs408-net-application-04-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。用来描述邮件多种媒体内容与编码的扩展规范缩写是什么？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "9c9bd556ed31f424ac67a1cc96bc982ded9bf14a58e6446353f86fda94565f2a"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-application-04",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：MIME 不是另一种替代 TCP 的运输协议。SMTP 负责提交或转发，不承担 POP3 式读取；网页邮箱还会通过 HTTP(S) 与浏览器交互。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "f940dd7e683521db06ba7cfb71f90142c38ae3ef94157466f135dcd175f934cb"
+    },
+    {
+      "id": "course-side-castor-cs408-net-application-04",
+      "character": "castor",
+      "text": "请保留适用条件。MIME 不是另一种替代 TCP 的运输协议。SMTP 负责提交或转发，不承担 POP3 式读取；网页邮箱还会通过 HTTP(S) 与浏览器交互。",
+      "text_sha256": "c9b1476ec851c24245fc71eb93b85a87d7a711ba3949d535981df86a806ccbb2"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-application-04",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：两台邮件服务器之间转发邮件，最对应的协议缩写是什么？ SMTP 用于邮件提交与转发；收件人的读取是另一段交互。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "726135d92a238ae5b10b02dad83ed6a7a1b1c0388204f503436c788a5cf3de02"
+    },
+    {
+      "id": "course-cs408-net-application-05-textbook",
+      "character": "anaxa",
+      "text": "今天把「HTTP、持久连接与状态」讲清楚。先确认定义：HTTP 按请求响应交换资源，连接复用与并行策略依版本；无状态语义不等于应用不能通过 Cookie 等维持会话。 接着追踪机制：HTTP 以请求与响应交换资源。HTTP/1.1 的持久连接能在一条 TCP 连接上复用多次交换，减少重复建连。无状态描述协议不自动保存连续应用会话语义，应用仍可通过 Cookie 等机制维持会话。 HTTP 请求行、首部和消息体承担不同角色，响应有状态码、首部和可选消息体。Cookie 与服务端会话协作能保存应用状态，但并没有把 HTTP 本身变成自动记忆用户上下文的协议。",
+      "text_sha256": "251ae35936600a45c125f9ec0846b6160e33a8311c2c6ed149d7030140f26424"
+    },
+    {
+      "id": "course-cs408-net-application-05-worked",
+      "character": "anaxa",
+      "text": "看这个例子：无 DNS、无 TLS、忽略对象发送时间，新建 TCP 获取单个对象的简化完成时间为几个 RTT？ 建连一轮 RTT，请求到首个响应再一轮，合计两轮；题目明确排除了其他开销。 结论是2RTT。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "ed0b3557dc40b5a53d695457352f57b9f1f02834cba5cf9bb0fa24d9dcf9feb1"
+    },
+    {
+      "id": "course-cs408-net-application-05-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。沿用例题，RTT=40ms，简化总时间为多少 ms？ 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "3e9d5c7ec9f649bf8c7d0dbeeae152912f5f39f263981afe24631804e0a167a4"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-application-05",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：持久连接不等于有状态。HTTP/2 的多路复用与 HTTP/3 的 QUIC 基础不能直接套进 HTTP/1.1 的简单时延题，解题必须先识别版本及是否流水。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "cdf8bcecfc7964ff4ab3bc2b987cc0607684295f38897fb69ec6373f23be3713"
+    },
+    {
+      "id": "course-side-castor-cs408-net-application-05",
+      "character": "castor",
+      "text": "请保留适用条件。持久连接不等于有状态。HTTP/2 的多路复用与 HTTP/3 的 QUIC 基础不能直接套进 HTTP/1.1 的简单时延题，解题必须先识别版本及是否流水。",
+      "text_sha256": "620c0edcf2e0148dd5c72c305465cbd97294ae6ab4178a5ade0fa198dffc8630"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-application-05",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：无 DNS、无 TLS、忽略对象发送时间，新建 TCP 获取单个对象的简化完成时间为几个 RTT？ 建连一轮 RTT，请求到首个响应再一轮，合计两轮；题目明确排除了其他开销。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "263dd7a49b476603e1062836b37fd101443cea82bbcfab091e44749885b748c9"
+    },
+    {
+      "id": "course-cs408-net-application-06-textbook",
+      "character": "anaxa",
+      "text": "今天把「WWW 访问的跨层过程」讲清楚。先确认定义：访问网页可涉及缓存、DNS、ARP、路由、传输连接和应用交换；实际步骤取决于地址、缓存及连接是否已存在。 接着追踪机制：访问一个网页可按“获得配置—解析名称—查路由和邻居—建立运输连接—发送应用请求”串起来。若配置、DNS、ARP 或连接已经缓存，可跳过相应步骤。逐段列出协议，比背一串固定顺序更可靠。",
+      "text_sha256": "6b185d453fdd1acf67fd382907edc299d73c594470bd0781c3b2735f4f6316fc"
+    },
+    {
+      "id": "course-cs408-net-application-06-worked",
+      "character": "anaxa",
+      "text": "看这个例子：已配好 IP，DNS 与 ARP 均命中，已有可复用 HTTP/1.1 TCP 连接，还必须重新三次握手吗？ 在连接可用且协议允许复用的条件下，可以直接在已有连接上发送请求。 结论是不需要。把适用条件带进计算，结论才有依据。",
+      "text_sha256": "0e0b24044d2ccf0a9fef7133e18d707d2271ce134e6a5cc690bd9947f5170d9b"
+    },
+    {
+      "id": "course-cs408-net-application-06-practice",
+      "character": "anaxa",
+      "text": "现在换一组条件。访问异网网站，首次 ARP 应查询本机网关还是远端网站的 MAC？只填“网关”或“远端”。 先独立推演，再检验结果；需要提示时请风堇协助。",
+      "text_sha256": "10a27c0e1ad004c8782d4f34a8913171d832ab9d65551ef32707d37ffc90b45c"
+    },
+    {
+      "id": "course-side-hyacine-cs408-net-application-06",
+      "character": "hyacine",
+      "text": "我把容易混淆的边界写在旁边：异网访问时 ARP 解析本地网关，不广播寻找远端服务器；HTTP 的运行协议及加密握手依版本而变。不能默认所有缓存都命中或都为空。 做题前先检查这一条，慢一点也没关系。",
+      "text_sha256": "75f45204dc5873b4c304dcbef94dd724680425304230810ff6c08412366640b7"
+    },
+    {
+      "id": "course-side-castor-cs408-net-application-06",
+      "character": "castor",
+      "text": "请保留适用条件。异网访问时 ARP 解析本地网关，不广播寻找远端服务器；HTTP 的运行协议及加密握手依版本而变。不能默认所有缓存都命中或都为空。",
+      "text_sha256": "9da14f9e78bfc27f8fbdde3eb831a85bcf8c41012667835362e1aa34209546d1"
+    },
+    {
+      "id": "course-side-phainon-cs408-net-application-06",
+      "character": "phainon",
+      "text": "我试着从例子走一遍：已配好 IP，DNS 与 ARP 均命中，已有可复用 HTTP/1.1 TCP 连接，还必须重新三次握手吗？ 在连接可用且协议允许复用的条件下，可以直接在已有连接上发送请求。 换一组条件再算，才知道自己有没有跟上。",
+      "text_sha256": "7e706917a7dd918238d315bdbc6444a9ebd7b7bc5d805a79e40eba0fc7584783"
+    }
+  ]
+}

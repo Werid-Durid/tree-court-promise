@@ -1,0 +1,2184 @@
+{
+  "checked_date": "2026-10-21",
+  "ranking_verified": false,
+  "sources": [
+    {
+      "id": "ossu",
+      "title": "OSSU 公开计算机科学课程路径",
+      "url": "https://raw.githubusercontent.com/ossu/computer-science/master/README.md",
+      "license": "MIT（仓库内容；外链课程分别遵循各自许可）",
+      "checked_at": "2026-10-19T13:13:02.508385+00:00",
+      "status": "downloaded",
+      "file": "data/references/ossu-readme.md",
+      "bytes": 29250,
+      "sha256": "b76e47cf8340e743746b968772a24de90ac33893aeb3b3e7e116067f915e073f"
+    },
+    {
+      "id": "oewn-license",
+      "title": "Open English WordNet 许可与署名",
+      "url": "https://raw.githubusercontent.com/globalwordnet/english-wordnet/main/LICENSE.md",
+      "license": "CC BY 4.0 + Princeton WordNet attribution",
+      "checked_at": "2026-10-19T13:13:04.795197+00:00",
+      "status": "downloaded",
+      "file": "data/references/oewn-license.md",
+      "bytes": 19863,
+      "sha256": "672cc8b5663e8dc74c4b07a9dcf477193853575b119908fd3dc0aeeb60a9dbbb"
+    },
+    {
+      "id": "oewn",
+      "title": "Open English WordNet A 开头词条原始数据",
+      "url": "https://raw.githubusercontent.com/globalwordnet/english-wordnet/main/src/yaml/entries-a.yaml",
+      "license": "CC BY 4.0；归属 Princeton WordNet 与 Open English WordNet 团队",
+      "checked_at": "2026-10-19T13:13:06.328544+00:00",
+      "status": "downloaded",
+      "file": "data/references/oewn-entries-a.yaml",
+      "bytes": 1595626,
+      "sha256": "4fd3b79bce03ce13f1428a5b5166710b8d6f2d2de56d675a4a88a65f8afc539f"
+    },
+    {
+      "id": "bili-click",
+      "title": "B站四级教学：最多播放候选",
+      "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E8%8B%B1%E8%AF%AD%E5%9B%9B%E7%BA%A7+%E8%AF%8D%E6%B1%87+%E6%95%99%E5%AD%A6&order=click&page=1",
+      "license": "仅索引元数据，不下载视频／付费课",
+      "checked_at": "2026-10-19T13:13:11.772586+00:00",
+      "status": "downloaded",
+      "file": "data/references/bili-click.json",
+      "bytes": 33760,
+      "sha256": "cd03ab7ffffe7dbe899cdd888984e5dbd6c78d1eb51aca8e974c0bdc365c7e1d"
+    },
+    {
+      "id": "bili-pubdate",
+      "title": "B站四级教学：最新发布候选",
+      "url": "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=%E8%8B%B1%E8%AF%AD%E5%9B%9B%E7%BA%A7+%E8%AF%8D%E6%B1%87+%E6%95%99%E5%AD%A6&order=pubdate&page=1",
+      "license": "仅索引元数据，不下载视频／付费课",
+      "checked_at": "2026-10-19T13:13:12.109203+00:00",
+      "status": "unavailable",
+      "error": "HTTP Error 412: Precondition Failed"
+    },
+    {
+      "id": "bili-cet4-research",
+      "title": "四级词汇教学检索候选：每日核心词汇速通",
+      "url": "https://www.bilibili.com/video/BV1EpV36PEsX/",
+      "status": "search_index_only",
+      "note": "检索到四个月前发布的候选；详情页未取得，未核实作者、当前播放量或全站排名。未抽取讲稿。"
+    },
+    {
+      "id": "bili-calculus",
+      "title": "高等数学 2.0 课程候选",
+      "url": "https://www.bilibili.com/video/BV1CAxaeHEeH/",
+      "status": "search_index_only",
+      "note": "检索索引显示高播放量；详情请求返回 412，不能宣称当前最新或全站最高。未抽取讲稿。"
+    },
+    {
+      "id": "mit-calculus",
+      "title": "MIT OCW 单变量微积分课程",
+      "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+      "status": "page_verified",
+      "note": "公开课程结构参考；当前四级章节未引用其数学内容。"
+    },
+    {
+      "id": "xiaohongshu",
+      "title": "小红书四级词汇方法检索",
+      "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9B%9B%E7%BA%A7%E8%AF%8D%E6%B1%87",
+      "status": "unavailable",
+      "note": "公开检索未取得可核验正文；未绕过登录，未将未知笔记编入课程。"
+    },
+    {
+      "id": "original-cet4",
+      "title": "树庭四级首章原创教学脚本",
+      "status": "original",
+      "note": "生活图景→概念边界→语境例句→主动回忆；不宣称复刻任何授课视频或已完整观看视频。"
+    },
+    {
+      "id": "original-cet4-v2",
+      "title": "树庭四级开放微课 · 66 个知识点",
+      "status": "original",
+      "note": "六个板块、七个可选小章。例句、线索、迁移题和角色对白为本项目原创；不是完整课程逐字稿或历年真题。"
+    },
+    {
+      "id": "bili-course-2026",
+      "title": "2026年12月刘晓燕四级全程班（用户指定合集）",
+      "url": "https://www.bilibili.com/video/BV1u8pb6REzY/",
+      "status": "sample_verified",
+      "note": "页面包含 54 集；已核实六类板块目录，抽查 Unit 1 约 07:27 的先认词再回语境方法、约 23:56 的 space/spacious 与房间面积联想。其余 64 个知识点为原创整理，未逐集提炼整套课程；上传者不视作已验证官方账号。"
+    },
+    {
+      "id": "anaxa-gameplay-v2",
+      "title": "那刻夏实机演示",
+      "url": "https://www.bilibili.com/video/BV1fLGvzGEbQ/",
+      "status": "sample_verified",
+      "note": "用户指定动作参考。抽查角色展示及场内待机；课堂步态为本项目原骨架 IK 编排，并非官方动作提取。"
+    },
+    {
+      "id": "anaxa-study-v2",
+      "title": "那刻夏自习室 · LILI-D",
+      "url": "https://www.bilibili.com/video/BV1jiN86ZEXU/",
+      "status": "sample_verified",
+      "note": "抽查约 10:07：暖色侧窗光、木质桌案、黑板、书本与稳定远景。用于课堂氛围方向；未复制作者音频与音乐。"
+    },
+    {
+      "id": "mmd-anaxa-v2",
+      "title": "疑心暗鬼 · 那刻夏 · 千月其一",
+      "url": "https://www.bilibili.com/video/BV1HDvoBEEuv/",
+      "status": "sample_verified",
+      "note": "已查看页面借物表与播放画面：偏冷轮廓光、简化面部阴影、手势与视线配合。课堂采用克制表情，未移植舞蹈动作。"
+    },
+    {
+      "id": "mmd-hyacine-v2",
+      "title": "守护最好的风宝 · 我是酸梅我不酸",
+      "url": "https://www.bilibili.com/video/BV17WjnzLEjo/",
+      "status": "sample_verified",
+      "note": "约 01:30 抽帧：柔亮肤色、清晰发色层次、披带随转身延迟。课堂采用较柔和眨眼与回应幅度；尚未加入披带动力学。"
+    },
+    {
+      "id": "mmd-castor-v2",
+      "title": "我的悲伤是水做的 · 吾辈是黑猫怪盗",
+      "url": "https://www.bilibili.com/video/BV1Vr3qzgEmL/",
+      "status": "sample_verified",
+      "note": "约 00:32 抽帧：浅紫白配色、正面留白与收拢手势。课堂采用较低嘴型幅度和较慢眨眼，保持寡言同学角色。"
+    },
+    {
+      "id": "mmd-phainon-v2",
+      "title": "致卡厄斯兰那 · 留守人 · 蓝蝶梦AnnieWisteria",
+      "url": "https://www.bilibili.com/video/BV1KytozoEXM/",
+      "status": "sample_verified",
+      "note": "约 02:09 抽帧及作者制作说明：暖色背景、清晰金属与布料区分；作者说明涉及逐帧修动作、物理烘焙、景深和音频口型。课堂仅参考表现原则，未复制模型改造、动作或视频片段。"
+    },
+    {
+      "id": "cs408-outline-2027",
+      "title": "2027 全国硕士研究生招生考试计算机学科专业基础考试大纲 · 高等教育出版社",
+      "url": "https://www.hep.com.cn/book/show/2099763850751057921",
+      "status": "metadata_verified",
+      "note": "教育部教育考试院编，ISBN 978-7-04-068451-3，出版日期 2026-09-29。仅出版元数据可核实，未取得完整正文，不宣称逐条核验完成。"
+    },
+    {
+      "id": "cs408-hep-analysis",
+      "title": "全国硕士研究生招生考试计算机学科专业基础考试大纲解析 · 高教社公开目录",
+      "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=68b8764ae119ac9729e8a8bc",
+      "status": "catalog_only",
+      "note": "2025-10-15 出版的解析书，公开目录作为基础知识组织参照，不冒充 2027 大纲正文。"
+    },
+    {
+      "id": "cs408-co-season",
+      "title": "用户指定：计算机组成原理微课堂合集",
+      "url": "https://space.bilibili.com/360996402/lists/2199556?type=season",
+      "status": "catalog_only",
+      "note": "合集页直读未成功；同作者公开课程页 BV1qG41197E4 的简介及部分目录可核对。借鉴短讲、形象过程推演；无字幕逐字转写，未核实合集全部成员。"
+    },
+    {
+      "id": "cs408-net-season",
+      "title": "用户指定：计算机网络课程合集",
+      "url": "https://space.bilibili.com/360996402/lists/6564646?type=season",
+      "status": "catalog_only",
+      "note": "合集页直读未成功；同作者 408 网络强化复习公开分集目录可检索。保留用户指定入口，不宣称完整观看或精确逐集映射。"
+    },
+    {
+      "id": "cs408-co-public",
+      "title": "湖科大教书匠 · 计算机组成原理微课堂公开课程页",
+      "url": "https://www.bilibili.com/video/BV1qG41197E4/",
+      "status": "catalog_only",
+      "note": "核对公开简介和分集标题。课程例题与角色对白由本项目原创，不转载视频、讲义或配音。"
+    },
+    {
+      "id": "cs408-net-public",
+      "title": "湖科大教书匠 · 408 计算机网络强化复习公开目录",
+      "url": "https://www.bilibili.com/video/BV1XHs3zPEuW/",
+      "status": "catalog_only",
+      "note": "公开检索目录包含性能、分层、物理、链路、路由、TCP 与应用层。具体板书、动画、逐句讲法未核实。"
+    },
+    {
+      "id": "cs408-ostep",
+      "title": "OSTEP · 操作系统作者公开教材",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "status": "page_verified",
+      "note": "作者公开资源作为机制核对与后续深入阅读入口，不将其范围当作 408 官方考纲。"
+    },
+    {
+      "id": "cs408-mit",
+      "title": "MIT 6.006 · 算法公开课程",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+      "status": "page_verified",
+      "note": "用于算法学习资源与概念复核入口，题目、案例和中文台词为原创。"
+    },
+    {
+      "id": "cs408-rfc-tcp",
+      "title": "RFC 9293 · TCP 标准",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293",
+      "status": "page_verified",
+      "note": "TCP 协议机制的原始规范；考场算法和计时模型仍以题干约定为准。"
+    },
+    {
+      "id": "cs408-rfc-ip",
+      "title": "RFC 791 · IPv4 基础规范",
+      "url": "https://www.rfc-editor.org/rfc/rfc791",
+      "status": "page_verified",
+      "note": "IPv4 基础规范存在后续更新，课程不把历史文本视为全部现行实现。"
+    },
+    {
+      "id": "network-handout-hugong",
+      "title": "用户提供：计算机网络讲义全-湖工",
+      "url": "/api/network-handout/info",
+      "status": "local_slides_reviewed",
+      "note": "图片型 PPT，目录索引及选定汇总/过程页离线 OCR 与图像核对，未声称逐字识别全部页"
+    },
+    {
+      "id": "cet4-core-user-pdf",
+      "title": "用户指定：英语四级核心词 · 38页PDF",
+      "status": "local_ocr_imported",
+      "note": "导入2327个词条，10个Unit；双栏定位与离线OCR，低置信度结果已对照原图修正，整本未逐词人工审定。"
+    },
+    {
+      "id": "calculus-bili-BV1TptPeQEsW",
+      "title": "一高数 · 【大学衔接】20min速成\"取整函数[x]\"！解密数列极限定义题N=[1/ε]的真相",
+      "url": "https://www.bilibili.com/video/BV1TptPeQEsW/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1uz421q7e8",
+      "title": "一高数 · 【大学衔接】高中没咋讲，大学默认会的反三角函数，一个视频学懂！|高数上",
+      "url": "https://www.bilibili.com/video/BV1uz421q7e8/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1fpxLeYEmX",
+      "title": "一高数 · 数列极限学懵了？万能模板来了！30min从入门到精通 |高数上",
+      "url": "https://www.bilibili.com/video/BV1fpxLeYEmX/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1xhmnYFEir",
+      "title": "一高数 · 函数极限没学懂？万能模板又来了！40min从入门到精通！ |高数上",
+      "url": "https://www.bilibili.com/video/BV1xhmnYFEir/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1mCn36NEoN",
+      "title": "一高数 · 无穷小、无穷大与无界分不清？40min从入门到上天！|高数上",
+      "url": "https://www.bilibili.com/video/BV1mCn36NEoN/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Fb4y1V7Bg",
+      "title": "一高数 · 期末救急速讲 | 求极限题型与方法一课通",
+      "url": "https://www.bilibili.com/video/BV1Fb4y1V7Bg/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1eg1KY8EGw",
+      "title": "一高数 · 用\"夹逼定理\"求数列极限，看这一个视频就够！|高数上",
+      "url": "https://www.bilibili.com/video/BV1eg1KY8EGw/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Y2DGYoEEw",
+      "title": "一高数 · \"导数定义\"不会做题？50min从入门到精通！ |高数上",
+      "url": "https://www.bilibili.com/video/BV1Y2DGYoEEw/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV18SmZYrEPA",
+      "title": "一高数 · 「微分中值定理」保姆级教程！8道题搞定！干货密集，不看后悔 | 高数上",
+      "url": "https://www.bilibili.com/video/BV18SmZYrEPA/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV12G411U7tD",
+      "title": "一高数 · 泰勒公式：知识一站式讲解",
+      "url": "https://www.bilibili.com/video/BV12G411U7tD/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV14C4y127xd",
+      "title": "一高数 · 泰勒公式：核心考点",
+      "url": "https://www.bilibili.com/video/BV14C4y127xd/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1su4y1L7Vn",
+      "title": "一高数 · 不定积分一课通！",
+      "url": "https://www.bilibili.com/video/BV1su4y1L7Vn/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1ie411d7ze",
+      "title": "一高数 · 不定积分，必会技巧，思路瞬间清晰！一般人不知道",
+      "url": "https://www.bilibili.com/video/BV1ie411d7ze/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1XLiUY9Eud",
+      "title": "一高数 · 有理函数的积分",
+      "url": "https://www.bilibili.com/video/BV1XLiUY9Eud/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1EN4y1a7Qr",
+      "title": "一高数 · 「定积分」一课通！概念+性质一站式到位！",
+      "url": "https://www.bilibili.com/video/BV1EN4y1a7Qr/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1EH4y1k7aZ",
+      "title": "一高数 · 定积分计算核心方法！变限积分+微积分基本定理，详细拆解",
+      "url": "https://www.bilibili.com/video/BV1EH4y1k7aZ/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1za4y197yY",
+      "title": "一高数 · 备战期末！定积分，你要学会的方法技巧，都在这！",
+      "url": "https://www.bilibili.com/video/BV1za4y197yY/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1ee411r71f",
+      "title": "一高数 · 期末必考！定积分几何应用，从入门到精通",
+      "url": "https://www.bilibili.com/video/BV1ee411r71f/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1JArLYHEeD",
+      "title": "一高数 · 【B站期末上分计划】反常积分敛散性，25min，从小白到高手！|高数上",
+      "url": "https://www.bilibili.com/video/BV1JArLYHEeD/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1etZxBGEZc",
+      "title": "一高数 · 微分方程没学懂？从头讲解本质，30分钟零基础上手！|高等数学",
+      "url": "https://www.bilibili.com/video/BV1etZxBGEZc/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1KNX7BtESp",
+      "title": "一高数 · 超级好玩！\"可分离变量方程\"保姆级教程，理论实战两手抓！|高等数学同济八版",
+      "url": "https://www.bilibili.com/video/BV1KNX7BtESp/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Kc41187HS",
+      "title": "一高数 · 微分方程难学？1h全面从入门到精通！|期末速成",
+      "url": "https://www.bilibili.com/video/BV1Kc41187HS/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Sw411J7Zm",
+      "title": "一高数 · 期末没考好？寒假空虚？「大学数学」满分指南！【经验方法+常见误区】",
+      "url": "https://www.bilibili.com/video/BV1Sw411J7Zm/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV16j4he2EKn",
+      "title": "一高数 · 【大一必看】认知+方法论！大学数学学什么？如何轻松满绩？颠覆高中思维，玩转大学！",
+      "url": "https://www.bilibili.com/video/BV16j4he2EKn/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Lw411j7Qf",
+      "title": "一高数 · 考研高数考什么？欢迎大一90+学霸来挑战！  |2024二4 证明题",
+      "url": "https://www.bilibili.com/video/BV1Lw411j7Qf/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1XGroYxEVF",
+      "title": "一高数 · 【B站期末上分计划】边做边讲！和一高数一起实战20道必会高数期末考题 |沉浸式计算",
+      "url": "https://www.bilibili.com/video/BV1XGroYxEVF/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Vz421z7tk",
+      "title": "一高数 · 边做边讲！和一高数一起实战20道必会高数期末考题 |沉浸式计算",
+      "url": "https://www.bilibili.com/video/BV1Vz421z7tk/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV16hAeehEM7",
+      "title": "一高数 · 【大一下】高数下学什么？怎么学？「一高数」观看指南！",
+      "url": "https://www.bilibili.com/video/BV16hAeehEM7/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV15A4m1G7zG",
+      "title": "一高数 · 【高数下】寒假预习第一课！一个视频搞定“向量与空间直角坐标系”！(8-1)",
+      "url": "https://www.bilibili.com/video/BV15A4m1G7zG/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1SJ4m1W73g",
+      "title": "一高数 · 超详细生动！数量积、向量积、混合积，看这一个视频就够了！(8-2) |【高数下】内积叉积力矩",
+      "url": "https://www.bilibili.com/video/BV1SJ4m1W73g/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1yy421z7C6",
+      "title": "一高数 · 从入门到高手！空间平面方程40min彻底通透！|高数下",
+      "url": "https://www.bilibili.com/video/BV1yy421z7C6/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1U4421X7wp",
+      "title": "一高数 · 备战期末！平面束是啥？直线方程不懂？50min从入门到高手！|高数下",
+      "url": "https://www.bilibili.com/video/BV1U4421X7wp/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1tT421y7CY",
+      "title": "一高数 · 旋转曲面不会？三重积分懵圈？50min拿捏曲面方程！",
+      "url": "https://www.bilibili.com/video/BV1tT421y7CY/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1VzRGYTEdq",
+      "title": "一高数 · 投影曲线不会？空间画图头疼？20min拿捏空间曲线方程！|高数下",
+      "url": "https://www.bilibili.com/video/BV1VzRGYTEdq/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV191cCzeExm",
+      "title": "一高数 · 内点聚点边界点？开集闭集连通集？一个视频快速通关\"平面点集与多元函数概念\"！|高数下 同济八版9-1节",
+      "url": "https://www.bilibili.com/video/BV191cCzeExm/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Xy421v71h",
+      "title": "一高数 · 二元函数极限不会求？1h全面入门到精通！|学渣救星",
+      "url": "https://www.bilibili.com/video/BV1Xy421v71h/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV18x4y127m8",
+      "title": "一高数 · “偏导数”一课通！1h零基础上手！",
+      "url": "https://www.bilibili.com/video/BV18x4y127m8/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1ox4y167xb",
+      "title": "一高数 · 25min零基础速成！抽象复合函数+隐函数求偏导数 |高数下",
+      "url": "https://www.bilibili.com/video/BV1ox4y167xb/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1JJ4m1j7uU",
+      "title": "一高数 · 全微分没学懂？保姆级教程在此！ |高数下",
+      "url": "https://www.bilibili.com/video/BV1JJ4m1j7uU/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1vZfKYeEii",
+      "title": "一高数 · 「方向导数与梯度」保姆级教程！50min从入门到精通！|学渣救星",
+      "url": "https://www.bilibili.com/video/BV1vZfKYeEii/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1PA54zTEkk",
+      "title": "一高数 · 多元函数极值最值，34分钟，小白也直接上手！|高等数学",
+      "url": "https://www.bilibili.com/video/BV1PA54zTEkk/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1e9GQzHEhK",
+      "title": "一高数 · 40min入门到上天！拉格朗日乘数法与多元条件极值，看着一个视频就够！|高数下",
+      "url": "https://www.bilibili.com/video/BV1e9GQzHEhK/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV11t42177s1",
+      "title": "一高数 · 「二重积分」保姆级教程！8道题搞定！干货密集，不看后悔",
+      "url": "https://www.bilibili.com/video/BV11t42177s1/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV12m41117if",
+      "title": "一高数 · “三重积分”学懵了？保姆级教程在此！",
+      "url": "https://www.bilibili.com/video/BV12m41117if/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV19f421Q7wn",
+      "title": "一高数 · 期末救急 | 格林公式来了！1h速成\"第二类曲线积分\"全部考点！|高数下",
+      "url": "https://www.bilibili.com/video/BV19f421Q7wn/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1pD421G71W",
+      "title": "一高数 · \"第一类曲线积分\"一站式大礼包！35min从入门到上天！|高数下",
+      "url": "https://www.bilibili.com/video/BV1pD421G71W/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Zi421f7sM",
+      "title": "一高数 · 级数敛散性判看不懂？40min小白变高手！",
+      "url": "https://www.bilibili.com/video/BV1Zi421f7sM/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1MREEzPEZN",
+      "title": "一高数 · \"第一类曲面积分\"一站式大礼包！30min从入门到上天！|高数下",
+      "url": "https://www.bilibili.com/video/BV1MREEzPEZN/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV17GjUz4EUr",
+      "title": "一高数 · 第二类曲面积分难学？1h全面入门到精通！|学渣救星 高数下同济八版",
+      "url": "https://www.bilibili.com/video/BV17GjUz4EUr/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1hYMWz4EQB",
+      "title": "一高数 · \"高斯公式与散度”保姆级教程！50min入门到精通 |学渣救星 高数下同济八版 考研数一专项",
+      "url": "https://www.bilibili.com/video/BV1hYMWz4EQB/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1JN9LBCEam",
+      "title": "一高数 · 高数下册怎么考？上下册如何梦幻联动？高效速成法？一高数观看指南！|大一下",
+      "url": "https://www.bilibili.com/video/BV1JN9LBCEam/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1i1Gm6cEoP",
+      "title": "一高数 · 高数期末必刷！\"空间解析几何\"经典题型，万能套路梳理！ | 适用期末冲刺+考研数一专项",
+      "url": "https://www.bilibili.com/video/BV1i1Gm6cEoP/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV14f7Y6XEe7",
+      "title": "一高数 · 妈妈级别的解题指南！9道考研真题，拿捏二重积分！|高等数学下",
+      "url": "https://www.bilibili.com/video/BV14f7Y6XEe7/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1DrVo6mEYi",
+      "title": "一高数 · 高数期末必刷！\"三重积分\"实战刷题，9道题拿下！|高等数学下 | 考研数一专项",
+      "url": "https://www.bilibili.com/video/BV1DrVo6mEYi/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1Wj7K6qEeq",
+      "title": "一高数 · 高数期末必刷！\"两类曲线积分与格林公式\"实战刷题，各种考法一网打尽！|高等数学下 | 考研数一专项",
+      "url": "https://www.bilibili.com/video/BV1Wj7K6qEeq/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1YxjU6qEoo",
+      "title": "一高数 · 高数期末必刷！\"两类曲面积分+高斯公式+斯托克斯公式\"实战刷题，各种考法一网打尽！|高等数学下 | 考研数一专项",
+      "url": "https://www.bilibili.com/video/BV1YxjU6qEoo/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1irjP6UEcr",
+      "title": "一高数 · 高数期末必刷！\"幂级数\"实战刷题，16道题爽做！小猪也能学会 |高等数学下无穷级数 | 考研数一三",
+      "url": "https://www.bilibili.com/video/BV1irjP6UEcr/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "calculus-bili-BV1ixj86REHH",
+      "title": "一高数 · 妈妈级别的解题指南！9道\"傅里叶级数\"必考题，带你从入门到上天！|高等数学期末必看",
+      "url": "https://www.bilibili.com/video/BV1ixj86REHH/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。"
+    },
+    {
+      "id": "linear-bili-BV1LK421b7xs",
+      "title": "一高数 · 行列式的入门",
+      "url": "https://www.bilibili.com/video/BV1LK421b7xs/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1t2421M7Qf",
+      "title": "一高数 · 行列式的定义与性质",
+      "url": "https://www.bilibili.com/video/BV1t2421M7Qf/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1nx4y1Q7Zs",
+      "title": "一高数 · 行列式的计算",
+      "url": "https://www.bilibili.com/video/BV1nx4y1Q7Zs/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1c2421P7g8",
+      "title": "一高数 · 【矩阵】入门到精通！概念题型一网打尽|线性代数",
+      "url": "https://www.bilibili.com/video/BV1c2421P7g8/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1kA4m1c7zZ",
+      "title": "一高数 · 方程组没学懂？保姆级教程在此！从入门到精通 |线性代数",
+      "url": "https://www.bilibili.com/video/BV1kA4m1c7zZ/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1uD421p7bW",
+      "title": "一高数 · 【向量组】抽象？没学明白？0基础教程来了！|线性代数",
+      "url": "https://www.bilibili.com/video/BV1uD421p7bW/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1Rx4y167hb",
+      "title": "一高数 · 【相似矩阵】手把手教你对角化！快速上手教程|线性代数",
+      "url": "https://www.bilibili.com/video/BV1Rx4y167hb/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1cJ4m1K7W7",
+      "title": "一高数 · 正交相似对角化很难？20min可速成！|线性代数",
+      "url": "https://www.bilibili.com/video/BV1cJ4m1K7W7/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1ZC411j7mu",
+      "title": "一高数 · “二次型”来了！一小时实现从入门到精通|线性代数",
+      "url": "https://www.bilibili.com/video/BV1ZC411j7mu/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV12T421D7RU",
+      "title": "一高数 · 线性代数，品品名校期末试卷！",
+      "url": "https://www.bilibili.com/video/BV12T421D7RU/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1TE421F7pL",
+      "title": "一高数 · 线性代数选填技巧！原来不会做也能拿分？",
+      "url": "https://www.bilibili.com/video/BV1TE421F7pL/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1hD421M7o1",
+      "title": "一高数 · 【线性代数】期末1h串讲！考点公式切片整理+应试技巧(基础篇)",
+      "url": "https://www.bilibili.com/video/BV1hD421M7o1/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "linear-bili-BV1WS421d7NH",
+      "title": "一高数 · 【线性代数】期末最后一课！认知提升+考点梳理+做题套路(进阶篇)",
+      "url": "https://www.bilibili.com/video/BV1WS421d7NH/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p1",
+      "title": "四六级冲鸭 · 六级词汇导学",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=1",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p2",
+      "title": "四六级冲鸭 · Unit1（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=2",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p3",
+      "title": "四六级冲鸭 · Unit1（2）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=3",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p4",
+      "title": "四六级冲鸭 · Unit1（3）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=4",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p5",
+      "title": "四六级冲鸭 · Unit1（4）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=5",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p6",
+      "title": "四六级冲鸭 · Unit1（5）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=6",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p7",
+      "title": "四六级冲鸭 · Unit2(1-1)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=7",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p8",
+      "title": "四六级冲鸭 · Unit2(1-2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=8",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p9",
+      "title": "四六级冲鸭 · Unit2(2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=9",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p10",
+      "title": "四六级冲鸭 · Unit2(3)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=10",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p11",
+      "title": "四六级冲鸭 · Unit2(4)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=11",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p12",
+      "title": "四六级冲鸭 · Unit3（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=12",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p13",
+      "title": "四六级冲鸭 · Unit3(2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=13",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p14",
+      "title": "四六级冲鸭 · Unit3(3)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=14",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p15",
+      "title": "四六级冲鸭 · Unit3(4)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=15",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p16",
+      "title": "四六级冲鸭 · Unit4（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=16",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p17",
+      "title": "四六级冲鸭 · Unit4(2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=17",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p18",
+      "title": "四六级冲鸭 · Unit4(3)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=18",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p19",
+      "title": "四六级冲鸭 · Unit4(4-1)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=19",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p20",
+      "title": "四六级冲鸭 · Unit4(4-2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=20",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p21",
+      "title": "四六级冲鸭 · Unit5（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=21",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p22",
+      "title": "四六级冲鸭 · Unit5(2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=22",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p23",
+      "title": "四六级冲鸭 · Unit5(3)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=23",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p24",
+      "title": "四六级冲鸭 · Unit5(4)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=24",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p25",
+      "title": "四六级冲鸭 · Unit6（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=25",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p26",
+      "title": "四六级冲鸭 · Unit6(4)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=26",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p27",
+      "title": "四六级冲鸭 · Unit7（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=27",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p28",
+      "title": "四六级冲鸭 · Unit7(2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=28",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p29",
+      "title": "四六级冲鸭 · Unit7(4)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=29",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p30",
+      "title": "四六级冲鸭 · Unit8（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=30",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p31",
+      "title": "四六级冲鸭 · Unit8(3)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=31",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p32",
+      "title": "四六级冲鸭 · Unit8(4)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=32",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p33",
+      "title": "四六级冲鸭 · Unit9（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=33",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p34",
+      "title": "四六级冲鸭 · Unit9(2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=34",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p35",
+      "title": "四六级冲鸭 · Unit9(4)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=35",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p36",
+      "title": "四六级冲鸭 · Unit10（1）",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=36",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p37",
+      "title": "四六级冲鸭 · Unit10(2)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=37",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p38",
+      "title": "四六级冲鸭 · Unit10(3)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=38",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p39",
+      "title": "四六级冲鸭 · Unit10(4)",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=39",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p40",
+      "title": "四六级冲鸭 · 01六级前言晓艳的话",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=40",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p41",
+      "title": "四六级冲鸭 · 02写作题型概述写作满分句型1",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=41",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p42",
+      "title": "四六级冲鸭 · 03写作满分句型2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=42",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p43",
+      "title": "四六级冲鸭 · 04写作满分句型3",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=43",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p44",
+      "title": "四六级冲鸭 · 05写作满分句型4",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=44",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p45",
+      "title": "四六级冲鸭 · 06写作满分句型5",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=45",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p46",
+      "title": "四六级冲鸭 · 07写作满分句型6",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=46",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p47",
+      "title": "四六级冲鸭 · 08.写作满分句型7",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=47",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p48",
+      "title": "四六级冲鸭 · 09.写作常用论证方式",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=48",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p49",
+      "title": "四六级冲鸭 · 10.写作类型",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=49",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p50",
+      "title": "四六级冲鸭 · 11.翻译题型概述+典型例题",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=50",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p51",
+      "title": "四六级冲鸭 · 12.听力题型概述+听力基础",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=51",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p52",
+      "title": "四六级冲鸭 · 13.听力基础2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=52",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p53",
+      "title": "四六级冲鸭 · 14.长对话 方法论+典型例题",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=53",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p54",
+      "title": "四六级冲鸭 · 15.长对话 名师带练",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=54",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p55",
+      "title": "四六级冲鸭 · 16.听力篇章 方法论+典型例题",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=55",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p56",
+      "title": "四六级冲鸭 · 17.听力篇章 名师带练1",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=56",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p57",
+      "title": "四六级冲鸭 · 18.听力篇章 名师带练2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=57",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p58",
+      "title": "四六级冲鸭 · 19.讲话报道讲座 方法论+典型例题",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=58",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p59",
+      "title": "四六级冲鸭 · 20.讲话报道讲座 名师带练1",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=59",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p60",
+      "title": "四六级冲鸭 · 21.讲话报道讲座 名师带练2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=60",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p61",
+      "title": "四六级冲鸭 · 22.仔细阅读 方法论+典型例题1",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=61",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p62",
+      "title": "四六级冲鸭 · 23仔细阅读 典型例题2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=62",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p63",
+      "title": "四六级冲鸭 · 24.仔细阅读 名师带练1",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=63",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p64",
+      "title": "四六级冲鸭 · 25.仔细阅读 名师带练2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=64",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p65",
+      "title": "四六级冲鸭 · 26.仔细阅读 名师带练3",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=65",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p66",
+      "title": "四六级冲鸭 · 27仔细阅读 名师带练4",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=66",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p67",
+      "title": "四六级冲鸭 · 28.仔细阅读 名师带练5",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=67",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p68",
+      "title": "四六级冲鸭 · 29仔细阅读 名师带练6",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=68",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p69",
+      "title": "四六级冲鸭 · 30.仔细阅读 名师带练7",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=69",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p70",
+      "title": "四六级冲鸭 · 31.仔细阅读 名师带练8",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=70",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p71",
+      "title": "四六级冲鸭 · 32.长篇阅读 方法论+典型例题",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=71",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p72",
+      "title": "四六级冲鸭 · 33.长篇阅读 名师带练1",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=72",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p73",
+      "title": "四六级冲鸭 · 34.长篇阅读 名师带练2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=73",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p74",
+      "title": "四六级冲鸭 · 35.长篇阅读 名师带练3",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=74",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p75",
+      "title": "四六级冲鸭 · 36.长篇阅读 名师带练4",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=75",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p76",
+      "title": "四六级冲鸭 · 37.词汇理解 题型概述+典型例题",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=76",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p77",
+      "title": "四六级冲鸭 · 38.词汇理解 名师带练1",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=77",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p78",
+      "title": "四六级冲鸭 · 39.词汇理解 名师带练2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=78",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p79",
+      "title": "四六级冲鸭 · 40.词汇理解 名师带练3",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=79",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p80",
+      "title": "四六级冲鸭 · 41..词汇理解 名师带练4",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=80",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p81",
+      "title": "四六级冲鸭 · 1.六级【写作+翻译】精讲",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=81",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p82",
+      "title": "四六级冲鸭 · 2.六级【听力】精讲",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=82",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p83",
+      "title": "四六级冲鸭 · 3.六级【阅读】精讲",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=83",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p84",
+      "title": "四六级冲鸭 · 六级Unit1",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=84",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p85",
+      "title": "四六级冲鸭 · 六级Unit2",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=85",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p86",
+      "title": "四六级冲鸭 · 六级Unit3",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=86",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p87",
+      "title": "四六级冲鸭 · 六级Unit4",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=87",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p88",
+      "title": "四六级冲鸭 · 六级Unit5",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=88",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p89",
+      "title": "四六级冲鸭 · 六级Unit6",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=89",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p90",
+      "title": "四六级冲鸭 · 六级Unit7",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=90",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p91",
+      "title": "四六级冲鸭 · 六级Unit8",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=91",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p92",
+      "title": "四六级冲鸭 · 六级Unit9",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=92",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "cet6-bili-BV1PPbL6oE5f-p93",
+      "title": "四六级冲鸭 · 六级Unit10",
+      "url": "https://www.bilibili.com/video/BV1PPbL6oE5f/?p=93",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对用户提供的BV1PPbL6oE5f视频93个分P标题，上传者为四六级冲鸭。未取得字幕正文和Unit原词表；本课讲解、英语材料、例题、练习及记忆钩子均为原创补充，不冒称刘晓燕原话、原题或原词表。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p1",
+      "title": "一高数 · 最新学习指南(2025年)",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=1",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p2",
+      "title": "一高数 · 原版-课程介绍",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=2",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p3",
+      "title": "一高数 · 1-1 随机事件与样本空间",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=3",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p4",
+      "title": "一高数 · 1-2 事件间的关系和运算",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=4",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p5",
+      "title": "一高数 · 1-3 古典概型",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=5",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p6",
+      "title": "一高数 · 1-4 几何概型",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=6",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p7",
+      "title": "一高数 · 1-5 概率的概念和基本性质",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=7",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p8",
+      "title": "一高数 · 1-6 条件概率",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=8",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p9",
+      "title": "一高数 · 1-7 事件间的独立性",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=9",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p10",
+      "title": "一高数 · 1-8 全概率公式和贝叶斯公式",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=10",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p11",
+      "title": "一高数 · 1-9 全概率公式和贝叶斯公式（练习）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=11",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p12",
+      "title": "一高数 · 2-1 随机变量",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=12",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p13",
+      "title": "一高数 · 2-2 分布函数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=13",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p14",
+      "title": "一高数 · 2-3 离散型随机变量",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=14",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p15",
+      "title": "一高数 · 2-4 二项分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=15",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p16",
+      "title": "一高数 · 2-5 0-1分布、几何分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=16",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p17",
+      "title": "一高数 · 2-6 泊松分布与泊松定理",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=17",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p18",
+      "title": "一高数 · 2-7 超几何分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=18",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p19",
+      "title": "一高数 · 2-8 连续型随机变量的概念与性质",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=19",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p20",
+      "title": "一高数 · 2-9 连续型随机变量综合题",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=20",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p21",
+      "title": "一高数 · 2-10 均匀分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=21",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p22",
+      "title": "一高数 · 2-11 指数分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=22",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p23",
+      "title": "一高数 · 2-12 正态分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=23",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p24",
+      "title": "一高数 · 2-13 随机变量函数Y=g(X)分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=24",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p25",
+      "title": "一高数 · 第3章 多维随机变量及其分布 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=25",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p26",
+      "title": "一高数 · 3-1 多维随机变量及其分布函数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=26",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p27",
+      "title": "一高数 · 3-2 二维离散型随机变量的分布和独立性",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=27",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p28",
+      "title": "一高数 · 3-3 二维连续型随机变量的概念和性质",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=28",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p29",
+      "title": "一高数 · 3-4 二维连续型随机变量求概率和分布函数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=29",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p30",
+      "title": "一高数 · 3-5 边缘概率密度",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=30",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p31",
+      "title": "一高数 · 3-6 条件概率密度与条件概率",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=31",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p32",
+      "title": "一高数 · 3-7 二维连续型随机变量的独立性",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=32",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p33",
+      "title": "一高数 · 3-8 二维连续型随机变量综合题（练习）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=33",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p34",
+      "title": "一高数 · 3-9 二维均匀分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=34",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p35",
+      "title": "一高数 · 3-10 二维正态分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=35",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p36",
+      "title": "一高数 · 3-11 二维随机变量函数分布（离散）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=36",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p37",
+      "title": "一高数 · 3-12 二维连续型随机变量函数分布（分布函数法、卷积公式）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=37",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p38",
+      "title": "一高数 · 3-13 二维随机变量函数分布（正态）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=38",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p39",
+      "title": "一高数 · 3-14 最大最小值分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=39",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p40",
+      "title": "一高数 · 第4章 数字特征 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=40",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p41",
+      "title": "一高数 · 4-1 数学期望",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=41",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p42",
+      "title": "一高数 · 4-2 二维随机变量函数的期望",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=42",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p43",
+      "title": "一高数 · 4-3 方差",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=43",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p44",
+      "title": "一高数 · 4-4 常见分布的期望和方差",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=44",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p45",
+      "title": "一高数 · 4-5 最大最小值分布的期望",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=45",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p46",
+      "title": "一高数 · 4-6 切比雪夫不等式",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=46",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p47",
+      "title": "一高数 · 4-7 协方差",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=47",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p48",
+      "title": "一高数 · 4-8 相关系数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=48",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p49",
+      "title": "一高数 · 4-9 不相关与独立",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=49",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p50",
+      "title": "一高数 · 5-1 依概率收敛与大数定律",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=50",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p51",
+      "title": "一高数 · 5-2 中心极限定理",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=51",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p52",
+      "title": "一高数 · 第6章 数理统计 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=52",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p53",
+      "title": "一高数 · 6-1 总体和样本",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=53",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p54",
+      "title": "一高数 · 6-2 经验分布函数",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=54",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p55",
+      "title": "一高数 · 6-3 样本统计量",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=55",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p56",
+      "title": "一高数 · 6-4 统计量的数字特征",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=56",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p57",
+      "title": "一高数 · 6-5 三大抽样分布与上分位点",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=57",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p58",
+      "title": "一高数 · 6-6 正态总体抽样分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=58",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p59",
+      "title": "一高数 · 6-7 两个正态总体的抽样分布",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=59",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p60",
+      "title": "一高数 · 7-1 矩估计",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=60",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p61",
+      "title": "一高数 · 7-2 最大似然估计",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=61",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p62",
+      "title": "一高数 · 7-3 估计量的评价标准",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=62",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p63",
+      "title": "一高数 · 第8章 区间估计 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=63",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p64",
+      "title": "一高数 · 8-1 概念、原理与公式",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=64",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p65",
+      "title": "一高数 · 8-2 单个正态总体均值和方差的置信区间",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=65",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p66",
+      "title": "一高数 · 8-3 两个正态总体均值差和方差比的置信区间",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=66",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p67",
+      "title": "一高数 · 8-4 样本量的确定",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=67",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p68",
+      "title": "一高数 · 第9章 假设检验 综述",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=68",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p69",
+      "title": "一高数 · 9-1 概念、原理与基本方法",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=69",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p70",
+      "title": "一高数 · 9-2 单个正态总体均值的假设检验（双侧、单侧）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=70",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p71",
+      "title": "一高数 · 9-3 单个正态总体方差的假设检验（双侧、单侧）",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=71",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p72",
+      "title": "一高数 · 9-4 两个正态总体均值差的假设检验",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=72",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "probability-bili-BV1T6VFzAE1c-p73",
+      "title": "一高数 · 9-5 两个正态总体方差比的检验",
+      "url": "https://www.bilibili.com/video/BV1T6VFzAE1c/?p=73",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对一高数Kira老师BV1T6VFzAE1c公开课程73个分P标题。未取得视频字幕正文；本课按九章主题原创编写讲解、例题、练习和记忆钩子，不冒称视频逐字复现、原题或作者专有口诀。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA",
+      "title": "2027英语刘晓艳考研英语全程班（词汇+语法）刘晓燕英语你还在背单词吗 不就是语法和长难句",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p1",
+      "title": "01.使用说明",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=1",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p2",
+      "title": "02.lesson1",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=2",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p3",
+      "title": "03.lesson2",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=3",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p4",
+      "title": "04.lesson3",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=4",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p5",
+      "title": "05.lesson4",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=5",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p6",
+      "title": "06.lesson5",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=6",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p7",
+      "title": "07.lesson6",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=7",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p8",
+      "title": "08.lesson7",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=8",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p9",
+      "title": "09.lesson8",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=9",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p10",
+      "title": "10.lesson9-scare",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=10",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p11",
+      "title": "11.lesson10-previous",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=11",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p12",
+      "title": "12.lesson11-advance",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=12",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p13",
+      "title": "13.lesson12-desirable",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=13",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p14",
+      "title": "14.lesson13",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=14",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p15",
+      "title": "15.Lesson14",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=15",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p16",
+      "title": "16.lesson15",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=16",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p17",
+      "title": "17.lesson16",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=17",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p18",
+      "title": "18.lesson17-expand",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=18",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p19",
+      "title": "19.lesson18-tense",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=19",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p20",
+      "title": "20.lesson19-relate",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=20",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p21",
+      "title": "21.lesson20",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=21",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p22",
+      "title": "22.lesson21",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=22",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p23",
+      "title": "23.lesson22",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=23",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p24",
+      "title": "24.lesson23",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=24",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p25",
+      "title": "25.lesson24",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=25",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p26",
+      "title": "26.lesson25-fantasy",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=26",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p27",
+      "title": "27.lesson26-cognitive",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=27",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p28",
+      "title": "28.lesson27-confirm",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=28",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p29",
+      "title": "29.lesson28-appearance",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=29",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p30",
+      "title": "30.lesson29",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=30",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p31",
+      "title": "31.lesson30",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=31",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p32",
+      "title": "32.lesson31",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=32",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p33",
+      "title": "33.lesson32",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=33",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p34",
+      "title": "34.lesson33",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=34",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p35",
+      "title": "35.lesson34",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=35",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p36",
+      "title": "36.lesson35",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=36",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p37",
+      "title": "37.lesson36",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=37",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p38",
+      "title": "38.lesson37",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=38",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p39",
+      "title": "39.lesson38",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=39",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p40",
+      "title": "40.lesson39",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=40",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    },
+    {
+      "id": "postgrad-bili-BV1f1nW6HEyA-p41",
+      "title": "41.lesson40",
+      "url": "https://www.bilibili.com/video/BV1f1nW6HEyA/?p=41",
+      "status": "public_catalog_verified_transcript_unavailable",
+      "note": "已核对BV1f1nW6HEyA的41个分P标题；多数仅有lesson编号，未取得字幕、讲义和完整词表。11个词汇标题可确认主题，相关讲解仍为项目原创；语法、长难句是依据课程标题增加的原创衔接课，不冒称已确认某分P正文。"
+    }
+  ]
+}

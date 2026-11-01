@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 依赖与运行时（首次启动脚本会自己装）
+web/.venv/
+web/.deps/
+web/.runtime/
+web/artifacts/
+node_modules/
+
+# 运行时数据
+data/runtime/
+data/progress-backups/
+tmp/
+
+# 大体积 / 版权素材（不进版本库）
+data/voice/
+data/lectures/
+data/vocabulary/*-source.pdf
+blender/
+ue5/
+assets/exams/
+assets/characters/
+knowledge/build/
+characters/references/
+characters/reports/
+voice/
+
+# 打包产物
+dist/
+build/
+*.spec
+*.exe
+
+# 临时文件
+*.bak
+*.bak-*
+*.part
+*.blend1
+*.blend2
+*.log
+.DS_Store
+Thumbs.db

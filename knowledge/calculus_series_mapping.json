@@ -1,0 +1,855 @@
+{
+  "version": 2,
+  "checked_date": "2026-10-24",
+  "series": [
+    {
+      "id": 1919321,
+      "volume": "upper",
+      "title": "高等数学（上）全集！从入门到精通",
+      "author": "一高数",
+      "author_mid": 1035929235,
+      "reported_count": 26,
+      "returned_count": 26,
+      "url": "https://space.bilibili.com/1035929235/lists/1919321?type=season"
+    },
+    {
+      "id": 2279007,
+      "volume": "lower",
+      "title": "高等数学（下）全集！从入门到精通",
+      "author": "一高数",
+      "author_mid": 1035929235,
+      "reported_count": 32,
+      "returned_count": 32,
+      "url": "https://space.bilibili.com/1035929235/lists/2279007?type=season"
+    }
+  ],
+  "video_count": 58,
+  "active_video_count": 56,
+  "excluded_video_count": 2,
+  "lesson_count": 64,
+  "chapter_count": 14,
+  "supplement_count": 8,
+  "note": "参考「一高数」高数上下册公开合集目录组织主题；两条入口的公开接口未返回字幕。讲解、例题、记忆线索为项目原创，不冒称视频逐句复现或已核实原题。",
+  "transcript_verified": false,
+  "videos": [
+    {
+      "bvid": "BV1TptPeQEsW",
+      "title": "【大学衔接】20min速成\"取整函数[x]\"！解密数列极限定义题N=[1/ε]的真相",
+      "section": "极限",
+      "volume": "upper",
+      "cid": 25854675728,
+      "duration": 1167,
+      "url": "https://www.bilibili.com/video/BV1TptPeQEsW/",
+      "lesson_ids": [
+        "calculus-upper-floor"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1uz421q7e8",
+      "title": "【大学衔接】高中没咋讲，大学默认会的反三角函数，一个视频学懂！|高数上",
+      "section": "极限",
+      "volume": "upper",
+      "cid": 1662301920,
+      "duration": 2837,
+      "url": "https://www.bilibili.com/video/BV1uz421q7e8/",
+      "lesson_ids": [
+        "calculus-upper-inverse-trig"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1fpxLeYEmX",
+      "title": "数列极限学懵了？万能模板来了！30min从入门到精通 |高数上",
+      "section": "极限",
+      "volume": "upper",
+      "cid": 26008422123,
+      "duration": 1768,
+      "url": "https://www.bilibili.com/video/BV1fpxLeYEmX/",
+      "lesson_ids": [
+        "calculus-upper-sequence-limit"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1xhmnYFEir",
+      "title": "函数极限没学懂？万能模板又来了！40min从入门到精通！ |高数上",
+      "section": "极限",
+      "volume": "upper",
+      "cid": 26297829737,
+      "duration": 2963,
+      "url": "https://www.bilibili.com/video/BV1xhmnYFEir/",
+      "lesson_ids": [
+        "calculus-upper-function-limit",
+        "calculus-upper-continuity"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1mCn36NEoN",
+      "title": "无穷小、无穷大与无界分不清？40min从入门到上天！|高数上",
+      "section": "极限",
+      "volume": "upper",
+      "cid": 42847569381,
+      "duration": 2795,
+      "url": "https://www.bilibili.com/video/BV1mCn36NEoN/",
+      "lesson_ids": [
+        "calculus-upper-infinitesimal",
+        "calculus-upper-infinite-sign",
+        "calculus-upper-small-order"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Fb4y1V7Bg",
+      "title": "期末救急速讲 | 求极限题型与方法一课通",
+      "section": "极限",
+      "volume": "upper",
+      "cid": 1373641577,
+      "duration": 3599,
+      "url": "https://www.bilibili.com/video/BV1Fb4y1V7Bg/",
+      "lesson_ids": [
+        "calculus-upper-limit-methods"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1eg1KY8EGw",
+      "title": "用\"夹逼定理\"求数列极限，看这一个视频就够！|高数上",
+      "section": "极限",
+      "volume": "upper",
+      "cid": 26449153823,
+      "duration": 2999,
+      "url": "https://www.bilibili.com/video/BV1eg1KY8EGw/",
+      "lesson_ids": [
+        "calculus-upper-squeeze"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Y2DGYoEEw",
+      "title": "\"导数定义\"不会做题？50min从入门到精通！ |高数上",
+      "section": "导数与微分",
+      "volume": "upper",
+      "cid": 26637700429,
+      "duration": 3241,
+      "url": "https://www.bilibili.com/video/BV1Y2DGYoEEw/",
+      "lesson_ids": [
+        "calculus-upper-derivative-definition",
+        "calculus-upper-derivative-chain"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV18SmZYrEPA",
+      "title": "「微分中值定理」保姆级教程！8道题搞定！干货密集，不看后悔 | 高数上",
+      "section": "中值定理泰勒公式",
+      "volume": "upper",
+      "cid": 26779848701,
+      "duration": 3936,
+      "url": "https://www.bilibili.com/video/BV18SmZYrEPA/",
+      "lesson_ids": [
+        "calculus-upper-mean-value"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV12G411U7tD",
+      "title": "泰勒公式：知识一站式讲解",
+      "section": "中值定理泰勒公式",
+      "volume": "upper",
+      "cid": 1344262681,
+      "duration": 2348,
+      "url": "https://www.bilibili.com/video/BV12G411U7tD/",
+      "lesson_ids": [
+        "calculus-upper-taylor"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV14C4y127xd",
+      "title": "泰勒公式：核心考点",
+      "section": "中值定理泰勒公式",
+      "volume": "upper",
+      "cid": 1344879017,
+      "duration": 2472,
+      "url": "https://www.bilibili.com/video/BV14C4y127xd/",
+      "lesson_ids": [
+        "calculus-upper-taylor-errors"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1su4y1L7Vn",
+      "title": "不定积分一课通！",
+      "section": "不定积分",
+      "volume": "upper",
+      "cid": 1353571743,
+      "duration": 5162,
+      "url": "https://www.bilibili.com/video/BV1su4y1L7Vn/",
+      "lesson_ids": [
+        "calculus-upper-indefinite"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1ie411d7ze",
+      "title": "不定积分，必会技巧，思路瞬间清晰！一般人不知道",
+      "section": "不定积分",
+      "volume": "upper",
+      "cid": 1352957451,
+      "duration": 1631,
+      "url": "https://www.bilibili.com/video/BV1ie411d7ze/",
+      "lesson_ids": [
+        "calculus-upper-integration-techniques"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1XLiUY9Eud",
+      "title": "有理函数的积分",
+      "section": "不定积分",
+      "volume": "upper",
+      "cid": 27179417647,
+      "duration": 2964,
+      "url": "https://www.bilibili.com/video/BV1XLiUY9Eud/",
+      "lesson_ids": [
+        "calculus-upper-rational-integrals"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1EN4y1a7Qr",
+      "title": "「定积分」一课通！概念+性质一站式到位！",
+      "section": "定积分",
+      "volume": "upper",
+      "cid": 1359912343,
+      "duration": 4752,
+      "url": "https://www.bilibili.com/video/BV1EN4y1a7Qr/",
+      "lesson_ids": [
+        "calculus-upper-definite"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1EH4y1k7aZ",
+      "title": "定积分计算核心方法！变限积分+微积分基本定理，详细拆解",
+      "section": "定积分",
+      "volume": "upper",
+      "cid": 1365200393,
+      "duration": 2910,
+      "url": "https://www.bilibili.com/video/BV1EH4y1k7aZ/",
+      "lesson_ids": [
+        "calculus-upper-fundamental"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1za4y197yY",
+      "title": "备战期末！定积分，你要学会的方法技巧，都在这！",
+      "section": "定积分",
+      "volume": "upper",
+      "cid": 1367552384,
+      "duration": 5270,
+      "url": "https://www.bilibili.com/video/BV1za4y197yY/",
+      "lesson_ids": [
+        "calculus-upper-definite-methods"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1ee411r71f",
+      "title": "期末必考！定积分几何应用，从入门到精通",
+      "section": "定积分",
+      "volume": "upper",
+      "cid": 1380005878,
+      "duration": 3810,
+      "url": "https://www.bilibili.com/video/BV1ee411r71f/",
+      "lesson_ids": [
+        "calculus-upper-integral-geometry"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1JArLYHEeD",
+      "title": "【B站期末上分计划】反常积分敛散性，25min，从小白到高手！|高数上",
+      "section": "定积分",
+      "volume": "upper",
+      "cid": 27737261920,
+      "duration": 1417,
+      "url": "https://www.bilibili.com/video/BV1JArLYHEeD/",
+      "lesson_ids": [
+        "calculus-upper-improper"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1etZxBGEZc",
+      "title": "微分方程没学懂？从头讲解本质，30分钟零基础上手！|高等数学",
+      "section": "微分方程",
+      "volume": "upper",
+      "cid": 36082287262,
+      "duration": 1795,
+      "url": "https://www.bilibili.com/video/BV1etZxBGEZc/",
+      "lesson_ids": [
+        "calculus-upper-ode-basics"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1KNX7BtESp",
+      "title": "超级好玩！\"可分离变量方程\"保姆级教程，理论实战两手抓！|高等数学同济八版",
+      "section": "微分方程",
+      "volume": "upper",
+      "cid": 36981244012,
+      "duration": 2381,
+      "url": "https://www.bilibili.com/video/BV1KNX7BtESp/",
+      "lesson_ids": [
+        "calculus-upper-separable"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Kc41187HS",
+      "title": "微分方程难学？1h全面从入门到精通！|期末速成",
+      "section": "期末大串讲",
+      "volume": "upper",
+      "cid": 1394405010,
+      "duration": 4882,
+      "url": "https://www.bilibili.com/video/BV1Kc41187HS/",
+      "lesson_ids": [
+        "calculus-upper-linear-ode"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Sw411J7Zm",
+      "title": "期末没考好？寒假空虚？「大学数学」满分指南！【经验方法+常见误区】",
+      "section": "学习方法",
+      "volume": "upper",
+      "cid": 1407550700,
+      "duration": 608,
+      "url": "https://www.bilibili.com/video/BV1Sw411J7Zm/",
+      "lesson_ids": [],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false,
+      "excluded_reason": "按用户要求移除学习方法课时"
+    },
+    {
+      "bvid": "BV16j4he2EKn",
+      "title": "【大一必看】认知+方法论！大学数学学什么？如何轻松满绩？颠覆高中思维，玩转大学！",
+      "section": "学习方法",
+      "volume": "upper",
+      "cid": 25813189199,
+      "duration": 2911,
+      "url": "https://www.bilibili.com/video/BV16j4he2EKn/",
+      "lesson_ids": [],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false,
+      "excluded_reason": "按用户要求移除学习方法课时"
+    },
+    {
+      "bvid": "BV1Lw411j7Qf",
+      "title": "考研高数考什么？欢迎大一90+学霸来挑战！  |2024二4 证明题",
+      "section": "刷题",
+      "volume": "upper",
+      "cid": 1418621413,
+      "duration": 2350,
+      "url": "https://www.bilibili.com/video/BV1Lw411j7Qf/",
+      "lesson_ids": [
+        "calculus-upper-proof-workshop"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1XGroYxEVF",
+      "title": "【B站期末上分计划】边做边讲！和一高数一起实战20道必会高数期末考题 |沉浸式计算",
+      "section": "刷题",
+      "volume": "upper",
+      "cid": 27772848125,
+      "duration": 4084,
+      "url": "https://www.bilibili.com/video/BV1XGroYxEVF/",
+      "lesson_ids": [
+        "calculus-upper-upper-practice"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Vz421z7tk",
+      "title": "边做边讲！和一高数一起实战20道必会高数期末考题 |沉浸式计算",
+      "section": "开学指南期末串讲",
+      "volume": "lower",
+      "cid": 1595575858,
+      "duration": 5106,
+      "url": "https://www.bilibili.com/video/BV1Vz421z7tk/",
+      "lesson_ids": [
+        "calculus-lower-lower-practice"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV16hAeehEM7",
+      "title": "【大一下】高数下学什么？怎么学？「一高数」观看指南！",
+      "section": "开学指南期末串讲",
+      "volume": "lower",
+      "cid": 28458094091,
+      "duration": 647,
+      "url": "https://www.bilibili.com/video/BV16hAeehEM7/",
+      "lesson_ids": [
+        "calculus-lower-lower-map"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV15A4m1G7zG",
+      "title": "【高数下】寒假预习第一课！一个视频搞定“向量与空间直角坐标系”！(8-1)",
+      "section": "向量代数与几何",
+      "volume": "lower",
+      "cid": 1431246576,
+      "duration": 2412,
+      "url": "https://www.bilibili.com/video/BV15A4m1G7zG/",
+      "lesson_ids": [
+        "calculus-lower-vectors",
+        "calculus-lower-unit-vector"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1SJ4m1W73g",
+      "title": "超详细生动！数量积、向量积、混合积，看这一个视频就够了！(8-2) |【高数下】内积叉积力矩",
+      "section": "向量代数与几何",
+      "volume": "lower",
+      "cid": 1444413908,
+      "duration": 3111,
+      "url": "https://www.bilibili.com/video/BV1SJ4m1W73g/",
+      "lesson_ids": [
+        "calculus-lower-vector-products",
+        "calculus-lower-projection"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1yy421z7C6",
+      "title": "从入门到高手！空间平面方程40min彻底通透！|高数下",
+      "section": "向量代数与几何",
+      "volume": "lower",
+      "cid": 1468459784,
+      "duration": 2416,
+      "url": "https://www.bilibili.com/video/BV1yy421z7C6/",
+      "lesson_ids": [
+        "calculus-lower-planes"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1U4421X7wp",
+      "title": "备战期末！平面束是啥？直线方程不懂？50min从入门到高手！|高数下",
+      "section": "向量代数与几何",
+      "volume": "lower",
+      "cid": 1573516637,
+      "duration": 3378,
+      "url": "https://www.bilibili.com/video/BV1U4421X7wp/",
+      "lesson_ids": [
+        "calculus-lower-lines"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1tT421y7CY",
+      "title": "旋转曲面不会？三重积分懵圈？50min拿捏曲面方程！",
+      "section": "向量代数与几何",
+      "volume": "lower",
+      "cid": 1515306852,
+      "duration": 3349,
+      "url": "https://www.bilibili.com/video/BV1tT421y7CY/",
+      "lesson_ids": [
+        "calculus-lower-surfaces"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1VzRGYTEdq",
+      "title": "投影曲线不会？空间画图头疼？20min拿捏空间曲线方程！|高数下",
+      "section": "向量代数与几何",
+      "volume": "lower",
+      "cid": 28801106792,
+      "duration": 1212,
+      "url": "https://www.bilibili.com/video/BV1VzRGYTEdq/",
+      "lesson_ids": [
+        "calculus-lower-space-curves"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV191cCzeExm",
+      "title": "内点聚点边界点？开集闭集连通集？一个视频快速通关\"平面点集与多元函数概念\"！|高数下 同济八版9-1节",
+      "section": "多元函数微分学",
+      "volume": "lower",
+      "cid": 36655136783,
+      "duration": 2473,
+      "url": "https://www.bilibili.com/video/BV191cCzeExm/",
+      "lesson_ids": [
+        "calculus-lower-point-sets"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Xy421v71h",
+      "title": "二元函数极限不会求？1h全面入门到精通！|学渣救星",
+      "section": "多元函数微分学",
+      "volume": "lower",
+      "cid": 1474744790,
+      "duration": 3801,
+      "url": "https://www.bilibili.com/video/BV1Xy421v71h/",
+      "lesson_ids": [
+        "calculus-lower-multilimit"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV18x4y127m8",
+      "title": "“偏导数”一课通！1h零基础上手！",
+      "section": "多元函数微分学",
+      "volume": "lower",
+      "cid": 1477912003,
+      "duration": 3600,
+      "url": "https://www.bilibili.com/video/BV18x4y127m8/",
+      "lesson_ids": [
+        "calculus-lower-partial"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1ox4y167xb",
+      "title": "25min零基础速成！抽象复合函数+隐函数求偏导数 |高数下",
+      "section": "多元函数微分学",
+      "volume": "lower",
+      "cid": 1520766834,
+      "duration": 1584,
+      "url": "https://www.bilibili.com/video/BV1ox4y167xb/",
+      "lesson_ids": [
+        "calculus-lower-multichain"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1JJ4m1j7uU",
+      "title": "全微分没学懂？保姆级教程在此！ |高数下",
+      "section": "多元函数微分学",
+      "volume": "lower",
+      "cid": 1488563896,
+      "duration": 4929,
+      "url": "https://www.bilibili.com/video/BV1JJ4m1j7uU/",
+      "lesson_ids": [
+        "calculus-lower-total-differential"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1vZfKYeEii",
+      "title": "「方向导数与梯度」保姆级教程！50min从入门到精通！|学渣救星",
+      "section": "多元函数微分学",
+      "volume": "lower",
+      "cid": 29209201214,
+      "duration": 3097,
+      "url": "https://www.bilibili.com/video/BV1vZfKYeEii/",
+      "lesson_ids": [
+        "calculus-lower-gradient"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1PA54zTEkk",
+      "title": "多元函数极值最值，34分钟，小白也直接上手！|高等数学",
+      "section": "多元函数微分学",
+      "volume": "lower",
+      "cid": 29504768394,
+      "duration": 2088,
+      "url": "https://www.bilibili.com/video/BV1PA54zTEkk/",
+      "lesson_ids": [
+        "calculus-lower-multiextrema"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1e9GQzHEhK",
+      "title": "40min入门到上天！拉格朗日乘数法与多元条件极值，看着一个视频就够！|高数下",
+      "section": "多元函数微分学",
+      "volume": "lower",
+      "cid": 29710288101,
+      "duration": 2550,
+      "url": "https://www.bilibili.com/video/BV1e9GQzHEhK/",
+      "lesson_ids": [
+        "calculus-lower-lagrange"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV11t42177s1",
+      "title": "「二重积分」保姆级教程！8道题搞定！干货密集，不看后悔",
+      "section": "重积分",
+      "volume": "lower",
+      "cid": 1502492192,
+      "duration": 6151,
+      "url": "https://www.bilibili.com/video/BV11t42177s1/",
+      "lesson_ids": [
+        "calculus-lower-double-integral"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV12m41117if",
+      "title": "“三重积分”学懵了？保姆级教程在此！",
+      "section": "重积分",
+      "volume": "lower",
+      "cid": 1528507026,
+      "duration": 3676,
+      "url": "https://www.bilibili.com/video/BV12m41117if/",
+      "lesson_ids": [
+        "calculus-lower-triple-integral"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV19f421Q7wn",
+      "title": "期末救急 | 格林公式来了！1h速成\"第二类曲线积分\"全部考点！|高数下",
+      "section": "曲线积分",
+      "volume": "lower",
+      "cid": 1572982615,
+      "duration": 4208,
+      "url": "https://www.bilibili.com/video/BV19f421Q7wn/",
+      "lesson_ids": [
+        "calculus-lower-green"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1pD421G71W",
+      "title": "\"第一类曲线积分\"一站式大礼包！35min从入门到上天！|高数下",
+      "section": "曲线积分",
+      "volume": "lower",
+      "cid": 1545525695,
+      "duration": 2221,
+      "url": "https://www.bilibili.com/video/BV1pD421G71W/",
+      "lesson_ids": [
+        "calculus-lower-line-first"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Zi421f7sM",
+      "title": "级数敛散性判看不懂？40min小白变高手！",
+      "section": "无穷级数",
+      "volume": "lower",
+      "cid": 1513504079,
+      "duration": 2532,
+      "url": "https://www.bilibili.com/video/BV1Zi421f7sM/",
+      "lesson_ids": [
+        "calculus-lower-series-tests",
+        "calculus-lower-alternating"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1MREEzPEZN",
+      "title": "\"第一类曲面积分\"一站式大礼包！30min从入门到上天！|高数下",
+      "section": "曲面积分",
+      "volume": "lower",
+      "cid": 29932192517,
+      "duration": 1816,
+      "url": "https://www.bilibili.com/video/BV1MREEzPEZN/",
+      "lesson_ids": [
+        "calculus-lower-surface-first"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV17GjUz4EUr",
+      "title": "第二类曲面积分难学？1h全面入门到精通！|学渣救星 高数下同济八版",
+      "section": "曲面积分",
+      "volume": "lower",
+      "cid": 30162551786,
+      "duration": 4044,
+      "url": "https://www.bilibili.com/video/BV17GjUz4EUr/",
+      "lesson_ids": [
+        "calculus-lower-surface-second"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1hYMWz4EQB",
+      "title": "\"高斯公式与散度”保姆级教程！50min入门到精通 |学渣救星 高数下同济八版 考研数一专项",
+      "section": "曲面积分",
+      "volume": "lower",
+      "cid": 30461529645,
+      "duration": 3435,
+      "url": "https://www.bilibili.com/video/BV1hYMWz4EQB/",
+      "lesson_ids": [
+        "calculus-lower-gauss"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1JN9LBCEam",
+      "title": "高数下册怎么考？上下册如何梦幻联动？高效速成法？一高数观看指南！|大一下",
+      "section": "曲面积分",
+      "volume": "lower",
+      "cid": 37140431756,
+      "duration": 616,
+      "url": "https://www.bilibili.com/video/BV1JN9LBCEam/",
+      "lesson_ids": [
+        "calculus-lower-connections"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1i1Gm6cEoP",
+      "title": "高数期末必刷！\"空间解析几何\"经典题型，万能套路梳理！ | 适用期末冲刺+考研数一专项",
+      "section": "刷题课",
+      "volume": "lower",
+      "cid": 38659427633,
+      "duration": 32,
+      "url": "https://www.bilibili.com/video/BV1i1Gm6cEoP/",
+      "lesson_ids": [
+        "calculus-lower-geometry-practice"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV14f7Y6XEe7",
+      "title": "妈妈级别的解题指南！9道考研真题，拿捏二重积分！|高等数学下",
+      "section": "刷题课",
+      "volume": "lower",
+      "cid": 39408176375,
+      "duration": 3595,
+      "url": "https://www.bilibili.com/video/BV14f7Y6XEe7/",
+      "lesson_ids": [
+        "calculus-lower-double-practice"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1DrVo6mEYi",
+      "title": "高数期末必刷！\"三重积分\"实战刷题，9道题拿下！|高等数学下 | 考研数一专项",
+      "section": "刷题课",
+      "volume": "lower",
+      "cid": 38820053434,
+      "duration": 3736,
+      "url": "https://www.bilibili.com/video/BV1DrVo6mEYi/",
+      "lesson_ids": [
+        "calculus-lower-triple-practice"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Wj7K6qEeq",
+      "title": "高数期末必刷！\"两类曲线积分与格林公式\"实战刷题，各种考法一网打尽！|高等数学下 | 考研数一专项",
+      "section": "刷题课",
+      "volume": "lower",
+      "cid": 39325008446,
+      "duration": 4099,
+      "url": "https://www.bilibili.com/video/BV1Wj7K6qEeq/",
+      "lesson_ids": [
+        "calculus-lower-line-practice"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1YxjU6qEoo",
+      "title": "高数期末必刷！\"两类曲面积分+高斯公式+斯托克斯公式\"实战刷题，各种考法一网打尽！|高等数学下 | 考研数一专项",
+      "section": "刷题课",
+      "volume": "lower",
+      "cid": 39351946996,
+      "duration": 4435,
+      "url": "https://www.bilibili.com/video/BV1YxjU6qEoo/",
+      "lesson_ids": [
+        "calculus-lower-stokes"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1irjP6UEcr",
+      "title": "高数期末必刷！\"幂级数\"实战刷题，16道题爽做！小猪也能学会 |高等数学下无穷级数 | 考研数一三",
+      "section": "刷题课",
+      "volume": "lower",
+      "cid": 39144457639,
+      "duration": 4701,
+      "url": "https://www.bilibili.com/video/BV1irjP6UEcr/",
+      "lesson_ids": [
+        "calculus-lower-power-series",
+        "calculus-lower-power-sum"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1ixj86REHH",
+      "title": "妈妈级别的解题指南！9道\"傅里叶级数\"必考题，带你从入门到上天！|高等数学期末必看",
+      "section": "刷题课",
+      "volume": "lower",
+      "cid": 39292046557,
+      "duration": 4303,
+      "url": "https://www.bilibili.com/video/BV1ixj86REHH/",
+      "lesson_ids": [
+        "calculus-lower-fourier"
+      ],
+      "verification": "public_catalog_metadata_verified",
+      "transcript_verified": false
+    }
+  ],
+  "unmapped_videos": []
+}

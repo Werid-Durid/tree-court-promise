@@ -1,0 +1,23 @@
+{
+  "bvid": "BV1qpd1B8EF9",
+  "title": "MMD衣服头发飘动效果 - Vol 3. 阻尼追踪",
+  "author": "知知呜Blender",
+  "description": "在电脑配置有限的情况下，利用骨骼约束里面的阻尼追踪，来模拟头发的飘动效果，是个不错的选择。但是要注意穿模的问题，可以根据自己的需求来使用这个方法！",
+  "pages": [
+    {
+      "page": 1,
+      "cid": 37683069340,
+      "part": "MMD衣服头发飘动效果 - Vol 3. 阻尼追踪",
+      "duration": 212,
+      "url": "https://www.bilibili.com/video/BV1qpd1B8EF9/?p=1",
+      "review_status": "not_reviewed",
+      "verified_ranges": [],
+      "implementation_ids": [],
+      "subtitle_access": "no_public_track_returned",
+      "api_code": 0,
+      "tracks": []
+    }
+  ],
+  "total_seconds": 212,
+  "review_status": "not_fully_reviewed"
+}

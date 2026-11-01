@@ -1,0 +1,173 @@
+{
+  "anchor": "BV1LK421b7xs",
+  "series_id": 2277667,
+  "series_title": "线性代数|同济7版",
+  "author": "一高数",
+  "author_mid": 1035929235,
+  "reported_count": 13,
+  "returned_count": 13,
+  "videos": [
+    {
+      "bvid": "BV1LK421b7xs",
+      "title": "行列式的入门",
+      "url": "https://www.bilibili.com/video/BV1LK421b7xs/",
+      "cid": 1455345288,
+      "lesson_ids": [
+        "linear-det2"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1t2421M7Qf",
+      "title": "行列式的定义与性质",
+      "url": "https://www.bilibili.com/video/BV1t2421M7Qf/",
+      "cid": 1461048120,
+      "lesson_ids": [
+        "linear-permutation",
+        "linear-row-rules"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1nx4y1Q7Zs",
+      "title": "行列式的计算",
+      "url": "https://www.bilibili.com/video/BV1nx4y1Q7Zs/",
+      "cid": 1468609896,
+      "lesson_ids": [
+        "linear-cofactor",
+        "linear-triangular"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1c2421P7g8",
+      "title": "【矩阵】入门到精通！概念题型一网打尽|线性代数",
+      "url": "https://www.bilibili.com/video/BV1c2421P7g8/",
+      "cid": 1480507257,
+      "lesson_ids": [
+        "linear-matrix-product",
+        "linear-inverse",
+        "linear-elementary",
+        "linear-rank"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1kA4m1c7zZ",
+      "title": "方程组没学懂？保姆级教程在此！从入门到精通 |线性代数",
+      "url": "https://www.bilibili.com/video/BV1kA4m1c7zZ/",
+      "cid": 1490440593,
+      "lesson_ids": [
+        "linear-gauss",
+        "linear-consistency",
+        "linear-nullity"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1uD421p7bW",
+      "title": "【向量组】抽象？没学明白？0基础教程来了！|线性代数",
+      "url": "https://www.bilibili.com/video/BV1uD421p7bW/",
+      "cid": 1499422711,
+      "lesson_ids": [
+        "linear-span",
+        "linear-independence",
+        "linear-basis",
+        "linear-coordinates"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1Rx4y167hb",
+      "title": "【相似矩阵】手把手教你对角化！快速上手教程|线性代数",
+      "url": "https://www.bilibili.com/video/BV1Rx4y167hb/",
+      "cid": 1519790628,
+      "lesson_ids": [
+        "linear-eigenvalue",
+        "linear-trace-det",
+        "linear-diagonalize"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1cJ4m1K7W7",
+      "title": "正交相似对角化很难？20min可速成！|线性代数",
+      "url": "https://www.bilibili.com/video/BV1cJ4m1K7W7/",
+      "cid": 1533749088,
+      "lesson_ids": [
+        "linear-orthogonal",
+        "linear-symmetric"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1ZC411j7mu",
+      "title": "“二次型”来了！一小时实现从入门到精通|线性代数",
+      "url": "https://www.bilibili.com/video/BV1ZC411j7mu/",
+      "cid": 1540446716,
+      "lesson_ids": [
+        "linear-quadratic-matrix",
+        "linear-complete-square",
+        "linear-positive"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV12T421D7RU",
+      "title": "线性代数，品品名校期末试卷！",
+      "url": "https://www.bilibili.com/video/BV12T421D7RU/",
+      "cid": 1547258474,
+      "lesson_ids": [
+        "linear-parameter-system"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1TE421F7pL",
+      "title": "线性代数选填技巧！原来不会做也能拿分？",
+      "url": "https://www.bilibili.com/video/BV1TE421F7pL/",
+      "cid": 1555910817,
+      "lesson_ids": [
+        "linear-scale-trap"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1hD421M7o1",
+      "title": "【线性代数】期末1h串讲！考点公式切片整理+应试技巧(基础篇)",
+      "url": "https://www.bilibili.com/video/BV1hD421M7o1/",
+      "cid": 1577555612,
+      "lesson_ids": [
+        "linear-transpose-product",
+        "linear-dimension-check"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    },
+    {
+      "bvid": "BV1WS421d7NH",
+      "title": "【线性代数】期末最后一课！认知提升+考点梳理+做题套路(进阶篇)",
+      "url": "https://www.bilibili.com/video/BV1WS421d7NH/",
+      "cid": 1585648305,
+      "lesson_ids": [
+        "linear-repeated-root",
+        "linear-inertia"
+      ],
+      "catalog_verified": true,
+      "transcript_verified": false
+    }
+  ],
+  "unmapped_videos": [],
+  "note": "已核对一高数「线性代数｜同济7版」公开合集13个视频的标题和所属关系。未取得视频字幕正文；本课讲解、例题、练习与记忆钩子均为项目原创，不冒称视频逐字复现或作者原题。"
+}
