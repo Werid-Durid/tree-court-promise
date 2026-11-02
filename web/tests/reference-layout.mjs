@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import * as T from '../renderer/node_modules/three/build/three.module.js';
+import {upgradeRoom,characterPosition,ROOM_SCALE,BOARD_WIDTH,FRONT_X} from '../renderer/classroom-upgrade.mjs';
+assert.ok(ROOM_SCALE<.6);assert.ok(BOARD_WIDTH>=3.7&&BOARD_WIDTH<=3.8);
+const room=new T.Group(),scene=new T.Scene();scene.add(room);const stage=new T.Mesh(new T.BoxGeometry(8.4,.18,3.2));stage.name='TC_Cine_wood_dark';stage.position.set(0,.09,-4.8);room.add(stage);const base=new T.Mesh(new T.BoxGeometry(2,.16,2));base.name='CurvedBase';room.add(base);
+const lectern=new T.Mesh(new T.BoxGeometry(2.4,.8,.5));lectern.name='Podium_Body';lectern.position.set(-2,.5,-4.25);room.add(lectern);
+const layout={player_start:[1.8,1.65,2.4],bounds:[-7.45,7.45,-6.2,6.4],colliders:[],walkable_surfaces:[{center:[0,.09,-4.8],size:[8.4,.18,3.2]}]};upgradeRoom(T,room,layout);scene.updateMatrixWorld(true);
+assert.ok(!room.getObjectByName('CurvedBase'));assert.ok(!room.getObjectByName('Podium_Body'));
+const desk=room.getObjectByName('Reference_Lectern');assert.ok(desk);const box=new T.Box3().setFromObject(desk);assert.ok(Math.abs(box.getCenter(new T.Vector3()).x-FRONT_X)<1e-6);
+assert.ok(room.getObjectByName('Reference_Rounded_Stage'));assert.ok(room.getObjectByName('Reference_Board_Frame'));assert.equal(layout.walkable_surfaces.length,1);
+const p=characterPosition('anaxa',[0,0,0]);assert.equal(p[0],FRONT_X);assert.ok(p[2]<box.min.z);
+assert.equal(characterPosition('castor',[0,0,0])[0],FRONT_X-.85);assert.equal(characterPosition('phainon',[0,0,0])[0],FRONT_X+.85);
+const ray=new T.Raycaster(new T.Vector3(2,.8,-2),new T.Vector3(0,-1,0));assert.equal(ray.intersectObject(stage).length,0,'old square stage must be removed');console.log('REFERENCE_LAYOUT_TESTS_OK');

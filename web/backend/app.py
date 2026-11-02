@@ -383,7 +383,7 @@ def classroom_environment(asset: str):
     # 新海诚风重建教室优先；未生成时回退旧教室，避免网页不可用。
     cine = ROOT / 'blender/build/cinematic-classroom'
     if (cine / asset).is_file():
-        return FileResponse(cine / asset, media_type="application/json" if asset.endswith('.json') else "model/gltf-binary")
+        return FileResponse(cine / asset, media_type="application/json" if asset.endswith('.json') else "model/gltf-binary", headers={"Cache-Control": "no-store, max-age=0"})
     room=ROOT/'blender/build/classroom-paired'
     path=(room if (room/'published.json').is_file() else ROOT/'blender/classroom')/asset
     if not path.is_file():raise HTTPException(404,"教室资源尚未生成")
